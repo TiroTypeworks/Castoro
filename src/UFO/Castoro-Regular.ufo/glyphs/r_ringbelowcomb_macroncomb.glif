@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="r_ringbelowcomb_macroncomb" format="2">
+  <advance width="410"/>
+  <outline>
+    <component base="r"/>
+    <component base="ringbelowcomb" xOffset="445"/>
+    <component base="macroncomb" xOffset="505"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,0</string>
+  </dict>
+  </lib>
+</glyph>

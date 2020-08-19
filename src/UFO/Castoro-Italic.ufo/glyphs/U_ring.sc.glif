@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uring.sc" format="2">
+  <advance width="605"/>
+  <outline>
+    <component base="U.sc"/>
+    <component base="ringcomb.cap" xOffset="578" yOffset="-140"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,0</string>
+  </dict>
+  </lib>
+</glyph>

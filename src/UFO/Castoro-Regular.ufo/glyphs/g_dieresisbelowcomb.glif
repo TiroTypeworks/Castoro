@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="g_dieresisbelowcomb" format="2">
+  <advance width="548"/>
+  <outline>
+    <component base="g"/>
+    <component base="dieresiscomb" xOffset="545"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,0</string>
+  </dict>
+  </lib>
+</glyph>

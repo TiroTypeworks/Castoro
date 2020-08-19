@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oslash.sc" format="2">
+  <advance width="660"/>
+  <outline>
+    <contour>
+      <point x="600" y="528" type="line"/>
+      <point x="590" y="540"/>
+      <point x="580" y="552"/>
+      <point x="570" y="560" type="curve"/>
+      <point x="46" y="17" type="line"/>
+      <point x="53" y="8"/>
+      <point x="63" y="-3"/>
+      <point x="76" y="-15" type="curve"/>
+    </contour>
+    <contour>
+      <point x="319" y="-15" type="curve" smooth="yes"/>
+      <point x="490" y="-15"/>
+      <point x="600" y="107"/>
+      <point x="600" y="277" type="curve" smooth="yes"/>
+      <point x="600" y="442"/>
+      <point x="496" y="560"/>
+      <point x="328" y="560" type="curve" smooth="yes"/>
+      <point x="156" y="560"/>
+      <point x="46" y="437"/>
+      <point x="46" y="268" type="curve" smooth="yes"/>
+      <point x="46" y="104"/>
+      <point x="148" y="-15"/>
+    </contour>
+    <contour>
+      <point x="327" y="24" type="curve" smooth="yes"/>
+      <point x="206" y="24"/>
+      <point x="161" y="154"/>
+      <point x="161" y="273" type="curve" smooth="yes"/>
+      <point x="161" y="393"/>
+      <point x="205" y="520"/>
+      <point x="325" y="520" type="curve" smooth="yes"/>
+      <point x="444" y="520"/>
+      <point x="487" y="394"/>
+      <point x="487" y="269" type="curve" smooth="yes"/>
+      <point x="487" y="146"/>
+      <point x="445" y="24"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.651,1,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

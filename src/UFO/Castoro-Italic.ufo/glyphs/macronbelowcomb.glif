@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macronbelowcomb" format="2">
+  <unicode hex="0331"/>
+  <outline>
+    <contour>
+      <point x="-492" y="-103" type="line"/>
+      <point x="-497" y="-119"/>
+      <point x="-500" y="-137"/>
+      <point x="-501" y="-153" type="curve"/>
+      <point x="-225" y="-153" type="line"/>
+      <point x="-220" y="-137"/>
+      <point x="-217" y="-119"/>
+      <point x="-216" y="-103" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.651,1,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>
