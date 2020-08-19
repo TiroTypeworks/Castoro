@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexcomb.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-179" y="836" type="line"/>
+      <point x="-140" y="804"/>
+      <point x="-84" y="757"/>
+      <point x="-51" y="735" type="curve"/>
+      <point x="-43" y="738"/>
+      <point x="-34" y="743"/>
+      <point x="-26" y="749" type="curve"/>
+      <point x="-54" y="790"/>
+      <point x="-91" y="852"/>
+      <point x="-119" y="904" type="curve"/>
+      <point x="-139" y="909"/>
+      <point x="-177" y="909"/>
+      <point x="-196" y="904" type="curve"/>
+      <point x="-230" y="867"/>
+      <point x="-298" y="803"/>
+      <point x="-352" y="755" type="curve"/>
+      <point x="-346" y="747"/>
+      <point x="-338" y="740"/>
+      <point x="-330" y="735" type="curve"/>
+      <point x="-296" y="752"/>
+      <point x="-211" y="803"/>
+      <point x="-160" y="835" type="curve"/>
+    </contour>
+  </outline>
+  <guideline angle="78.9989" x="-473" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.651,1,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

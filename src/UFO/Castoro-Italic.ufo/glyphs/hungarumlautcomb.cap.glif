@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hungarumlautcomb.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-131" y="860" type="line"/>
+      <point x="-155" y="885"/>
+      <point x="-189" y="907"/>
+      <point x="-211" y="911" type="curve"/>
+      <point x="-238" y="866"/>
+      <point x="-273" y="802"/>
+      <point x="-305" y="756" type="curve"/>
+      <point x="-298" y="745"/>
+      <point x="-290" y="739"/>
+      <point x="-281" y="735" type="curve"/>
+      <point x="-239" y="770"/>
+      <point x="-166" y="831"/>
+      <point x="-131" y="857" type="curve"/>
+    </contour>
+    <contour>
+      <point x="33" y="859" type="line"/>
+      <point x="9" y="884"/>
+      <point x="-26" y="907"/>
+      <point x="-48" y="911" type="curve"/>
+      <point x="-76" y="866"/>
+      <point x="-113" y="802"/>
+      <point x="-147" y="756" type="curve"/>
+      <point x="-140" y="745"/>
+      <point x="-132" y="739"/>
+      <point x="-123" y="735" type="curve"/>
+      <point x="-80" y="770"/>
+      <point x="-3" y="830"/>
+      <point x="33" y="856" type="curve"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="525"/>
+  <guideline angle="0" x="0" y="735"/>
+  <guideline angle="0" x="0" y="911"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,0</string>
+  </dict>
+  </lib>
+</glyph>

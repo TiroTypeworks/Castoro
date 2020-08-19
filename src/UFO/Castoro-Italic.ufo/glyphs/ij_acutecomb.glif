@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ij_acutecomb" format="2">
+  <advance width="587"/>
+  <outline>
+    <component base="dotlessi" xOffset="-2"/>
+    <component base="acutecomb" xOffset="418"/>
+    <component base="dotlessj" xOffset="304"/>
+    <component base="acutecomb" xOffset="720"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.972,0.6,1,0</string>
+  </dict>
+  </lib>
+</glyph>

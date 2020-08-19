@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Rdotbelow_gravecomb" format="2">
+  <advance width="665"/>
+  <outline>
+    <component base="R"/>
+    <component base="dotbelowcomb" xOffset="640"/>
+    <component base="gravecomb.cap" xOffset="570"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,0</string>
+  </dict>
+  </lib>
+</glyph>
