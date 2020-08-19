@@ -9,7 +9,7 @@
 # Names should be added to this file as:
 # Name <email address>
 
-John Hudson <email>
+John Hudson <john@tiro.ca>
 Paul Hanslow <email>
 Kaja Słojewska <email>
 
