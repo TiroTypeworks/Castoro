@@ -991,8 +991,8 @@
     <string>Lmacronbelow</string>
     <string>Ldotbelow</string>
     <string>Ldotbelow_acutecomb</string>
-    <string>Ldotbelow_macroncomb</string>
-    <string>Ldotbelow_macroncomb_acutecomb</string>
+    <string>Ldotbelowmacron</string>
+    <string>Ldotbelowmacron_acutecomb</string>
     <string>L_dieresisbelowcomb</string>
     <string>L_ringbelowcomb</string>
     <string>L_ringbelowcomb_acutecomb</string>
@@ -1214,8 +1214,8 @@
     <string>lmacronbelow</string>
     <string>ldotbelow</string>
     <string>ldotbelow_acutecomb</string>
-    <string>ldotbelow_macroncomb</string>
-    <string>ldotbelow_macroncomb_acutecomb</string>
+    <string>ldotbelowmacron</string>
+    <string>ldotbelowmacron_acutecomb</string>
     <string>l_dieresisbelowcomb</string>
     <string>l_ringbelowcomb</string>
     <string>l_ringbelowcomb_acutecomb</string>
@@ -1435,8 +1435,8 @@
     <string>Lmacronbelow.sc</string>
     <string>Ldotbelow.sc</string>
     <string>Ldotbelow_acutecomb.sc</string>
-    <string>Ldotbelow_macroncomb.sc</string>
-    <string>Ldotbelow_macroncomb_acutecomb.sc</string>
+    <string>Ldotbelowmacron.sc</string>
+    <string>Ldotbelowmacron_acutecomb.sc</string>
     <string>L_dieresisbelowcomb.sc</string>
     <string>L_ringbelowcomb.sc</string>
     <string>L_ringbelowcomb_acutecomb.sc</string>
@@ -1550,6 +1550,7 @@
     <string>tilde</string>
     <string>dieresis</string>
     <string>macron</string>
+    <string>ring</string>
     <string>cedilla</string>
     <string>ogonek</string>
     <string>gravecomb</string>
@@ -1716,6 +1717,7 @@
     <string>eightinferior</string>
     <string>nineinferior</string>
     <string>fraction</string>
+    <string>fractionslash</string>
     <string>zero.numr</string>
     <string>one.numr</string>
     <string>two.numr</string>
@@ -1742,6 +1744,7 @@
     <string>percent</string>
     <string>perthousand</string>
     <string>plus</string>
+    <string>minus</string>
     <string>plusminus</string>
     <string>multiply</string>
     <string>divide</string>
@@ -1772,6 +1775,7 @@
     <string>ZWNJ</string>
     <string>ZWJ</string>
     <string>BASE</string>
+    <string>magicglyph</string>
   </array>
 </dict>
 </plist>

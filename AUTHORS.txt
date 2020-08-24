@@ -6,4 +6,4 @@
 # Name or Organization <email address>
 
 John Hudson <john@tiro.ca>
-Paul Hanslow <email>
+Paul Hanslow <Paul@tiro.ca>

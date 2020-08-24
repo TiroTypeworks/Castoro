@@ -2056,9 +2056,9 @@
     <integer>40</integer>
     <key>L_tildecomb.sc</key>
     <integer>55</integer>
-    <key>Ldotbelow_macroncomb.sc</key>
+    <key>Ldotbelowmacron.sc</key>
     <integer>40</integer>
-    <key>Ldotbelow_macroncomb_acutecomb.sc</key>
+    <key>Ldotbelowmacron_acutecomb.sc</key>
     <integer>40</integer>
     <key>abreve</key>
     <integer>-45</integer>
@@ -2352,9 +2352,9 @@
     <integer>40</integer>
     <key>L_tildecomb.sc</key>
     <integer>55</integer>
-    <key>Ldotbelow_macroncomb.sc</key>
+    <key>Ldotbelowmacron.sc</key>
     <integer>40</integer>
-    <key>Ldotbelow_macroncomb_acutecomb.sc</key>
+    <key>Ldotbelowmacron_acutecomb.sc</key>
     <integer>40</integer>
     <key>abreve</key>
     <integer>-40</integer>
