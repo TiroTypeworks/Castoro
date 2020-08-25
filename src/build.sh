@@ -4,21 +4,25 @@ set -e
 mkdir -p ../fonts/otf ../fonts/ttf
 
 echo = "Generating TTFs"
-fontmake -m ./UFO/Castoro_Roman.designspace -o ttf --output-dir ../fonts/ttf -a
-fontmake -m ./UFO/Castoro_Italic.designspace -o ttf --output-dir ../fonts/ttf -a
+fontmake -u ./UFO/Castoro-Regular.ufo -o ttf --output-dir ../fonts/ttf -a
+fontmake -u ./UFO/Castoro-Italic.ufo -o ttf --output-dir ../fonts/ttf -a
+# fontmake -m ./UFO/Castoro_Roman.designspace -o ttf --output-dir ../fonts/ttf -a
+# fontmake -m ./UFO/Castoro_Italic.designspace -o ttf --output-dir ../fonts/ttf -a
 
 echo = "Post procesing TTF"
 ttfs=$(ls ../fonts/ttf/*.ttf)
 for ttf in $ttfs
 do
-    gftools fix-dsig -f $ttf;
+    # ttfautohint $ttf "$ttf.fix" --stem-width-mode=qsq;
+	# mv "$ttf.fix" $ttf;
     gftools fix-hinting $ttf
     mv "$ttf.fix" $ttf
+    gftools fix-dsig -f $ttf;
 done
 
 echo = "Generating OTFs"
-fontmake -m ./UFO/Castoro_Roman.designspace -o otf --output-dir ../fonts/otf -a
-fontmake -m ./UFO/Castoro_Italic.designspace -o otf --output-dir ../fonts/otf -a
+fontmake -u ./UFO/Castoro-Regular.ufo -o otf --output-dir ../fonts/otf -a
+fontmake -u ./UFO/Castoro-Italic.ufo -o otf --output-dir ../fonts/otf -a
 
 echo "Post processing static OTFs"
 otf=$(ls ../fonts/otf/*.otf)
