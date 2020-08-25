@@ -10,6 +10,6 @@
 # Name <email address>
 
 John Hudson <john@tiro.ca>
-Paul Hanslow <email>
-Kaja Słojewska <email>
+Paul Hanslow <paul@tiro.ca>
+Kaja Słojewska <hello@nomadfonts.com>
 

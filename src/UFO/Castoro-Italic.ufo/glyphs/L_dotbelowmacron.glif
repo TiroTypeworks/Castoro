@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ldotbelow_macroncomb_acutecomb" format="2">
+<glyph name="Ldotbelowmacron" format="2">
   <advance width="587"/>
+  <unicode hex="1E38"/>
   <outline>
     <component base="L"/>
     <component base="dotbelowcomb" xOffset="595"/>
-    <component base="macroncomb.cap" xOffset="458" yOffset="-10"/>
-    <component base="acutecomb.cap" xOffset="484" yOffset="120"/>
+    <component base="macroncomb.cap" xOffset="460"/>
   </outline>
   <lib>
   <dict>

@@ -11,7 +11,7 @@
      <info copy="1"/>
      <features copy="1"/>
      <location>
-        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Weight" xvalue="400"/>
      </location>
    </source>
   </sources>

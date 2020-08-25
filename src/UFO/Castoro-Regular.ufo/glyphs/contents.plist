@@ -438,14 +438,14 @@
   <string>L_dotbelow_acutecomb.glif</string>
   <key>Ldotbelow_acutecomb.sc</key>
   <string>L_dotbelow_acutecomb.sc.glif</string>
-  <key>Ldotbelow_macroncomb</key>
-  <string>L_dotbelow_macroncomb.glif</string>
-  <key>Ldotbelow_macroncomb.sc</key>
-  <string>L_dotbelow_macroncomb.sc.glif</string>
-  <key>Ldotbelow_macroncomb_acutecomb</key>
-  <string>L_dotbelow_macroncomb_acutecomb.glif</string>
-  <key>Ldotbelow_macroncomb_acutecomb.sc</key>
-  <string>L_dotbelow_macroncomb_acutecomb.sc.glif</string>
+  <key>Ldotbelowmacron</key>
+  <string>L_dotbelowmacron.glif</string>
+  <key>Ldotbelowmacron.sc</key>
+  <string>L_dotbelowmacron.sc.glif</string>
+  <key>Ldotbelowmacron_acutecomb</key>
+  <string>L_dotbelowmacron_acutecomb.glif</string>
+  <key>Ldotbelowmacron_acutecomb.sc</key>
+  <string>L_dotbelowmacron_acutecomb.sc.glif</string>
   <key>Lmacronbelow</key>
   <string>L_macronbelow.glif</string>
   <key>Lmacronbelow.sc</key>
@@ -1170,6 +1170,8 @@
   <string>foursuperior.glif</string>
   <key>fraction</key>
   <string>fraction.glif</string>
+  <key>fractionslash</key>
+  <string>fractionslash.glif</string>
   <key>g</key>
   <string>g.glif</string>
   <key>g_dieresisbelowcomb</key>
@@ -1332,10 +1334,10 @@
   <string>ldotbelow.glif</string>
   <key>ldotbelow_acutecomb</key>
   <string>ldotbelow_acutecomb.glif</string>
-  <key>ldotbelow_macroncomb</key>
-  <string>ldotbelow_macroncomb.glif</string>
-  <key>ldotbelow_macroncomb_acutecomb</key>
-  <string>ldotbelow_macroncomb_acutecomb.glif</string>
+  <key>ldotbelowmacron</key>
+  <string>ldotbelowmacron.glif</string>
+  <key>ldotbelowmacron_acutecomb</key>
+  <string>ldotbelowmacron_acutecomb.glif</string>
   <key>less</key>
   <string>less.glif</string>
   <key>lmacronbelow</key>
@@ -1368,6 +1370,8 @@
   <string>macroncomb.cap.glif</string>
   <key>macrondblbelowcomb</key>
   <string>macrondblbelowcomb.glif</string>
+  <key>magicglyph</key>
+  <string>magicglyph.glif</string>
   <key>mathspacemedium</key>
   <string>mathspacemedium.glif</string>
   <key>mdotaccent</key>
@@ -1376,6 +1380,8 @@
   <string>mdotbelow.glif</string>
   <key>micro</key>
   <string>micro.glif</string>
+  <key>minus</key>
+  <string>minus.glif</string>
   <key>minute</key>
   <string>minute.glif</string>
   <key>multiply</key>
@@ -1564,6 +1570,8 @@
   <string>rdotbelowmacron_acutecomb.glif</string>
   <key>registered</key>
   <string>registered.glif</string>
+  <key>ring</key>
+  <string>ring.glif</string>
   <key>ringbelowcomb</key>
   <string>ringbelowcomb.glif</string>
   <key>ringcomb</key>
