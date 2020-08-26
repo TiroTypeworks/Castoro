@@ -341,7 +341,7 @@
   </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2020/08/20 23:33:40</string>
+  <string>2020/08/25 16:55:05</string>
   <key>openTypeHeadFlags</key>
   <array>
   </array>
@@ -350,7 +350,7 @@
   <key>openTypeHheaCaretOffset</key>
   <integer>-0</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-254</integer>
+  <integer>-245</integer>
   <key>openTypeHheaLineGap</key>
   <integer>250</integer>
   <key>openTypeNameDesigner</key>
@@ -358,7 +358,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>https://www.tiro.com</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright 2020 Tiro Typeworks Ltd. (https://github.com/TiroTypeworks/Castoro). This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL</string>
+  <string>Copyright 2020 Tiro Typeworks Ltd. (https://github.com/TiroTypeworks/Castoro). This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
   <key>openTypeNameLicenseURL</key>
   <string>https://scripts.sil.org/OFL</string>
   <key>openTypeNameManufacturer</key>
@@ -370,7 +370,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.10 Build 002</string>
+  <string>Version 1.11 Build 003</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -533,7 +533,7 @@
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>100</integer>
+  <integer>110</integer>
   <key>xHeight</key>
   <integer>475</integer>
   <key>year</key>
