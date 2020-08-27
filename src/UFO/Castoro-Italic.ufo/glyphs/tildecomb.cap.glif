@@ -6,11 +6,11 @@
       <point x="-33" y="856"/>
       <point x="-60" y="836"/>
       <point x="-87" y="836" type="curve" smooth="yes"/>
-      <point x="-111" y="836"/>
-      <point x="-129" y="851"/>
-      <point x="-153" y="866" type="curve" smooth="yes"/>
-      <point x="-175" y="880"/>
-      <point x="-191" y="888"/>
+      <point x="-106.882" y="836"/>
+      <point x="-122.647" y="846.294"/>
+      <point x="-141.116" y="858.355" type="curve" smooth="yes"/>
+      <point x="-176.577" y="881.511"/>
+      <point x="-192.53" y="888"/>
       <point x="-214" y="888" type="curve" smooth="yes"/>
       <point x="-271" y="888"/>
       <point x="-320" y="843"/>

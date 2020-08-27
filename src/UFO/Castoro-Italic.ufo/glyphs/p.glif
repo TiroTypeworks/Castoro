@@ -34,7 +34,7 @@
     </contour>
     <contour>
       <point x="205" y="248" type="line" smooth="yes"/>
-      <point x="231" y="379"/>
+      <point x="232" y="379"/>
       <point x="236" y="402"/>
       <point x="236" y="420" type="curve" smooth="yes"/>
       <point x="236" y="452"/>
