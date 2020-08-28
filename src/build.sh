@@ -13,8 +13,6 @@ echo = "Post procesing TTF"
 ttfs=$(ls ../fonts/ttf/*.ttf)
 for ttf in $ttfs
 do
-    # ttfautohint $ttf "$ttf.fix" --stem-width-mode=qsq;
-	# mv "$ttf.fix" $ttf;
     gftools fix-hinting $ttf
     mv "$ttf.fix" $ttf
     gftools fix-dsig -f $ttf;
