@@ -30,7 +30,7 @@ jobs:
       - name: Install ttfautohint (Ubuntu package manager)
         run: sudo apt-get install ttfautohint
       - name: Build fonts
-        run: cd sources && ./build.sh && cd ..
+        run: cd src && ./build.sh && cd ..
       - name: Font Bakery CI TTF
         uses: f-actions/font-bakery@v1
         with:

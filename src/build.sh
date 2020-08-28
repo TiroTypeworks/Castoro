@@ -4,10 +4,10 @@ set -e
 mkdir -p ../fonts/otf ../fonts/ttf
 
 echo = "Generating TTFs"
-fontmake -u ./UFO/Castoro-Regular.ufo -o ttf --output-dir ../fonts/ttf -a
-fontmake -u ./UFO/Castoro-Italic.ufo -o ttf --output-dir ../fonts/ttf -a
-# fontmake -m ./UFO/Castoro_Roman.designspace -o ttf --output-dir ../fonts/ttf -a
-# fontmake -m ./UFO/Castoro_Italic.designspace -o ttf --output-dir ../fonts/ttf -a
+# fontmake -u ./UFO/Castoro-Regular.ufo -o ttf --output-dir ../fonts/ttf -a
+# fontmake -u ./UFO/Castoro-Italic.ufo -o ttf --output-dir ../fonts/ttf -a
+fontmake -m ./UFO/Castoro_Roman.designspace -o ttf --output-dir ../fonts/ttf -a
+fontmake -m ./UFO/Castoro_Italic.designspace -o ttf --output-dir ../fonts/ttf -a
 
 echo = "Post procesing TTF"
 ttfs=$(ls ../fonts/ttf/*.ttf)
