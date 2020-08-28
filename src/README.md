@@ -6,17 +6,21 @@ The OpenType Layout for the Castoro fonts was initially developed in Microsoftâ€
 
 ## Building the Fonts
 
-Family is built using fontmake and gftools post processing script. Tools are all python based.
+The fonts are built using fontmake and post-processed with gftools scripts. The tools are all python based. 
 
-To install all the Python tools into a virtualenv, do the following:
+First, install the tools into a python3 virtual environment:
+
 
 ```
+# Create a new virtualenv
 python3 -m venv venv
+# Activate env
 source venv/bin/activate
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-Then run the build script in the terminal:
+Then from the src folder run the build script in the terminal:
 
 ```
 cd sources
