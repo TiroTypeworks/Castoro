@@ -38,3 +38,10 @@ jobs:
           subcmd: "check-googlefonts"
           args: "-C --loglevel WARN"
           path: "fonts/ttf/*.ttf"
+      - name: Font Bakery CI OTF
+        uses: f-actions/font-bakery@v1
+        with:
+          version: "latest"
+          subcmd: "check-googlefonts"
+          args: "-C --loglevel WARN"
+          path: "fonts/otf/*.otf"
