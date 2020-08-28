@@ -424,6 +424,7 @@ lookup latn.ccmp_NFC {
     sub Umacron acutecomb by Umacron_acutecomb;
     sub Umacron tildecomb by Umacron_tildecomb;
     sub Umacron brevecomb by Umacron_brevecomb;
+    sub Klinebelow H_macronbelowcomb by Klinebelow_H_macronbelowcomb;
     sub Klinebelow hlinebelow by Klinebelow_hlinebelow;
     sub atilde acutecomb by atilde_acutecomb;
     sub amacron gravecomb by amacron_gravecomb;

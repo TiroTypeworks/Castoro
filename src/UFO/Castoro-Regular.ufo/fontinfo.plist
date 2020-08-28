@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>699</integer>
   <key>copyright</key>
-  <string>Copyright 2020 The Castoro Project Authors. (https://github.com/TiroTypeworks/Castoro)</string>
+  <string>Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)</string>
   <key>descender</key>
   <integer>-245</integer>
   <key>familyName</key>
@@ -316,7 +316,7 @@
   </dict>
   </array>
   <key>italicAngle</key>
-  <integer>0</integer>
+  <integer>-0</integer>
   <key>openTypeGaspRangeRecords</key>
   <array>
   <dict>
@@ -341,7 +341,7 @@
   </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2020/08/26 11:29:22</string>
+  <string>2020/08/28 11:33:36</string>
   <key>openTypeHeadFlags</key>
   <array>
   </array>
@@ -358,7 +358,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>https://www.tiro.com</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright 2020 The Castoro Project Authors. (https://github.com/TiroTypeworks/Castoro). This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
+  <string>Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro). This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
   <key>openTypeNameLicenseURL</key>
   <string>https://scripts.sil.org/OFL</string>
   <key>openTypeNameManufacturer</key>
@@ -370,7 +370,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.13 Build 005</string>
+  <string>Version 1.16 Build 008</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -533,7 +533,7 @@
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>130</integer>
+  <integer>160</integer>
   <key>xHeight</key>
   <integer>475</integer>
   <key>year</key>
