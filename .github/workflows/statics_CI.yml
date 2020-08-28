@@ -1,6 +1,6 @@
 name: statics CI
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   static-font-ci-job:
