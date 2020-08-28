@@ -20,8 +20,10 @@ do
 done
 
 echo = "Generating OTFs"
-fontmake -u ./UFO/Castoro-Regular.ufo -o otf --output-dir ../fonts/otf -a
-fontmake -u ./UFO/Castoro-Italic.ufo -o otf --output-dir ../fonts/otf -a
+# fontmake -u ./UFO/Castoro-Regular.ufo -o otf --output-dir ../fonts/otf -a
+# fontmake -u ./UFO/Castoro-Italic.ufo -o otf --output-dir ../fonts/otf -a
+fontmake -m ./UFO/Castoro_Roman.designspace -o otf --output-dir ../fonts/otf -a
+fontmake -m ./UFO/Castoro_Italic.designspace -o otf --output-dir ../fonts/otf -a
 
 echo "Post processing static OTFs"
 otf=$(ls ../fonts/otf/*.otf)
