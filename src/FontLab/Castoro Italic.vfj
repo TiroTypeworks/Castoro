@@ -88,13 +88,13 @@
       {
         "name":"CR",
         "unicode":"000d",
-        "lastModified":"2020-06-10 01:56:51",
+        "lastModified":"2020-08-28 17:37:06",
         "colorFlag":113,
         "layers":[
           {
             "name":"Italic",
             "colorFlag":113,
-            "advanceWidth":225,
+            "advanceWidth":200,
             "color":"#000096"
           }
         ]
@@ -117,14 +117,14 @@
       {
         "name":"nbspace",
         "unicode":"00a0",
-        "lastModified":"2020-06-10 01:56:51",
+        "lastModified":"2020-08-28 17:30:59",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
           {
             "name":"Italic",
             "colorFlag":113,
-            "advanceWidth":225,
+            "advanceWidth":200,
             "color":"#000096"
           }
         ]
@@ -35701,19 +35701,19 @@
     "info":{
       "tfn":"Castoro",
       "sgn":"Castoro",
-      "creationDate":"2020/08/27 16:36:27",
-      "copyright":"Copyright 2020 The Castoro Project Authors. (https://github.com/TiroTypeworks/Castoro)",
+      "creationDate":"2020/08/28 10:33:42",
+      "copyright":"Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)",
       "trademark":"Castoro is a trademark of Tiro Typeworks Ltd..",
       "designer":"John Hudson with Paul Hanslow, assisted by Kaja Słojewska.",
       "designerURL":"https://www.tiro.com",
-      "license":"Copyright 2020 The Castoro Project Authors. (https://github.com/TiroTypeworks/Castoro). This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+      "license":"Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro). This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
       "licenseURL":"https://scripts.sil.org/OFL",
       "manufacturer":"Tiro Typeworks Ltd.",
       "manufacturerURL":"https://www.tiro.com/",
       "vendorID":"TIRO",
       "versionMajor":1,
-      "versionMinor":140,
-      "version":"Version 1.14 Build 006",
+      "versionMinor":150,
+      "version":"Version 1.15 Build 007",
       "codepageRange":"0000000000000093",
       "unicodeRange":"00000000000000000000200ba000006f",
       "useTypoMetrics":false,
