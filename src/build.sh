@@ -16,6 +16,7 @@ do
     gftools fix-hinting $ttf
     mv "$ttf.fix" $ttf
     gftools fix-dsig -f $ttf;
+    python3 castoro_stat_table.py $ttfs
 done
 
 echo = "Generating OTFs"
