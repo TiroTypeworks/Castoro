@@ -6,7 +6,7 @@
     "glyphs":[
       {
         "name":".notdef",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "colorFlag":113,
         "layers":[
           {
@@ -73,7 +73,7 @@
       {
         "name":"NULL",
         "unicode":"0000",
-        "lastModified":"2020-08-26 17:24:45",
+        "lastModified":"2020-08-27 23:39:19",
         "colorFlag":113,
         "layers":[
           {
@@ -86,7 +86,7 @@
       {
         "name":"CR",
         "unicode":"000d",
-        "lastModified":"2020-08-26 17:24:45",
+        "lastModified":"2020-08-27 23:39:19",
         "colorFlag":113,
         "layers":[
           {
@@ -99,35 +99,35 @@
       {
         "name":"space",
         "unicode":"0020",
-        "lastModified":"2020-08-26 17:24:45",
+        "lastModified":"2020-08-27 23:44:18",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
           {
             "name":"Regular",
             "colorFlag":113,
-            "advanceWidth":260
+            "advanceWidth":220
           }
         ]
       },
       {
         "name":"nbspace",
         "unicode":"00a0",
-        "lastModified":"2020-08-26 17:24:45",
+        "lastModified":"2020-08-27 23:45:55",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
           {
             "name":"Regular",
             "colorFlag":113,
-            "advanceWidth":260
+            "advanceWidth":200
           }
         ]
       },
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -189,7 +189,7 @@
       {
         "name":"B",
         "unicode":"0042",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -247,7 +247,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -295,7 +295,7 @@
       {
         "name":"D",
         "unicode":"0044",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -344,7 +344,7 @@
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -413,7 +413,7 @@
       {
         "name":"F",
         "unicode":"0046",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -473,7 +473,7 @@
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -528,7 +528,7 @@
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -603,7 +603,7 @@
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -644,7 +644,7 @@
       {
         "name":"J",
         "unicode":"004a",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -686,7 +686,7 @@
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -755,7 +755,7 @@
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -801,7 +801,7 @@
       {
         "name":"M",
         "unicode":"004d",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -859,7 +859,7 @@
       {
         "name":"N",
         "unicode":"004e",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -913,7 +913,7 @@
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -954,7 +954,7 @@
       {
         "name":"P",
         "unicode":"0050",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1002,7 +1002,7 @@
       {
         "name":"Q",
         "unicode":"0051",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1062,7 +1062,7 @@
       {
         "name":"R",
         "unicode":"0052",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1119,7 +1119,7 @@
       {
         "name":"S",
         "unicode":"0053",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1167,7 +1167,7 @@
       {
         "name":"T",
         "unicode":"0054",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1218,7 +1218,7 @@
       {
         "name":"U",
         "unicode":"0055",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1266,7 +1266,7 @@
       {
         "name":"V",
         "unicode":"0056",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1313,7 +1313,7 @@
       {
         "name":"W",
         "unicode":"0057",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1378,7 +1378,7 @@
       {
         "name":"X",
         "unicode":"0058",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1450,7 +1450,7 @@
       {
         "name":"Y",
         "unicode":"0059",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1511,7 +1511,7 @@
       {
         "name":"Z",
         "unicode":"005a",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1558,7 +1558,7 @@
       {
         "name":"Agrave",
         "unicode":"00c0",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1591,7 +1591,7 @@
       {
         "name":"Aacute",
         "unicode":"00c1",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1624,7 +1624,7 @@
       {
         "name":"Acircumflex",
         "unicode":"00c2",
-        "lastModified":"2020-08-26 18:14:52",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1657,7 +1657,7 @@
       {
         "name":"Atilde",
         "unicode":"00c3",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1689,7 +1689,7 @@
       },
       {
         "name":"Atilde_acutecomb",
-        "lastModified":"2020-08-26 17:25:56",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1733,7 +1733,7 @@
       {
         "name":"Adieresis",
         "unicode":"00c4",
-        "lastModified":"2020-08-26 17:25:56",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1766,7 +1766,7 @@
       {
         "name":"Amacron",
         "unicode":"0100",
-        "lastModified":"2020-08-26 17:25:56",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1798,7 +1798,7 @@
       },
       {
         "name":"Amacron_gravecomb",
-        "lastModified":"2020-08-26 17:24:45",
+        "lastModified":"2020-08-27 23:39:19",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -8078,7 +8078,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2020-08-26 17:24:34",
+        "lastModified":"2020-08-27 23:36:21",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8187,8 +8187,7 @@
                       ]
                     }
                   ]
-                },
-                "active":true
+                }
               }
             ],
             "guidelines":[
@@ -8203,7 +8202,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2020-08-26 17:24:34",
+        "lastModified":"2020-08-27 23:36:21",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8299,7 +8298,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2020-08-26 17:24:34",
+        "lastModified":"2020-08-27 23:36:21",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8569,7 +8568,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2020-08-26 17:25:27",
+        "lastModified":"2020-08-27 23:36:21",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8752,8 +8751,7 @@
                       ]
                     }
                   ]
-                },
-                "active":true
+                }
               }
             ],
             "guidelines":[
@@ -9040,7 +9038,7 @@
       {
         "name":"m",
         "unicode":"006d",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:51",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9077,6 +9075,8 @@
                         "202 1  238 -1  276 -1",
                         "277 9  277 20  276 30",
                         "211 34  204 36  204 114 s",
+                        "204 381",
+                        "203 405",
                         "203 491",
                         "186 497",
                         "135 476  84 462  28 451",
@@ -9116,7 +9116,7 @@
       {
         "name":"n",
         "unicode":"006e",
-        "lastModified":"2020-08-26 17:29:12",
+        "lastModified":"2020-08-27 23:39:58",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9153,6 +9153,8 @@
                         "197 1  237 -1  275 -1",
                         "276 9  276 20  275 30",
                         "211 34  204 36  204 114 s",
+                        "204 386",
+                        "203 403",
                         "203 491",
                         "186 497",
                         "139 478  84 462  28 451",
@@ -9164,8 +9166,7 @@
                       ]
                     }
                   ]
-                },
-                "active":true
+                }
               }
             ]
           }
@@ -9174,7 +9175,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2020-08-26 17:24:34",
+        "lastModified":"2020-08-27 23:36:21",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9215,7 +9216,7 @@
       {
         "name":"p",
         "unicode":"0070",
-        "lastModified":"2020-08-26 17:24:34",
+        "lastModified":"2020-08-27 23:36:21",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9273,7 +9274,7 @@
       {
         "name":"q",
         "unicode":"0071",
-        "lastModified":"2020-08-26 17:29:39",
+        "lastModified":"2020-08-27 23:36:21",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9528,8 +9529,7 @@
                       ]
                     }
                   ]
-                },
-                "active":true
+                }
               }
             ]
           }
@@ -9538,7 +9538,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2020-08-26 17:31:38",
+        "lastModified":"2020-08-27 23:36:21",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9584,7 +9584,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2020-08-26 17:24:34",
+        "lastModified":"2020-08-27 23:36:21",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9647,7 +9647,7 @@
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2020-08-26 17:32:55",
+        "lastModified":"2020-08-27 23:36:21",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9732,7 +9732,7 @@
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2020-08-26 17:24:34",
+        "lastModified":"2020-08-27 23:36:21",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -13137,7 +13137,7 @@
       },
       {
         "name":"m_brevecomb",
-        "lastModified":"2020-08-26 17:28:19",
+        "lastModified":"2020-08-27 23:39:51",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13167,7 +13167,7 @@
       {
         "name":"mdotaccent",
         "unicode":"1e41",
-        "lastModified":"2020-08-26 17:28:19",
+        "lastModified":"2020-08-27 23:39:51",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13196,7 +13196,7 @@
       },
       {
         "name":"m_candrabinducomb",
-        "lastModified":"2020-08-26 17:28:19",
+        "lastModified":"2020-08-27 23:39:51",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13226,7 +13226,7 @@
       {
         "name":"mdotbelow",
         "unicode":"1e43",
-        "lastModified":"2020-08-26 17:28:19",
+        "lastModified":"2020-08-27 23:39:51",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13256,7 +13256,7 @@
       {
         "name":"nacute",
         "unicode":"0144",
-        "lastModified":"2020-08-26 17:27:30",
+        "lastModified":"2020-08-27 23:39:58",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13286,7 +13286,7 @@
       {
         "name":"ncaron",
         "unicode":"0148",
-        "lastModified":"2020-08-26 17:27:30",
+        "lastModified":"2020-08-27 23:39:58",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13316,7 +13316,7 @@
       {
         "name":"ntilde",
         "unicode":"00f1",
-        "lastModified":"2020-08-26 17:27:30",
+        "lastModified":"2020-08-27 23:39:58",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13345,7 +13345,7 @@
       },
       {
         "name":"n_brevecomb",
-        "lastModified":"2020-08-26 17:27:30",
+        "lastModified":"2020-08-27 23:39:58",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13375,7 +13375,7 @@
       {
         "name":"ndotaccent",
         "unicode":"1e45",
-        "lastModified":"2020-08-26 17:27:30",
+        "lastModified":"2020-08-27 23:39:58",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13404,7 +13404,7 @@
       },
       {
         "name":"n_candrabinducomb",
-        "lastModified":"2020-08-26 17:27:30",
+        "lastModified":"2020-08-27 23:39:58",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13434,7 +13434,7 @@
       {
         "name":"nmacronbelow",
         "unicode":"1e49",
-        "lastModified":"2020-08-26 17:27:30",
+        "lastModified":"2020-08-27 23:39:58",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13464,7 +13464,7 @@
       {
         "name":"ndotbelow",
         "unicode":"1e47",
-        "lastModified":"2020-08-26 17:27:30",
+        "lastModified":"2020-08-27 23:39:58",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13494,7 +13494,7 @@
       {
         "name":"ncommaaccent",
         "unicode":"0146",
-        "lastModified":"2020-08-26 17:27:30",
+        "lastModified":"2020-08-27 23:39:58",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13524,7 +13524,7 @@
       {
         "name":"ograve",
         "unicode":"00f2",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13554,7 +13554,7 @@
       {
         "name":"oacute",
         "unicode":"00f3",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13584,7 +13584,7 @@
       {
         "name":"ocircumflex",
         "unicode":"00f4",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13614,7 +13614,7 @@
       {
         "name":"otilde",
         "unicode":"00f5",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13643,7 +13643,7 @@
       },
       {
         "name":"otilde_acutecomb",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13684,7 +13684,7 @@
       {
         "name":"odieresis",
         "unicode":"00f6",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13714,7 +13714,7 @@
       {
         "name":"omacron",
         "unicode":"014d",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13743,7 +13743,7 @@
       },
       {
         "name":"omacron_brevecomb",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13784,7 +13784,7 @@
       {
         "name":"obreve",
         "unicode":"014f",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13814,7 +13814,7 @@
       {
         "name":"ohungarumlaut",
         "unicode":"0151",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13892,7 +13892,7 @@
       {
         "name":"oslashacute",
         "unicode":"01ff",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15346,7 +15346,7 @@
       {
         "name":"ugrave",
         "unicode":"00f9",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15376,7 +15376,7 @@
       {
         "name":"uacute",
         "unicode":"00fa",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15406,7 +15406,7 @@
       {
         "name":"ucircumflex",
         "unicode":"00fb",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15436,7 +15436,7 @@
       {
         "name":"utilde",
         "unicode":"0169",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15465,7 +15465,7 @@
       },
       {
         "name":"utilde_acutecomb",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15506,7 +15506,7 @@
       {
         "name":"udieresis",
         "unicode":"00fc",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15537,7 +15537,7 @@
       {
         "name":"umacron",
         "unicode":"016b",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15566,7 +15566,7 @@
       },
       {
         "name":"umacron_gravecomb",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15606,7 +15606,7 @@
       },
       {
         "name":"umacron_acutecomb",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15646,7 +15646,7 @@
       },
       {
         "name":"umacron_tildecomb",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15686,7 +15686,7 @@
       },
       {
         "name":"umacron_brevecomb",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15727,7 +15727,7 @@
       {
         "name":"ubreve",
         "unicode":"016d",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15757,7 +15757,7 @@
       {
         "name":"uring",
         "unicode":"016f",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15787,7 +15787,7 @@
       {
         "name":"uhungarumlaut",
         "unicode":"0171",
-        "lastModified":"2020-08-26 17:06:58",
+        "lastModified":"2020-08-27 23:34:43",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[

@@ -102,14 +102,14 @@
       {
         "name":"space",
         "unicode":"0020",
-        "lastModified":"2020-06-10 01:56:51",
+        "lastModified":"2020-08-27 23:45:41",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
           {
             "name":"Italic",
             "colorFlag":113,
-            "advanceWidth":225,
+            "advanceWidth":200,
             "color":"#000096"
           }
         ]
@@ -8601,8 +8601,7 @@
                       ]
                     }
                   ]
-                },
-                "active":true
+                }
               }
             ],
             "guidelines":[
@@ -9175,8 +9174,7 @@
                       ]
                     }
                   ]
-                },
-                "active":true
+                }
               }
             ],
             "guidelines":[
@@ -9558,8 +9556,7 @@
                       ]
                     }
                   ]
-                },
-                "active":true
+                }
               }
             ],
             "color":"#000096"
@@ -9614,8 +9611,7 @@
                       ]
                     }
                   ]
-                },
-                "active":true
+                }
               }
             ],
             "guidelines":[
@@ -9670,8 +9666,7 @@
                       ]
                     }
                   ]
-                },
-                "active":true
+                }
               }
             ],
             "guidelines":[
@@ -35706,7 +35701,7 @@
     "info":{
       "tfn":"Castoro",
       "sgn":"Castoro",
-      "creationDate":"2020/08/26 11:29:33",
+      "creationDate":"2020/08/27 16:36:27",
       "copyright":"Copyright 2020 The Castoro Project Authors. (https://github.com/TiroTypeworks/Castoro)",
       "trademark":"Castoro is a trademark of Tiro Typeworks Ltd..",
       "designer":"John Hudson with Paul Hanslow, assisted by Kaja Słojewska.",
@@ -35717,8 +35712,8 @@
       "manufacturerURL":"https://www.tiro.com/",
       "vendorID":"TIRO",
       "versionMajor":1,
-      "versionMinor":130,
-      "version":"Version 1.13 Build 005",
+      "versionMinor":140,
+      "version":"Version 1.14 Build 006",
       "codepageRange":"0000000000000093",
       "unicodeRange":"00000000000000000000200ba000006f",
       "useTypoMetrics":false,
