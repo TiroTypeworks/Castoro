@@ -110,6 +110,8 @@
     <integer>30</integer>
     <key>igrave</key>
     <integer>20</integer>
+    <key>ij_acutecomb</key>
+    <integer>10</integer>
     <key>itilde</key>
     <integer>60</integer>
     <key>itilde_acutecomb</key>

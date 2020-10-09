@@ -176,14 +176,14 @@
   <string>E_macron.glif</string>
   <key>Emacron.sc</key>
   <string>E_macron.sc.glif</string>
-  <key>Emacron_acutecomb</key>
-  <string>E_macron_acutecomb.glif</string>
-  <key>Emacron_acutecomb.sc</key>
-  <string>E_macron_acutecomb.sc.glif</string>
   <key>Emacron_brevecomb</key>
   <string>E_macron_brevecomb.glif</string>
   <key>Emacron_brevecomb.sc</key>
   <string>E_macron_brevecomb.sc.glif</string>
+  <key>Emacronacute</key>
+  <string>E_macronacute.glif</string>
+  <key>Emacronacute.sc</key>
+  <string>E_macronacute.sc.glif</string>
   <key>Eng</key>
   <string>E_ng.glif</string>
   <key>Eng.sc</key>
@@ -570,10 +570,10 @@
   <string>O_tilde.glif</string>
   <key>Otilde.sc</key>
   <string>O_tilde.sc.glif</string>
-  <key>Otilde_acutecomb</key>
-  <string>O_tilde_acutecomb.glif</string>
-  <key>Otilde_acutecomb.sc</key>
-  <string>O_tilde_acutecomb.sc.glif</string>
+  <key>Otildeacute</key>
+  <string>O_tildeacute.glif</string>
+  <key>Otildeacute.sc</key>
+  <string>O_tildeacute.sc.glif</string>
   <key>P</key>
   <string>P_.glif</string>
   <key>P.sc</key>
@@ -786,10 +786,10 @@
   <string>U_tilde.glif</string>
   <key>Utilde.sc</key>
   <string>U_tilde.sc.glif</string>
-  <key>Utilde_acutecomb</key>
-  <string>U_tilde_acutecomb.glif</string>
-  <key>Utilde_acutecomb.sc</key>
-  <string>U_tilde_acutecomb.sc.glif</string>
+  <key>Utildeacute</key>
+  <string>U_tildeacute.glif</string>
+  <key>Utildeacute.sc</key>
+  <string>U_tildeacute.sc.glif</string>
   <key>V</key>
   <string>V_.glif</string>
   <key>V.sc</key>
@@ -1090,10 +1090,10 @@
   <string>ellipsis.glif</string>
   <key>emacron</key>
   <string>emacron.glif</string>
-  <key>emacron_acutecomb</key>
-  <string>emacron_acutecomb.glif</string>
   <key>emacron_brevecomb</key>
   <string>emacron_brevecomb.glif</string>
+  <key>emacronacute</key>
+  <string>emacronacute.glif</string>
   <key>emdash</key>
   <string>emdash.glif</string>
   <key>emdash.case</key>
@@ -1476,8 +1476,8 @@
   <string>oslashacute.glif</string>
   <key>otilde</key>
   <string>otilde.glif</string>
-  <key>otilde_acutecomb</key>
-  <string>otilde_acutecomb.glif</string>
+  <key>otildeacute</key>
+  <string>otildeacute.glif</string>
   <key>p</key>
   <string>p.glif</string>
   <key>paragraph</key>
@@ -1738,8 +1738,8 @@
   <string>uring.glif</string>
   <key>utilde</key>
   <string>utilde.glif</string>
-  <key>utilde_acutecomb</key>
-  <string>utilde_acutecomb.glif</string>
+  <key>utildeacute</key>
+  <string>utildeacute.glif</string>
   <key>v</key>
   <string>v.glif</string>
   <key>w</key>

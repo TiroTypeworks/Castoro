@@ -67,7 +67,7 @@
     <string>Etilde_acutecomb</string>
     <string>Edieresis</string>
     <string>Emacron</string>
-    <string>Emacron_acutecomb</string>
+    <string>Emacronacute</string>
     <string>Emacron_brevecomb</string>
     <string>Ebreve</string>
     <string>Edotaccent</string>
@@ -137,7 +137,7 @@
     <string>Oacute</string>
     <string>Ocircumflex</string>
     <string>Otilde</string>
-    <string>Otilde_acutecomb</string>
+    <string>Otildeacute</string>
     <string>Odieresis</string>
     <string>Omacron</string>
     <string>Omacron_brevecomb</string>
@@ -183,7 +183,7 @@
     <string>Uacute</string>
     <string>Ucircumflex</string>
     <string>Utilde</string>
-    <string>Utilde_acutecomb</string>
+    <string>Utildeacute</string>
     <string>Udieresis</string>
     <string>Umacron</string>
     <string>Umacron_gravecomb</string>
@@ -818,8 +818,8 @@
     <string>Edotaccent</string>
     <string>Egrave</string>
     <string>Emacron</string>
-    <string>Emacron_acutecomb</string>
     <string>Emacron_brevecomb</string>
+    <string>Emacronacute</string>
     <string>Eogonek</string>
     <string>Etilde</string>
     <string>Etilde_acutecomb</string>

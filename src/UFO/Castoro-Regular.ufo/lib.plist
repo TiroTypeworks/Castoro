@@ -947,7 +947,7 @@
     <string>Etilde_acutecomb</string>
     <string>Edieresis</string>
     <string>Emacron</string>
-    <string>Emacron_acutecomb</string>
+    <string>Emacronacute</string>
     <string>Emacron_brevecomb</string>
     <string>Ebreve</string>
     <string>Edotaccent</string>
@@ -1017,7 +1017,7 @@
     <string>Oacute</string>
     <string>Ocircumflex</string>
     <string>Otilde</string>
-    <string>Otilde_acutecomb</string>
+    <string>Otildeacute</string>
     <string>Odieresis</string>
     <string>Omacron</string>
     <string>Omacron_brevecomb</string>
@@ -1063,7 +1063,7 @@
     <string>Uacute</string>
     <string>Ucircumflex</string>
     <string>Utilde</string>
-    <string>Utilde_acutecomb</string>
+    <string>Utildeacute</string>
     <string>Udieresis</string>
     <string>Umacron</string>
     <string>Umacron_gravecomb</string>
@@ -1167,7 +1167,7 @@
     <string>etilde_acutecomb</string>
     <string>edieresis</string>
     <string>emacron</string>
-    <string>emacron_acutecomb</string>
+    <string>emacronacute</string>
     <string>emacron_brevecomb</string>
     <string>ebreve</string>
     <string>edotaccent</string>
@@ -1240,7 +1240,7 @@
     <string>oacute</string>
     <string>ocircumflex</string>
     <string>otilde</string>
-    <string>otilde_acutecomb</string>
+    <string>otildeacute</string>
     <string>odieresis</string>
     <string>omacron</string>
     <string>omacron_brevecomb</string>
@@ -1290,7 +1290,7 @@
     <string>uacute</string>
     <string>ucircumflex</string>
     <string>utilde</string>
-    <string>utilde_acutecomb</string>
+    <string>utildeacute</string>
     <string>udieresis</string>
     <string>umacron</string>
     <string>umacron_gravecomb</string>
@@ -1391,7 +1391,7 @@
     <string>Etilde_acutecomb.sc</string>
     <string>Edieresis.sc</string>
     <string>Emacron.sc</string>
-    <string>Emacron_acutecomb.sc</string>
+    <string>Emacronacute.sc</string>
     <string>Emacron_brevecomb.sc</string>
     <string>Ebreve.sc</string>
     <string>Edotaccent.sc</string>
@@ -1461,7 +1461,7 @@
     <string>Oacute.sc</string>
     <string>Ocircumflex.sc</string>
     <string>Otilde.sc</string>
-    <string>Otilde_acutecomb.sc</string>
+    <string>Otildeacute.sc</string>
     <string>Odieresis.sc</string>
     <string>Omacron.sc</string>
     <string>Omacron_brevecomb.sc</string>
@@ -1507,7 +1507,7 @@
     <string>Uacute.sc</string>
     <string>Ucircumflex.sc</string>
     <string>Utilde.sc</string>
-    <string>Utilde_acutecomb.sc</string>
+    <string>Utildeacute.sc</string>
     <string>Udieresis.sc</string>
     <string>Umacron.sc</string>
     <string>Umacron_gravecomb.sc</string>

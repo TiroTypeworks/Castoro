@@ -1,6 +1,6 @@
 #> classes
 #/> otclasses
-@latn.caps_asc = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Atilde_acutecomb Adieresis Amacron Amacron_gravecomb Amacron_acutecomb Amacron_tildecomb Amacron_brevecomb Abreve Aring Aringacute Aogonek AE AEacute AEmacron B_dieresisbelowcomb Cacute Ccircumflex Ccaron Cdotaccent Ccedilla Dcaron Ddotbelow D_dieresisbelowcomb Dlinebelow Dcroat Egrave Eacute Ecircumflex Ecaron Etilde Etilde_acutecomb Edieresis Emacron Emacron_acutecomb Emacron_brevecomb Ebreve Edotaccent Eogonek Gcircumflex Gbreve Gdotaccent Gcommaaccent G_dotbelowcomb G_dieresisbelowcomb G_macronbelowcomb Hcircumflex Hdotbelow H_dieresisbelowcomb H_macronbelowcomb Hbar Igrave Iacute Icircumflex Itilde Itilde_acutecomb Idieresis Imacron Imacron_gravecomb Imacron_acutecomb Imacron_tildecomb Imacron_brevecomb Ibreve Idotaccent Iogonek Jcircumflex J_macroncomb J_dieresisbelowcomb Kcommaaccent Kdotbelow Klinebelow Lacute Lcaron L_tildecomb Lcommaaccent Lmacronbelow Ldotbelow Ldotbelow_acutecomb Ldotbelowmacron Ldotbelowmacron_acutecomb L_dieresisbelowcomb L_ringbelowcomb L_ringbelowcomb_acutecomb L_ringbelowcomb_macroncomb L_ringbelowcomb_macroncomb_acutecomb Lslash Ldot M_brevecomb Mdotaccent M_candrabinducomb Mdotbelow Nacute Ncaron Ntilde N_brevecomb Ndotaccent N_candrabinducomb Nmacronbelow Ndotbelow Ncommaaccent Ograve Oacute Ocircumflex Otilde Otilde_acutecomb Odieresis Omacron Omacron_brevecomb Obreve Ohungarumlaut Oslash Oslashacute OE Racute Rcaron R_brevecomb Rdotaccent Rcommaaccent Rmacronbelow Rdotbelow Rdotbelow_gravecomb Rdotbelow_acutecomb Rdotbelowmacron Rdotbelowmacron_acutecomb R_dieresisbelowcomb R_ringbelowcomb R_ringbelowcomb_gravecomb R_ringbelowcomb_acutecomb R_ringbelowcomb_macroncomb R_ringbelowcomb_macroncomb_acutecomb Sacute Scircumflex Scaron Scedilla Scommaaccent Sdotbelow S_dieresisbelowcomb S_macronbelowcomb Germandbls Tcaron Tcedilla Tcommaaccent Tdotbelow T_dieresisbelowcomb Tlinebelow Tbar Ugrave Uacute Ucircumflex Utilde Utilde_acutecomb Udieresis Umacron Umacron_gravecomb Umacron_acutecomb Umacron_tildecomb Umacron_brevecomb Ubreve Uring Uhungarumlaut Uogonek Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Ydotaccent Zacute Zcaron Zdotaccent Zdotbelow Z_dieresisbelowcomb Zlinebelow Eng Eth Thorn IJ IJ_acutecomb G_macronbelowcomb_H_macronbelowcomb G_macronbelowcomb_hlinebelow Klinebelow_H_macronbelowcomb Klinebelow_hlinebelow b d f f._asc f._f f._ij h k l b_dieresisbelowcomb dcaron ddotbelow d_dieresisbelowcomb dlinebelow dcroat hcircumflex hdotbelow h_dieresisbelowcomb hlinebelow hbar kcommaaccent kdotbelow klinebelow lacute lcaron l_tildecomb lcommaaccent lmacronbelow ldotbelow ldotbelow_acutecomb ldotbelowmacron ldotbelowmacron_acutecomb l_dieresisbelowcomb l_ringbelowcomb l_ringbelowcomb_acutecomb l_ringbelowcomb_macroncomb l_ringbelowcomb_macroncomb_acutecomb lslash ldot germandbls longs longs._asc longs._f longs._ij eth thorn g_macronbelowcomb_hlinebelow klinebelow_hlinebelow];
+@latn.caps_asc = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Atilde_acutecomb Adieresis Amacron Amacron_gravecomb Amacron_acutecomb Amacron_tildecomb Amacron_brevecomb Abreve Aring Aringacute Aogonek AE AEacute AEmacron B_dieresisbelowcomb Cacute Ccircumflex Ccaron Cdotaccent Ccedilla Dcaron Ddotbelow D_dieresisbelowcomb Dlinebelow Dcroat Egrave Eacute Ecircumflex Ecaron Etilde Etilde_acutecomb Edieresis Emacron Emacronacute Emacron_brevecomb Ebreve Edotaccent Eogonek Gcircumflex Gbreve Gdotaccent Gcommaaccent G_dotbelowcomb G_dieresisbelowcomb G_macronbelowcomb Hcircumflex Hdotbelow H_dieresisbelowcomb H_macronbelowcomb Hbar Igrave Iacute Icircumflex Itilde Itilde_acutecomb Idieresis Imacron Imacron_gravecomb Imacron_acutecomb Imacron_tildecomb Imacron_brevecomb Ibreve Idotaccent Iogonek Jcircumflex J_macroncomb J_dieresisbelowcomb Kcommaaccent Kdotbelow Klinebelow Lacute Lcaron L_tildecomb Lcommaaccent Lmacronbelow Ldotbelow Ldotbelow_acutecomb Ldotbelowmacron Ldotbelowmacron_acutecomb L_dieresisbelowcomb L_ringbelowcomb L_ringbelowcomb_acutecomb L_ringbelowcomb_macroncomb L_ringbelowcomb_macroncomb_acutecomb Lslash Ldot M_brevecomb Mdotaccent M_candrabinducomb Mdotbelow Nacute Ncaron Ntilde N_brevecomb Ndotaccent N_candrabinducomb Nmacronbelow Ndotbelow Ncommaaccent Ograve Oacute Ocircumflex Otilde Otildeacute Odieresis Omacron Omacron_brevecomb Obreve Ohungarumlaut Oslash Oslashacute OE Racute Rcaron R_brevecomb Rdotaccent Rcommaaccent Rmacronbelow Rdotbelow Rdotbelow_gravecomb Rdotbelow_acutecomb Rdotbelowmacron Rdotbelowmacron_acutecomb R_dieresisbelowcomb R_ringbelowcomb R_ringbelowcomb_gravecomb R_ringbelowcomb_acutecomb R_ringbelowcomb_macroncomb R_ringbelowcomb_macroncomb_acutecomb Sacute Scircumflex Scaron Scedilla Scommaaccent Sdotbelow S_dieresisbelowcomb S_macronbelowcomb Germandbls Tcaron Tcedilla Tcommaaccent Tdotbelow T_dieresisbelowcomb Tlinebelow Tbar Ugrave Uacute Ucircumflex Utilde Utildeacute Udieresis Umacron Umacron_gravecomb Umacron_acutecomb Umacron_tildecomb Umacron_brevecomb Ubreve Uring Uhungarumlaut Uogonek Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Ydotaccent Zacute Zcaron Zdotaccent Zdotbelow Z_dieresisbelowcomb Zlinebelow Eng Eth Thorn IJ IJ_acutecomb G_macronbelowcomb_H_macronbelowcomb G_macronbelowcomb_hlinebelow Klinebelow_H_macronbelowcomb Klinebelow_hlinebelow b d f f._asc f._f f._ij h k l b_dieresisbelowcomb dcaron ddotbelow d_dieresisbelowcomb dlinebelow dcroat hcircumflex hdotbelow h_dieresisbelowcomb hlinebelow hbar kcommaaccent kdotbelow klinebelow lacute lcaron l_tildecomb lcommaaccent lmacronbelow ldotbelow ldotbelow_acutecomb ldotbelowmacron ldotbelowmacron_acutecomb l_dieresisbelowcomb l_ringbelowcomb l_ringbelowcomb_acutecomb l_ringbelowcomb_macroncomb l_ringbelowcomb_macroncomb_acutecomb lslash ldot germandbls longs longs._asc longs._f longs._ij eth thorn g_macronbelowcomb_hlinebelow klinebelow_hlinebelow];
 @latn.f_asc = [b h k l b_dieresisbelowcomb hcircumflex hdotbelow h_dieresisbelowcomb hlinebelow hbar kcommaaccent kdotbelow klinebelow lacute lcaron l_tildecomb lcommaaccent lmacronbelow ldotbelow ldotbelow_acutecomb ldotbelowmacron ldotbelowmacron_acutecomb l_dieresisbelowcomb l_ringbelowcomb l_ringbelowcomb_acutecomb l_ringbelowcomb_macroncomb l_ringbelowcomb_macroncomb_acutecomb lslash ldot thorn klinebelow_hlinebelow];
 @numerals.dnom = [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
 #/< otclasses
@@ -66,7 +66,7 @@ lookup latn.ccmp_NFD {
     sub A macroncomb brevecomb by Amacron_brevecomb;
     sub A ringcomb acutecomb by Aringacute;
     sub E tildecomb acutecomb by Etilde_acutecomb;
-    sub E macroncomb acutecomb by Emacron_acutecomb;
+    sub E macroncomb acutecomb by Emacronacute;
     sub E macroncomb brevecomb by Emacron_brevecomb;
     sub I tildecomb acutecomb by Itilde_acutecomb;
     sub I macroncomb gravecomb by Imacron_gravecomb;
@@ -77,7 +77,7 @@ lookup latn.ccmp_NFD {
     sub L dotbelowcomb macroncomb by Ldotbelowmacron;
     sub L ringbelowcomb acutecomb by L_ringbelowcomb_acutecomb;
     sub L ringbelowcomb macroncomb by L_ringbelowcomb_macroncomb;
-    sub O tildecomb acutecomb by Otilde_acutecomb;
+    sub O tildecomb acutecomb by Otildeacute;
     sub O macroncomb brevecomb by Omacron_brevecomb;
     sub R dotbelowcomb gravecomb by Rdotbelow_gravecomb;
     sub R dotbelowcomb acutecomb by Rdotbelow_acutecomb;
@@ -85,7 +85,7 @@ lookup latn.ccmp_NFD {
     sub R ringbelowcomb gravecomb by R_ringbelowcomb_gravecomb;
     sub R ringbelowcomb acutecomb by R_ringbelowcomb_acutecomb;
     sub R ringbelowcomb macroncomb by R_ringbelowcomb_macroncomb;
-    sub U tildecomb acutecomb by Utilde_acutecomb;
+    sub U tildecomb acutecomb by Utildeacute;
     sub U macroncomb gravecomb by Umacron_gravecomb;
     sub U macroncomb acutecomb by Umacron_acutecomb;
     sub U macroncomb tildecomb by Umacron_tildecomb;
@@ -97,7 +97,7 @@ lookup latn.ccmp_NFD {
     sub a macroncomb brevecomb by amacron_brevecomb;
     sub a ringcomb acutecomb by aringacute;
     sub e tildecomb acutecomb by etilde_acutecomb;
-    sub e macroncomb acutecomb by emacron_acutecomb;
+    sub e macroncomb acutecomb by emacronacute;
     sub e macroncomb brevecomb by emacron_brevecomb;
     sub i tildecomb acutecomb by itilde_acutecomb;
     sub i macroncomb gravecomb by imacron_gravecomb;
@@ -108,7 +108,7 @@ lookup latn.ccmp_NFD {
     sub l dotbelowcomb macroncomb by ldotbelowmacron;
     sub l ringbelowcomb acutecomb by l_ringbelowcomb_acutecomb;
     sub l ringbelowcomb macroncomb by l_ringbelowcomb_macroncomb;
-    sub o tildecomb acutecomb by otilde_acutecomb;
+    sub o tildecomb acutecomb by otildeacute;
     sub o macroncomb brevecomb by omacron_brevecomb;
     sub r dotbelowcomb gravecomb by rdotbelow_gravecomb;
     sub r dotbelowcomb acutecomb by rdotbelow_acutecomb;
@@ -116,7 +116,7 @@ lookup latn.ccmp_NFD {
     sub r ringbelowcomb gravecomb by r_ringbelowcomb_gravecomb;
     sub r ringbelowcomb acutecomb by r_ringbelowcomb_acutecomb;
     sub r ringbelowcomb macroncomb by r_ringbelowcomb_macroncomb;
-    sub u tildecomb acutecomb by utilde_acutecomb;
+    sub u tildecomb acutecomb by utildeacute;
     sub u macroncomb gravecomb by umacron_gravecomb;
     sub u macroncomb acutecomb by umacron_acutecomb;
     sub u macroncomb tildecomb by umacron_tildecomb;
@@ -133,7 +133,7 @@ lookup latn.ccmp_NFD {
     sub AE acutecomb by AEacute;
     sub AE macroncomb by AEmacron;
     sub B dieresisbelowcomb by B_dieresisbelowcomb;
-    sub C acutecomb by cacute;
+    sub C acutecomb by Cacute;
     sub C circumflexcomb by Ccircumflex;
     sub C caroncomb by Ccaron;
     sub C dotaccentcomb by Cdotaccent;
@@ -405,7 +405,6 @@ lookup latn.ccmp_NFC {
     sub Amacron brevecomb by Amacron_brevecomb;
     sub Aring acutecomb by Aringacute;
     sub Etilde acutecomb by Etilde_acutecomb;
-    sub Emacron acutecomb by Emacron_acutecomb;
     sub Emacron brevecomb by Emacron_brevecomb;
     sub Itilde acutecomb by Itilde_acutecomb;
     sub Imacron gravecomb by Imacron_gravecomb;
@@ -414,12 +413,10 @@ lookup latn.ccmp_NFC {
     sub Imacron brevecomb by Imacron_brevecomb;
     sub Ldotbelow acutecomb by Ldotbelow_acutecomb;
     sub Ldotbelowmacron acutecomb by Ldotbelowmacron_acutecomb;
-    sub Otilde acutecomb by Otilde_acutecomb;
     sub Omacron brevecomb by Omacron_brevecomb;
     sub Rdotbelow gravecomb by Rdotbelow_gravecomb;
     sub Rdotbelow acutecomb by Rdotbelow_acutecomb;
     sub Rdotbelowmacron acutecomb by Rdotbelowmacron_acutecomb;
-    sub Utilde acutecomb by Utilde_acutecomb;
     sub Umacron gravecomb by Umacron_gravecomb;
     sub Umacron acutecomb by Umacron_acutecomb;
     sub Umacron tildecomb by Umacron_tildecomb;
@@ -433,7 +430,6 @@ lookup latn.ccmp_NFC {
     sub amacron brevecomb by amacron_brevecomb;
     sub aring acutecomb by aringacute;
     sub etilde acutecomb by etilde_acutecomb;
-    sub emacron acutecomb by emacron_acutecomb;
     sub emacron brevecomb by emacron_brevecomb;
     sub itilde acutecomb by itilde_acutecomb;
     sub imacron gravecomb by imacron_gravecomb;
@@ -442,12 +438,10 @@ lookup latn.ccmp_NFC {
     sub imacron brevecomb by imacron_brevecomb;
     sub ldotbelow acutecomb by ldotbelow_acutecomb;
     sub ldotbelowmacron acutecomb by ldotbelowmacron_acutecomb;
-    sub otilde acutecomb by otilde_acutecomb;
     sub omacron brevecomb by omacron_brevecomb;
     sub rdotbelow gravecomb by rdotbelow_gravecomb;
     sub rdotbelow acutecomb by rdotbelow_acutecomb;
     sub rdotbelowmacron acutecomb by rdotbelowmacron_acutecomb;
-    sub utilde acutecomb by utilde_acutecomb;
     sub umacron gravecomb by umacron_gravecomb;
     sub umacron acutecomb by umacron_acutecomb;
     sub umacron tildecomb by umacron_tildecomb;
@@ -594,7 +588,7 @@ lookup latn.c2sc {
     sub Etilde_acutecomb by Etilde_acutecomb.sc;
     sub Edieresis by Edieresis.sc;
     sub Emacron by Emacron.sc;
-    sub Emacron_acutecomb by Emacron_acutecomb.sc;
+    sub Emacronacute by Emacronacute.sc;
     sub Emacron_brevecomb by Emacron_brevecomb.sc;
     sub Ebreve by Ebreve.sc;
     sub Edotaccent by Edotaccent.sc;
@@ -664,7 +658,7 @@ lookup latn.c2sc {
     sub Oacute by Oacute.sc;
     sub Ocircumflex by Ocircumflex.sc;
     sub Otilde by Otilde.sc;
-    sub Otilde_acutecomb by Otilde_acutecomb.sc;
+    sub Otildeacute by Otildeacute.sc;
     sub Odieresis by Odieresis.sc;
     sub Omacron by Omacron.sc;
     sub Omacron_brevecomb by Omacron_brevecomb.sc;
@@ -710,7 +704,7 @@ lookup latn.c2sc {
     sub Uacute by Uacute.sc;
     sub Ucircumflex by Ucircumflex.sc;
     sub Utilde by Utilde.sc;
-    sub Utilde_acutecomb by Utilde_acutecomb.sc;
+    sub Utildeacute by Utildeacute.sc;
     sub Udieresis by Udieresis.sc;
     sub Umacron by Umacron.sc;
     sub Umacron_gravecomb by Umacron_gravecomb.sc;
@@ -826,7 +820,7 @@ lookup latn.smcp {
     sub etilde_acutecomb by Etilde_acutecomb.sc;
     sub edieresis by Edieresis.sc;
     sub emacron by Emacron.sc;
-    sub emacron_acutecomb by Emacron_acutecomb.sc;
+    sub emacronacute by Emacronacute.sc;
     sub emacron_brevecomb by Emacron_brevecomb.sc;
     sub ebreve by Ebreve.sc;
     sub edotaccent by Edotaccent.sc;
@@ -896,7 +890,7 @@ lookup latn.smcp {
     sub oacute by Oacute.sc;
     sub ocircumflex by Ocircumflex.sc;
     sub otilde by Otilde.sc;
-    sub otilde_acutecomb by Otilde_acutecomb.sc;
+    sub otildeacute by Otildeacute.sc;
     sub odieresis by Odieresis.sc;
     sub omacron by Omacron.sc;
     sub omacron_brevecomb by Omacron_brevecomb.sc;
@@ -941,7 +935,7 @@ lookup latn.smcp {
     sub uacute by Uacute.sc;
     sub ucircumflex by Ucircumflex.sc;
     sub utilde by Utilde.sc;
-    sub utilde_acutecomb by Utilde_acutecomb.sc;
+    sub utildeacute by Utildeacute.sc;
     sub udieresis by Udieresis.sc;
     sub umacron by Umacron.sc;
     sub umacron_gravecomb by Umacron_gravecomb.sc;
@@ -1022,14 +1016,15 @@ lookup latn.liga._f {
 } latn.liga._f;
 
 lookup latn.liga._ij {
-    sub f' [i j] by f._ij;
-    sub longs' [i j] by longs._ij;
+    sub f' [i j ij] by f._ij;
+    sub longs' [i j ij] by longs._ij;
 } latn.liga._ij;
 
 lookup latn.liga.f_ij {
     sub f._ij i' by i.f_;
     sub f._ij j' by j.f_;
     sub f._ij iogonek' by iogonek.f_;
+    sub f._ij ij' by ij.f_;
 } latn.liga.f_ij;
 
 lookup latn.liga._longs {

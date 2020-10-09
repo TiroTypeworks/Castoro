@@ -716,6 +716,8 @@
     <integer>60</integer>
     <key>ij</key>
     <integer>25</integer>
+    <key>ij_acutecomb</key>
+    <integer>10</integer>
     <key>imacron</key>
     <integer>40</integer>
     <key>imacron_acutecomb</key>
