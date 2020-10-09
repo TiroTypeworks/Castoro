@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Emacronacute" format="2">
+  <advance width="640"/>
+  <unicode hex="1E16"/>
+  <outline>
+    <component base="E"/>
+    <component base="macroncomb.cap" xOffset="610" yOffset="-10"/>
+    <component base="acutecomb.cap" xOffset="610" yOffset="120"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,0</string>
+  </dict>
+  </lib>
+</glyph>
