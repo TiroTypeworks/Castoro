@@ -1,8 +1,6 @@
 from __future__ import absolute_import, division, unicode_literals
 from pip._vendor.six import text_type
 
-from collections import OrderedDict
-
 from lxml import etree
 from ..treebuilders.etree import tag_regexp
 
@@ -165,7 +163,7 @@ class TreeWalker(base.NonRecursiveTreeWalker):
             else:
                 namespace = None
                 tag = ensure_str(node.tag)
-            attrs = OrderedDict()
+            attrs = {}
             for name, value in list(node.attrib.items()):
                 name = ensure_str(name)
                 value = ensure_str(value)

@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/tiro_j/Documents/Work Files/Git repos/Castoro/venv"
+VIRTUAL_ENV="/Users/vv_monsalve/Documents/03_GOOGLE/GF_Fonts/Castoro/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

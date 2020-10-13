@@ -319,7 +319,7 @@ except ImportError: # pragma: no cover
 try:
     callable = callable
 except NameError:   # pragma: no cover
-    from collections.abc import Callable
+    from collections import Callable
 
     def callable(obj):
         return isinstance(obj, Callable)

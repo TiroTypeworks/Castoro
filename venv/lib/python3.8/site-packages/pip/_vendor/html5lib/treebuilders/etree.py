@@ -5,8 +5,6 @@ from pip._vendor.six import text_type
 
 import re
 
-from copy import copy
-
 from . import base
 from .. import _ihatexml
 from .. import constants
@@ -63,17 +61,16 @@ def getETreeBuilder(ElementTreeImplementation, fullTree=False):
             return self._element.attrib
 
         def _setAttributes(self, attributes):
-            el_attrib = self._element.attrib
-            el_attrib.clear()
-            if attributes:
-                # calling .items _always_ allocates, and the above truthy check is cheaper than the
-                # allocation on average
-                for key, value in attributes.items():
-                    if isinstance(key, tuple):
-                        name = "{%s}%s" % (key[2], key[1])
-                    else:
-                        name = key
-                    el_attrib[name] = value
+            # Delete existing attributes first
+            # XXX - there may be a better way to do this...
+            for key in list(self._element.attrib.keys()):
+                del self._element.attrib[key]
+            for key, value in attributes.items():
+                if isinstance(key, tuple):
+                    name = "{%s}%s" % (key[2], key[1])
+                else:
+                    name = key
+                self._element.set(name, value)
 
         attributes = property(_getAttributes, _setAttributes)
 
@@ -132,8 +129,8 @@ def getETreeBuilder(ElementTreeImplementation, fullTree=False):
 
         def cloneNode(self):
             element = type(self)(self.name, self.namespace)
-            if self._element.attrib:
-                element._element.attrib = copy(self._element.attrib)
+            for name, value in self.attributes.items():
+                element.attributes[name] = value
             return element
 
         def reparentChildren(self, newParent):
