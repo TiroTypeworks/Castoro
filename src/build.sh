@@ -22,14 +22,15 @@ done
 echo = "Generating OTFs"
 # fontmake -u ./UFO/Castoro-Regular.ufo -o otf --output-dir ../fonts/otf -a
 # fontmake -u ./UFO/Castoro-Italic.ufo -o otf --output-dir ../fonts/otf -a
-fontmake -m ./UFO/Castoro_Roman.designspace -o otf --output-dir ../fonts/otf -a
-fontmake -m ./UFO/Castoro_Italic.designspace -o otf --output-dir ../fonts/otf -a
+fontmake -m ./UFO/Castoro_Roman.designspace -o otf --output-dir ../fonts/otf
+fontmake -m ./UFO/Castoro_Italic.designspace -o otf --output-dir ../fonts/otf
 
 echo "Post processing static OTFs"
 otf=$(ls ../fonts/otf/*.otf)
 for otf in $otf
 do
-	gftools fix-dsig -f $otf
+	gftools fix-dsig -f $otf;
+    psautohint $otf;
 done
 
 echo "Done!"

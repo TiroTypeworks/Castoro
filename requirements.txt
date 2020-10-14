@@ -1,4 +1,6 @@
+fontbakery
 fontmake
-git+https://github.com/googlefonts/gftools
+afdko
+gftools
 statmake
 brotli
