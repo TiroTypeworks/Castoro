@@ -11,9 +11,9 @@ echo = "Post procesing TTF"
 ttfs=$(ls ../fonts/ttf/*.ttf)
 for ttf in $ttfs
 do
-    python ../venv/bin/gftools fix-hinting $ttf
+    python ../venv/bin/gftools-fix-hinting.py $ttf
     mv "$ttf.fix" $ttf
-    python ../venv/bin/gftools fix-dsig -f $ttf;
+    python ../venv/bin/gftools-fix-dsig.py -f $ttf;
 done
 
 echo = "Generating OTFs"
@@ -24,7 +24,7 @@ echo "Post processing static OTFs"
 otf=$(ls ../fonts/otf/*.otf)
 for otf in $otf
 do
-	python ../venv/bin/gftools fix-dsig -f $otf;
+	python ../venv/bin/gftools-fix-dsig.py -f $otf;
     ../venv/bin/psautohint $otf;
 done
 
