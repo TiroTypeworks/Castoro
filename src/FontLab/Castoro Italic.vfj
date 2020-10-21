@@ -132,7 +132,7 @@
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -258,7 +258,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -368,7 +368,7 @@
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2020-09-09 21:42:35",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -512,7 +512,7 @@
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -573,7 +573,7 @@
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -657,7 +657,7 @@
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -747,7 +747,7 @@
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -825,7 +825,7 @@
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1025,7 +1025,7 @@
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1366,7 +1366,7 @@
       {
         "name":"U",
         "unicode":"0055",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1419,7 +1419,7 @@
       {
         "name":"V",
         "unicode":"0056",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8502,7 +8502,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8625,7 +8625,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8724,7 +8724,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9008,7 +9008,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9639,7 +9639,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9686,7 +9686,7 @@
       {
         "name":"p",
         "unicode":"0070",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9750,7 +9750,7 @@
       {
         "name":"q",
         "unicode":"0071",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -10063,7 +10063,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -10107,7 +10107,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -10171,7 +10171,7 @@
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -10232,7 +10232,7 @@
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2020-08-28 19:40:46",
+        "lastModified":"2020-10-20 22:35:39",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -35713,7 +35713,7 @@
       "trademark":"Castoro is a trademark of Tiro Typeworks Ltd..",
       "designer":"John Hudson with Paul Hanslow, assisted by Kaja Słojewska.",
       "designerURL":"https://www.tiro.com",
-      "license":"Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro). This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+      "license":"This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
       "licenseURL":"https://scripts.sil.org/OFL",
       "manufacturer":"Tiro Typeworks Ltd.",
       "manufacturerURL":"https://www.tiro.com/",
