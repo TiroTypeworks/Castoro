@@ -131,7 +131,7 @@
   </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2020/08/28 12:33:42</string>
+  <string>2020/08/28 13:33:42</string>
   <key>openTypeHeadFlags</key>
   <array>
   </array>
@@ -160,7 +160,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Italic</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.17 Build 009</string>
+  <string>Version 1.18 Build 010</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -323,7 +323,7 @@
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>170</integer>
+  <integer>180</integer>
   <key>xHeight</key>
   <integer>475</integer>
   <key>year</key>

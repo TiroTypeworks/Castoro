@@ -186,7 +186,6 @@ lookup latn.ccmp_NFD {
     sub L dotbelowcomb by Ldotbelow;
     sub L dieresisbelowcomb by L_dieresisbelowcomb;
     sub L ringbelowcomb by L_ringbelowcomb;
-    sub L periodcentered by Ldot;
     sub M brevecomb by M_brevecomb;
     sub M dotaccentcomb by Mdotaccent;
     sub M candrabinducomb by M_candrabinducomb;
