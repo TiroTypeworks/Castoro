@@ -127,7 +127,7 @@
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -247,7 +247,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -344,7 +344,7 @@
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -473,7 +473,7 @@
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -528,7 +528,7 @@
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -603,7 +603,7 @@
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -685,7 +685,7 @@
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -754,7 +754,7 @@
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -912,7 +912,7 @@
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1217,7 +1217,7 @@
       {
         "name":"U",
         "unicode":"0055",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1265,7 +1265,7 @@
       {
         "name":"V",
         "unicode":"0056",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8080,7 +8080,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8189,7 +8189,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "guidelines":[
@@ -8204,7 +8205,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8300,7 +8301,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8569,7 +8570,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9175,7 +9176,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9215,7 +9216,7 @@
       {
         "name":"p",
         "unicode":"0070",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9273,7 +9274,7 @@
       {
         "name":"q",
         "unicode":"0071",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9537,7 +9538,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9583,7 +9584,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9646,7 +9647,7 @@
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9731,7 +9732,7 @@
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2020-10-20 22:35:25",
+        "lastModified":"2020-10-28 17:54:32",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -34058,19 +34059,19 @@
       },
       {
         "name":"case",
-        "feature":"feature case {\n    script latn;\n    language dflt;\n    lookup latn.case;\n    lookup xxxx.lnum;\n    language CAT;\n    lookup latn.case;\n    lookup xxxx.lnum;\n    language NLD;\n    lookup latn.case;\n    lookup xxxx.lnum;\n    language MOL;\n    lookup latn.case;\n    lookup xxxx.lnum;\n    language ROM;\n    lookup latn.case;\n    lookup xxxx.lnum;\n    language TRK;\n    lookup latn.case;\n    lookup xxxx.lnum;\n} case;\n\n"
+        "feature":"feature case {\n    script latn;\n    language dflt;\n    lookup latn.case;\n    lookup xxxx.lnum;\n    language CAT;\n    language NLD;\n    language MOL;\n    language ROM;\n    language TRK;\n} case;\n\n"
       },
       {
         "name":"frac",
-        "feature":"feature frac {\n    script latn;\n    language dflt;\n    lookup xxxx.frac_slash;\n    lookup xxxx.frac_numr;\n    lookup xxxx.frac_dnom;\n    language CAT;\n    lookup xxxx.frac_slash;\n    lookup xxxx.frac_numr;\n    lookup xxxx.frac_dnom;\n    language NLD;\n    lookup xxxx.frac_slash;\n    lookup xxxx.frac_numr;\n    lookup xxxx.frac_dnom;\n    language MOL;\n    lookup xxxx.frac_slash;\n    lookup xxxx.frac_numr;\n    lookup xxxx.frac_dnom;\n    language ROM;\n    lookup xxxx.frac_slash;\n    lookup xxxx.frac_numr;\n    lookup xxxx.frac_dnom;\n    language TRK;\n    lookup xxxx.frac_slash;\n    lookup xxxx.frac_numr;\n    lookup xxxx.frac_dnom;\n} frac;\n\n"
+        "feature":"feature frac {\n    script latn;\n    language dflt;\n    lookup xxxx.frac_slash;\n    lookup xxxx.frac_numr;\n    lookup xxxx.frac_dnom;\n    language CAT;\n    language NLD;\n    language MOL;\n    language ROM;\n    language TRK;\n} frac;\n\n"
       },
       {
         "name":"ccmp",
-        "feature":"feature ccmp {\n    script latn;\n    language dflt;\n    lookup latn.ccmp_NFD;\n    lookup latn.ccmp_NFC;\n    lookup latn.ccmp_capmarks;\n    language CAT;\n    lookup latn.ccmp_NFD;\n    lookup latn.ccmp_NFC;\n    lookup latn.ccmp_capmarks;\n    language NLD;\n    lookup latn.ccmp_NFD;\n    lookup latn.ccmp_NFC;\n    lookup latn.ccmp_capmarks;\n    language MOL;\n    lookup latn.ccmp_NFD;\n    lookup latn.ccmp_NFC;\n    lookup latn.ccmp_capmarks;\n    language ROM;\n    lookup latn.ccmp_NFD;\n    lookup latn.ccmp_NFC;\n    lookup latn.ccmp_capmarks;\n    language TRK;\n    lookup latn.ccmp_NFD;\n    lookup latn.ccmp_NFC;\n    lookup latn.ccmp_capmarks;\n} ccmp;\n\n"
+        "feature":"feature ccmp {\n    script latn;\n    language dflt;\n    lookup latn.ccmp_NFD;\n    lookup latn.ccmp_NFC;\n    lookup latn.ccmp_capmarks;\n    language CAT;\n    language NLD;\n    language MOL;\n    language ROM;\n    language TRK;\n} ccmp;\n\n"
       },
       {
         "name":"lnum",
-        "feature":"feature lnum {\n    script latn;\n    language dflt;\n    lookup xxxx.lnum;\n    language CAT;\n    lookup xxxx.lnum;\n    language NLD;\n    lookup xxxx.lnum;\n    language MOL;\n    lookup xxxx.lnum;\n    language ROM;\n    lookup xxxx.lnum;\n    language TRK;\n    lookup xxxx.lnum;\n} lnum;\n\n"
+        "feature":"feature lnum {\n    script latn;\n    language dflt;\n    lookup xxxx.lnum;\n    language CAT;\n    language NLD;\n    language MOL;\n    language ROM;\n    language TRK;\n} lnum;\n\n"
       },
       {
         "name":"locl",
@@ -34078,23 +34079,23 @@
       },
       {
         "name":"smcp",
-        "feature":"feature smcp {\n    script latn;\n    language dflt;\n    lookup latn.smcp;\n    language CAT;\n    lookup latn.smcp;\n    language NLD;\n    lookup latn.smcp;\n    language MOL;\n    lookup latn.smcp;\n    language ROM;\n    lookup latn.smcp;\n    language TRK;\n    lookup latn.smcp;\n} smcp;\n\n"
+        "feature":"feature smcp {\n    script latn;\n    language dflt;\n    lookup latn.smcp;\n    language CAT;\n    language NLD;\n    language MOL;\n    language ROM;\n    language TRK;\n} smcp;\n\n"
       },
       {
         "name":"c2sc",
-        "feature":"feature c2sc {\n    script latn;\n    language dflt;\n    lookup latn.c2sc;\n    lookup xxxx.c2sc;\n    language CAT;\n    lookup latn.c2sc;\n    lookup xxxx.c2sc;\n    language NLD;\n    lookup latn.c2sc;\n    lookup xxxx.c2sc;\n    language MOL;\n    lookup latn.c2sc;\n    lookup xxxx.c2sc;\n    language ROM;\n    lookup latn.c2sc;\n    lookup xxxx.c2sc;\n    language TRK;\n    lookup latn.c2sc;\n    lookup xxxx.c2sc;\n} c2sc;\n\n"
+        "feature":"feature c2sc {\n    script latn;\n    language dflt;\n    lookup latn.c2sc;\n    lookup xxxx.c2sc;\n    language CAT;\n    language NLD;\n    language MOL;\n    language ROM;\n    language TRK;\n} c2sc;\n\n"
       },
       {
         "name":"liga",
-        "feature":"feature liga {\n    script latn;\n    language dflt;\n    lookup latn.liga._asc;\n    lookup latn.liga._f;\n    lookup latn.liga._ij;\n    lookup latn.liga.f_ij;\n    lookup latn.liga._longs;\n    language CAT;\n    lookup latn.liga._asc;\n    lookup latn.liga._f;\n    lookup latn.liga._ij;\n    lookup latn.liga.f_ij;\n    lookup latn.liga._longs;\n    language NLD;\n    lookup latn.liga._asc;\n    lookup latn.liga._f;\n    lookup latn.liga._ij;\n    lookup latn.liga.f_ij;\n    lookup latn.liga._longs;\n    language MOL;\n    lookup latn.liga._asc;\n    lookup latn.liga._f;\n    lookup latn.liga._ij;\n    lookup latn.liga.f_ij;\n    lookup latn.liga._longs;\n    language ROM;\n    lookup latn.liga._asc;\n    lookup latn.liga._f;\n    lookup latn.liga._ij;\n    lookup latn.liga.f_ij;\n    lookup latn.liga._longs;\n    language TRK;\n    lookup latn.liga._asc;\n    lookup latn.liga._f;\n    lookup latn.liga._ij;\n    lookup latn.liga.f_ij;\n    lookup latn.liga._longs;\n} liga;\n\n"
+        "feature":"feature liga {\n    script latn;\n    language dflt;\n    lookup latn.liga._asc;\n    lookup latn.liga._f;\n    lookup latn.liga._ij;\n    lookup latn.liga.f_ij;\n    lookup latn.liga._longs;\n    language CAT;\n    language NLD;\n    language MOL;\n    language ROM;\n    language TRK;\n} liga;\n\n"
       },
       {
         "name":"subs",
-        "feature":"feature subs {\n    script latn;\n    language dflt;\n    lookup xxxx.subs;\n    language CAT;\n    lookup xxxx.subs;\n    language NLD;\n    lookup xxxx.subs;\n    language MOL;\n    lookup xxxx.subs;\n    language ROM;\n    lookup xxxx.subs;\n    language TRK;\n    lookup xxxx.subs;\n} subs;\n\n"
+        "feature":"feature subs {\n    script latn;\n    language dflt;\n    lookup xxxx.subs;\n    language CAT;\n    language NLD;\n    language MOL;\n    language ROM;\n    language TRK;\n} subs;\n\n"
       },
       {
         "name":"sups",
-        "feature":"feature sups {\n    script latn;\n    language dflt;\n    lookup xxxx.sups;\n    language CAT;\n    lookup xxxx.sups;\n    language NLD;\n    lookup xxxx.sups;\n    language MOL;\n    lookup xxxx.sups;\n    language ROM;\n    lookup xxxx.sups;\n    language TRK;\n    lookup xxxx.sups;\n} sups;\n"
+        "feature":"feature sups {\n    script latn;\n    language dflt;\n    lookup xxxx.sups;\n    language CAT;\n    language NLD;\n    language MOL;\n    language ROM;\n    language TRK;\n} sups;\n"
       }
     ],
     "hinting":{
@@ -34161,7 +34162,7 @@
     "info":{
       "tfn":"Castoro",
       "sgn":"Castoro",
-      "creationDate":"2020/08/28 13:33:36",
+      "creationDate":"2020/08/28 15:33:36",
       "copyright":"Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)",
       "trademark":"Castoro is a trademark of Tiro Typeworks Ltd..",
       "designer":"John Hudson",
@@ -34172,8 +34173,8 @@
       "manufacturerURL":"https://www.tiro.com/",
       "vendorID":"TIRO",
       "versionMajor":1,
-      "versionMinor":180,
-      "version":"Version 1.18 Build 010",
+      "versionMinor":190,
+      "version":"Version 1.19 Build 011",
       "codepageRange":"0000000000000093",
       "unicodeRange":"00000000000000000000200ba000006f",
       "useTypoMetrics":false,

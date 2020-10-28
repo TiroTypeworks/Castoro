@@ -1038,20 +1038,10 @@ feature case {
     lookup latn.case;
     lookup xxxx.lnum;
     language CAT;
-    lookup latn.case;
-    lookup xxxx.lnum;
     language NLD;
-    lookup latn.case;
-    lookup xxxx.lnum;
     language MOL;
-    lookup latn.case;
-    lookup xxxx.lnum;
     language ROM;
-    lookup latn.case;
-    lookup xxxx.lnum;
     language TRK;
-    lookup latn.case;
-    lookup xxxx.lnum;
 } case;
 
 feature frac {
@@ -1061,25 +1051,10 @@ feature frac {
     lookup xxxx.frac_numr;
     lookup xxxx.frac_dnom;
     language CAT;
-    lookup xxxx.frac_slash;
-    lookup xxxx.frac_numr;
-    lookup xxxx.frac_dnom;
     language NLD;
-    lookup xxxx.frac_slash;
-    lookup xxxx.frac_numr;
-    lookup xxxx.frac_dnom;
     language MOL;
-    lookup xxxx.frac_slash;
-    lookup xxxx.frac_numr;
-    lookup xxxx.frac_dnom;
     language ROM;
-    lookup xxxx.frac_slash;
-    lookup xxxx.frac_numr;
-    lookup xxxx.frac_dnom;
     language TRK;
-    lookup xxxx.frac_slash;
-    lookup xxxx.frac_numr;
-    lookup xxxx.frac_dnom;
 } frac;
 
 feature ccmp {
@@ -1089,25 +1064,10 @@ feature ccmp {
     lookup latn.ccmp_NFC;
     lookup latn.ccmp_capmarks;
     language CAT;
-    lookup latn.ccmp_NFD;
-    lookup latn.ccmp_NFC;
-    lookup latn.ccmp_capmarks;
     language NLD;
-    lookup latn.ccmp_NFD;
-    lookup latn.ccmp_NFC;
-    lookup latn.ccmp_capmarks;
     language MOL;
-    lookup latn.ccmp_NFD;
-    lookup latn.ccmp_NFC;
-    lookup latn.ccmp_capmarks;
     language ROM;
-    lookup latn.ccmp_NFD;
-    lookup latn.ccmp_NFC;
-    lookup latn.ccmp_capmarks;
     language TRK;
-    lookup latn.ccmp_NFD;
-    lookup latn.ccmp_NFC;
-    lookup latn.ccmp_capmarks;
 } ccmp;
 
 feature lnum {
@@ -1115,15 +1075,10 @@ feature lnum {
     language dflt;
     lookup xxxx.lnum;
     language CAT;
-    lookup xxxx.lnum;
     language NLD;
-    lookup xxxx.lnum;
     language MOL;
-    lookup xxxx.lnum;
     language ROM;
-    lookup xxxx.lnum;
     language TRK;
-    lookup xxxx.lnum;
 } lnum;
 
 feature locl {
@@ -1145,15 +1100,10 @@ feature smcp {
     language dflt;
     lookup latn.smcp;
     language CAT;
-    lookup latn.smcp;
     language NLD;
-    lookup latn.smcp;
     language MOL;
-    lookup latn.smcp;
     language ROM;
-    lookup latn.smcp;
     language TRK;
-    lookup latn.smcp;
 } smcp;
 
 feature c2sc {
@@ -1162,20 +1112,10 @@ feature c2sc {
     lookup latn.c2sc;
     lookup xxxx.c2sc;
     language CAT;
-    lookup latn.c2sc;
-    lookup xxxx.c2sc;
     language NLD;
-    lookup latn.c2sc;
-    lookup xxxx.c2sc;
     language MOL;
-    lookup latn.c2sc;
-    lookup xxxx.c2sc;
     language ROM;
-    lookup latn.c2sc;
-    lookup xxxx.c2sc;
     language TRK;
-    lookup latn.c2sc;
-    lookup xxxx.c2sc;
 } c2sc;
 
 feature liga {
@@ -1187,35 +1127,10 @@ feature liga {
     lookup latn.liga.f_ij;
     lookup latn.liga._longs;
     language CAT;
-    lookup latn.liga._asc;
-    lookup latn.liga._f;
-    lookup latn.liga._ij;
-    lookup latn.liga.f_ij;
-    lookup latn.liga._longs;
     language NLD;
-    lookup latn.liga._asc;
-    lookup latn.liga._f;
-    lookup latn.liga._ij;
-    lookup latn.liga.f_ij;
-    lookup latn.liga._longs;
     language MOL;
-    lookup latn.liga._asc;
-    lookup latn.liga._f;
-    lookup latn.liga._ij;
-    lookup latn.liga.f_ij;
-    lookup latn.liga._longs;
     language ROM;
-    lookup latn.liga._asc;
-    lookup latn.liga._f;
-    lookup latn.liga._ij;
-    lookup latn.liga.f_ij;
-    lookup latn.liga._longs;
     language TRK;
-    lookup latn.liga._asc;
-    lookup latn.liga._f;
-    lookup latn.liga._ij;
-    lookup latn.liga.f_ij;
-    lookup latn.liga._longs;
 } liga;
 
 feature subs {
@@ -1223,15 +1138,10 @@ feature subs {
     language dflt;
     lookup xxxx.subs;
     language CAT;
-    lookup xxxx.subs;
     language NLD;
-    lookup xxxx.subs;
     language MOL;
-    lookup xxxx.subs;
     language ROM;
-    lookup xxxx.subs;
     language TRK;
-    lookup xxxx.subs;
 } subs;
 
 feature sups {
@@ -1239,13 +1149,8 @@ feature sups {
     language dflt;
     lookup xxxx.sups;
     language CAT;
-    lookup xxxx.sups;
     language NLD;
-    lookup xxxx.sups;
     language MOL;
-    lookup xxxx.sups;
     language ROM;
-    lookup xxxx.sups;
     language TRK;
-    lookup xxxx.sups;
 } sups;
