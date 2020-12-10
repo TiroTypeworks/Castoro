@@ -132,14 +132,14 @@
       <point x="883" y="692"/>
       <point x="882" y="699" type="curve"/>
       <point x="845" y="699"/>
-      <point x="787" y="697"/>
+      <point x="807" y="698"/>
       <point x="778" y="698" type="curve"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.651,1,0.6,0</string>
+  <string>1,0.801,0.6,1</string>
   </dict>
   </lib>
 </glyph>

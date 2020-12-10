@@ -9,11 +9,11 @@
   </outline>
   <lib>
   <dict>
-    <key>note</key>
-    <string>one.numr fraction 20
-fraction two.dnom -10</string>
+  <key>note</key>
+  <string>one.numr fraction 20&#xd;
+  fraction two.dnom -10</string>
   <key>public.markColor</key>
-  <string>0.972,0.6,1,0</string>
+  <string>0.972,0.6,1,1</string>
   </dict>
   </lib>
 </glyph>

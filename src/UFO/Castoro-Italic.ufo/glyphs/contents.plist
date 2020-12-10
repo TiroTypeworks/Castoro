@@ -1370,6 +1370,8 @@
   <string>macroncomb.cap.glif</string>
   <key>macrondblbelowcomb</key>
   <string>macrondblbelowcomb.glif</string>
+  <key>magicglyph</key>
+  <string>magicglyph.glif</string>
   <key>mathspacemedium</key>
   <string>mathspacemedium.glif</string>
   <key>mdotaccent</key>
