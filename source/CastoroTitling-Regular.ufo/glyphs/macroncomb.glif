@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macroncomb" format="2">
+  <unicode hex="0304"/>
+  <outline>
+    <contour>
+      <point x="-408" y="815" type="line"/>
+      <point x="-410" y="803"/>
+      <point x="-410" y="791"/>
+      <point x="-408" y="779" type="curve"/>
+      <point x="-164" y="779" type="line"/>
+      <point x="-162" y="791"/>
+      <point x="-162" y="803"/>
+      <point x="-164" y="815" type="curve"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-154" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.651,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

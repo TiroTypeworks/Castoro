@@ -1,3 +1,4 @@
+/venv
+/output
 .DS_Store
-venv
 .github
