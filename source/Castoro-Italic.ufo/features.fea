@@ -510,16 +510,16 @@ lookup xxxx.frac_numr {
 } xxxx.frac_numr;
 
 lookup xxxx.frac_dnom {
-    sub zero.numr' [fraction @numerals.dnom] by zero.dnom;
-    sub one.numr' [fraction @numerals.dnom] by one.dnom;
-    sub two.numr' [fraction @numerals.dnom] by two.dnom;
-    sub three.numr' [fraction @numerals.dnom] by three.dnom;
-    sub four.numr' [fraction @numerals.dnom] by four.dnom;
-    sub five.numr' [fraction @numerals.dnom] by five.dnom;
-    sub six.numr' [fraction @numerals.dnom] by six.dnom;
-    sub seven.numr' [fraction @numerals.dnom] by seven.dnom;
-    sub eight.numr' [fraction @numerals.dnom] by eight.dnom;
-    sub nine.numr' [fraction @numerals.dnom] by nine.dnom;
+    sub [fraction @numerals.dnom] zero.numr' by zero.dnom;
+    sub [fraction @numerals.dnom] one.numr' by one.dnom;
+    sub [fraction @numerals.dnom] two.numr' by two.dnom;
+    sub [fraction @numerals.dnom] three.numr' by three.dnom;
+    sub [fraction @numerals.dnom] four.numr' by four.dnom;
+    sub [fraction @numerals.dnom] five.numr' by five.dnom;
+    sub [fraction @numerals.dnom] six.numr' by six.dnom;
+    sub [fraction @numerals.dnom] seven.numr' by seven.dnom;
+    sub [fraction @numerals.dnom] eight.numr' by eight.dnom;
+    sub [fraction @numerals.dnom] nine.numr' by nine.dnom;
 } xxxx.frac_dnom;
 
 lookup latn.c2sc {

@@ -306,7 +306,7 @@
   </dict>
   </array>
   <key>italicAngle</key>
-  <integer>0</integer>
+  <integer>-0</integer>
   <key>openTypeGaspRangeRecords</key>
   <array>
   <dict>
@@ -360,7 +360,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.20 Build 013</string>
+  <string>Version 1.20 Build 015</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
