@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresisbelowcomb" format="2">
+  <unicode hex="0324"/>
+  <outline>
+    <contour>
+      <point x="-422" y="-104" type="curve" smooth="yes"/>
+      <point x="-422" y="-130"/>
+      <point x="-405" y="-149"/>
+      <point x="-378" y="-149" type="curve" smooth="yes"/>
+      <point x="-351" y="-149"/>
+      <point x="-333" y="-130"/>
+      <point x="-333" y="-104" type="curve" smooth="yes"/>
+      <point x="-333" y="-79"/>
+      <point x="-351" y="-60"/>
+      <point x="-378" y="-60" type="curve" smooth="yes"/>
+      <point x="-405" y="-60"/>
+      <point x="-422" y="-79"/>
+    </contour>
+    <contour>
+      <point x="-240" y="-104" type="curve" smooth="yes"/>
+      <point x="-240" y="-130"/>
+      <point x="-222" y="-149"/>
+      <point x="-195" y="-149" type="curve" smooth="yes"/>
+      <point x="-168" y="-149"/>
+      <point x="-151" y="-130"/>
+      <point x="-151" y="-104" type="curve" smooth="yes"/>
+      <point x="-151" y="-79"/>
+      <point x="-168" y="-60"/>
+      <point x="-195" y="-60" type="curve" smooth="yes"/>
+      <point x="-222" y="-60"/>
+      <point x="-240" y="-79"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="-97"/>
+  <guideline angle="90" x="-154" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.651,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

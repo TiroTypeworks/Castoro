@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Klinebelow_hlinebelow" format="2">
+  <advance width="1268"/>
+  <outline>
+    <component base="K"/>
+    <component base="h" xOffset="692"/>
+    <contour>
+      <point x="120" y="-103" type="line"/>
+      <point x="115" y="-119"/>
+      <point x="111" y="-137"/>
+      <point x="110" y="-153" type="curve"/>
+      <point x="1062" y="-153" type="line"/>
+      <point x="1067" y="-137"/>
+      <point x="1071" y="-119"/>
+      <point x="1072" y="-103" type="curve"/>
+    </contour>
+  </outline>
+  <guideline angle="79.0044" x="1099" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.879,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="emdash" format="2">
+  <advance width="1000"/>
+  <unicode hex="2014"/>
+  <outline>
+    <contour>
+      <point x="978" y="223" type="line"/>
+      <point x="984" y="244"/>
+      <point x="988" y="262"/>
+      <point x="990" y="281" type="curve"/>
+      <point x="23" y="281" type="line"/>
+      <point x="17" y="262"/>
+      <point x="13" y="242"/>
+      <point x="11" y="223" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.651,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

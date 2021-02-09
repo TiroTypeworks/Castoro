@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscore" format="2">
+  <advance width="400"/>
+  <unicode hex="005F"/>
+  <outline>
+    <contour>
+      <point x="-97" y="-88" type="line"/>
+      <point x="-97" y="-133" type="line"/>
+      <point x="373" y="-133" type="line"/>
+      <point x="373" y="-88" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="-110"/>
+  <guideline angle="79.0044" x="364" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.651,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

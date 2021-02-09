@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caroncomb.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-169" y="807" type="line"/>
+      <point x="-207" y="840"/>
+      <point x="-264" y="886"/>
+      <point x="-297" y="908" type="curve"/>
+      <point x="-305" y="905"/>
+      <point x="-314" y="900"/>
+      <point x="-322" y="894" type="curve"/>
+      <point x="-294" y="853"/>
+      <point x="-257" y="791"/>
+      <point x="-229" y="739" type="curve"/>
+      <point x="-209" y="734"/>
+      <point x="-171" y="734"/>
+      <point x="-152" y="739" type="curve"/>
+      <point x="-118" y="776"/>
+      <point x="-50" y="840"/>
+      <point x="4" y="888" type="curve"/>
+      <point x="-2" y="896"/>
+      <point x="-10" y="903"/>
+      <point x="-18" y="908" type="curve"/>
+      <point x="-52" y="891"/>
+      <point x="-137" y="840"/>
+      <point x="-188" y="808" type="curve"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="735"/>
+  <guideline angle="0" x="0" y="908"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.651,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>
