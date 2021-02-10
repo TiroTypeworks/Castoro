@@ -130,7 +130,7 @@
           65,
           97
         ],
-        "lastModified":"2021-02-09 23:27:06",
+        "lastModified":"2021-02-10 18:14:23",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -255,7 +255,7 @@
           67,
           99
         ],
-        "lastModified":"2021-02-09 23:27:06",
+        "lastModified":"2021-02-10 18:14:23",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -365,7 +365,7 @@
           69,
           101
         ],
-        "lastModified":"2021-02-09 23:27:06",
+        "lastModified":"2021-02-10 18:14:23",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -499,7 +499,7 @@
           71,
           103
         ],
-        "lastModified":"2021-02-09 23:27:06",
+        "lastModified":"2021-02-10 18:14:23",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -557,7 +557,7 @@
           72,
           104
         ],
-        "lastModified":"2021-02-09 23:27:06",
+        "lastModified":"2021-02-10 18:14:23",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -635,7 +635,7 @@
           73,
           105
         ],
-        "lastModified":"2021-02-09 23:27:06",
+        "lastModified":"2021-02-10 18:14:23",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -727,7 +727,7 @@
           75,
           107
         ],
-        "lastModified":"2021-02-09 23:27:06",
+        "lastModified":"2021-02-10 18:14:23",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -799,7 +799,7 @@
           76,
           108
         ],
-        "lastModified":"2021-02-09 23:27:06",
+        "lastModified":"2021-02-10 18:14:23",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -966,7 +966,7 @@
           79,
           111
         ],
-        "lastModified":"2021-02-09 23:27:06",
+        "lastModified":"2021-02-10 18:14:23",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1316,7 +1316,7 @@
           85,
           117
         ],
-        "lastModified":"2021-02-09 23:27:06",
+        "lastModified":"2021-02-10 18:14:23",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1367,7 +1367,7 @@
           86,
           118
         ],
-        "lastModified":"2021-02-09 23:27:06",
+        "lastModified":"2021-02-10 18:14:23",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -16254,14 +16254,14 @@
       "trademark":"Castoro is a trademark of Tiro Typeworks Ltd..",
       "designer":"John Hudson",
       "designerURL":"https://www.tiro.com",
-      "license":"Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro).\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+      "license":"This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
       "licenseURL":"https://scripts.sil.org/OFL",
       "manufacturer":"Tiro Typeworks Ltd.",
       "manufacturerURL":"https://www.tiro.com/",
       "vendorID":"TIRO",
       "versionMajor":1,
       "versionMinor":200,
-      "version":"Version 1.20 Build 015",
+      "version":"SPECIFY IN CONFIG YAML FILE",
       "codepageRange":"0000000000000093",
       "unicodeRange":"00000000000000000000200ba000006f",
       "useTypoMetrics":false,
