@@ -4,25 +4,52 @@
 #
 #    pip-compile requirements.in
 #
-appdirs==1.4.4            # via fs
-attrs==20.3.0             # via ufolib2
-booleanoperations==0.9.0  # via ufo2ft
-brotli==1.0.9             # via fonttools
-cffsubr==0.2.7            # via -r requirements.in
-compreffor==0.5.0         # via ufo2ft
-cu2qu==1.6.7              # via ufo2ft
-fonttools[ufo,woff]==4.18.0  # via -r requirements.in, booleanoperations, cffsubr, compreffor, cu2qu, psautohint, ufo2ft, ufolib2
-fs==2.4.11                # via fonttools
-psautohint==2.1.2         # via -r requirements.in
-pyclipper==1.2.0          # via booleanoperations
-pytz==2020.4              # via fs
-pyyaml==5.3.1             # via -r requirements.in
-six==1.15.0               # via fs
-skia-pathops==0.5.1.post1  # via -r requirements.in
-ttfautohint-py==0.4.3     # via -r requirements.in
-ufo2ft==2.18.1            # via -r requirements.in
-ufolib2==0.10.0           # via -r requirements.in
-zopfli==0.1.7             # via fonttools
+appdirs==1.4.4
+    # via fs
+attrs==20.3.0
+    # via ufolib2
+booleanoperations==0.9.0
+    # via ufo2ft
+brotli==1.0.9
+    # via fonttools
+cffsubr==0.2.7
+    # via -r requirements.in
+compreffor==0.5.0
+    # via ufo2ft
+cu2qu==1.6.7
+    # via ufo2ft
+fonttools[ufo,woff]==4.18.0
+    # via
+    #   -r requirements.in
+    #   booleanoperations
+    #   cffsubr
+    #   compreffor
+    #   cu2qu
+    #   psautohint
+    #   ufo2ft
+    #   ufolib2
+fs==2.4.11
+    # via fonttools
+psautohint==2.1.2
+    # via -r requirements.in
+pyclipper==1.2.0
+    # via booleanoperations
+pytz==2020.4
+    # via fs
+pyyaml==5.4
+    # via -r requirements.in
+six==1.15.0
+    # via fs
+skia-pathops==0.5.1.post1
+    # via -r requirements.in
+ttfautohint-py==0.4.3
+    # via -r requirements.in
+ufo2ft==2.18.1
+    # via -r requirements.in
+ufolib2==0.10.0
+    # via -r requirements.in
+zopfli==0.1.7
+    # via fonttools
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
