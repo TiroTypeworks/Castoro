@@ -14571,7 +14571,7 @@
         "lastModified":"2020-12-15 16:43:08",
         "openTypeGlyphClass":1,
         "lib":{
-          "note":"  <string>one.numr fraction 20&#xd;\n  fraction four.dnom -60</string>\n"
+          "note":"one.numr fraction 20\r\nfraction four.dnom -60"
         },
         "colorFlag":282,
         "layers":[
@@ -14616,7 +14616,7 @@
         "lastModified":"2020-12-15 16:43:08",
         "openTypeGlyphClass":1,
         "lib":{
-          "note":"  <string>one.numr fraction 20&#xd;\n  fraction two.dnom -10</string>\n"
+          "note":"one.numr fraction 20\r\nfraction two.dnom -10"
         },
         "colorFlag":282,
         "layers":[
@@ -14661,7 +14661,7 @@
         "lastModified":"2020-12-15 16:43:08",
         "openTypeGlyphClass":1,
         "lib":{
-          "note":"  <string>three.numr fraction -10&#xd;\n  fraction four.dnom -60</string>\n"
+          "note":"three.numr fraction -10\r\nfraction four.dnom -60"
         },
         "colorFlag":282,
         "layers":[
@@ -14706,7 +14706,7 @@
         "lastModified":"2020-12-15 16:43:08",
         "openTypeGlyphClass":1,
         "lib":{
-          "note":"  <string>zero.numr fraction -25&#xd;\n  fraction zero.dnom -25</string>\n"
+          "note":"zero.numr fraction -25\r\nfraction zero.dnom -25"
         },
         "colorFlag":282,
         "layers":[
@@ -14751,7 +14751,7 @@
         "lastModified":"2020-12-15 16:43:08",
         "openTypeGlyphClass":1,
         "lib":{
-          "note":"  <string>zero.numr fraction -25&#xd;\n  fraction zero.dnom -25</string>\n"
+          "note":"zero.numr fraction -25\r\nfraction zero.dnom -25"
         },
         "colorFlag":282,
         "layers":[
@@ -16271,7 +16271,7 @@
     "meta":{
       "metaCreator":true,
       "metaFormatVersion":8,
-      "metaBuild":"7644"
+      "metaBuild":"7649"
     },
     "settings":{
       "settings.RoundCoordinates":"round"
