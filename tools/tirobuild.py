@@ -6,7 +6,7 @@ from types import SimpleNamespace
 
 import yaml
 from fontTools.otlLib.maxContextCalc import maxCtxFont
-from fontTools.ttLib import TTFont
+from fontTools.ttLib import TTFont, newTable
 from ufo2ft import compileOTF, compileTTF
 from ufoLib2 import Font as UFOFont
 
@@ -49,11 +49,13 @@ class Format(Enum):
 class Font:
     def __init__(self, name, conf, project):
         self.name = name
+
+        conf = {**project, **conf}
         self.source = conf.get("source", None)
         self.ren = conf.get("glyphnames", None)
         self.ttf = conf.get("ttf", {})
 
-        path = project["path"]
+        path = conf["path"]
         self.output = path.parent / "output" / path.stem
 
         if self.source is None:
@@ -73,10 +75,12 @@ class Font:
             subset["langsys"] = tags
             self.subsets[name] = subset
 
-        for key in {"names", "set"}:
-            self.__dict__[key] = {}
-            self.__dict__[key].update(project.get(key, {}))
-            self.__dict__[key].update(conf.get(key, {}))
+        self.names = conf.get("names", {})
+        self.set = conf.get("set", {})
+
+        self.DSIG = conf.get("DSIG", None)
+        if "DSIG" in conf and self.DSIG != "dummy":
+            raise RuntimeError(f"Only “dummy” DSIG table is supported: “{self.DSIG}”")
 
     def _parsesubset(self, subset):
         with open(subset) as f:
@@ -124,6 +128,13 @@ class Font:
             logger.info(f"Adding name entries to {self.name}.{fmt.value}")
             self._setnames(otf, self.names)
 
+        if self.DSIG:
+            otf["DSIG"] = DSIG = newTable("DSIG")
+            DSIG.ulVersion = 1
+            DSIG.usFlag = 0
+            DSIG.usNumSigs = 0
+            DSIG.signatureRecords = []
+
         return otf
 
     def _autohint(self, otf, fmt):
@@ -138,6 +149,11 @@ class Font:
             otf.close()
             data = ttfautohint(in_buffer=buf.getvalue(), no_info=True)
             otf = TTFont(BytesIO(data))
+
+            # Set bit 3 on head.flags
+            # https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/integer_ppem_if_hinted
+            head = otf["head"]
+            head.flags |= 1 << 3
         elif fmt == Format.OTF:
             from tempfile import TemporaryDirectory
 
@@ -177,6 +193,9 @@ class Font:
             options.ignore_missing_glyphs = True
             options.layout_scripts = subset["langsys"]
 
+            options.drop_tables.remove("DSIG")
+            options.no_subset_tables += ["DSIG"]
+
             subsetter = Subsetter(options=options)
             subsetter.populate(subset["glyphlist"])
 
@@ -192,6 +211,9 @@ class Font:
             self._save(new, name, fmt)
 
     def _setnames(self, font, names):
+        # Make a copy as we might modify it.
+        names = names.copy()
+
         # If version or psname IDs are specified, but unique ID is not, update
         # the later.
         if (5 in names or 6 in names) and (3 not in names):
