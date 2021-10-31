@@ -35,7 +35,7 @@ python3 -m venv venv
 # Activate env
 source venv/bin/activate
 # Install dependencies
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 For subsequent use (presuming the requirements have not changed), only the second of those steps will be required.

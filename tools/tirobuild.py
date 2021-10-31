@@ -7,6 +7,7 @@ from types import SimpleNamespace
 import yaml
 from fontTools.otlLib.maxContextCalc import maxCtxFont
 from fontTools.ttLib import TTFont, newTable
+from fontTools.ttLib.removeOverlaps import removeTTGlyphOverlaps
 from ufo2ft import compileOTF, compileTTF
 from ufoLib2 import Font as UFOFont
 
@@ -81,6 +82,8 @@ class Font:
         self.DSIG = conf.get("DSIG", None)
         if "DSIG" in conf and self.DSIG != "dummy":
             raise RuntimeError(f"Only “dummy” DSIG table is supported: “{self.DSIG}”")
+
+        self.components = conf.get("components", {})
 
     def _parsesubset(self, subset):
         with open(subset) as f:
@@ -283,7 +286,7 @@ class Font:
         ufo, otl = self._preprocess()
 
         for fmt in (Format.TTF, Format.OTF):
-            options = {}
+            options = dict(removeOverlaps=True, overlapsBackend="pathops")
             if set(self.ttf.get("tables", {})) == {"GDEF", "GSUB", "GPOS"}:
                 options["featureWriters"] = []
 
@@ -295,10 +298,25 @@ class Font:
 
             otf = compileFont(
                 ufo,
-                removeOverlaps=True,
-                overlapsBackend="pathops",
                 **options,
             )
+
+            if fmt == Format.TTF and "decompose" in self.components and self.components["decompose"] == "overlapping":
+                # Decompose composite glyphs with overlapping components, and
+                # remove overelap. We already decomposed simple glyphs while
+                # building the font, so we process only composite glyphs below.
+                # The removeTTGlyphOverlaps function only decomposes composites
+                # with overlapping components, so we don’t check for the
+                # overlap ourselves.
+                logger.info(f"Decomposing {self.name} overlapping components")
+                glyf = otf["glyf"]
+                hmtx = otf["hmtx"]
+                glyphSet = otf.getGlyphSet()
+                glyphOrder = otf.getGlyphOrder()
+                for name in glyphOrder:
+                    glyph = glyf[name]
+                    if glyph.isComposite():
+                        removeTTGlyphOverlaps(name, glyphSet, glyf, hmtx, False)
 
             otf = self._postprocess(otf, otl, fmt)
             otf = self._autohint(otf, fmt)

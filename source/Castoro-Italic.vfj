@@ -2579,7 +2579,7 @@
       {
         "name":"Ccedilla",
         "unicode":"00c7",
-        "lastModified":"2020-12-10 21:18:41",
+        "lastModified":"2021-10-31 20:25:59",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6603,7 +6603,7 @@
       {
         "name":"Scedilla",
         "unicode":"015e",
-        "lastModified":"2020-12-10 21:18:41",
+        "lastModified":"2021-10-31 20:25:59",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6858,7 +6858,7 @@
       {
         "name":"Tcedilla",
         "unicode":"0162",
-        "lastModified":"2020-12-10 21:18:41",
+        "lastModified":"2021-10-31 20:25:59",
         "colorFlag":240,
         "layers":[
           {
@@ -11201,7 +11201,7 @@
       {
         "name":"ccedilla",
         "unicode":"00e7",
-        "lastModified":"2020-12-10 21:18:41",
+        "lastModified":"2021-10-31 20:25:59",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -15533,7 +15533,7 @@
       {
         "name":"scedilla",
         "unicode":"015f",
-        "lastModified":"2020-12-10 21:18:41",
+        "lastModified":"2021-10-31 20:25:59",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -16023,7 +16023,7 @@
       {
         "name":"tcedilla",
         "unicode":"0163",
-        "lastModified":"2020-12-10 21:18:41",
+        "lastModified":"2021-10-31 20:25:59",
         "colorFlag":240,
         "layers":[
           {
@@ -20231,7 +20231,7 @@
       },
       {
         "name":"Ccedilla.sc",
-        "lastModified":"2020-12-10 21:18:41",
+        "lastModified":"2021-10-31 20:25:59",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -24204,7 +24204,7 @@
       },
       {
         "name":"Scedilla.sc",
-        "lastModified":"2020-12-10 21:18:41",
+        "lastModified":"2021-10-31 20:25:59",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -24451,7 +24451,7 @@
       },
       {
         "name":"Tcedilla.sc",
-        "lastModified":"2020-12-10 21:18:41",
+        "lastModified":"2021-10-31 20:25:59",
         "colorFlag":240,
         "layers":[
           {
@@ -26296,7 +26296,7 @@
       {
         "name":"cedilla",
         "unicode":"00b8",
-        "lastModified":"2020-12-10 21:18:41",
+        "lastModified":"2021-10-31 20:25:59",
         "openTypeGlyphClass":1,
         "colorFlag":296,
         "layers":[
@@ -27667,13 +27667,13 @@
       {
         "name":"cedillacomb",
         "unicode":"0327",
-        "lastModified":"2020-08-26 18:34:18",
+        "lastModified":"2021-10-31 20:25:59",
         "openTypeGlyphClass":3,
-        "colorFlag":113,
+        "colorFlag":31,
         "layers":[
           {
             "name":"Italic",
-            "colorFlag":113,
+            "colorFlag":31,
             "advanceWidth":0,
             "elements":[
               {
@@ -27686,15 +27686,15 @@
                         "-412 -105",
                         "-410 -110",
                         "-345 -115  -308 -141  -308 -179 s",
-                        "-308 -206  -325 -226  -371 -226",
-                        "-371 -225  -365 -232  -365 -231",
-                        "-380 -188  -406 -174  -425 -174 s",
+                        "-308 -205  -324 -225  -367 -226",
+                        "-382 -187  -407 -174  -425 -174 s",
                         "-446 -174  -463 -190  -463 -210 s",
                         "-463 -233  -441 -260  -385 -260 s",
                         "-314 -260  -246 -222  -246 -146 s",
-                        "-246 -100  -274 -62  -349 -52",
-                        "-348 -64"
+                        "-246 -102  -272 -64  -342 -53"
                       ]
+                    },
+                    {
                     }
                   ]
                 },
@@ -38212,7 +38212,6 @@
                 "ebreve":"-65",
                 "ecircumflex":"-65",
                 "edieresis":"-65",
-                "emacron_acutecomb":"-70",
                 "emacron_brevecomb":"-70",
                 "etilde":"-65",
                 "etilde_acutecomb":"-65",
@@ -38230,7 +38229,6 @@
                 "itilde_acutecomb":"35",
                 "j_dieresisbelowcomb":"20",
                 "jcircumflex":"20",
-                "otilde_acutecomb":"-65",
                 "r_brevecomb":"-30",
                 "r_ringbelowcomb_macroncomb":"-30",
                 "r_ringbelowcomb_macroncomb_acutecomb":"-35",
@@ -38329,7 +38327,6 @@
                 "edotaccent":"-60",
                 "egrave":"-60",
                 "emacron":"-50",
-                "emacron_acutecomb":"-60",
                 "emacron_brevecomb":"-60",
                 "emdash.case":"-30",
                 "endash.case":"-30",
@@ -38456,7 +38453,6 @@
                 "edieresis":"-35",
                 "egrave":"-70",
                 "emacron":"-70",
-                "emacron_acutecomb":"-80",
                 "emacron_brevecomb":"-80",
                 "emdash.case":"-45",
                 "endash.case":"-45",
@@ -38483,7 +38479,6 @@
                 "obreve":"-50",
                 "odieresis":"-50",
                 "otilde":"-60",
-                "otilde_acutecomb":"-70",
                 "r_brevecomb":"-25",
                 "r_ringbelowcomb_gravecomb":"-35",
                 "r_ringbelowcomb_macroncomb":"-35",

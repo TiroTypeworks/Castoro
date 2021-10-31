@@ -1543,8 +1543,6 @@
     <integer>-65</integer>
     <key>edieresis</key>
     <integer>-65</integer>
-    <key>emacron_acutecomb</key>
-    <integer>-70</integer>
     <key>emacron_brevecomb</key>
     <integer>-70</integer>
     <key>etilde</key>
@@ -1579,8 +1577,6 @@
     <integer>20</integer>
     <key>jcircumflex</key>
     <integer>20</integer>
-    <key>otilde_acutecomb</key>
-    <integer>-65</integer>
     <key>r_brevecomb</key>
     <integer>-30</integer>
     <key>r_ringbelowcomb_macroncomb</key>
@@ -1776,8 +1772,6 @@
     <integer>-60</integer>
     <key>emacron</key>
     <integer>-50</integer>
-    <key>emacron_acutecomb</key>
-    <integer>-60</integer>
     <key>emacron_brevecomb</key>
     <integer>-60</integer>
     <key>emdash.case</key>
@@ -2014,8 +2008,6 @@
     <integer>-70</integer>
     <key>emacron</key>
     <integer>-70</integer>
-    <key>emacron_acutecomb</key>
-    <integer>-80</integer>
     <key>emacron_brevecomb</key>
     <integer>-80</integer>
     <key>emdash.case</key>
@@ -2068,8 +2060,6 @@
     <integer>-50</integer>
     <key>otilde</key>
     <integer>-60</integer>
-    <key>otilde_acutecomb</key>
-    <integer>-70</integer>
     <key>r_brevecomb</key>
     <integer>-25</integer>
     <key>r_ringbelowcomb_gravecomb</key>
