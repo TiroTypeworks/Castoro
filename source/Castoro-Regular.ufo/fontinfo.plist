@@ -316,7 +316,7 @@
   </dict>
   </array>
   <key>italicAngle</key>
-  <integer>-0</integer>
+  <integer>0</integer>
   <key>openTypeGaspRangeRecords</key>
   <array>
   <dict>
@@ -393,6 +393,7 @@
   </array>
   <key>openTypeOS2Selection</key>
   <array>
+    <integer>7</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>250</integer>

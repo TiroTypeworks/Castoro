@@ -28,6 +28,10 @@
   <string>A_breve.glif</string>
   <key>Abreve.sc</key>
   <string>A_breve.sc.glif</string>
+  <key>Acaron</key>
+  <string>A_caron.glif</string>
+  <key>Acaron.sc</key>
+  <string>A_caron.sc.glif</string>
   <key>Acircumflex</key>
   <string>A_circumflex.glif</string>
   <key>Acircumflex.sc</key>
@@ -882,6 +886,8 @@
   <string>aacute.glif</string>
   <key>abreve</key>
   <string>abreve.glif</string>
+  <key>acaron</key>
+  <string>acaron.glif</string>
   <key>acircumflex</key>
   <string>acircumflex.glif</string>
   <key>acute</key>
@@ -956,6 +962,8 @@
   <string>bracketright.glif</string>
   <key>bracketright.case</key>
   <string>bracketright.case.glif</string>
+  <key>breve</key>
+  <string>breve.glif</string>
   <key>brevebelowcomb</key>
   <string>brevebelowcomb.glif</string>
   <key>brevecomb</key>
@@ -1046,6 +1054,8 @@
   <string>dlinebelow.glif</string>
   <key>dollar</key>
   <string>dollar.glif</string>
+  <key>dotaccent</key>
+  <string>dotaccent.glif</string>
   <key>dotaccentcomb</key>
   <string>dotaccentcomb.glif</string>
   <key>dotaccentcomb.cap</key>
@@ -1238,6 +1248,8 @@
   <string>hdotbelow.glif</string>
   <key>hlinebelow</key>
   <string>hlinebelow.glif</string>
+  <key>hungarumlaut</key>
+  <string>hungarumlaut.glif</string>
   <key>hungarumlautcomb</key>
   <string>hungarumlautcomb.glif</string>
   <key>hungarumlautcomb.cap</key>

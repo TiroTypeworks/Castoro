@@ -16,6 +16,8 @@
   <string>A_acute.glif</string>
   <key>Abreve</key>
   <string>A_breve.glif</string>
+  <key>Acaron</key>
+  <string>A_caron.glif</string>
   <key>Acircumflex</key>
   <string>A_circumflex.glif</string>
   <key>Adieresis</key>
@@ -470,6 +472,8 @@
   <string>bracketleft.glif</string>
   <key>bracketright</key>
   <string>bracketright.glif</string>
+  <key>breve</key>
+  <string>breve.glif</string>
   <key>brevebelowcomb</key>
   <string>brevebelowcomb.glif</string>
   <key>brevecomb</key>
@@ -500,6 +504,8 @@
   <string>comma.glif</string>
   <key>commaaccentcomb</key>
   <string>commaaccentcomb.glif</string>
+  <key>commaaccentturnedabovecomb</key>
+  <string>commaaccentturnedabovecomb.glif</string>
   <key>copyright</key>
   <string>copyright.glif</string>
   <key>currency</key>
@@ -520,6 +526,8 @@
   <string>divide.glif</string>
   <key>dollar</key>
   <string>dollar.glif</string>
+  <key>dotaccent</key>
+  <string>dotaccent.glif</string>
   <key>dotaccentcomb</key>
   <string>dotaccentcomb.glif</string>
   <key>dotbelowcomb</key>
@@ -602,6 +610,8 @@
   <string>halfringleft.glif</string>
   <key>halfringright</key>
   <string>halfringright.glif</string>
+  <key>hungarumlaut</key>
+  <string>hungarumlaut.glif</string>
   <key>hungarumlautcomb</key>
   <string>hungarumlautcomb.glif</string>
   <key>hyphen</key>

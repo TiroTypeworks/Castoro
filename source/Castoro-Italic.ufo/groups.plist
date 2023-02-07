@@ -33,6 +33,7 @@
     <string>Agrave</string>
     <string>Aacute</string>
     <string>Acircumflex</string>
+    <string>Acaron</string>
     <string>Atilde</string>
     <string>Atilde_acutecomb</string>
     <string>Adieresis</string>
@@ -319,6 +320,7 @@
     <string>a</string>
     <string>aacute</string>
     <string>abreve</string>
+    <string>acaron</string>
     <string>acircumflex</string>
     <string>adieresis</string>
     <string>agrave</string>
@@ -347,7 +349,7 @@
     <string>uogonek</string>
     <string>uring</string>
     <string>utilde</string>
-    <string>utilde_acutecomb</string>
+    <string>utildeacute</string>
   </array>
   <key>public.kern1._L_lc_b_1ST</key>
   <array>
@@ -385,8 +387,8 @@
     <string>edotaccent</string>
     <string>egrave</string>
     <string>emacron</string>
-    <string>emacron_acutecomb</string>
     <string>emacron_brevecomb</string>
+    <string>emacronacute</string>
     <string>eogonek</string>
     <string>etilde</string>
     <string>etilde_acutecomb</string>
@@ -453,7 +455,7 @@
     <string>oslash</string>
     <string>oslashacute</string>
     <string>otilde</string>
-    <string>otilde_acutecomb</string>
+    <string>otildeacute</string>
   </array>
   <key>public.kern1._L_lc_r_1ST</key>
   <array>
@@ -521,6 +523,7 @@
     <string>A.sc</string>
     <string>Aacute.sc</string>
     <string>Abreve.sc</string>
+    <string>Acaron.sc</string>
     <string>Acircumflex.sc</string>
     <string>Adieresis.sc</string>
     <string>Agrave.sc</string>
@@ -563,8 +566,8 @@
     <string>Edotaccent.sc</string>
     <string>Egrave.sc</string>
     <string>Emacron.sc</string>
-    <string>Emacron_acutecomb.sc</string>
     <string>Emacron_brevecomb.sc</string>
+    <string>Emacronacute.sc</string>
     <string>Eogonek.sc</string>
     <string>Etilde.sc</string>
     <string>Etilde_acutecomb.sc</string>
@@ -652,7 +655,7 @@
     <string>Oslash.sc</string>
     <string>Oslashacute.sc</string>
     <string>Otilde.sc</string>
-    <string>Otilde_acutecomb.sc</string>
+    <string>Otildeacute.sc</string>
     <string>Q.sc</string>
   </array>
   <key>public.kern1._L_sc_P.sc_1ST</key>
@@ -724,7 +727,7 @@
     <string>Uogonek.sc</string>
     <string>Uring.sc</string>
     <string>Utilde.sc</string>
-    <string>Utilde_acutecomb.sc</string>
+    <string>Utildeacute.sc</string>
   </array>
   <key>public.kern1._L_sc_V.sc_1ST</key>
   <array>
@@ -776,6 +779,7 @@
     <string>A</string>
     <string>Aacute</string>
     <string>Abreve</string>
+    <string>Acaron</string>
     <string>Acircumflex</string>
     <string>Adieresis</string>
     <string>Agrave</string>
@@ -907,7 +911,7 @@
     <string>Oslash</string>
     <string>Oslashacute</string>
     <string>Otilde</string>
-    <string>Otilde_acutecomb</string>
+    <string>Otildeacute</string>
     <string>Q</string>
   </array>
   <key>public.kern1._L_uc_P_1ST</key>
@@ -979,7 +983,7 @@
     <string>Uogonek</string>
     <string>Uring</string>
     <string>Utilde</string>
-    <string>Utilde_acutecomb</string>
+    <string>Utildeacute</string>
   </array>
   <key>public.kern1._L_uc_V_1ST</key>
   <array>
@@ -1075,6 +1079,7 @@
     <string>a</string>
     <string>aacute</string>
     <string>abreve</string>
+    <string>acaron</string>
     <string>acircumflex</string>
     <string>adieresis</string>
     <string>ae</string>
@@ -1116,8 +1121,8 @@
     <string>edotaccent</string>
     <string>egrave</string>
     <string>emacron</string>
-    <string>emacron_acutecomb</string>
     <string>emacron_brevecomb</string>
+    <string>emacronacute</string>
     <string>eogonek</string>
     <string>etilde</string>
     <string>etilde_acutecomb</string>
@@ -1228,7 +1233,7 @@
     <string>oslash</string>
     <string>oslashacute</string>
     <string>otilde</string>
-    <string>otilde_acutecomb</string>
+    <string>otildeacute</string>
   </array>
   <key>public.kern2._L_lc_s_2ND</key>
   <array>
@@ -1270,7 +1275,7 @@
     <string>uogonek</string>
     <string>uring</string>
     <string>utilde</string>
-    <string>utilde_acutecomb</string>
+    <string>utildeacute</string>
   </array>
   <key>public.kern2._L_lc_v_2ND</key>
   <array>
@@ -1308,6 +1313,7 @@
     <string>AEmacron.sc</string>
     <string>Aacute.sc</string>
     <string>Abreve.sc</string>
+    <string>Acaron.sc</string>
     <string>Acircumflex.sc</string>
     <string>Adieresis.sc</string>
     <string>Agrave.sc</string>
@@ -1341,8 +1347,8 @@
     <string>Edotaccent.sc</string>
     <string>Egrave.sc</string>
     <string>Emacron.sc</string>
-    <string>Emacron_acutecomb.sc</string>
     <string>Emacron_brevecomb.sc</string>
+    <string>Emacronacute.sc</string>
     <string>Eng.sc</string>
     <string>Eogonek.sc</string>
     <string>Eth.sc</string>
@@ -1468,7 +1474,7 @@
     <string>Oslash.sc</string>
     <string>Oslashacute.sc</string>
     <string>Otilde.sc</string>
-    <string>Otilde_acutecomb.sc</string>
+    <string>Otildeacute.sc</string>
     <string>Q.sc</string>
   </array>
   <key>public.kern2._L_sc_S.sc_2ND</key>
@@ -1511,7 +1517,7 @@
     <string>Uogonek.sc</string>
     <string>Uring.sc</string>
     <string>Utilde.sc</string>
-    <string>Utilde_acutecomb.sc</string>
+    <string>Utildeacute.sc</string>
   </array>
   <key>public.kern2._L_sc_V.sc_2ND</key>
   <array>
@@ -1579,6 +1585,7 @@
     <string>AEmacron</string>
     <string>Aacute</string>
     <string>Abreve</string>
+    <string>Acaron</string>
     <string>Acircumflex</string>
     <string>Adieresis</string>
     <string>Agrave</string>
@@ -1624,7 +1631,7 @@
     <string>Oslash</string>
     <string>Oslashacute</string>
     <string>Otilde</string>
-    <string>Otilde_acutecomb</string>
+    <string>Otildeacute</string>
     <string>Q</string>
   </array>
   <key>public.kern2._L_uc_J_2ND</key>
@@ -1675,7 +1682,7 @@
     <string>Uogonek</string>
     <string>Uring</string>
     <string>Utilde</string>
-    <string>Utilde_acutecomb</string>
+    <string>Utildeacute</string>
   </array>
   <key>public.kern2._L_uc_W_2ND</key>
   <array>

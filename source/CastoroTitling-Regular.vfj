@@ -1,7 +1,7 @@
 {
   "version":8,
   "font":{
-    "glyphsCount":402,
+    "glyphsCount":407,
     "upm":1000,
     "glyphs":[
       {
@@ -58,7 +58,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "guidelines":[
@@ -130,7 +131,7 @@
           65,
           97
         ],
-        "lastModified":"2021-02-10 18:14:23",
+        "lastModified":"2023-02-07 16:46:07",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -255,7 +256,7 @@
           67,
           99
         ],
-        "lastModified":"2021-02-10 18:14:23",
+        "lastModified":"2023-02-07 16:46:07",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -365,7 +366,7 @@
           69,
           101
         ],
-        "lastModified":"2021-02-10 18:14:23",
+        "lastModified":"2023-02-07 16:46:07",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -499,7 +500,7 @@
           71,
           103
         ],
-        "lastModified":"2021-02-10 18:14:23",
+        "lastModified":"2023-02-07 16:46:07",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -557,7 +558,7 @@
           72,
           104
         ],
-        "lastModified":"2021-02-10 18:14:23",
+        "lastModified":"2023-02-07 16:46:07",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -633,9 +634,10 @@
         "name":"I",
         "unicodes":[
           73,
-          105
+          105,
+          305
         ],
-        "lastModified":"2021-02-10 18:14:23",
+        "lastModified":"2023-02-07 16:46:07",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -677,7 +679,8 @@
         "name":"J",
         "unicodes":[
           74,
-          106
+          106,
+          567
         ],
         "lastModified":"2020-12-14 18:05:14",
         "openTypeGlyphClass":1,
@@ -727,7 +730,7 @@
           75,
           107
         ],
-        "lastModified":"2021-02-10 18:14:23",
+        "lastModified":"2023-02-07 16:46:07",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -799,7 +802,7 @@
           76,
           108
         ],
-        "lastModified":"2021-02-10 18:14:23",
+        "lastModified":"2023-02-07 16:46:07",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -966,7 +969,7 @@
           79,
           111
         ],
-        "lastModified":"2021-02-10 18:14:23",
+        "lastModified":"2023-02-07 16:46:07",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1316,7 +1319,7 @@
           85,
           117
         ],
-        "lastModified":"2021-02-10 18:14:23",
+        "lastModified":"2023-02-07 16:46:07",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1367,7 +1370,7 @@
           86,
           118
         ],
-        "lastModified":"2021-02-10 18:14:23",
+        "lastModified":"2023-02-07 16:46:07",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1679,7 +1682,7 @@
           192,
           224
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1715,7 +1718,7 @@
           193,
           225
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1751,7 +1754,7 @@
           194,
           226
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1766,11 +1769,49 @@
                 },
                 "transform":{
                   "xOffset":5
-                }
+                },
+                "active":true
               },
               {
                 "component":{
                   "glyphName":"circumflexcomb"
+                },
+                "transform":{
+                  "xOffset":625
+                },
+                "nonSpacing":true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name":"Acaron",
+        "unicodes":[
+          461,
+          462
+        ],
+        "lastModified":"2023-02-07 17:32:34",
+        "openTypeGlyphClass":1,
+        "colorFlag":181,
+        "layers":[
+          {
+            "name":"Regular",
+            "colorFlag":181,
+            "advanceWidth":663,
+            "elements":[
+              {
+                "component":{
+                  "glyphName":"A"
+                },
+                "transform":{
+                  "xOffset":5
+                },
+                "active":true
+              },
+              {
+                "component":{
+                  "glyphName":"caroncomb"
                 },
                 "transform":{
                   "xOffset":625
@@ -1787,7 +1828,7 @@
           195,
           227
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1819,7 +1860,7 @@
       },
       {
         "name":"Atilde_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1866,7 +1907,7 @@
           196,
           228
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1902,7 +1943,7 @@
           256,
           257
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1934,7 +1975,7 @@
       },
       {
         "name":"Amacron_gravecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -1977,7 +2018,7 @@
       },
       {
         "name":"Amacron_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2020,7 +2061,7 @@
       },
       {
         "name":"Amacron_tildecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2063,7 +2104,7 @@
       },
       {
         "name":"Amacron_brevecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2110,7 +2151,7 @@
           258,
           259
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2146,7 +2187,7 @@
           197,
           229
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2182,7 +2223,7 @@
           506,
           507
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2229,7 +2270,7 @@
           260,
           261
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2370,7 +2411,7 @@
           508,
           509
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2403,7 +2444,7 @@
           482,
           483
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2432,7 +2473,7 @@
       },
       {
         "name":"B_dieresisbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2444,7 +2485,8 @@
               {
                 "component":{
                   "glyphName":"B"
-                }
+                },
+                "active":true
               },
               {
                 "component":{
@@ -2465,7 +2507,7 @@
           262,
           263
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2498,7 +2540,7 @@
           264,
           265
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2531,7 +2573,7 @@
           268,
           269
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2564,7 +2606,7 @@
           266,
           267
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2597,7 +2639,7 @@
           199,
           231
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2630,7 +2672,7 @@
           270,
           271
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2663,7 +2705,7 @@
           7692,
           7693
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2692,7 +2734,7 @@
       },
       {
         "name":"D_dieresisbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2725,7 +2767,7 @@
           7694,
           7695
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2817,7 +2859,7 @@
           200,
           232
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2850,7 +2892,7 @@
           201,
           233
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2883,7 +2925,7 @@
           202,
           234
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2916,7 +2958,7 @@
           282,
           283
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2949,7 +2991,7 @@
           7868,
           7869
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -2961,7 +3003,8 @@
               {
                 "component":{
                   "glyphName":"E"
-                }
+                },
+                "active":true
               },
               {
                 "component":{
@@ -2978,7 +3021,7 @@
       },
       {
         "name":"Etilde_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3022,7 +3065,7 @@
           203,
           235
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3034,7 +3077,8 @@
               {
                 "component":{
                   "glyphName":"E"
-                }
+                },
+                "active":true
               },
               {
                 "component":{
@@ -3055,7 +3099,7 @@
           274,
           275
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3088,7 +3132,7 @@
           7702,
           7703
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3128,7 +3172,7 @@
       },
       {
         "name":"Emacron_brevecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3172,7 +3216,7 @@
           276,
           277
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3205,7 +3249,7 @@
           278,
           279
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3238,7 +3282,7 @@
           280,
           281
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3277,7 +3321,7 @@
           284,
           285
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3310,7 +3354,7 @@
           286,
           287
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3343,7 +3387,7 @@
           288,
           289
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3376,7 +3420,7 @@
           290,
           291
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3405,7 +3449,7 @@
       },
       {
         "name":"G_dotbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3434,7 +3478,7 @@
       },
       {
         "name":"G_dieresisbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3463,7 +3507,7 @@
       },
       {
         "name":"G_macronbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3496,7 +3540,7 @@
           292,
           293
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3508,7 +3552,8 @@
               {
                 "component":{
                   "glyphName":"H"
-                }
+                },
+                "active":true
               },
               {
                 "component":{
@@ -3535,7 +3580,7 @@
           7716,
           7717
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3570,7 +3615,7 @@
       },
       {
         "name":"H_dieresisbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3582,7 +3627,8 @@
               {
                 "component":{
                   "glyphName":"H"
-                }
+                },
+                "active":true
               },
               {
                 "component":{
@@ -3605,7 +3651,7 @@
       },
       {
         "name":"H_macronbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3729,7 +3775,7 @@
           204,
           236
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3762,7 +3808,7 @@
           205,
           237
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3774,7 +3820,8 @@
               {
                 "component":{
                   "glyphName":"I"
-                }
+                },
+                "active":true
               },
               {
                 "component":{
@@ -3795,7 +3842,7 @@
           206,
           238
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3828,7 +3875,7 @@
           296,
           297
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3857,7 +3904,7 @@
       },
       {
         "name":"Itilde_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3901,7 +3948,7 @@
           207,
           239
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3934,7 +3981,7 @@
           298,
           299
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -3964,7 +4011,7 @@
       },
       {
         "name":"Imacron_gravecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4004,7 +4051,7 @@
       },
       {
         "name":"Imacron_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4044,7 +4091,7 @@
       },
       {
         "name":"Imacron_tildecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4084,7 +4131,7 @@
       },
       {
         "name":"Imacron_brevecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4128,7 +4175,7 @@
           300,
           301
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4158,7 +4205,7 @@
       {
         "name":"Idotaccent",
         "unicode":"0130",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4191,7 +4238,7 @@
           302,
           303
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4230,7 +4277,7 @@
           308,
           309
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4259,7 +4306,7 @@
       },
       {
         "name":"J_macroncomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4288,7 +4335,7 @@
       },
       {
         "name":"J_dieresisbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4321,7 +4368,7 @@
           310,
           311
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4355,7 +4402,7 @@
           7730,
           7731
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4389,7 +4436,7 @@
           7732,
           7733
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4423,7 +4470,7 @@
           313,
           314
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4456,7 +4503,7 @@
           317,
           318
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4485,7 +4532,7 @@
       },
       {
         "name":"L_tildecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4518,7 +4565,7 @@
           315,
           316
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4551,7 +4598,7 @@
           7738,
           7739
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4584,7 +4631,7 @@
           7734,
           7735
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4613,7 +4660,7 @@
       },
       {
         "name":"Ldotbelow_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4655,7 +4702,7 @@
           7736,
           7737
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4693,7 +4740,7 @@
       },
       {
         "name":"Ldotbelowmacron_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4742,7 +4789,7 @@
       },
       {
         "name":"L_dieresisbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4771,7 +4818,7 @@
       },
       {
         "name":"L_ringbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4800,7 +4847,7 @@
       },
       {
         "name":"L_ringbelowcomb_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4838,7 +4885,7 @@
       },
       {
         "name":"L_ringbelowcomb_macroncomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4876,7 +4923,7 @@
       },
       {
         "name":"L_ringbelowcomb_macroncomb_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -4991,13 +5038,13 @@
           319,
           320
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":694,
             "elements":[
               {
@@ -5027,7 +5074,7 @@
       },
       {
         "name":"M_brevecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5060,7 +5107,7 @@
           7744,
           7745
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5089,7 +5136,7 @@
       },
       {
         "name":"M_candrabinducomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5122,7 +5169,7 @@
           7746,
           7747
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5155,7 +5202,7 @@
           323,
           324
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5188,7 +5235,7 @@
           327,
           328
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5221,7 +5268,7 @@
           209,
           241
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5250,7 +5297,7 @@
       },
       {
         "name":"N_brevecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5283,7 +5330,7 @@
           7748,
           7749
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5312,7 +5359,7 @@
       },
       {
         "name":"N_candrabinducomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5345,7 +5392,7 @@
           7752,
           7753
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5378,7 +5425,7 @@
           7750,
           7751
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5411,7 +5458,7 @@
           325,
           326
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5444,7 +5491,7 @@
           210,
           242
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5478,7 +5525,7 @@
           211,
           243
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5512,7 +5559,7 @@
           212,
           244
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5546,7 +5593,7 @@
           213,
           245
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5579,7 +5626,7 @@
           7756,
           7757
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 17:24:37",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5591,7 +5638,8 @@
               {
                 "component":{
                   "glyphName":"O"
-                }
+                },
+                "active":true
               },
               {
                 "component":{
@@ -5623,7 +5671,7 @@
           214,
           246
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5656,7 +5704,7 @@
           332,
           333
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5685,7 +5733,7 @@
       },
       {
         "name":"Omacron_brevecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5729,7 +5777,7 @@
           334,
           335
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5762,7 +5810,7 @@
           336,
           337
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5850,7 +5898,7 @@
           510,
           511
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5958,7 +6006,7 @@
           340,
           341
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -5992,7 +6040,7 @@
           344,
           345
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6021,7 +6069,7 @@
       },
       {
         "name":"R_brevecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6054,7 +6102,7 @@
           7768,
           7769
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6087,7 +6135,7 @@
           342,
           343
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6120,7 +6168,7 @@
           7774,
           7775
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6153,7 +6201,7 @@
           7770,
           7771
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6182,7 +6230,7 @@
       },
       {
         "name":"Rdotbelow_gravecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6220,7 +6268,7 @@
       },
       {
         "name":"Rdotbelow_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6262,7 +6310,7 @@
           7772,
           7773
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6300,7 +6348,7 @@
       },
       {
         "name":"Rdotbelowmacron_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6349,7 +6397,7 @@
       },
       {
         "name":"R_dieresisbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6378,7 +6426,7 @@
       },
       {
         "name":"R_ringbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6407,7 +6455,7 @@
       },
       {
         "name":"R_ringbelowcomb_gravecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6445,7 +6493,7 @@
       },
       {
         "name":"R_ringbelowcomb_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6483,7 +6531,7 @@
       },
       {
         "name":"R_ringbelowcomb_macroncomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6521,7 +6569,7 @@
       },
       {
         "name":"R_ringbelowcomb_macroncomb_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6574,7 +6622,7 @@
           346,
           347
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6608,7 +6656,7 @@
           348,
           349
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6642,7 +6690,7 @@
           352,
           353
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6676,7 +6724,7 @@
           350,
           351
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6710,7 +6758,7 @@
           536,
           537
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6744,7 +6792,7 @@
           7778,
           7779
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6774,7 +6822,7 @@
       },
       {
         "name":"S_dieresisbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6804,7 +6852,7 @@
       },
       {
         "name":"S_macronbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6903,7 +6951,7 @@
           356,
           357
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -6918,7 +6966,8 @@
                 },
                 "transform":{
                   "xOffset":-2
-                }
+                },
+                "active":true
               },
               {
                 "component":{
@@ -6939,7 +6988,7 @@
           354,
           355
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "colorFlag":240,
         "layers":[
           {
@@ -6974,7 +7023,7 @@
           538,
           539
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7010,7 +7059,7 @@
           7788,
           7789
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7042,7 +7091,7 @@
       },
       {
         "name":"T_dieresisbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7078,7 +7127,7 @@
           7790,
           7791
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7093,7 +7142,8 @@
                 },
                 "transform":{
                   "xOffset":-2
-                }
+                },
+                "active":true
               },
               {
                 "component":{
@@ -7181,7 +7231,7 @@
           217,
           249
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7214,7 +7264,7 @@
           218,
           250
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7247,7 +7297,7 @@
           219,
           251
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7280,7 +7330,7 @@
           360,
           361
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7313,7 +7363,7 @@
           7800,
           7801
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7357,7 +7407,7 @@
           220,
           252
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7390,7 +7440,7 @@
           362,
           363
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7419,7 +7469,7 @@
       },
       {
         "name":"Umacron_gravecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7459,7 +7509,7 @@
       },
       {
         "name":"Umacron_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7499,7 +7549,7 @@
       },
       {
         "name":"Umacron_tildecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7539,7 +7589,7 @@
       },
       {
         "name":"Umacron_brevecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7583,7 +7633,7 @@
           364,
           365
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7616,7 +7666,7 @@
           366,
           367
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7649,7 +7699,7 @@
           368,
           369
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7682,7 +7732,7 @@
           370,
           371
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7721,7 +7771,7 @@
           7808,
           7809
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7755,7 +7805,7 @@
           7810,
           7811
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7789,7 +7839,7 @@
           372,
           373
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7823,7 +7873,7 @@
           7812,
           7813
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7856,7 +7906,7 @@
           7922,
           7923
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7889,7 +7939,7 @@
           221,
           253
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7922,7 +7972,7 @@
           374,
           375
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7934,7 +7984,8 @@
               {
                 "component":{
                   "glyphName":"Y"
-                }
+                },
+                "active":true
               },
               {
                 "component":{
@@ -7955,7 +8006,7 @@
           255,
           376
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -7988,7 +8039,7 @@
           7822,
           7823
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -8021,7 +8072,7 @@
           377,
           378
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -8055,7 +8106,7 @@
           381,
           382
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -8089,7 +8140,7 @@
           379,
           380
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -8123,7 +8174,7 @@
           7826,
           7827
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -8153,7 +8204,7 @@
       },
       {
         "name":"Z_dieresisbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -8187,7 +8238,7 @@
           7828,
           7829
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -8287,7 +8338,7 @@
           208,
           240
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -8370,13 +8421,13 @@
           306,
           307
         ],
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":794,
             "elements":[
               {
@@ -8398,13 +8449,13 @@
       },
       {
         "name":"IJ_acutecomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":794,
             "elements":[
               {
@@ -8444,13 +8495,13 @@
       },
       {
         "name":"G_macronbelowcomb_H_macronbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":1684,
             "elements":[
               {
@@ -8496,13 +8547,13 @@
       },
       {
         "name":"Klinebelow_H_macronbelowcomb",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":1556,
             "elements":[
               {
@@ -8689,13 +8740,13 @@
       {
         "name":"grave",
         "unicode":"0060",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":240,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":240,
+            "colorFlag":301,
             "advanceWidth":360,
             "elements":[
               {
@@ -8713,13 +8764,13 @@
       {
         "name":"acute",
         "unicode":"00b4",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":240,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":240,
+            "colorFlag":301,
             "advanceWidth":360,
             "elements":[
               {
@@ -8728,7 +8779,8 @@
                 },
                 "transform":{
                   "xOffset":442
-                }
+                },
+                "active":true
               }
             ]
           }
@@ -8737,13 +8789,13 @@
       {
         "name":"circumflex",
         "unicode":"02c6",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":240,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":240,
+            "colorFlag":301,
             "advanceWidth":360,
             "elements":[
               {
@@ -8752,7 +8804,8 @@
                 },
                 "transform":{
                   "xOffset":466
-                }
+                },
+                "active":true
               }
             ]
           }
@@ -8761,13 +8814,13 @@
       {
         "name":"tilde",
         "unicode":"02dc",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":240,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":240,
+            "colorFlag":301,
             "advanceWidth":360,
             "elements":[
               {
@@ -8785,13 +8838,13 @@
       {
         "name":"dieresis",
         "unicode":"00a8",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":240,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":240,
+            "colorFlag":301,
             "advanceWidth":360,
             "elements":[
               {
@@ -8809,13 +8862,13 @@
       {
         "name":"macron",
         "unicode":"00af",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":240,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":240,
+            "colorFlag":301,
             "advanceWidth":360,
             "elements":[
               {
@@ -8831,15 +8884,64 @@
         ]
       },
       {
-        "name":"ring",
-        "unicode":"02da",
-        "lastModified":"2020-12-15 16:43:08",
+        "name":"breve",
+        "unicode":"02d8",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":240,
+        "colorFlag":211,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":240,
+            "colorFlag":211,
+            "advanceWidth":360,
+            "elements":[
+              {
+                "component":{
+                  "glyphName":"brevecomb"
+                },
+                "transform":{
+                  "xOffset":466
+                },
+                "active":true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name":"dotaccent",
+        "unicode":"02d9",
+        "lastModified":"2023-02-07 16:43:09",
+        "colorFlag":211,
+        "layers":[
+          {
+            "name":"Regular",
+            "colorFlag":211,
+            "advanceWidth":360,
+            "elements":[
+              {
+                "component":{
+                  "glyphName":"dotaccentcomb"
+                },
+                "transform":{
+                  "xOffset":466
+                },
+                "active":true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name":"ring",
+        "unicode":"02da",
+        "lastModified":"2023-02-07 16:43:09",
+        "openTypeGlyphClass":1,
+        "colorFlag":301,
+        "layers":[
+          {
+            "name":"Regular",
+            "colorFlag":301,
             "advanceWidth":360,
             "elements":[
               {
@@ -8848,7 +8950,33 @@
                 },
                 "transform":{
                   "xOffset":467
-                }
+                },
+                "active":true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name":"hungarumlaut",
+        "unicode":"02dd",
+        "lastModified":"2023-02-07 16:43:09",
+        "openTypeGlyphClass":1,
+        "colorFlag":211,
+        "layers":[
+          {
+            "name":"Regular",
+            "colorFlag":211,
+            "advanceWidth":360,
+            "elements":[
+              {
+                "component":{
+                  "glyphName":"hungarumlautcomb"
+                },
+                "transform":{
+                  "xOffset":442
+                },
+                "active":true
               }
             ]
           }
@@ -8857,13 +8985,13 @@
       {
         "name":"cedilla",
         "unicode":"00b8",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":240,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":240,
+            "colorFlag":301,
             "advanceWidth":360,
             "elements":[
               {
@@ -8881,13 +9009,13 @@
       {
         "name":"ogonek",
         "unicode":"02db",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":240,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":240,
+            "colorFlag":301,
             "advanceWidth":360,
             "elements":[
               {
@@ -8927,7 +9055,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "guidelines":[
@@ -9286,7 +9415,7 @@
       {
         "name":"ringcomb",
         "unicode":"030a",
-        "lastModified":"2020-12-10 13:00:19",
+        "lastModified":"2023-02-07 16:26:18",
         "openTypeGlyphClass":3,
         "colorFlag":113,
         "layers":[
@@ -9317,7 +9446,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ]
           }
@@ -9357,7 +9487,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "guidelines":[
@@ -9417,7 +9548,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "guidelines":[
@@ -9428,6 +9560,44 @@
               {
                 "horizontal":true,
                 "position":735
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name":"commaaccentturnedabovecomb",
+        "unicode":"0312",
+        "lastModified":"2023-02-07 16:26:25",
+        "openTypeGlyphClass":3,
+        "colorFlag":31,
+        "layers":[
+          {
+            "name":"Regular",
+            "colorFlag":31,
+            "flags":0,
+            "advanceWidth":0,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "-246 891",
+                        "-246 899  -248 904  -251 910",
+                        "-310 897  -345 862  -345 812 s",
+                        "-345 772  -322 744  -286 744 s",
+                        "-260 744  -240 760  -240 786 s",
+                        "-240 811  -258 824  -278 824 s",
+                        "-290 824  -303 819  -314 807",
+                        "-302 803",
+                        "-307 816  -309 820  -309 830 s",
+                        "-309 855  -290 880 c"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
               }
             ]
           }
@@ -9459,7 +9629,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ]
           }
@@ -9489,7 +9660,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ]
           }
@@ -9522,7 +9694,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ]
           }
@@ -9553,7 +9726,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ]
           }
@@ -9644,7 +9818,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ]
           }
@@ -9653,7 +9828,7 @@
       {
         "name":"commaaccentcomb",
         "unicode":"0326",
-        "lastModified":"2020-12-10 13:00:19",
+        "lastModified":"2023-02-07 16:25:16",
         "openTypeGlyphClass":3,
         "colorFlag":113,
         "layers":[
@@ -9680,7 +9855,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ]
           }
@@ -9759,7 +9935,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "guidelines":[
@@ -9839,7 +10016,7 @@
       {
         "name":"semicolon",
         "unicode":"003b",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":241,
         "layers":[
@@ -9872,7 +10049,7 @@
       {
         "name":"colon",
         "unicode":"003a",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":241,
         "layers":[
@@ -9937,13 +10114,13 @@
       {
         "name":"ellipsis",
         "unicode":"2026",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":798,
             "elements":[
               {
@@ -10180,7 +10357,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ]
           }
@@ -10554,13 +10732,13 @@
       {
         "name":"quotedbl",
         "unicode":"0022",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":315,
             "elements":[
               {
@@ -10878,13 +11056,13 @@
       {
         "name":"quotedblleft",
         "unicode":"201c",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":322,
             "elements":[
               {
@@ -10907,13 +11085,13 @@
       {
         "name":"quotedblright",
         "unicode":"201d",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":322,
             "elements":[
               {
@@ -10936,13 +11114,13 @@
       {
         "name":"quotedblleftreversed",
         "unicode":"201f",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":322,
             "elements":[
               {
@@ -11000,13 +11178,13 @@
       {
         "name":"quotedblbase",
         "unicode":"201e",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":327,
             "elements":[
               {
@@ -11473,7 +11651,7 @@
       {
         "name":"periodcentered",
         "unicode":"00b7",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":241,
         "layers":[
@@ -13583,7 +13761,7 @@
       {
         "name":"zeroinferior",
         "unicode":"2080",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13608,7 +13786,7 @@
       {
         "name":"oneinferior",
         "unicode":"2081",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13633,7 +13811,7 @@
       {
         "name":"twoinferior",
         "unicode":"2082",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13658,7 +13836,7 @@
       {
         "name":"threeinferior",
         "unicode":"2083",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13683,7 +13861,7 @@
       {
         "name":"fourinferior",
         "unicode":"2084",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13708,7 +13886,7 @@
       {
         "name":"fiveinferior",
         "unicode":"2085",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13733,7 +13911,7 @@
       {
         "name":"sixinferior",
         "unicode":"2086",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13758,7 +13936,7 @@
       {
         "name":"seveninferior",
         "unicode":"2087",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13783,7 +13961,7 @@
       {
         "name":"eightinferior",
         "unicode":"2088",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13808,7 +13986,7 @@
       {
         "name":"nineinferior",
         "unicode":"2089",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -13870,7 +14048,7 @@
       {
         "name":"fractionslash",
         "unicode":"2215",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "colorFlag":240,
         "layers":[
           {
@@ -14330,7 +14508,7 @@
       },
       {
         "name":"zero.dnom",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -14354,7 +14532,7 @@
       },
       {
         "name":"one.dnom",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -14378,7 +14556,7 @@
       },
       {
         "name":"two.dnom",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -14402,7 +14580,7 @@
       },
       {
         "name":"three.dnom",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -14426,7 +14604,7 @@
       },
       {
         "name":"four.dnom",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -14450,7 +14628,7 @@
       },
       {
         "name":"five.dnom",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -14474,7 +14652,7 @@
       },
       {
         "name":"six.dnom",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -14498,7 +14676,7 @@
       },
       {
         "name":"seven.dnom",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -14521,7 +14699,7 @@
       },
       {
         "name":"eight.dnom",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -14544,7 +14722,7 @@
       },
       {
         "name":"nine.dnom",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
         "colorFlag":240,
         "layers":[
@@ -14559,7 +14737,8 @@
                 },
                 "transform":{
                   "yOffset":-338
-                }
+                },
+                "active":true
               }
             ]
           }
@@ -14568,22 +14747,20 @@
       {
         "name":"onequarter",
         "unicode":"00bc",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "lib":{
-          "note":"one.numr fraction 20\r\nfraction four.dnom -60"
-        },
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":657,
             "elements":[
               {
                 "component":{
                   "glyphName":"one.numr"
-                }
+                },
+                "active":true
               },
               {
                 "component":{
@@ -14613,16 +14790,13 @@
       {
         "name":"onehalf",
         "unicode":"00bd",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "lib":{
-          "note":"one.numr fraction 20\r\nfraction two.dnom -10"
-        },
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":675,
             "elements":[
               {
@@ -14658,16 +14832,13 @@
       {
         "name":"threequarters",
         "unicode":"00be",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "lib":{
-          "note":"three.numr fraction -10\r\nfraction four.dnom -60"
-        },
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":667,
             "elements":[
               {
@@ -14703,16 +14874,13 @@
       {
         "name":"percent",
         "unicode":"0025",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "lib":{
-          "note":"zero.numr fraction -25\r\nfraction zero.dnom -25"
-        },
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":769,
             "elements":[
               {
@@ -14748,16 +14916,13 @@
       {
         "name":"perthousand",
         "unicode":"2030",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "lib":{
-          "note":"zero.numr fraction -25\r\nfraction zero.dnom -25"
-        },
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":1128,
             "elements":[
               {
@@ -15196,7 +15361,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ]
           }
@@ -15345,19 +15511,20 @@
       {
         "name":"second",
         "unicode":"2033",
-        "lastModified":"2020-12-15 16:43:08",
+        "lastModified":"2023-02-07 16:43:09",
         "openTypeGlyphClass":1,
-        "colorFlag":282,
+        "colorFlag":301,
         "layers":[
           {
             "name":"Regular",
-            "colorFlag":282,
+            "colorFlag":301,
             "advanceWidth":320,
             "elements":[
               {
                 "component":{
                   "glyphName":"minute"
-                }
+                },
+                "active":true
               },
               {
                 "component":{
@@ -15917,7 +16084,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ]
           }
@@ -15959,6 +16127,7 @@
           "Agrave",
           "Aacute",
           "Acircumflex",
+          "Acaron",
           "Atilde",
           "Atilde_acutecomb",
           "Adieresis",
@@ -16162,7 +16331,7 @@
     ],
     "openTypeFeatures":[
       {
-        "feature":"@latn.caps_asc = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Atilde_acutecomb Adieresis Amacron Amacron_gravecomb Amacron_acutecomb Amacron_tildecomb Amacron_brevecomb Abreve Aring Aringacute Aogonek AE AEacute AEmacron B_dieresisbelowcomb Cacute Ccircumflex Ccaron Cdotaccent Ccedilla Dcaron Ddotbelow D_dieresisbelowcomb Dlinebelow Dcroat Egrave Eacute Ecircumflex Ecaron Etilde Etilde_acutecomb Edieresis Emacron Emacronacute Emacron_brevecomb Ebreve Edotaccent Eogonek Gcircumflex Gbreve Gdotaccent Gcommaaccent G_dotbelowcomb G_dieresisbelowcomb G_macronbelowcomb Hcircumflex Hdotbelow H_dieresisbelowcomb H_macronbelowcomb Hbar Igrave Iacute Icircumflex Itilde Itilde_acutecomb Idieresis Imacron Imacron_gravecomb Imacron_acutecomb Imacron_tildecomb Imacron_brevecomb Ibreve Idotaccent Iogonek Jcircumflex J_macroncomb J_dieresisbelowcomb Kcommaaccent Kdotbelow Klinebelow Lacute Lcaron L_tildecomb Lcommaaccent Lmacronbelow Ldotbelow Ldotbelow_acutecomb Ldotbelowmacron Ldotbelowmacron_acutecomb L_dieresisbelowcomb L_ringbelowcomb L_ringbelowcomb_acutecomb L_ringbelowcomb_macroncomb L_ringbelowcomb_macroncomb_acutecomb Lslash Ldot M_brevecomb Mdotaccent M_candrabinducomb Mdotbelow Nacute Ncaron Ntilde N_brevecomb Ndotaccent N_candrabinducomb Nmacronbelow Ndotbelow Ncommaaccent Ograve Oacute Ocircumflex Otilde Otildeacute Odieresis Omacron Omacron_brevecomb Obreve Ohungarumlaut Oslash Oslashacute OE Racute Rcaron R_brevecomb Rdotaccent Rcommaaccent Rmacronbelow Rdotbelow Rdotbelow_gravecomb Rdotbelow_acutecomb Rdotbelowmacron Rdotbelowmacron_acutecomb R_dieresisbelowcomb R_ringbelowcomb R_ringbelowcomb_gravecomb R_ringbelowcomb_acutecomb R_ringbelowcomb_macroncomb R_ringbelowcomb_macroncomb_acutecomb Sacute Scircumflex Scaron Scedilla Scommaaccent Sdotbelow S_dieresisbelowcomb S_macronbelowcomb Germandbls Tcaron Tcedilla Tcommaaccent Tdotbelow T_dieresisbelowcomb Tlinebelow Tbar Ugrave Uacute Ucircumflex Utilde Utildeacute Udieresis Umacron Umacron_gravecomb Umacron_acutecomb Umacron_tildecomb Umacron_brevecomb Ubreve Uring Uhungarumlaut Uogonek Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Ydotaccent Zacute Zcaron Zdotaccent Zdotbelow Z_dieresisbelowcomb Zlinebelow Eng Eth Thorn IJ IJ_acutecomb G_macronbelowcomb_H_macronbelowcomb Klinebelow_H_macronbelowcomb];\n@numerals.dnom = [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\nlanguagesystem DFLT dflt;\nlanguagesystem latn dflt;\n# Glyph classes\n\n# Lookups\nlookup latn.locl.CAT {\n    sub L periodcentered by Ldot;\n} latn.locl.CAT;\n\nlookup latn.locl.NLD {\n    sub I acutecomb J acutecomb by IJ_acutecomb;\n    sub Iacute J acutecomb by IJ_acutecomb;\n    sub I J by IJ;\n    sub IJ acutecomb by IJ_acutecomb;\n} latn.locl.NLD;\n\nlookup latn.locl.ROM.MOL {\n    sub Scedilla by Scommaaccent;\n    sub Tcedilla by Tcommaaccent;\n} latn.locl.ROM.MOL;\n\nlookup latn.ccmp_NFD {\n    sub G macronbelowcomb H macronbelowcomb by G_macronbelowcomb_H_macronbelowcomb;\n    sub K macronbelowcomb H macronbelowcomb by Klinebelow_H_macronbelowcomb;\n    sub L dotbelowcomb macroncomb acutecomb by Ldotbelowmacron_acutecomb;\n    sub L ringbelowcomb macroncomb acutecomb by L_ringbelowcomb_macroncomb_acutecomb;\n    sub R dotbelowcomb macroncomb acutecomb by Rdotbelowmacron_acutecomb;\n    sub R ringbelowcomb macroncomb acutecomb by R_ringbelowcomb_macroncomb_acutecomb;\n    sub G macrondblbelowcomb H by G_macronbelowcomb_H_macronbelowcomb;\n    sub K macrondblbelowcomb H by Klinebelow_H_macronbelowcomb;\n    sub A tildecomb acutecomb by Atilde_acutecomb;\n    sub A macroncomb gravecomb by Amacron_gravecomb;\n    sub A macroncomb acutecomb by Amacron_acutecomb;\n    sub A macroncomb tildecomb by Amacron_tildecomb;\n    sub A macroncomb brevecomb by Amacron_brevecomb;\n    sub A ringcomb acutecomb by Aringacute;\n    sub E tildecomb acutecomb by Etilde_acutecomb;\n    sub E macroncomb acutecomb by Emacronacute;\n    sub E macroncomb brevecomb by Emacron_brevecomb;\n    sub I tildecomb acutecomb by Itilde_acutecomb;\n    sub I macroncomb gravecomb by Imacron_gravecomb;\n    sub I macroncomb acutecomb by Imacron_acutecomb;\n    sub I macroncomb tildecomb by Imacron_tildecomb;\n    sub I macroncomb brevecomb by Imacron_brevecomb;\n    sub L dotbelowcomb acutecomb by Ldotbelow_acutecomb;\n    sub L dotbelowcomb macroncomb by Ldotbelowmacron;\n    sub L ringbelowcomb acutecomb by L_ringbelowcomb_acutecomb;\n    sub L ringbelowcomb macroncomb by L_ringbelowcomb_macroncomb;\n    sub O tildecomb acutecomb by Otildeacute;\n    sub O macroncomb brevecomb by Omacron_brevecomb;\n    sub R dotbelowcomb gravecomb by Rdotbelow_gravecomb;\n    sub R dotbelowcomb acutecomb by Rdotbelow_acutecomb;\n    sub R dotbelowcomb macroncomb by Rdotbelowmacron;\n    sub R ringbelowcomb gravecomb by R_ringbelowcomb_gravecomb;\n    sub R ringbelowcomb acutecomb by R_ringbelowcomb_acutecomb;\n    sub R ringbelowcomb macroncomb by R_ringbelowcomb_macroncomb;\n    sub U tildecomb acutecomb by Utildeacute;\n    sub U macroncomb gravecomb by Umacron_gravecomb;\n    sub U macroncomb acutecomb by Umacron_acutecomb;\n    sub U macroncomb tildecomb by Umacron_tildecomb;\n    sub U macroncomb brevecomb by Umacron_brevecomb;\n    sub A gravecomb by Agrave;\n    sub A acutecomb by Aacute;\n    sub A circumflexcomb by Acircumflex;\n    sub A tildecomb by Atilde;\n    sub A dieresiscomb by Adieresis;\n    sub A macroncomb by Amacron;\n    sub A brevecomb by Abreve;\n    sub A ringcomb by Aring;\n    sub A ogonekcomb by Aogonek;\n    sub AE acutecomb by AEacute;\n    sub AE macroncomb by AEmacron;\n    sub B dieresisbelowcomb by B_dieresisbelowcomb;\n    sub C acutecomb by Cacute;\n    sub C circumflexcomb by Ccircumflex;\n    sub C caroncomb by Ccaron;\n    sub C dotaccentcomb by Cdotaccent;\n    sub C cedillacomb by Ccedilla;\n    sub D caroncomb by Dcaron;\n    sub D dotbelowcomb by Ddotbelow;\n    sub D dieresisbelowcomb by D_dieresisbelowcomb;\n    sub D macronbelowcomb by Dlinebelow;\n    sub E gravecomb by Egrave;\n    sub E acutecomb by Eacute;\n    sub E circumflexcomb by Ecircumflex;\n    sub E caroncomb by Ecaron;\n    sub E tildecomb by Etilde;\n    sub E dieresiscomb by Edieresis;\n    sub E macroncomb by Emacron;\n    sub E brevecomb by Ebreve;\n    sub E dotaccentcomb by Edotaccent;\n    sub E ogonekcomb by Eogonek;\n    sub G circumflexcomb by Gcircumflex;\n    sub G brevecomb by Gbreve;\n    sub G dotaccentcomb by Gdotaccent;\n    sub G commaaccentcomb by Gcommaaccent;\n    sub G dotbelowcomb by G_dotbelowcomb;\n    sub G dieresisbelowcomb by G_dieresisbelowcomb;\n    sub G macronbelowcomb by G_macronbelowcomb;\n    sub H circumflexcomb by Hcircumflex;\n    sub H dotbelowcomb by Hdotbelow;\n    sub H dieresisbelowcomb by H_dieresisbelowcomb;\n    sub H macronbelowcomb by H_macronbelowcomb;\n    sub I gravecomb by Igrave;\n    sub I acutecomb by Iacute;\n    sub I circumflexcomb by Icircumflex;\n    sub I tildecomb by Itilde;\n    sub I dieresiscomb by Idieresis;\n    sub I macroncomb by Imacron;\n    sub I brevecomb by Ibreve;\n    sub I dotaccentcomb by Idotaccent;\n    sub I ogonekcomb by Iogonek;\n    sub J circumflexcomb by Jcircumflex;\n    sub J macroncomb by J_macroncomb;\n    sub J dieresisbelowcomb by J_dieresisbelowcomb;\n    sub K commaaccentcomb by Kcommaaccent;\n    sub K dotbelowcomb by Kdotbelow;\n    sub K macronbelowcomb by Klinebelow;\n    sub L acutecomb by Lacute;\n    sub L caroncomb by Lcaron;\n    sub L tildecomb by L_tildecomb;\n    sub L commaaccentcomb by Lcommaaccent;\n    sub L macronbelowcomb by Lmacronbelow;\n    sub L dotbelowcomb by Ldotbelow;\n    sub L dieresisbelowcomb by L_dieresisbelowcomb;\n    sub L ringbelowcomb by L_ringbelowcomb;\n    sub M brevecomb by M_brevecomb;\n    sub M dotaccentcomb by Mdotaccent;\n    sub M candrabinducomb by M_candrabinducomb;\n    sub M dotbelowcomb by Mdotbelow;\n    sub N acutecomb by Nacute;\n    sub N caroncomb by Ncaron;\n    sub N tildecomb by Ntilde;\n    sub N brevecomb by N_brevecomb;\n    sub N dotaccentcomb by Ndotaccent;\n    sub N candrabinducomb by N_candrabinducomb;\n    sub N macronbelowcomb by Nmacronbelow;\n    sub N dotbelowcomb by Ndotbelow;\n    sub N commaaccentcomb by Ncommaaccent;\n    sub O gravecomb by Ograve;\n    sub O acutecomb by Oacute;\n    sub O circumflexcomb by Ocircumflex;\n    sub O tildecomb by Otilde;\n    sub O dieresiscomb by Odieresis;\n    sub O macroncomb by Omacron;\n    sub O brevecomb by Obreve;\n    sub O hungarumlautcomb by Ohungarumlaut;\n    sub Oslash acutecomb by Oslashacute;\n    sub R acutecomb by Racute;\n    sub R caroncomb by Rcaron;\n    sub R brevecomb by R_brevecomb;\n    sub R dotaccentcomb by Rdotaccent;\n    sub R commaaccentcomb by Rcommaaccent;\n    sub R macronbelowcomb by Rmacronbelow;\n    sub R dotbelowcomb by Rdotbelow;\n    sub R dieresisbelowcomb by R_dieresisbelowcomb;\n    sub R ringbelowcomb by R_ringbelowcomb;\n    sub S acutecomb by Sacute;\n    sub S circumflexcomb by Scircumflex;\n    sub S caroncomb by Scaron;\n    sub S cedillacomb by Scedilla;\n    sub S commaaccentcomb by Scommaaccent;\n    sub S dotbelowcomb by Sdotbelow;\n    sub S dieresisbelowcomb by S_dieresisbelowcomb;\n    sub S macronbelowcomb by S_macronbelowcomb;\n    sub T caroncomb by Tcaron;\n    sub T commaaccentcomb by Tcommaaccent;\n    sub T dotbelowcomb by Tdotbelow;\n    sub T dieresisbelowcomb by T_dieresisbelowcomb;\n    sub T macronbelowcomb by Tlinebelow;\n    sub U gravecomb by Ugrave;\n    sub U acutecomb by Uacute;\n    sub U circumflexcomb by Ucircumflex;\n    sub U tildecomb by Utilde;\n    sub U dieresiscomb by Udieresis;\n    sub U macroncomb by Umacron;\n    sub U brevecomb by Ubreve;\n    sub U ringcomb by Uring;\n    sub U hungarumlautcomb by Uhungarumlaut;\n    sub U ogonekcomb by Uogonek;\n    sub W gravecomb by Wgrave;\n    sub W acutecomb by Wacute;\n    sub W circumflexcomb by Wcircumflex;\n    sub W dieresiscomb by Wdieresis;\n    sub Y gravecomb by Ygrave;\n    sub Y acutecomb by Yacute;\n    sub Y circumflexcomb by Ycircumflex;\n    sub Y dieresiscomb by Ydieresis;\n    sub Y dotaccentcomb by Ydotaccent;\n    sub Z acutecomb by Zacute;\n    sub Z caroncomb by Zcaron;\n    sub Z dotaccentcomb by Zdotaccent;\n    sub Z dotbelowcomb by Zdotbelow;\n    sub Z dieresisbelowcomb by Z_dieresisbelowcomb;\n    sub Z macronbelowcomb by Zlinebelow;\n    sub IJ acutecomb by IJ_acutecomb;\n} latn.ccmp_NFD;\n\nlookup latn.ccmp_NFC {\n    sub Klinebelow H macronbelowcomb by Klinebelow_H_macronbelowcomb;\n    sub Atilde acutecomb by Atilde_acutecomb;\n    sub Amacron gravecomb by Amacron_gravecomb;\n    sub Amacron acutecomb by Amacron_acutecomb;\n    sub Amacron tildecomb by Amacron_tildecomb;\n    sub Amacron brevecomb by Amacron_brevecomb;\n    sub Aring acutecomb by Aringacute;\n    sub Etilde acutecomb by Etilde_acutecomb;\n    sub Emacron brevecomb by Emacron_brevecomb;\n    sub Itilde acutecomb by Itilde_acutecomb;\n    sub Imacron gravecomb by Imacron_gravecomb;\n    sub Imacron acutecomb by Imacron_acutecomb;\n    sub Imacron tildecomb by Imacron_tildecomb;\n    sub Imacron brevecomb by Imacron_brevecomb;\n    sub Ldotbelow acutecomb by Ldotbelow_acutecomb;\n    sub Ldotbelowmacron acutecomb by Ldotbelowmacron_acutecomb;\n    sub Omacron brevecomb by Omacron_brevecomb;\n    sub Rdotbelow gravecomb by Rdotbelow_gravecomb;\n    sub Rdotbelow acutecomb by Rdotbelow_acutecomb;\n    sub Rdotbelowmacron acutecomb by Rdotbelowmacron_acutecomb;\n    sub Umacron gravecomb by Umacron_gravecomb;\n    sub Umacron acutecomb by Umacron_acutecomb;\n    sub Umacron tildecomb by Umacron_tildecomb;\n    sub Umacron brevecomb by Umacron_brevecomb;\n    sub Klinebelow H_macronbelowcomb by Klinebelow_H_macronbelowcomb;\n} latn.ccmp_NFC;\n\nlookup xxxx.sups {\n    sub zero by zerosuperior;\n    sub one by onesuperior;\n    sub two by twosuperior;\n    sub three by threesuperior;\n    sub four by foursuperior;\n    sub five by fivesuperior;\n    sub six by sixsuperior;\n    sub seven by sevensuperior;\n    sub eight by eightsuperior;\n    sub nine by ninesuperior;\n} xxxx.sups;\n\nlookup xxxx.subs {\n    sub zero by zeroinferior;\n    sub one by oneinferior;\n    sub two by twoinferior;\n    sub three by threeinferior;\n    sub four by fourinferior;\n    sub five by fiveinferior;\n    sub six by sixinferior;\n    sub seven by seveninferior;\n    sub eight by eightinferior;\n    sub nine by nineinferior;\n} xxxx.subs;\n\nlookup xxxx.frac_slash {\n    sub slash by fraction;\n    sub fractionslash by fraction;\n} xxxx.frac_slash;\n\nlookup xxxx.frac_numr {\n    sub zero by zero.numr;\n    sub one by one.numr;\n    sub two by two.numr;\n    sub three by three.numr;\n    sub four by four.numr;\n    sub five by five.numr;\n    sub six by six.numr;\n    sub seven by seven.numr;\n    sub eight by eight.numr;\n    sub nine by nine.numr;\n} xxxx.frac_numr;\n\nlookup xxxx.frac_dnom {\n    sub [fraction @numerals.dnom] zero.numr' by zero.dnom;\n    sub [fraction @numerals.dnom] one.numr' by one.dnom;\n    sub [fraction @numerals.dnom] two.numr' by two.dnom;\n    sub [fraction @numerals.dnom] three.numr' by three.dnom;\n    sub [fraction @numerals.dnom] four.numr' by four.dnom;\n    sub [fraction @numerals.dnom] five.numr' by five.dnom;\n    sub [fraction @numerals.dnom] six.numr' by six.dnom;\n    sub [fraction @numerals.dnom] seven.numr' by seven.dnom;\n    sub [fraction @numerals.dnom] eight.numr' by eight.dnom;\n    sub [fraction @numerals.dnom] nine.numr' by nine.dnom;\n} xxxx.frac_dnom;\n\n# Features\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+        "feature":"#> classes\n#/> otclasses\n@latn.caps_asc = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Acaron Atilde Atilde_acutecomb Adieresis Amacron Amacron_gravecomb Amacron_acutecomb Amacron_tildecomb Amacron_brevecomb Abreve Aring Aringacute Aogonek AE AEacute AEmacron B_dieresisbelowcomb Cacute Ccircumflex Ccaron Cdotaccent Ccedilla Dcaron Ddotbelow D_dieresisbelowcomb Dlinebelow Dcroat Egrave Eacute Ecircumflex Ecaron Etilde Etilde_acutecomb Edieresis Emacron Emacronacute Emacron_brevecomb Ebreve Edotaccent Eogonek Gcircumflex Gbreve Gdotaccent Gcommaaccent G_dotbelowcomb G_dieresisbelowcomb G_macronbelowcomb Hcircumflex Hdotbelow H_dieresisbelowcomb H_macronbelowcomb Hbar Igrave Iacute Icircumflex Itilde Itilde_acutecomb Idieresis Imacron Imacron_gravecomb Imacron_acutecomb Imacron_tildecomb Imacron_brevecomb Ibreve Idotaccent Iogonek Jcircumflex J_macroncomb J_dieresisbelowcomb Kcommaaccent Kdotbelow Klinebelow Lacute Lcaron L_tildecomb Lcommaaccent Lmacronbelow Ldotbelow Ldotbelow_acutecomb Ldotbelowmacron Ldotbelowmacron_acutecomb L_dieresisbelowcomb L_ringbelowcomb L_ringbelowcomb_acutecomb L_ringbelowcomb_macroncomb L_ringbelowcomb_macroncomb_acutecomb Lslash Ldot M_brevecomb Mdotaccent M_candrabinducomb Mdotbelow Nacute Ncaron Ntilde N_brevecomb Ndotaccent N_candrabinducomb Nmacronbelow Ndotbelow Ncommaaccent Ograve Oacute Ocircumflex Otilde Otildeacute Odieresis Omacron Omacron_brevecomb Obreve Ohungarumlaut Oslash Oslashacute OE Racute Rcaron R_brevecomb Rdotaccent Rcommaaccent Rmacronbelow Rdotbelow Rdotbelow_gravecomb Rdotbelow_acutecomb Rdotbelowmacron Rdotbelowmacron_acutecomb R_dieresisbelowcomb R_ringbelowcomb R_ringbelowcomb_gravecomb R_ringbelowcomb_acutecomb R_ringbelowcomb_macroncomb R_ringbelowcomb_macroncomb_acutecomb Sacute Scircumflex Scaron Scedilla Scommaaccent Sdotbelow S_dieresisbelowcomb S_macronbelowcomb Germandbls Tcaron Tcedilla Tcommaaccent Tdotbelow T_dieresisbelowcomb Tlinebelow Tbar Ugrave Uacute Ucircumflex Utilde Utildeacute Udieresis Umacron Umacron_gravecomb Umacron_acutecomb Umacron_tildecomb Umacron_brevecomb Ubreve Uring Uhungarumlaut Uogonek Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Ydotaccent Zacute Zcaron Zdotaccent Zdotbelow Z_dieresisbelowcomb Zlinebelow Eng Eth Thorn IJ IJ_acutecomb G_macronbelowcomb_H_macronbelowcomb Klinebelow_H_macronbelowcomb];\n@numerals.dnom = [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\n#/< otclasses\n#< classes\n\nlanguagesystem DFLT dflt;\nlanguagesystem latn dflt;\n\n# Lookups\nlookup latn.locl.CAT {\n    sub L periodcentered by Ldot;\n} latn.locl.CAT;\n\nlookup latn.locl.NLD {\n    sub I acutecomb J acutecomb by IJ_acutecomb;\n    sub Iacute J acutecomb by IJ_acutecomb;\n    sub I J by IJ;\n    sub IJ acutecomb by IJ_acutecomb;\n} latn.locl.NLD;\n\nlookup latn.locl.ROM.MOL {\n    sub Scedilla by Scommaaccent;\n    sub Tcedilla by Tcommaaccent;\n} latn.locl.ROM.MOL;\n\nlookup latn.ccmp_NFD {\n    sub G macronbelowcomb H macronbelowcomb by G_macronbelowcomb_H_macronbelowcomb;\n    sub K macronbelowcomb H macronbelowcomb by Klinebelow_H_macronbelowcomb;\n    sub L dotbelowcomb macroncomb acutecomb by Ldotbelowmacron_acutecomb;\n    sub L ringbelowcomb macroncomb acutecomb by L_ringbelowcomb_macroncomb_acutecomb;\n    sub R dotbelowcomb macroncomb acutecomb by Rdotbelowmacron_acutecomb;\n    sub R ringbelowcomb macroncomb acutecomb by R_ringbelowcomb_macroncomb_acutecomb;\n    sub G macrondblbelowcomb H by G_macronbelowcomb_H_macronbelowcomb;\n    sub K macrondblbelowcomb H by Klinebelow_H_macronbelowcomb;\n    sub A tildecomb acutecomb by Atilde_acutecomb;\n    sub A macroncomb gravecomb by Amacron_gravecomb;\n    sub A macroncomb acutecomb by Amacron_acutecomb;\n    sub A macroncomb tildecomb by Amacron_tildecomb;\n    sub A macroncomb brevecomb by Amacron_brevecomb;\n    sub A ringcomb acutecomb by Aringacute;\n    sub E tildecomb acutecomb by Etilde_acutecomb;\n    sub E macroncomb acutecomb by Emacronacute;\n    sub E macroncomb brevecomb by Emacron_brevecomb;\n    sub I tildecomb acutecomb by Itilde_acutecomb;\n    sub I macroncomb gravecomb by Imacron_gravecomb;\n    sub I macroncomb acutecomb by Imacron_acutecomb;\n    sub I macroncomb tildecomb by Imacron_tildecomb;\n    sub I macroncomb brevecomb by Imacron_brevecomb;\n    sub L dotbelowcomb acutecomb by Ldotbelow_acutecomb;\n    sub L dotbelowcomb macroncomb by Ldotbelowmacron;\n    sub L ringbelowcomb acutecomb by L_ringbelowcomb_acutecomb;\n    sub L ringbelowcomb macroncomb by L_ringbelowcomb_macroncomb;\n    sub O tildecomb acutecomb by Otildeacute;\n    sub O macroncomb brevecomb by Omacron_brevecomb;\n    sub R dotbelowcomb gravecomb by Rdotbelow_gravecomb;\n    sub R dotbelowcomb acutecomb by Rdotbelow_acutecomb;\n    sub R dotbelowcomb macroncomb by Rdotbelowmacron;\n    sub R ringbelowcomb gravecomb by R_ringbelowcomb_gravecomb;\n    sub R ringbelowcomb acutecomb by R_ringbelowcomb_acutecomb;\n    sub R ringbelowcomb macroncomb by R_ringbelowcomb_macroncomb;\n    sub U tildecomb acutecomb by Utildeacute;\n    sub U macroncomb gravecomb by Umacron_gravecomb;\n    sub U macroncomb acutecomb by Umacron_acutecomb;\n    sub U macroncomb tildecomb by Umacron_tildecomb;\n    sub U macroncomb brevecomb by Umacron_brevecomb;\n    sub A gravecomb by Agrave;\n    sub A acutecomb by Aacute;\n    sub A circumflexcomb by Acircumflex;\n    sub A tildecomb by Atilde;\n    sub A caroncomb by Acaron;\n    sub A dieresiscomb by Adieresis;\n    sub A macroncomb by Amacron;\n    sub A brevecomb by Abreve;\n    sub A ringcomb by Aring;\n    sub A ogonekcomb by Aogonek;\n    sub AE acutecomb by AEacute;\n    sub AE macroncomb by AEmacron;\n    sub B dieresisbelowcomb by B_dieresisbelowcomb;\n    sub C acutecomb by Cacute;\n    sub C circumflexcomb by Ccircumflex;\n    sub C caroncomb by Ccaron;\n    sub C dotaccentcomb by Cdotaccent;\n    sub C cedillacomb by Ccedilla;\n    sub D caroncomb by Dcaron;\n    sub D dotbelowcomb by Ddotbelow;\n    sub D dieresisbelowcomb by D_dieresisbelowcomb;\n    sub D macronbelowcomb by Dlinebelow;\n    sub E gravecomb by Egrave;\n    sub E acutecomb by Eacute;\n    sub E circumflexcomb by Ecircumflex;\n    sub E caroncomb by Ecaron;\n    sub E tildecomb by Etilde;\n    sub E dieresiscomb by Edieresis;\n    sub E macroncomb by Emacron;\n    sub E brevecomb by Ebreve;\n    sub E dotaccentcomb by Edotaccent;\n    sub E ogonekcomb by Eogonek;\n    sub G circumflexcomb by Gcircumflex;\n    sub G brevecomb by Gbreve;\n    sub G dotaccentcomb by Gdotaccent;\n    sub G commaaccentcomb by Gcommaaccent;\n    sub G dotbelowcomb by G_dotbelowcomb;\n    sub G dieresisbelowcomb by G_dieresisbelowcomb;\n    sub G macronbelowcomb by G_macronbelowcomb;\n    sub H circumflexcomb by Hcircumflex;\n    sub H dotbelowcomb by Hdotbelow;\n    sub H dieresisbelowcomb by H_dieresisbelowcomb;\n    sub H macronbelowcomb by H_macronbelowcomb;\n    sub I gravecomb by Igrave;\n    sub I acutecomb by Iacute;\n    sub I circumflexcomb by Icircumflex;\n    sub I tildecomb by Itilde;\n    sub I dieresiscomb by Idieresis;\n    sub I macroncomb by Imacron;\n    sub I brevecomb by Ibreve;\n    sub I dotaccentcomb by Idotaccent;\n    sub I ogonekcomb by Iogonek;\n    sub J circumflexcomb by Jcircumflex;\n    sub J macroncomb by J_macroncomb;\n    sub J dieresisbelowcomb by J_dieresisbelowcomb;\n    sub K commaaccentcomb by Kcommaaccent;\n    sub K dotbelowcomb by Kdotbelow;\n    sub K macronbelowcomb by Klinebelow;\n    sub L acutecomb by Lacute;\n    sub L caroncomb by Lcaron;\n    sub L tildecomb by L_tildecomb;\n    sub L commaaccentcomb by Lcommaaccent;\n    sub L macronbelowcomb by Lmacronbelow;\n    sub L dotbelowcomb by Ldotbelow;\n    sub L dieresisbelowcomb by L_dieresisbelowcomb;\n    sub L ringbelowcomb by L_ringbelowcomb;\n    sub M brevecomb by M_brevecomb;\n    sub M dotaccentcomb by Mdotaccent;\n    sub M candrabinducomb by M_candrabinducomb;\n    sub M dotbelowcomb by Mdotbelow;\n    sub N acutecomb by Nacute;\n    sub N caroncomb by Ncaron;\n    sub N tildecomb by Ntilde;\n    sub N brevecomb by N_brevecomb;\n    sub N dotaccentcomb by Ndotaccent;\n    sub N candrabinducomb by N_candrabinducomb;\n    sub N macronbelowcomb by Nmacronbelow;\n    sub N dotbelowcomb by Ndotbelow;\n    sub N commaaccentcomb by Ncommaaccent;\n    sub O gravecomb by Ograve;\n    sub O acutecomb by Oacute;\n    sub O circumflexcomb by Ocircumflex;\n    sub O tildecomb by Otilde;\n    sub O dieresiscomb by Odieresis;\n    sub O macroncomb by Omacron;\n    sub O brevecomb by Obreve;\n    sub O hungarumlautcomb by Ohungarumlaut;\n    sub Oslash acutecomb by Oslashacute;\n    sub R acutecomb by Racute;\n    sub R caroncomb by Rcaron;\n    sub R brevecomb by R_brevecomb;\n    sub R dotaccentcomb by Rdotaccent;\n    sub R commaaccentcomb by Rcommaaccent;\n    sub R macronbelowcomb by Rmacronbelow;\n    sub R dotbelowcomb by Rdotbelow;\n    sub R dieresisbelowcomb by R_dieresisbelowcomb;\n    sub R ringbelowcomb by R_ringbelowcomb;\n    sub S acutecomb by Sacute;\n    sub S circumflexcomb by Scircumflex;\n    sub S caroncomb by Scaron;\n    sub S cedillacomb by Scedilla;\n    sub S commaaccentcomb by Scommaaccent;\n    sub S dotbelowcomb by Sdotbelow;\n    sub S dieresisbelowcomb by S_dieresisbelowcomb;\n    sub S macronbelowcomb by S_macronbelowcomb;\n    sub T caroncomb by Tcaron;\n    sub T commaaccentcomb by Tcommaaccent;\n    sub T dotbelowcomb by Tdotbelow;\n    sub T dieresisbelowcomb by T_dieresisbelowcomb;\n    sub T macronbelowcomb by Tlinebelow;\n    sub U gravecomb by Ugrave;\n    sub U acutecomb by Uacute;\n    sub U circumflexcomb by Ucircumflex;\n    sub U tildecomb by Utilde;\n    sub U dieresiscomb by Udieresis;\n    sub U macroncomb by Umacron;\n    sub U brevecomb by Ubreve;\n    sub U ringcomb by Uring;\n    sub U hungarumlautcomb by Uhungarumlaut;\n    sub U ogonekcomb by Uogonek;\n    sub W gravecomb by Wgrave;\n    sub W acutecomb by Wacute;\n    sub W circumflexcomb by Wcircumflex;\n    sub W dieresiscomb by Wdieresis;\n    sub Y gravecomb by Ygrave;\n    sub Y acutecomb by Yacute;\n    sub Y circumflexcomb by Ycircumflex;\n    sub Y dieresiscomb by Ydieresis;\n    sub Y dotaccentcomb by Ydotaccent;\n    sub Z acutecomb by Zacute;\n    sub Z caroncomb by Zcaron;\n    sub Z dotaccentcomb by Zdotaccent;\n    sub Z dotbelowcomb by Zdotbelow;\n    sub Z dieresisbelowcomb by Z_dieresisbelowcomb;\n    sub Z macronbelowcomb by Zlinebelow;\n    sub IJ acutecomb by IJ_acutecomb;\n} latn.ccmp_NFD;\n\nlookup latn.ccmp_NFC {\n    sub Klinebelow H macronbelowcomb by Klinebelow_H_macronbelowcomb;\n    sub Atilde acutecomb by Atilde_acutecomb;\n    sub Amacron gravecomb by Amacron_gravecomb;\n    sub Amacron acutecomb by Amacron_acutecomb;\n    sub Amacron tildecomb by Amacron_tildecomb;\n    sub Amacron brevecomb by Amacron_brevecomb;\n    sub Aring acutecomb by Aringacute;\n    sub Etilde acutecomb by Etilde_acutecomb;\n    sub Emacron brevecomb by Emacron_brevecomb;\n    sub Itilde acutecomb by Itilde_acutecomb;\n    sub Imacron gravecomb by Imacron_gravecomb;\n    sub Imacron acutecomb by Imacron_acutecomb;\n    sub Imacron tildecomb by Imacron_tildecomb;\n    sub Imacron brevecomb by Imacron_brevecomb;\n    sub Ldotbelow acutecomb by Ldotbelow_acutecomb;\n    sub Ldotbelowmacron acutecomb by Ldotbelowmacron_acutecomb;\n    sub Omacron brevecomb by Omacron_brevecomb;\n    sub Rdotbelow gravecomb by Rdotbelow_gravecomb;\n    sub Rdotbelow acutecomb by Rdotbelow_acutecomb;\n    sub Rdotbelowmacron acutecomb by Rdotbelowmacron_acutecomb;\n    sub Umacron gravecomb by Umacron_gravecomb;\n    sub Umacron acutecomb by Umacron_acutecomb;\n    sub Umacron tildecomb by Umacron_tildecomb;\n    sub Umacron brevecomb by Umacron_brevecomb;\n    sub Klinebelow H_macronbelowcomb by Klinebelow_H_macronbelowcomb;\n} latn.ccmp_NFC;\n\nlookup xxxx.sups {\n    sub zero by zerosuperior;\n    sub one by onesuperior;\n    sub two by twosuperior;\n    sub three by threesuperior;\n    sub four by foursuperior;\n    sub five by fivesuperior;\n    sub six by sixsuperior;\n    sub seven by sevensuperior;\n    sub eight by eightsuperior;\n    sub nine by ninesuperior;\n} xxxx.sups;\n\nlookup xxxx.subs {\n    sub zero by zeroinferior;\n    sub one by oneinferior;\n    sub two by twoinferior;\n    sub three by threeinferior;\n    sub four by fourinferior;\n    sub five by fiveinferior;\n    sub six by sixinferior;\n    sub seven by seveninferior;\n    sub eight by eightinferior;\n    sub nine by nineinferior;\n} xxxx.subs;\n\nlookup xxxx.frac_slash {\n    sub slash by fraction;\n    sub fractionslash by fraction;\n} xxxx.frac_slash;\n\nlookup xxxx.frac_numr {\n    sub zero by zero.numr;\n    sub one by one.numr;\n    sub two by two.numr;\n    sub three by three.numr;\n    sub four by four.numr;\n    sub five by five.numr;\n    sub six by six.numr;\n    sub seven by seven.numr;\n    sub eight by eight.numr;\n    sub nine by nine.numr;\n} xxxx.frac_numr;\n\nlookup xxxx.frac_dnom {\n    sub [fraction @numerals.dnom] zero.numr' by zero.dnom;\n    sub [fraction @numerals.dnom] one.numr' by one.dnom;\n    sub [fraction @numerals.dnom] two.numr' by two.dnom;\n    sub [fraction @numerals.dnom] three.numr' by three.dnom;\n    sub [fraction @numerals.dnom] four.numr' by four.dnom;\n    sub [fraction @numerals.dnom] five.numr' by five.dnom;\n    sub [fraction @numerals.dnom] six.numr' by six.dnom;\n    sub [fraction @numerals.dnom] seven.numr' by seven.dnom;\n    sub [fraction @numerals.dnom] eight.numr' by eight.dnom;\n    sub [fraction @numerals.dnom] nine.numr' by nine.dnom;\n} xxxx.frac_dnom;\n\n# Features\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
       },
       {
         "name":"frac",
@@ -16264,14 +16433,13 @@
       "version":"SPECIFY IN CONFIG YAML FILE",
       "codepageRange":"0000000000000093",
       "unicodeRange":"00000000000000000000200ba000006f",
-      "useTypoMetrics":false,
       "embedding":"0000",
       "year":2020
     },
     "meta":{
       "metaCreator":true,
       "metaFormatVersion":8,
-      "metaBuild":"7649"
+      "metaBuild":"8249"
     },
     "settings":{
       "settings.RoundCoordinates":"round"
@@ -16288,7 +16456,7 @@
           "width_name":"Normal",
           "slope_name":"Plain",
           "ascender":755,
-          "descender":-246,
+          "descender":-245,
           "xHeight":455,
           "capsHeight":699,
           "measurement":350,
@@ -16299,6 +16467,7 @@
           "safeBottom":430,
           "underlineThickness":45,
           "underlinePosition":-88,
+          "cornerTension":0.67,
           "panose":"2 0 0 0 0 0 0 0 0 0",
           "guidelines":[
             {
@@ -16413,8 +16582,7 @@
               "name":"f3",
               "style":"custom",
               "vertical":true,
-              "position":-286,
-              "delta":200
+              "position":-286
             },
             {
               "name":"f3",
@@ -16608,6 +16776,7 @@
                   "A",
                   "Aacute",
                   "Abreve",
+                  "Acaron",
                   "Acircumflex",
                   "Adieresis",
                   "Agrave",
@@ -16769,6 +16938,7 @@
                   "Oslash",
                   "Oslashacute",
                   "Otilde",
+                  "Otildeacute",
                   "Q"
                 ]
               },
@@ -17001,6 +17171,7 @@
                   "AEmacron",
                   "Aacute",
                   "Abreve",
+                  "Acaron",
                   "Acircumflex",
                   "Adieresis",
                   "Agrave",

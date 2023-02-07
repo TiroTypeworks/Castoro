@@ -90,6 +90,7 @@
     <string>Agrave</string>
     <string>Aacute</string>
     <string>Acircumflex</string>
+    <string>Acaron</string>
     <string>Atilde</string>
     <string>Atilde_acutecomb</string>
     <string>Adieresis</string>
@@ -310,6 +311,7 @@
     <string>agrave</string>
     <string>aacute</string>
     <string>acircumflex</string>
+    <string>acaron</string>
     <string>atilde</string>
     <string>atilde_acutecomb</string>
     <string>adieresis</string>
@@ -534,6 +536,7 @@
     <string>Agrave.sc</string>
     <string>Aacute.sc</string>
     <string>Acircumflex.sc</string>
+    <string>Acaron.sc</string>
     <string>Atilde.sc</string>
     <string>Atilde_acutecomb.sc</string>
     <string>Adieresis.sc</string>
@@ -727,7 +730,10 @@
     <string>tilde</string>
     <string>dieresis</string>
     <string>macron</string>
+    <string>breve</string>
+    <string>dotaccent</string>
     <string>ring</string>
+    <string>hungarumlaut</string>
     <string>cedilla</string>
     <string>ogonek</string>
     <string>gravecomb</string>

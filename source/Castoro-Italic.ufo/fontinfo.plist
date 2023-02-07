@@ -144,7 +144,7 @@
   <key>openTypeHheaLineGap</key>
   <integer>250</integer>
   <key>openTypeNameDesigner</key>
-  <string>John Hudson with Paul Hanslow, assisted by Kaja S&#x142;ojewska.</string>
+  <string>John Hudson with Paul Hanslow, assisted by Kaja Słojewska.</string>
   <key>openTypeNameDesignerURL</key>
   <string>https://www.tiro.com</string>
   <key>openTypeNameLicense</key>
@@ -183,6 +183,7 @@
   </array>
   <key>openTypeOS2Selection</key>
   <array>
+    <integer>7</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>250</integer>

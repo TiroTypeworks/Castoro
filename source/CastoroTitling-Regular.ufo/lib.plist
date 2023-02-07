@@ -913,6 +913,7 @@
     <string>Agrave</string>
     <string>Aacute</string>
     <string>Acircumflex</string>
+    <string>Acaron</string>
     <string>Atilde</string>
     <string>Atilde_acutecomb</string>
     <string>Adieresis</string>
@@ -1105,7 +1106,10 @@
     <string>tilde</string>
     <string>dieresis</string>
     <string>macron</string>
+    <string>breve</string>
+    <string>dotaccent</string>
     <string>ring</string>
+    <string>hungarumlaut</string>
     <string>cedilla</string>
     <string>ogonek</string>
     <string>gravecomb</string>
@@ -1120,6 +1124,7 @@
     <string>ringcomb</string>
     <string>hungarumlautcomb</string>
     <string>candrabinducomb</string>
+    <string>commaaccentturnedabovecomb</string>
     <string>caronslovakcomb</string>
     <string>macronbelowcomb</string>
     <string>brevebelowcomb</string>

@@ -674,6 +674,8 @@
   </dict>
   <key>public.kern1._L_lc_f_1ST</key>
   <dict>
+    <key>acaron</key>
+    <integer>55</integer>
     <key>adieresis</key>
     <integer>30</integer>
     <key>agrave</key>
@@ -2000,6 +2002,8 @@
   <dict>
     <key>Abreve.sc</key>
     <integer>-65</integer>
+    <key>Acaron.sc</key>
+    <integer>-70</integer>
     <key>Acircumflex.sc</key>
     <integer>-75</integer>
     <key>Adieresis.sc</key>
@@ -2064,6 +2068,8 @@
     <integer>40</integer>
     <key>abreve</key>
     <integer>-45</integer>
+    <key>acaron</key>
+    <integer>-25</integer>
     <key>acircumflex</key>
     <integer>-65</integer>
     <key>adieresis</key>
@@ -2109,8 +2115,6 @@
     <key>egrave</key>
     <integer>-85</integer>
     <key>emacron</key>
-    <integer>-65</integer>
-    <key>emacron_acutecomb</key>
     <integer>-65</integer>
     <key>emacron_brevecomb</key>
     <integer>-65</integer>
@@ -2167,8 +2171,6 @@
     <key>omacron_brevecomb</key>
     <integer>-85</integer>
     <key>otilde</key>
-    <integer>-85</integer>
-    <key>otilde_acutecomb</key>
     <integer>-85</integer>
     <key>r_brevecomb</key>
     <integer>-25</integer>
@@ -2360,6 +2362,8 @@
     <integer>40</integer>
     <key>abreve</key>
     <integer>-40</integer>
+    <key>acaron</key>
+    <integer>-30</integer>
     <key>acircumflex</key>
     <integer>-80</integer>
     <key>adieresis</key>
@@ -2405,8 +2409,6 @@
     <key>egrave</key>
     <integer>-100</integer>
     <key>emacron</key>
-    <integer>-75</integer>
-    <key>emacron_acutecomb</key>
     <integer>-75</integer>
     <key>emacron_brevecomb</key>
     <integer>-75</integer>
@@ -2485,8 +2487,6 @@
     <key>omacron_brevecomb</key>
     <integer>-90</integer>
     <key>otilde</key>
-    <integer>-90</integer>
-    <key>otilde_acutecomb</key>
     <integer>-90</integer>
     <key>r_brevecomb</key>
     <integer>-35</integer>

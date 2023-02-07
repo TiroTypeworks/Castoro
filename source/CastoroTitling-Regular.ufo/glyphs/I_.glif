@@ -3,6 +3,7 @@
   <advance width="410"/>
   <unicode hex="0049"/>
   <unicode hex="0069"/>
+  <unicode hex="0131"/>
   <outline>
     <contour>
       <point x="245" y="623" type="line" smooth="yes"/>

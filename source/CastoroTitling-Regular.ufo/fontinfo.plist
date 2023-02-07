@@ -9,7 +9,7 @@
   <key>copyright</key>
   <string>Copyright 2020 The Castoro Project Authors (https://github.com/TiroTypeworks/Castoro)</string>
   <key>descender</key>
-  <integer>-246</integer>
+  <integer>-245</integer>
   <key>familyName</key>
   <string>Castoro Titling</string>
   <key>guidelines</key>
@@ -306,7 +306,7 @@
   </dict>
   </array>
   <key>italicAngle</key>
-  <integer>-0</integer>
+  <integer>0</integer>
   <key>openTypeGaspRangeRecords</key>
   <array>
   <dict>
@@ -383,6 +383,7 @@
   </array>
   <key>openTypeOS2Selection</key>
   <array>
+    <integer>7</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>250</integer>
@@ -410,7 +411,7 @@
   <key>openTypeOS2TypoAscender</key>
   <integer>755</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-246</integer>
+  <integer>-245</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>250</integer>
   <key>openTypeOS2UnicodeRanges</key>

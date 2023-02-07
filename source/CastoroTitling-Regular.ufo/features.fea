@@ -1,8 +1,12 @@
-@latn.caps_asc = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Atilde_acutecomb Adieresis Amacron Amacron_gravecomb Amacron_acutecomb Amacron_tildecomb Amacron_brevecomb Abreve Aring Aringacute Aogonek AE AEacute AEmacron B_dieresisbelowcomb Cacute Ccircumflex Ccaron Cdotaccent Ccedilla Dcaron Ddotbelow D_dieresisbelowcomb Dlinebelow Dcroat Egrave Eacute Ecircumflex Ecaron Etilde Etilde_acutecomb Edieresis Emacron Emacronacute Emacron_brevecomb Ebreve Edotaccent Eogonek Gcircumflex Gbreve Gdotaccent Gcommaaccent G_dotbelowcomb G_dieresisbelowcomb G_macronbelowcomb Hcircumflex Hdotbelow H_dieresisbelowcomb H_macronbelowcomb Hbar Igrave Iacute Icircumflex Itilde Itilde_acutecomb Idieresis Imacron Imacron_gravecomb Imacron_acutecomb Imacron_tildecomb Imacron_brevecomb Ibreve Idotaccent Iogonek Jcircumflex J_macroncomb J_dieresisbelowcomb Kcommaaccent Kdotbelow Klinebelow Lacute Lcaron L_tildecomb Lcommaaccent Lmacronbelow Ldotbelow Ldotbelow_acutecomb Ldotbelowmacron Ldotbelowmacron_acutecomb L_dieresisbelowcomb L_ringbelowcomb L_ringbelowcomb_acutecomb L_ringbelowcomb_macroncomb L_ringbelowcomb_macroncomb_acutecomb Lslash Ldot M_brevecomb Mdotaccent M_candrabinducomb Mdotbelow Nacute Ncaron Ntilde N_brevecomb Ndotaccent N_candrabinducomb Nmacronbelow Ndotbelow Ncommaaccent Ograve Oacute Ocircumflex Otilde Otildeacute Odieresis Omacron Omacron_brevecomb Obreve Ohungarumlaut Oslash Oslashacute OE Racute Rcaron R_brevecomb Rdotaccent Rcommaaccent Rmacronbelow Rdotbelow Rdotbelow_gravecomb Rdotbelow_acutecomb Rdotbelowmacron Rdotbelowmacron_acutecomb R_dieresisbelowcomb R_ringbelowcomb R_ringbelowcomb_gravecomb R_ringbelowcomb_acutecomb R_ringbelowcomb_macroncomb R_ringbelowcomb_macroncomb_acutecomb Sacute Scircumflex Scaron Scedilla Scommaaccent Sdotbelow S_dieresisbelowcomb S_macronbelowcomb Germandbls Tcaron Tcedilla Tcommaaccent Tdotbelow T_dieresisbelowcomb Tlinebelow Tbar Ugrave Uacute Ucircumflex Utilde Utildeacute Udieresis Umacron Umacron_gravecomb Umacron_acutecomb Umacron_tildecomb Umacron_brevecomb Ubreve Uring Uhungarumlaut Uogonek Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Ydotaccent Zacute Zcaron Zdotaccent Zdotbelow Z_dieresisbelowcomb Zlinebelow Eng Eth Thorn IJ IJ_acutecomb G_macronbelowcomb_H_macronbelowcomb Klinebelow_H_macronbelowcomb];
+#> classes
+#/> otclasses
+@latn.caps_asc = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Acaron Atilde Atilde_acutecomb Adieresis Amacron Amacron_gravecomb Amacron_acutecomb Amacron_tildecomb Amacron_brevecomb Abreve Aring Aringacute Aogonek AE AEacute AEmacron B_dieresisbelowcomb Cacute Ccircumflex Ccaron Cdotaccent Ccedilla Dcaron Ddotbelow D_dieresisbelowcomb Dlinebelow Dcroat Egrave Eacute Ecircumflex Ecaron Etilde Etilde_acutecomb Edieresis Emacron Emacronacute Emacron_brevecomb Ebreve Edotaccent Eogonek Gcircumflex Gbreve Gdotaccent Gcommaaccent G_dotbelowcomb G_dieresisbelowcomb G_macronbelowcomb Hcircumflex Hdotbelow H_dieresisbelowcomb H_macronbelowcomb Hbar Igrave Iacute Icircumflex Itilde Itilde_acutecomb Idieresis Imacron Imacron_gravecomb Imacron_acutecomb Imacron_tildecomb Imacron_brevecomb Ibreve Idotaccent Iogonek Jcircumflex J_macroncomb J_dieresisbelowcomb Kcommaaccent Kdotbelow Klinebelow Lacute Lcaron L_tildecomb Lcommaaccent Lmacronbelow Ldotbelow Ldotbelow_acutecomb Ldotbelowmacron Ldotbelowmacron_acutecomb L_dieresisbelowcomb L_ringbelowcomb L_ringbelowcomb_acutecomb L_ringbelowcomb_macroncomb L_ringbelowcomb_macroncomb_acutecomb Lslash Ldot M_brevecomb Mdotaccent M_candrabinducomb Mdotbelow Nacute Ncaron Ntilde N_brevecomb Ndotaccent N_candrabinducomb Nmacronbelow Ndotbelow Ncommaaccent Ograve Oacute Ocircumflex Otilde Otildeacute Odieresis Omacron Omacron_brevecomb Obreve Ohungarumlaut Oslash Oslashacute OE Racute Rcaron R_brevecomb Rdotaccent Rcommaaccent Rmacronbelow Rdotbelow Rdotbelow_gravecomb Rdotbelow_acutecomb Rdotbelowmacron Rdotbelowmacron_acutecomb R_dieresisbelowcomb R_ringbelowcomb R_ringbelowcomb_gravecomb R_ringbelowcomb_acutecomb R_ringbelowcomb_macroncomb R_ringbelowcomb_macroncomb_acutecomb Sacute Scircumflex Scaron Scedilla Scommaaccent Sdotbelow S_dieresisbelowcomb S_macronbelowcomb Germandbls Tcaron Tcedilla Tcommaaccent Tdotbelow T_dieresisbelowcomb Tlinebelow Tbar Ugrave Uacute Ucircumflex Utilde Utildeacute Udieresis Umacron Umacron_gravecomb Umacron_acutecomb Umacron_tildecomb Umacron_brevecomb Ubreve Uring Uhungarumlaut Uogonek Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Ydotaccent Zacute Zcaron Zdotaccent Zdotbelow Z_dieresisbelowcomb Zlinebelow Eng Eth Thorn IJ IJ_acutecomb G_macronbelowcomb_H_macronbelowcomb Klinebelow_H_macronbelowcomb];
 @numerals.dnom = [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+#/< otclasses
+#< classes
+
 languagesystem DFLT dflt;
 languagesystem latn dflt;
-# Glyph classes
 
 # Lookups
 lookup latn.locl.CAT {
@@ -65,6 +69,7 @@ lookup latn.ccmp_NFD {
     sub A acutecomb by Aacute;
     sub A circumflexcomb by Acircumflex;
     sub A tildecomb by Atilde;
+    sub A caroncomb by Acaron;
     sub A dieresiscomb by Adieresis;
     sub A macroncomb by Amacron;
     sub A brevecomb by Abreve;
@@ -284,6 +289,10 @@ lookup xxxx.frac_dnom {
 } xxxx.frac_dnom;
 
 # Features
+
+
+
+
 
 
 

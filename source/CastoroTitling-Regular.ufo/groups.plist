@@ -33,6 +33,7 @@
     <string>Agrave</string>
     <string>Aacute</string>
     <string>Acircumflex</string>
+    <string>Acaron</string>
     <string>Atilde</string>
     <string>Atilde_acutecomb</string>
     <string>Adieresis</string>
@@ -248,6 +249,7 @@
     <string>A</string>
     <string>Aacute</string>
     <string>Abreve</string>
+    <string>Acaron</string>
     <string>Acircumflex</string>
     <string>Adieresis</string>
     <string>Agrave</string>
@@ -379,6 +381,7 @@
     <string>Oslash</string>
     <string>Oslashacute</string>
     <string>Otilde</string>
+    <string>Otildeacute</string>
     <string>Q</string>
   </array>
   <key>public.kern1._L_uc_P_1ST</key>
@@ -564,6 +567,7 @@
     <string>AEmacron</string>
     <string>Aacute</string>
     <string>Abreve</string>
+    <string>Acaron</string>
     <string>Acircumflex</string>
     <string>Adieresis</string>
     <string>Agrave</string>

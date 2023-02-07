@@ -1696,6 +1696,8 @@
   <dict>
     <key>Abreve.sc</key>
     <integer>-65</integer>
+    <key>Acaron.sc</key>
+    <integer>-75</integer>
     <key>Acircumflex.sc</key>
     <integer>-75</integer>
     <key>Adieresis.sc</key>
@@ -1728,6 +1730,8 @@
     <integer>30</integer>
     <key>abreve</key>
     <integer>-50</integer>
+    <key>acaron</key>
+    <integer>-60</integer>
     <key>adieresis</key>
     <integer>-30</integer>
     <key>amacron</key>
@@ -1938,6 +1942,8 @@
     <integer>-75</integer>
     <key>Abreve.sc</key>
     <integer>-70</integer>
+    <key>Acaron.sc</key>
+    <integer>-75</integer>
     <key>Acircumflex.sc</key>
     <integer>-75</integer>
     <key>Adieresis.sc</key>
@@ -1968,6 +1974,8 @@
     <integer>55</integer>
     <key>abreve</key>
     <integer>-55</integer>
+    <key>acaron</key>
+    <integer>-65</integer>
     <key>adieresis</key>
     <integer>-50</integer>
     <key>amacron</key>
