@@ -727,6 +727,7 @@
     <string>grave</string>
     <string>acute</string>
     <string>circumflex</string>
+    <string>caron</string>
     <string>tilde</string>
     <string>dieresis</string>
     <string>macron</string>

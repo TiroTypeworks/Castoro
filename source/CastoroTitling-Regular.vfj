@@ -1,7 +1,7 @@
 {
   "version":8,
   "font":{
-    "glyphsCount":407,
+    "glyphsCount":408,
     "upm":1000,
     "glyphs":[
       {
@@ -131,7 +131,7 @@
           65,
           97
         ],
-        "lastModified":"2023-02-07 16:46:07",
+        "lastModified":"2023-02-28 01:42:01",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -256,7 +256,7 @@
           67,
           99
         ],
-        "lastModified":"2023-02-07 16:46:07",
+        "lastModified":"2023-02-28 01:42:01",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -366,7 +366,7 @@
           69,
           101
         ],
-        "lastModified":"2023-02-07 16:46:07",
+        "lastModified":"2023-02-28 01:42:01",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -500,7 +500,7 @@
           71,
           103
         ],
-        "lastModified":"2023-02-07 16:46:07",
+        "lastModified":"2023-02-28 01:42:01",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -558,7 +558,7 @@
           72,
           104
         ],
-        "lastModified":"2023-02-07 16:46:07",
+        "lastModified":"2023-02-28 01:42:01",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -637,7 +637,7 @@
           105,
           305
         ],
-        "lastModified":"2023-02-07 16:46:07",
+        "lastModified":"2023-02-28 01:42:01",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -730,7 +730,7 @@
           75,
           107
         ],
-        "lastModified":"2023-02-07 16:46:07",
+        "lastModified":"2023-02-28 01:42:01",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -802,7 +802,7 @@
           76,
           108
         ],
-        "lastModified":"2023-02-07 16:46:07",
+        "lastModified":"2023-02-28 01:42:01",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -969,7 +969,7 @@
           79,
           111
         ],
-        "lastModified":"2023-02-07 16:46:07",
+        "lastModified":"2023-02-28 01:42:01",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1319,7 +1319,7 @@
           85,
           117
         ],
-        "lastModified":"2023-02-07 16:46:07",
+        "lastModified":"2023-02-28 01:42:01",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1370,7 +1370,7 @@
           86,
           118
         ],
-        "lastModified":"2023-02-07 16:46:07",
+        "lastModified":"2023-02-28 01:42:01",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8801,6 +8801,31 @@
               {
                 "component":{
                   "glyphName":"circumflexcomb"
+                },
+                "transform":{
+                  "xOffset":466
+                },
+                "active":true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name":"caron",
+        "unicode":"02c7",
+        "lastModified":"2023-02-28 01:37:13",
+        "openTypeGlyphClass":1,
+        "colorFlag":301,
+        "layers":[
+          {
+            "name":"Regular",
+            "colorFlag":301,
+            "advanceWidth":360,
+            "elements":[
+              {
+                "component":{
+                  "glyphName":"caroncomb"
                 },
                 "transform":{
                   "xOffset":466
@@ -16331,7 +16356,7 @@
     ],
     "openTypeFeatures":[
       {
-        "feature":"#> classes\n#/> otclasses\n@latn.caps_asc = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Acaron Atilde Atilde_acutecomb Adieresis Amacron Amacron_gravecomb Amacron_acutecomb Amacron_tildecomb Amacron_brevecomb Abreve Aring Aringacute Aogonek AE AEacute AEmacron B_dieresisbelowcomb Cacute Ccircumflex Ccaron Cdotaccent Ccedilla Dcaron Ddotbelow D_dieresisbelowcomb Dlinebelow Dcroat Egrave Eacute Ecircumflex Ecaron Etilde Etilde_acutecomb Edieresis Emacron Emacronacute Emacron_brevecomb Ebreve Edotaccent Eogonek Gcircumflex Gbreve Gdotaccent Gcommaaccent G_dotbelowcomb G_dieresisbelowcomb G_macronbelowcomb Hcircumflex Hdotbelow H_dieresisbelowcomb H_macronbelowcomb Hbar Igrave Iacute Icircumflex Itilde Itilde_acutecomb Idieresis Imacron Imacron_gravecomb Imacron_acutecomb Imacron_tildecomb Imacron_brevecomb Ibreve Idotaccent Iogonek Jcircumflex J_macroncomb J_dieresisbelowcomb Kcommaaccent Kdotbelow Klinebelow Lacute Lcaron L_tildecomb Lcommaaccent Lmacronbelow Ldotbelow Ldotbelow_acutecomb Ldotbelowmacron Ldotbelowmacron_acutecomb L_dieresisbelowcomb L_ringbelowcomb L_ringbelowcomb_acutecomb L_ringbelowcomb_macroncomb L_ringbelowcomb_macroncomb_acutecomb Lslash Ldot M_brevecomb Mdotaccent M_candrabinducomb Mdotbelow Nacute Ncaron Ntilde N_brevecomb Ndotaccent N_candrabinducomb Nmacronbelow Ndotbelow Ncommaaccent Ograve Oacute Ocircumflex Otilde Otildeacute Odieresis Omacron Omacron_brevecomb Obreve Ohungarumlaut Oslash Oslashacute OE Racute Rcaron R_brevecomb Rdotaccent Rcommaaccent Rmacronbelow Rdotbelow Rdotbelow_gravecomb Rdotbelow_acutecomb Rdotbelowmacron Rdotbelowmacron_acutecomb R_dieresisbelowcomb R_ringbelowcomb R_ringbelowcomb_gravecomb R_ringbelowcomb_acutecomb R_ringbelowcomb_macroncomb R_ringbelowcomb_macroncomb_acutecomb Sacute Scircumflex Scaron Scedilla Scommaaccent Sdotbelow S_dieresisbelowcomb S_macronbelowcomb Germandbls Tcaron Tcedilla Tcommaaccent Tdotbelow T_dieresisbelowcomb Tlinebelow Tbar Ugrave Uacute Ucircumflex Utilde Utildeacute Udieresis Umacron Umacron_gravecomb Umacron_acutecomb Umacron_tildecomb Umacron_brevecomb Ubreve Uring Uhungarumlaut Uogonek Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Ydotaccent Zacute Zcaron Zdotaccent Zdotbelow Z_dieresisbelowcomb Zlinebelow Eng Eth Thorn IJ IJ_acutecomb G_macronbelowcomb_H_macronbelowcomb Klinebelow_H_macronbelowcomb];\n@numerals.dnom = [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\n#/< otclasses\n#< classes\n\nlanguagesystem DFLT dflt;\nlanguagesystem latn dflt;\n\n# Lookups\nlookup latn.locl.CAT {\n    sub L periodcentered by Ldot;\n} latn.locl.CAT;\n\nlookup latn.locl.NLD {\n    sub I acutecomb J acutecomb by IJ_acutecomb;\n    sub Iacute J acutecomb by IJ_acutecomb;\n    sub I J by IJ;\n    sub IJ acutecomb by IJ_acutecomb;\n} latn.locl.NLD;\n\nlookup latn.locl.ROM.MOL {\n    sub Scedilla by Scommaaccent;\n    sub Tcedilla by Tcommaaccent;\n} latn.locl.ROM.MOL;\n\nlookup latn.ccmp_NFD {\n    sub G macronbelowcomb H macronbelowcomb by G_macronbelowcomb_H_macronbelowcomb;\n    sub K macronbelowcomb H macronbelowcomb by Klinebelow_H_macronbelowcomb;\n    sub L dotbelowcomb macroncomb acutecomb by Ldotbelowmacron_acutecomb;\n    sub L ringbelowcomb macroncomb acutecomb by L_ringbelowcomb_macroncomb_acutecomb;\n    sub R dotbelowcomb macroncomb acutecomb by Rdotbelowmacron_acutecomb;\n    sub R ringbelowcomb macroncomb acutecomb by R_ringbelowcomb_macroncomb_acutecomb;\n    sub G macrondblbelowcomb H by G_macronbelowcomb_H_macronbelowcomb;\n    sub K macrondblbelowcomb H by Klinebelow_H_macronbelowcomb;\n    sub A tildecomb acutecomb by Atilde_acutecomb;\n    sub A macroncomb gravecomb by Amacron_gravecomb;\n    sub A macroncomb acutecomb by Amacron_acutecomb;\n    sub A macroncomb tildecomb by Amacron_tildecomb;\n    sub A macroncomb brevecomb by Amacron_brevecomb;\n    sub A ringcomb acutecomb by Aringacute;\n    sub E tildecomb acutecomb by Etilde_acutecomb;\n    sub E macroncomb acutecomb by Emacronacute;\n    sub E macroncomb brevecomb by Emacron_brevecomb;\n    sub I tildecomb acutecomb by Itilde_acutecomb;\n    sub I macroncomb gravecomb by Imacron_gravecomb;\n    sub I macroncomb acutecomb by Imacron_acutecomb;\n    sub I macroncomb tildecomb by Imacron_tildecomb;\n    sub I macroncomb brevecomb by Imacron_brevecomb;\n    sub L dotbelowcomb acutecomb by Ldotbelow_acutecomb;\n    sub L dotbelowcomb macroncomb by Ldotbelowmacron;\n    sub L ringbelowcomb acutecomb by L_ringbelowcomb_acutecomb;\n    sub L ringbelowcomb macroncomb by L_ringbelowcomb_macroncomb;\n    sub O tildecomb acutecomb by Otildeacute;\n    sub O macroncomb brevecomb by Omacron_brevecomb;\n    sub R dotbelowcomb gravecomb by Rdotbelow_gravecomb;\n    sub R dotbelowcomb acutecomb by Rdotbelow_acutecomb;\n    sub R dotbelowcomb macroncomb by Rdotbelowmacron;\n    sub R ringbelowcomb gravecomb by R_ringbelowcomb_gravecomb;\n    sub R ringbelowcomb acutecomb by R_ringbelowcomb_acutecomb;\n    sub R ringbelowcomb macroncomb by R_ringbelowcomb_macroncomb;\n    sub U tildecomb acutecomb by Utildeacute;\n    sub U macroncomb gravecomb by Umacron_gravecomb;\n    sub U macroncomb acutecomb by Umacron_acutecomb;\n    sub U macroncomb tildecomb by Umacron_tildecomb;\n    sub U macroncomb brevecomb by Umacron_brevecomb;\n    sub A gravecomb by Agrave;\n    sub A acutecomb by Aacute;\n    sub A circumflexcomb by Acircumflex;\n    sub A tildecomb by Atilde;\n    sub A caroncomb by Acaron;\n    sub A dieresiscomb by Adieresis;\n    sub A macroncomb by Amacron;\n    sub A brevecomb by Abreve;\n    sub A ringcomb by Aring;\n    sub A ogonekcomb by Aogonek;\n    sub AE acutecomb by AEacute;\n    sub AE macroncomb by AEmacron;\n    sub B dieresisbelowcomb by B_dieresisbelowcomb;\n    sub C acutecomb by Cacute;\n    sub C circumflexcomb by Ccircumflex;\n    sub C caroncomb by Ccaron;\n    sub C dotaccentcomb by Cdotaccent;\n    sub C cedillacomb by Ccedilla;\n    sub D caroncomb by Dcaron;\n    sub D dotbelowcomb by Ddotbelow;\n    sub D dieresisbelowcomb by D_dieresisbelowcomb;\n    sub D macronbelowcomb by Dlinebelow;\n    sub E gravecomb by Egrave;\n    sub E acutecomb by Eacute;\n    sub E circumflexcomb by Ecircumflex;\n    sub E caroncomb by Ecaron;\n    sub E tildecomb by Etilde;\n    sub E dieresiscomb by Edieresis;\n    sub E macroncomb by Emacron;\n    sub E brevecomb by Ebreve;\n    sub E dotaccentcomb by Edotaccent;\n    sub E ogonekcomb by Eogonek;\n    sub G circumflexcomb by Gcircumflex;\n    sub G brevecomb by Gbreve;\n    sub G dotaccentcomb by Gdotaccent;\n    sub G commaaccentcomb by Gcommaaccent;\n    sub G dotbelowcomb by G_dotbelowcomb;\n    sub G dieresisbelowcomb by G_dieresisbelowcomb;\n    sub G macronbelowcomb by G_macronbelowcomb;\n    sub H circumflexcomb by Hcircumflex;\n    sub H dotbelowcomb by Hdotbelow;\n    sub H dieresisbelowcomb by H_dieresisbelowcomb;\n    sub H macronbelowcomb by H_macronbelowcomb;\n    sub I gravecomb by Igrave;\n    sub I acutecomb by Iacute;\n    sub I circumflexcomb by Icircumflex;\n    sub I tildecomb by Itilde;\n    sub I dieresiscomb by Idieresis;\n    sub I macroncomb by Imacron;\n    sub I brevecomb by Ibreve;\n    sub I dotaccentcomb by Idotaccent;\n    sub I ogonekcomb by Iogonek;\n    sub J circumflexcomb by Jcircumflex;\n    sub J macroncomb by J_macroncomb;\n    sub J dieresisbelowcomb by J_dieresisbelowcomb;\n    sub K commaaccentcomb by Kcommaaccent;\n    sub K dotbelowcomb by Kdotbelow;\n    sub K macronbelowcomb by Klinebelow;\n    sub L acutecomb by Lacute;\n    sub L caroncomb by Lcaron;\n    sub L tildecomb by L_tildecomb;\n    sub L commaaccentcomb by Lcommaaccent;\n    sub L macronbelowcomb by Lmacronbelow;\n    sub L dotbelowcomb by Ldotbelow;\n    sub L dieresisbelowcomb by L_dieresisbelowcomb;\n    sub L ringbelowcomb by L_ringbelowcomb;\n    sub M brevecomb by M_brevecomb;\n    sub M dotaccentcomb by Mdotaccent;\n    sub M candrabinducomb by M_candrabinducomb;\n    sub M dotbelowcomb by Mdotbelow;\n    sub N acutecomb by Nacute;\n    sub N caroncomb by Ncaron;\n    sub N tildecomb by Ntilde;\n    sub N brevecomb by N_brevecomb;\n    sub N dotaccentcomb by Ndotaccent;\n    sub N candrabinducomb by N_candrabinducomb;\n    sub N macronbelowcomb by Nmacronbelow;\n    sub N dotbelowcomb by Ndotbelow;\n    sub N commaaccentcomb by Ncommaaccent;\n    sub O gravecomb by Ograve;\n    sub O acutecomb by Oacute;\n    sub O circumflexcomb by Ocircumflex;\n    sub O tildecomb by Otilde;\n    sub O dieresiscomb by Odieresis;\n    sub O macroncomb by Omacron;\n    sub O brevecomb by Obreve;\n    sub O hungarumlautcomb by Ohungarumlaut;\n    sub Oslash acutecomb by Oslashacute;\n    sub R acutecomb by Racute;\n    sub R caroncomb by Rcaron;\n    sub R brevecomb by R_brevecomb;\n    sub R dotaccentcomb by Rdotaccent;\n    sub R commaaccentcomb by Rcommaaccent;\n    sub R macronbelowcomb by Rmacronbelow;\n    sub R dotbelowcomb by Rdotbelow;\n    sub R dieresisbelowcomb by R_dieresisbelowcomb;\n    sub R ringbelowcomb by R_ringbelowcomb;\n    sub S acutecomb by Sacute;\n    sub S circumflexcomb by Scircumflex;\n    sub S caroncomb by Scaron;\n    sub S cedillacomb by Scedilla;\n    sub S commaaccentcomb by Scommaaccent;\n    sub S dotbelowcomb by Sdotbelow;\n    sub S dieresisbelowcomb by S_dieresisbelowcomb;\n    sub S macronbelowcomb by S_macronbelowcomb;\n    sub T caroncomb by Tcaron;\n    sub T commaaccentcomb by Tcommaaccent;\n    sub T dotbelowcomb by Tdotbelow;\n    sub T dieresisbelowcomb by T_dieresisbelowcomb;\n    sub T macronbelowcomb by Tlinebelow;\n    sub U gravecomb by Ugrave;\n    sub U acutecomb by Uacute;\n    sub U circumflexcomb by Ucircumflex;\n    sub U tildecomb by Utilde;\n    sub U dieresiscomb by Udieresis;\n    sub U macroncomb by Umacron;\n    sub U brevecomb by Ubreve;\n    sub U ringcomb by Uring;\n    sub U hungarumlautcomb by Uhungarumlaut;\n    sub U ogonekcomb by Uogonek;\n    sub W gravecomb by Wgrave;\n    sub W acutecomb by Wacute;\n    sub W circumflexcomb by Wcircumflex;\n    sub W dieresiscomb by Wdieresis;\n    sub Y gravecomb by Ygrave;\n    sub Y acutecomb by Yacute;\n    sub Y circumflexcomb by Ycircumflex;\n    sub Y dieresiscomb by Ydieresis;\n    sub Y dotaccentcomb by Ydotaccent;\n    sub Z acutecomb by Zacute;\n    sub Z caroncomb by Zcaron;\n    sub Z dotaccentcomb by Zdotaccent;\n    sub Z dotbelowcomb by Zdotbelow;\n    sub Z dieresisbelowcomb by Z_dieresisbelowcomb;\n    sub Z macronbelowcomb by Zlinebelow;\n    sub IJ acutecomb by IJ_acutecomb;\n} latn.ccmp_NFD;\n\nlookup latn.ccmp_NFC {\n    sub Klinebelow H macronbelowcomb by Klinebelow_H_macronbelowcomb;\n    sub Atilde acutecomb by Atilde_acutecomb;\n    sub Amacron gravecomb by Amacron_gravecomb;\n    sub Amacron acutecomb by Amacron_acutecomb;\n    sub Amacron tildecomb by Amacron_tildecomb;\n    sub Amacron brevecomb by Amacron_brevecomb;\n    sub Aring acutecomb by Aringacute;\n    sub Etilde acutecomb by Etilde_acutecomb;\n    sub Emacron brevecomb by Emacron_brevecomb;\n    sub Itilde acutecomb by Itilde_acutecomb;\n    sub Imacron gravecomb by Imacron_gravecomb;\n    sub Imacron acutecomb by Imacron_acutecomb;\n    sub Imacron tildecomb by Imacron_tildecomb;\n    sub Imacron brevecomb by Imacron_brevecomb;\n    sub Ldotbelow acutecomb by Ldotbelow_acutecomb;\n    sub Ldotbelowmacron acutecomb by Ldotbelowmacron_acutecomb;\n    sub Omacron brevecomb by Omacron_brevecomb;\n    sub Rdotbelow gravecomb by Rdotbelow_gravecomb;\n    sub Rdotbelow acutecomb by Rdotbelow_acutecomb;\n    sub Rdotbelowmacron acutecomb by Rdotbelowmacron_acutecomb;\n    sub Umacron gravecomb by Umacron_gravecomb;\n    sub Umacron acutecomb by Umacron_acutecomb;\n    sub Umacron tildecomb by Umacron_tildecomb;\n    sub Umacron brevecomb by Umacron_brevecomb;\n    sub Klinebelow H_macronbelowcomb by Klinebelow_H_macronbelowcomb;\n} latn.ccmp_NFC;\n\nlookup xxxx.sups {\n    sub zero by zerosuperior;\n    sub one by onesuperior;\n    sub two by twosuperior;\n    sub three by threesuperior;\n    sub four by foursuperior;\n    sub five by fivesuperior;\n    sub six by sixsuperior;\n    sub seven by sevensuperior;\n    sub eight by eightsuperior;\n    sub nine by ninesuperior;\n} xxxx.sups;\n\nlookup xxxx.subs {\n    sub zero by zeroinferior;\n    sub one by oneinferior;\n    sub two by twoinferior;\n    sub three by threeinferior;\n    sub four by fourinferior;\n    sub five by fiveinferior;\n    sub six by sixinferior;\n    sub seven by seveninferior;\n    sub eight by eightinferior;\n    sub nine by nineinferior;\n} xxxx.subs;\n\nlookup xxxx.frac_slash {\n    sub slash by fraction;\n    sub fractionslash by fraction;\n} xxxx.frac_slash;\n\nlookup xxxx.frac_numr {\n    sub zero by zero.numr;\n    sub one by one.numr;\n    sub two by two.numr;\n    sub three by three.numr;\n    sub four by four.numr;\n    sub five by five.numr;\n    sub six by six.numr;\n    sub seven by seven.numr;\n    sub eight by eight.numr;\n    sub nine by nine.numr;\n} xxxx.frac_numr;\n\nlookup xxxx.frac_dnom {\n    sub [fraction @numerals.dnom] zero.numr' by zero.dnom;\n    sub [fraction @numerals.dnom] one.numr' by one.dnom;\n    sub [fraction @numerals.dnom] two.numr' by two.dnom;\n    sub [fraction @numerals.dnom] three.numr' by three.dnom;\n    sub [fraction @numerals.dnom] four.numr' by four.dnom;\n    sub [fraction @numerals.dnom] five.numr' by five.dnom;\n    sub [fraction @numerals.dnom] six.numr' by six.dnom;\n    sub [fraction @numerals.dnom] seven.numr' by seven.dnom;\n    sub [fraction @numerals.dnom] eight.numr' by eight.dnom;\n    sub [fraction @numerals.dnom] nine.numr' by nine.dnom;\n} xxxx.frac_dnom;\n\n# Features\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+        "feature":"#> classes\n#/> otclasses\n@latn.caps_asc = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Acaron Atilde Atilde_acutecomb Adieresis Amacron Amacron_gravecomb Amacron_acutecomb Amacron_tildecomb Amacron_brevecomb Abreve Aring Aringacute Aogonek AE AEacute AEmacron B_dieresisbelowcomb Cacute Ccircumflex Ccaron Cdotaccent Ccedilla Dcaron Ddotbelow D_dieresisbelowcomb Dlinebelow Dcroat Egrave Eacute Ecircumflex Ecaron Etilde Etilde_acutecomb Edieresis Emacron Emacronacute Emacron_brevecomb Ebreve Edotaccent Eogonek Gcircumflex Gbreve Gdotaccent Gcommaaccent G_dotbelowcomb G_dieresisbelowcomb G_macronbelowcomb Hcircumflex Hdotbelow H_dieresisbelowcomb H_macronbelowcomb Hbar Igrave Iacute Icircumflex Itilde Itilde_acutecomb Idieresis Imacron Imacron_gravecomb Imacron_acutecomb Imacron_tildecomb Imacron_brevecomb Ibreve Idotaccent Iogonek Jcircumflex J_macroncomb J_dieresisbelowcomb Kcommaaccent Kdotbelow Klinebelow Lacute Lcaron L_tildecomb Lcommaaccent Lmacronbelow Ldotbelow Ldotbelow_acutecomb Ldotbelowmacron Ldotbelowmacron_acutecomb L_dieresisbelowcomb L_ringbelowcomb L_ringbelowcomb_acutecomb L_ringbelowcomb_macroncomb L_ringbelowcomb_macroncomb_acutecomb Lslash Ldot M_brevecomb Mdotaccent M_candrabinducomb Mdotbelow Nacute Ncaron Ntilde N_brevecomb Ndotaccent N_candrabinducomb Nmacronbelow Ndotbelow Ncommaaccent Ograve Oacute Ocircumflex Otilde Otildeacute Odieresis Omacron Omacron_brevecomb Obreve Ohungarumlaut Oslash Oslashacute OE Racute Rcaron R_brevecomb Rdotaccent Rcommaaccent Rmacronbelow Rdotbelow Rdotbelow_gravecomb Rdotbelow_acutecomb Rdotbelowmacron Rdotbelowmacron_acutecomb R_dieresisbelowcomb R_ringbelowcomb R_ringbelowcomb_gravecomb R_ringbelowcomb_acutecomb R_ringbelowcomb_macroncomb R_ringbelowcomb_macroncomb_acutecomb Sacute Scircumflex Scaron Scedilla Scommaaccent Sdotbelow S_dieresisbelowcomb S_macronbelowcomb Germandbls Tcaron Tcedilla Tcommaaccent Tdotbelow T_dieresisbelowcomb Tlinebelow Tbar Ugrave Uacute Ucircumflex Utilde Utildeacute Udieresis Umacron Umacron_gravecomb Umacron_acutecomb Umacron_tildecomb Umacron_brevecomb Ubreve Uring Uhungarumlaut Uogonek Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Ydotaccent Zacute Zcaron Zdotaccent Zdotbelow Z_dieresisbelowcomb Zlinebelow Eng Eth Thorn IJ IJ_acutecomb G_macronbelowcomb_H_macronbelowcomb Klinebelow_H_macronbelowcomb];\n@numerals.dnom = [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\n#/< otclasses\n#< classes\n\nlanguagesystem DFLT dflt;\nlanguagesystem latn dflt;\n\n# Lookups\nlookup latn.locl.CAT {\n    sub L periodcentered by Ldot;\n} latn.locl.CAT;\n\nlookup latn.locl.NLD {\n    sub I acutecomb J acutecomb by IJ_acutecomb;\n    sub Iacute J acutecomb by IJ_acutecomb;\n    sub I J by IJ;\n    sub IJ acutecomb by IJ_acutecomb;\n} latn.locl.NLD;\n\nlookup latn.locl.ROM.MOL {\n    sub Scedilla by Scommaaccent;\n    sub Tcedilla by Tcommaaccent;\n} latn.locl.ROM.MOL;\n\nlookup latn.ccmp_NFD {\n    sub G macronbelowcomb H macronbelowcomb by G_macronbelowcomb_H_macronbelowcomb;\n    sub K macronbelowcomb H macronbelowcomb by Klinebelow_H_macronbelowcomb;\n    sub L dotbelowcomb macroncomb acutecomb by Ldotbelowmacron_acutecomb;\n    sub L ringbelowcomb macroncomb acutecomb by L_ringbelowcomb_macroncomb_acutecomb;\n    sub R dotbelowcomb macroncomb acutecomb by Rdotbelowmacron_acutecomb;\n    sub R ringbelowcomb macroncomb acutecomb by R_ringbelowcomb_macroncomb_acutecomb;\n    sub G macrondblbelowcomb H by G_macronbelowcomb_H_macronbelowcomb;\n    sub K macrondblbelowcomb H by Klinebelow_H_macronbelowcomb;\n    sub A tildecomb acutecomb by Atilde_acutecomb;\n    sub A macroncomb gravecomb by Amacron_gravecomb;\n    sub A macroncomb acutecomb by Amacron_acutecomb;\n    sub A macroncomb tildecomb by Amacron_tildecomb;\n    sub A macroncomb brevecomb by Amacron_brevecomb;\n    sub A ringcomb acutecomb by Aringacute;\n    sub E tildecomb acutecomb by Etilde_acutecomb;\n    sub E macroncomb acutecomb by Emacronacute;\n    sub E macroncomb brevecomb by Emacron_brevecomb;\n    sub I tildecomb acutecomb by Itilde_acutecomb;\n    sub I macroncomb gravecomb by Imacron_gravecomb;\n    sub I macroncomb acutecomb by Imacron_acutecomb;\n    sub I macroncomb tildecomb by Imacron_tildecomb;\n    sub I macroncomb brevecomb by Imacron_brevecomb;\n    sub L dotbelowcomb acutecomb by Ldotbelow_acutecomb;\n    sub L dotbelowcomb macroncomb by Ldotbelowmacron;\n    sub L ringbelowcomb acutecomb by L_ringbelowcomb_acutecomb;\n    sub L ringbelowcomb macroncomb by L_ringbelowcomb_macroncomb;\n    sub O tildecomb acutecomb by Otildeacute;\n    sub O macroncomb brevecomb by Omacron_brevecomb;\n    sub R dotbelowcomb gravecomb by Rdotbelow_gravecomb;\n    sub R dotbelowcomb acutecomb by Rdotbelow_acutecomb;\n    sub R dotbelowcomb macroncomb by Rdotbelowmacron;\n    sub R ringbelowcomb gravecomb by R_ringbelowcomb_gravecomb;\n    sub R ringbelowcomb acutecomb by R_ringbelowcomb_acutecomb;\n    sub R ringbelowcomb macroncomb by R_ringbelowcomb_macroncomb;\n    sub U tildecomb acutecomb by Utildeacute;\n    sub U macroncomb gravecomb by Umacron_gravecomb;\n    sub U macroncomb acutecomb by Umacron_acutecomb;\n    sub U macroncomb tildecomb by Umacron_tildecomb;\n    sub U macroncomb brevecomb by Umacron_brevecomb;\n    sub A gravecomb by Agrave;\n    sub A acutecomb by Aacute;\n    sub A circumflexcomb by Acircumflex;\n    sub A tildecomb by Atilde;\n    sub A caroncomb by Acaron;\n    sub A dieresiscomb by Adieresis;\n    sub A macroncomb by Amacron;\n    sub A brevecomb by Abreve;\n    sub A ringcomb by Aring;\n    sub A ogonekcomb by Aogonek;\n    sub AE acutecomb by AEacute;\n    sub AE macroncomb by AEmacron;\n    sub B dieresisbelowcomb by B_dieresisbelowcomb;\n    sub C acutecomb by Cacute;\n    sub C circumflexcomb by Ccircumflex;\n    sub C caroncomb by Ccaron;\n    sub C dotaccentcomb by Cdotaccent;\n    sub C cedillacomb by Ccedilla;\n    sub D caroncomb by Dcaron;\n    sub D dotbelowcomb by Ddotbelow;\n    sub D dieresisbelowcomb by D_dieresisbelowcomb;\n    sub D macronbelowcomb by Dlinebelow;\n    sub E gravecomb by Egrave;\n    sub E acutecomb by Eacute;\n    sub E circumflexcomb by Ecircumflex;\n    sub E caroncomb by Ecaron;\n    sub E tildecomb by Etilde;\n    sub E dieresiscomb by Edieresis;\n    sub E macroncomb by Emacron;\n    sub E brevecomb by Ebreve;\n    sub E dotaccentcomb by Edotaccent;\n    sub E ogonekcomb by Eogonek;\n    sub G circumflexcomb by Gcircumflex;\n    sub G brevecomb by Gbreve;\n    sub G dotaccentcomb by Gdotaccent;\n    sub G commaaccentcomb by Gcommaaccent;\n    sub G dotbelowcomb by G_dotbelowcomb;\n    sub G dieresisbelowcomb by G_dieresisbelowcomb;\n    sub G macronbelowcomb by G_macronbelowcomb;\n    sub H circumflexcomb by Hcircumflex;\n    sub H dotbelowcomb by Hdotbelow;\n    sub H dieresisbelowcomb by H_dieresisbelowcomb;\n    sub H macronbelowcomb by H_macronbelowcomb;\n    sub I gravecomb by Igrave;\n    sub I acutecomb by Iacute;\n    sub I circumflexcomb by Icircumflex;\n    sub I tildecomb by Itilde;\n    sub I dieresiscomb by Idieresis;\n    sub I macroncomb by Imacron;\n    sub I brevecomb by Ibreve;\n    sub I dotaccentcomb by Idotaccent;\n    sub I ogonekcomb by Iogonek;\n    sub J circumflexcomb by Jcircumflex;\n    sub J macroncomb by J_macroncomb;\n    sub J dieresisbelowcomb by J_dieresisbelowcomb;\n    sub K commaaccentcomb by Kcommaaccent;\n    sub K dotbelowcomb by Kdotbelow;\n    sub K macronbelowcomb by Klinebelow;\n    sub L acutecomb by Lacute;\n    sub L caroncomb by Lcaron;\n    sub L tildecomb by L_tildecomb;\n    sub L commaaccentcomb by Lcommaaccent;\n    sub L macronbelowcomb by Lmacronbelow;\n    sub L dotbelowcomb by Ldotbelow;\n    sub L dieresisbelowcomb by L_dieresisbelowcomb;\n    sub L ringbelowcomb by L_ringbelowcomb;\n    sub M brevecomb by M_brevecomb;\n    sub M dotaccentcomb by Mdotaccent;\n    sub M candrabinducomb by M_candrabinducomb;\n    sub M dotbelowcomb by Mdotbelow;\n    sub N acutecomb by Nacute;\n    sub N caroncomb by Ncaron;\n    sub N tildecomb by Ntilde;\n    sub N brevecomb by N_brevecomb;\n    sub N dotaccentcomb by Ndotaccent;\n    sub N candrabinducomb by N_candrabinducomb;\n    sub N macronbelowcomb by Nmacronbelow;\n    sub N dotbelowcomb by Ndotbelow;\n    sub N commaaccentcomb by Ncommaaccent;\n    sub O gravecomb by Ograve;\n    sub O acutecomb by Oacute;\n    sub O circumflexcomb by Ocircumflex;\n    sub O tildecomb by Otilde;\n    sub O dieresiscomb by Odieresis;\n    sub O macroncomb by Omacron;\n    sub O brevecomb by Obreve;\n    sub O hungarumlautcomb by Ohungarumlaut;\n    sub Oslash acutecomb by Oslashacute;\n    sub R acutecomb by Racute;\n    sub R caroncomb by Rcaron;\n    sub R brevecomb by R_brevecomb;\n    sub R dotaccentcomb by Rdotaccent;\n    sub R commaaccentcomb by Rcommaaccent;\n    sub R macronbelowcomb by Rmacronbelow;\n    sub R dotbelowcomb by Rdotbelow;\n    sub R dieresisbelowcomb by R_dieresisbelowcomb;\n    sub R ringbelowcomb by R_ringbelowcomb;\n    sub S acutecomb by Sacute;\n    sub S circumflexcomb by Scircumflex;\n    sub S caroncomb by Scaron;\n    sub S cedillacomb by Scedilla;\n    sub S commaaccentcomb by Scommaaccent;\n    sub S dotbelowcomb by Sdotbelow;\n    sub S dieresisbelowcomb by S_dieresisbelowcomb;\n    sub S macronbelowcomb by S_macronbelowcomb;\n    sub T caroncomb by Tcaron;\n    sub T commaaccentcomb by Tcommaaccent;\n    sub T dotbelowcomb by Tdotbelow;\n    sub T dieresisbelowcomb by T_dieresisbelowcomb;\n    sub T macronbelowcomb by Tlinebelow;\n    sub U gravecomb by Ugrave;\n    sub U acutecomb by Uacute;\n    sub U circumflexcomb by Ucircumflex;\n    sub U tildecomb by Utilde;\n    sub U dieresiscomb by Udieresis;\n    sub U macroncomb by Umacron;\n    sub U brevecomb by Ubreve;\n    sub U ringcomb by Uring;\n    sub U hungarumlautcomb by Uhungarumlaut;\n    sub U ogonekcomb by Uogonek;\n    sub W gravecomb by Wgrave;\n    sub W acutecomb by Wacute;\n    sub W circumflexcomb by Wcircumflex;\n    sub W dieresiscomb by Wdieresis;\n    sub Y gravecomb by Ygrave;\n    sub Y acutecomb by Yacute;\n    sub Y circumflexcomb by Ycircumflex;\n    sub Y dieresiscomb by Ydieresis;\n    sub Y dotaccentcomb by Ydotaccent;\n    sub Z acutecomb by Zacute;\n    sub Z caroncomb by Zcaron;\n    sub Z dotaccentcomb by Zdotaccent;\n    sub Z dotbelowcomb by Zdotbelow;\n    sub Z dieresisbelowcomb by Z_dieresisbelowcomb;\n    sub Z macronbelowcomb by Zlinebelow;\n    sub IJ acutecomb by IJ_acutecomb;\n} latn.ccmp_NFD;\n\nlookup latn.ccmp_NFC {\n    sub Klinebelow H macronbelowcomb by Klinebelow_H_macronbelowcomb;\n    sub Atilde acutecomb by Atilde_acutecomb;\n    sub Amacron gravecomb by Amacron_gravecomb;\n    sub Amacron acutecomb by Amacron_acutecomb;\n    sub Amacron tildecomb by Amacron_tildecomb;\n    sub Amacron brevecomb by Amacron_brevecomb;\n    sub Aring acutecomb by Aringacute;\n    sub Etilde acutecomb by Etilde_acutecomb;\n    sub Emacron brevecomb by Emacron_brevecomb;\n    sub Itilde acutecomb by Itilde_acutecomb;\n    sub Imacron gravecomb by Imacron_gravecomb;\n    sub Imacron acutecomb by Imacron_acutecomb;\n    sub Imacron tildecomb by Imacron_tildecomb;\n    sub Imacron brevecomb by Imacron_brevecomb;\n    sub Ldotbelow acutecomb by Ldotbelow_acutecomb;\n    sub Ldotbelowmacron acutecomb by Ldotbelowmacron_acutecomb;\n    sub Omacron brevecomb by Omacron_brevecomb;\n    sub Rdotbelow gravecomb by Rdotbelow_gravecomb;\n    sub Rdotbelow acutecomb by Rdotbelow_acutecomb;\n    sub Rdotbelowmacron acutecomb by Rdotbelowmacron_acutecomb;\n    sub Umacron gravecomb by Umacron_gravecomb;\n    sub Umacron acutecomb by Umacron_acutecomb;\n    sub Umacron tildecomb by Umacron_tildecomb;\n    sub Umacron brevecomb by Umacron_brevecomb;\n    sub Klinebelow H_macronbelowcomb by Klinebelow_H_macronbelowcomb;\n} latn.ccmp_NFC;\n\nlookup xxxx.sups {\n    sub zero by zerosuperior;\n    sub one by onesuperior;\n    sub two by twosuperior;\n    sub three by threesuperior;\n    sub four by foursuperior;\n    sub five by fivesuperior;\n    sub six by sixsuperior;\n    sub seven by sevensuperior;\n    sub eight by eightsuperior;\n    sub nine by ninesuperior;\n} xxxx.sups;\n\nlookup xxxx.subs {\n    sub zero by zeroinferior;\n    sub one by oneinferior;\n    sub two by twoinferior;\n    sub three by threeinferior;\n    sub four by fourinferior;\n    sub five by fiveinferior;\n    sub six by sixinferior;\n    sub seven by seveninferior;\n    sub eight by eightinferior;\n    sub nine by nineinferior;\n} xxxx.subs;\n\nlookup xxxx.frac_slash {\n    sub slash by fraction;\n    sub fractionslash by fraction;\n} xxxx.frac_slash;\n\nlookup xxxx.frac_numr {\n    sub zero by zero.numr;\n    sub one by one.numr;\n    sub two by two.numr;\n    sub three by three.numr;\n    sub four by four.numr;\n    sub five by five.numr;\n    sub six by six.numr;\n    sub seven by seven.numr;\n    sub eight by eight.numr;\n    sub nine by nine.numr;\n} xxxx.frac_numr;\n\nlookup xxxx.frac_dnom {\n    sub [fraction @numerals.dnom] zero.numr' by zero.dnom;\n    sub [fraction @numerals.dnom] one.numr' by one.dnom;\n    sub [fraction @numerals.dnom] two.numr' by two.dnom;\n    sub [fraction @numerals.dnom] three.numr' by three.dnom;\n    sub [fraction @numerals.dnom] four.numr' by four.dnom;\n    sub [fraction @numerals.dnom] five.numr' by five.dnom;\n    sub [fraction @numerals.dnom] six.numr' by six.dnom;\n    sub [fraction @numerals.dnom] seven.numr' by seven.dnom;\n    sub [fraction @numerals.dnom] eight.numr' by eight.dnom;\n    sub [fraction @numerals.dnom] nine.numr' by nine.dnom;\n} xxxx.frac_dnom;\n\n# Features\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
       },
       {
         "name":"frac",
@@ -16582,7 +16607,8 @@
               "name":"f3",
               "style":"custom",
               "vertical":true,
-              "position":-286
+              "position":-286,
+              "delta":200
             },
             {
               "name":"f3",

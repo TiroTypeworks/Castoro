@@ -1039,6 +1039,7 @@ lookup latn.liga._longs {
 
 
 
+
 feature case {
     script latn;
     language dflt;

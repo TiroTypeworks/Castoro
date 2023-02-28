@@ -6,7 +6,7 @@
     <component base="a"/>
     <component base="caroncomb" xOffset="525"/>
   </outline>
-  <guideline angle="89.0719" x="388" y="-0"/>
+  <guideline angle="89.0719" x="388" y="0"/>
   <guideline angle="0" x="0" y="525"/>
   <guideline angle="0" x="0" y="735"/>
   <lib>
