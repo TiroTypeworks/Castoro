@@ -617,7 +617,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "guidelines":[
@@ -17544,6 +17545,7 @@
               "@_L_uc_O_1ST":{
                 "@_L_subs_BOTH":"-30",
                 "@_L_uc_A_2ND":"-20",
+                "@_L_uc_J_2ND":"65",
                 "@_L_uc_V_2ND":"-15",
                 "@_L_uc_X_2ND":"-25",
                 "@_L_uc_Y_2ND":"-20",
@@ -17745,7 +17747,6 @@
               },
               "Q":{
                 "@_L_subs_BOTH":"140",
-                "@_L_uc_J_2ND":"65",
                 "braceright":"150",
                 "bracketright":"150",
                 "florin":"140"

@@ -25,6 +25,8 @@
     <integer>140</integer>
     <key>public.kern2._L_subs_BOTH</key>
     <integer>140</integer>
+    <key>public.kern2._L_uc_J_2ND</key>
+    <integer>65</integer>
   </dict>
   <key>ampersand</key>
   <dict>
@@ -564,8 +566,6 @@
     <integer>-30</integer>
     <key>public.kern2._L_uc_A_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_J_2ND</key>
-    <integer>65</integer>
     <key>public.kern2._L_uc_V_2ND</key>
     <integer>-15</integer>
     <key>public.kern2._L_uc_X_2ND</key>
