@@ -132,7 +132,7 @@
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2021-02-09 16:56:56",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -258,7 +258,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2023-02-07 17:31:33",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -368,7 +368,7 @@
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2021-02-09 16:56:56",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -511,7 +511,7 @@
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2023-02-07 17:31:33",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -572,7 +572,7 @@
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2021-02-09 16:56:56",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -656,7 +656,7 @@
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2021-02-09 16:56:56",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -746,7 +746,7 @@
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2021-02-09 16:56:56",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -824,7 +824,7 @@
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2021-02-09 16:56:56",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1024,7 +1024,7 @@
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2023-02-07 17:31:33",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1365,7 +1365,7 @@
       {
         "name":"U",
         "unicode":"0055",
-        "lastModified":"2023-02-07 17:31:39",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -1418,7 +1418,7 @@
       {
         "name":"V",
         "unicode":"0056",
-        "lastModified":"2021-02-09 16:56:56",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8551,7 +8551,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2023-02-07 17:28:36",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8674,7 +8674,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2023-02-07 17:29:54",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -8773,7 +8773,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2023-02-07 17:29:54",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9057,7 +9057,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2021-02-09 16:56:56",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9688,7 +9688,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2023-02-07 17:30:53",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9735,7 +9735,7 @@
       {
         "name":"p",
         "unicode":"0070",
-        "lastModified":"2021-02-09 16:56:56",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -9799,7 +9799,7 @@
       {
         "name":"q",
         "unicode":"0071",
-        "lastModified":"2021-02-09 16:56:56",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -10112,7 +10112,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2021-02-09 16:56:56",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -10156,7 +10156,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2021-02-09 16:56:56",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -10220,7 +10220,7 @@
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2021-02-09 16:56:56",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -10281,7 +10281,7 @@
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2021-02-09 16:56:56",
+        "lastModified":"2023-03-15 22:45:19",
         "openTypeGlyphClass":1,
         "colorFlag":113,
         "layers":[
@@ -35990,7 +35990,7 @@
           "weight":400,
           "width":5,
           "italic_angle":-11,
-          "lineGap":250,
+          "lineGap":330,
           "safeTop":1091,
           "safeBottom":430,
           "underlineThickness":45,
@@ -36028,29 +36028,25 @@
               "name":"f3",
               "style":"custom",
               "vertical":true,
-              "position":-333,
-              "delta":200
+              "position":-333
             },
             {
               "name":"f4",
               "style":"custom",
               "vertical":true,
-              "position":-285,
-              "delta":200
+              "position":-285
             },
             {
               "name":"f5",
               "style":"custom",
               "vertical":true,
-              "position":-71,
-              "delta":200
+              "position":-71
             },
             {
               "name":"f6",
               "style":"custom",
               "vertical":true,
-              "position":-10,
-              "delta":200
+              "position":-10
             }
           ],
           "otherData":{
@@ -36076,7 +36072,7 @@
             "TtaSharpGray":false,
             "hhea_ascender":755,
             "hhea_descender":-245,
-            "hhea_line_gap":250,
+            "hhea_line_gap":330,
             "hhea_use_custom":true,
             "strikeout_position":250,
             "strikeout_size":50,

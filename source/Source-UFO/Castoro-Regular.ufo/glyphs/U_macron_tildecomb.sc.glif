@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Umacron_tildecomb.sc" format="2">
+  <advance width="627"/>
+  <outline>
+    <component base="U.sc"/>
+    <component base="macroncomb.cap" xOffset="620" yOffset="-150"/>
+    <component base="tildecomb.cap" xOffset="620" yOffset="-35"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Itilde_acutecomb.sc" format="2">
+  <advance width="334"/>
+  <outline>
+    <component base="I.sc"/>
+    <component base="tildecomb.cap" xOffset="420" yOffset="-150"/>
+    <component base="acutecomb.cap" xOffset="454" yOffset="40"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>
