@@ -34537,8 +34537,7 @@
               "name":"f2",
               "style":"custom",
               "vertical":true,
-              "position":-286,
-              "delta":200
+              "position":-286
             },
             {
               "name":"f2",
@@ -38628,7 +38627,6 @@
         }
       }
     ],
-    "searchStorage":"",
     "expressionsUpdated":true
   }
 }

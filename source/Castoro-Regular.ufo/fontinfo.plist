@@ -352,7 +352,7 @@
   <key>openTypeHheaDescender</key>
   <integer>-245</integer>
   <key>openTypeHheaLineGap</key>
-  <integer>250</integer>
+  <integer>330</integer>
   <key>openTypeNameDesigner</key>
   <string>John Hudson</string>
   <key>openTypeNameDesignerURL</key>
@@ -423,7 +423,7 @@
   <key>openTypeOS2TypoDescender</key>
   <integer>-245</integer>
   <key>openTypeOS2TypoLineGap</key>
-  <integer>250</integer>
+  <integer>330</integer>
   <key>openTypeOS2UnicodeRanges</key>
   <array>
     <integer>0</integer>
