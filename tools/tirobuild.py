@@ -33,6 +33,7 @@ class SaveState:
         self.variable = self.font.variable
         self.names = self.font.names
         self.STAT = self.font.STAT
+        self.meta = self.font.meta
 
     def __exit__(self, kind, value, tb):
         self.font.name = self.name
@@ -40,6 +41,7 @@ class SaveState:
         self.font.variable = self.variable
         self.font.names = self.names
         self.font.STAT = self.STAT
+        self.font.meta = self.meta
 
 
 class Format(Enum):
@@ -85,23 +87,87 @@ def instanceName(name, instance, font):
     return name.split("-")[0] + "-" + subfamily
 
 
+def mergeConfigs(first, second):
+    conf = {**first}
+    for key in second:
+        if key == "fonts":
+            continue
+        if key not in conf:
+            conf[key] = second[key]
+        elif isinstance(second[key], dict):
+            # We want to merge dictionaries from the two configurations, so
+            # that, say, names can be set in the second and over-ridden by
+            # the font’s conf.
+            conf[key] = {**second[key], **conf[key]}
+    return conf
+
+
+def splitfearureparamtag(tag):
+    script = None
+    langsys = None
+    if "." in tag:
+        tag, script = tag.split(".", 1)
+        if "." in script:
+            script, langsys = script.split(".", 1)
+            langsys = langsys.ljust(4, " ")
+        script = script.ljust(4, " ")
+    return tag, script, langsys
+
+
+def validatefeatureparamtag(tag):
+    if tag.count(".") > 2:
+        return False
+
+    tag, _, _ = splitfearureparamtag(tag)
+    if not tag[2:].isnumeric():
+        return False
+
+    num = int(tag[2:])
+    if tag.startswith("ss") and num in range(1, 21):
+        return True
+    elif tag.startswith("cv") and num in range(1, 100):
+        return True
+    return False
+
+
+def collectfeatures(table, tag):
+    tag, script, langsys = splitfearureparamtag(tag)
+    features = []
+    if script:
+        for srec in table.ScriptList.ScriptRecord:
+            indices = []
+            if srec.ScriptTag == script:
+                if langsys == "dflt":
+                    indices += srec.Script.DefaultLangSys.FeatureIndex
+                    indices.append(srec.Script.DefaultLangSys.ReqFeatureIndex)
+                elif langsys:
+                    for lrec in srec.Script.LangSysRecord:
+                        if lrec.LangSysTag == langsys:
+                            indices += lrec.LangSys.FeatureIndex
+                            indices.append(lrec.LangSys.ReqFeatureIndex)
+                else:
+                    indices += srec.Script.DefaultLangSys.FeatureIndex
+                    indices.append(srec.Script.DefaultLangSys.ReqFeatureIndex)
+                    for lrec in srec.Script.LangSysRecord:
+                        indices += lrec.LangSys.FeatureIndex
+                        indices.append(lrec.LangSys.ReqFeatureIndex)
+            for i in indices:
+                if i == 0xFFFF:
+                    continue
+                features.append(table.FeatureList.FeatureRecord[i])
+    else:
+        features = table.FeatureList.FeatureRecord
+
+    return [f.Feature for f in features if f.FeatureTag == tag]
+
+
 class Font:
     def __init__(self, name, conf, project):
         self.name = name
 
         # Merge keys from the top level (project) configuration into the
         # current font’s conf.
-        conf = {**conf}
-        for key in project:
-            if key == "fonts":
-                continue
-            if key not in conf:
-                conf[key] = project[key]
-            elif isinstance(project[key], dict):
-                # We want to merge dictionaries from the two configurations, so
-                # that, say, names can be set in the project and over-ridden by
-                # the font’s conf.
-                conf[key] = {**project[key], **conf[key]}
+        conf = mergeConfigs(conf, project)
 
         self.source = conf.get("source")
         self.ren = conf.get("glyphnames")
@@ -134,7 +200,11 @@ class Font:
             glyphlist, tags = self._parsesubset(path.parent / subset["glyphlist"])
             subset["glyphlist"] = glyphlist
             subset["langsys"] = tags
-            self.subsets[name] = subset
+            if "cmapoverride" in subset:
+                subset["cmapoverride"] = self._parsecmapoverride(
+                    path.parent / subset["cmapoverride"]
+                )
+            self.subsets[name] = mergeConfigs(subset, conf)
 
         self.names = conf.get("names", {})
         self.set = conf.get("set", {})
@@ -166,28 +236,21 @@ class Font:
         if not isinstance(self.featureparams, dict):
             raise RuntimeError("“featureparams” must be a dictionary")
         for tag, params in self.featureparams.items():
-            if (
-                tag.startswith("ss")
-                and tag[2:].isnumeric()
-                and int(tag[2:]) in range(1, 21)
-            ):
+            if not validatefeatureparamtag(tag):
+                raise RuntimeError(
+                    f"Invalid or unsupported feature tag for “featureparams”: {tag}"
+                )
+
+            if tag.startswith("ss"):
                 if not isinstance(params, str):
                     raise RuntimeError(
                         "“featureparams” of stylistic set must be a string"
                     )
-            elif (
-                tag.startswith("cv")
-                and tag[2:].isnumeric()
-                and int(tag[2:]) in range(1, 100)
-            ):
+            elif tag.startswith("cv"):
                 if not isinstance(params, dict):
                     raise RuntimeError(
                         "“featureparams” of character variant must be a dictionary"
                     )
-            else:
-                raise RuntimeError(
-                    f"“featureparams” are unsupported for feature: {tag}"
-                )
 
     @property
     def ext(self):
@@ -197,8 +260,8 @@ class Font:
     def filename(self):
         return self.name + "." + self.ext
 
-    def _parsesubset(self, subset):
-        with open(subset) as f:
+    def _parsesubset(self, path):
+        with open(path) as f:
             lines = f.read().split("\n")
 
         glyphlist = set()
@@ -213,6 +276,22 @@ class Font:
                 glyphlist.add(line)
 
         return (glyphlist, tags if tags else ["*"])
+
+    def _parsecmapoverride(self, path):
+        with open(path) as f:
+            lines = f.read().split("\n")
+
+        override = {}
+        for line in lines:
+            line = line.strip()
+            if line and not line.startswith("#"):
+                code, glyphname = line.split()
+                code = int(code, 16)
+                if code in override:
+                    raise ValueError(f"Duplicate mapping for “{code:04X}” in: {path}")
+                override[code] = glyphname
+
+        return override
 
     def _openufo(self, path, dspath=None):
         from ufoLib2 import Font as UFOFont
@@ -258,14 +337,19 @@ class Font:
             if tag not in otf:
                 continue
             table = otf[tag].table
-            for feature in table.FeatureList.FeatureRecord:
-                if feature.FeatureTag in self.featureparams:
-                    conf = self.featureparams[feature.FeatureTag]
-                    if feature.FeatureTag.startswith("ss"):
+
+            for tag, conf in self.featureparams.items():
+                features = collectfeatures(table, tag)
+                for feature in features:
+                    if feature.FeatureParams:
+                        raise RuntimeError(
+                            f"Feature “{tag}” already has “featureparams”"
+                        )
+                    if tag.startswith("ss"):
                         params = otTables.FeatureParamsStylisticSet()
                         params.Version = 0
                         params.UINameID = addName(conf)
-                    elif feature.FeatureTag.startswith("cv"):
+                    elif tag.startswith("cv"):
                         label = conf.get("label")
                         tooltip = conf.get("tooltip")
                         sampletext = conf.get("sampletext")
@@ -287,7 +371,7 @@ class Font:
                         params.FirstParamUILabelNameID = addName(paramlabels)
                         params.Character = characters
                         params.CharCount = len(characters)
-                    feature.Feature.FeatureParams = params
+                    feature.FeatureParams = params
 
     def _setstat(self, font):
         if self.STAT:
@@ -317,6 +401,14 @@ class Font:
 
         return otf
 
+    def _setmeta(self, otf):
+        if self.meta:
+            from fontTools.ttLib import newTable
+
+            logger.info(f"Adding “meta” table to {self.filename}")
+            otf["meta"] = meta = newTable("meta")
+            meta.data = {t: ",".join(v) for t, v in self.meta.items()}
+
     def _postprocess(self, otf):
         self._setnames(otf)
 
@@ -330,15 +422,8 @@ class Font:
             DSIG.usNumSigs = 0
             DSIG.signatureRecords = []
 
-        if self.meta:
-            from fontTools.ttLib import newTable
-
-            logger.info(f"Adding “meta” table to {self.filename}")
-            otf["meta"] = meta = newTable("meta")
-            meta.data = {t: ",".join(v) for t, v in self.meta.items()}
-
+        self._setmeta(otf)
         self._setstat(otf)
-        self._setfeatureparams(otf)
 
         return otf
 
@@ -377,6 +462,7 @@ class Font:
 
     def _subset(self, otf):
         from fontTools.subset import Options, Subsetter
+        from ufo2ft.util import calcCodePageRanges
 
         for name, subset in self.subsets.items():
             with SaveState(self):
@@ -396,7 +482,9 @@ class Font:
                 options.legacy_kern = True
                 options.symbol_cmap = True
                 options.layout_closure = False
-                options.prune_unicode_ranges = False
+                options.prune_unicode_ranges = True
+                if hasattr(options, "prune_codepage_ranges"):
+                    options.prune_codepage_ranges = True
                 options.passthrough_tables = False
                 options.recalc_average_width = True
                 options.ignore_missing_glyphs = True
@@ -411,12 +499,81 @@ class Font:
                 with TemporaryLogLevel(logging.WARNING):
                     subsetter.subset(new)
 
+                if not hasattr(options, "prune_codepage_ranges"):
+                    from ufo2ft.util import calcCodePageRanges
+
+                    unicodes = set()
+                    for table in new["cmap"].tables:
+                        if table.isUnicode():
+                            unicodes.update(table.cmap.keys())
+                    bits = set(range(64)) - calcCodePageRanges(unicodes)
+                    if len(bits) == 64:
+                        bits -= {0}
+                    for bit in bits:
+                        if 0 <= bit < 32:
+                            new["OS/2"].ulCodePageRange1 &= ~(1 << bit)
+                        else:
+                            new["OS/2"].ulCodePageRange2 &= ~(1 << (bit - 32))
+
                 self.names = subset.get("names")
-                new = self._optimize(new)
+                self.meta = subset.get("meta")
+                self._overridecmap(new, subset.get("cmapoverride"))
+                self._optimize(new)
                 self._setnames(new)
+                self._setmeta(new)
                 self._instanciate(new)
+                self._addvfsuffix(new)
                 self._buildwoff(new)
                 self._save(new)
+
+    def _removeoverlaps(self, otf):
+        from fontTools.ttLib.removeOverlaps import removeOverlaps
+
+        logger.info(f"Removing overlaps from {self.filename}")
+        try:
+            removeOverlaps(otf)
+        except NotImplementedError:
+            if "CFF " not in otf:
+                raise RuntimeError(f"Can’t remove overlaps from {self.filename}")
+        else:
+            return
+
+        # removeOverlaps currently only works on glyf table, so we use tx to remove
+        # CFF overlaps.
+        import cffsubr
+        import subprocess
+        import tempfile
+        import os
+        from fontTools.ttLib import newTable
+
+        cff = otf["CFF "]
+        input_data = cff.compile(otf)
+
+        with tempfile.NamedTemporaryFile(prefix="tx-", delete=False) as in_temp:
+            in_temp.write(input_data)
+
+        with tempfile.NamedTemporaryFile(prefix="tx-", delete=False) as out_temp:
+            out_temp.write(b"")
+
+        args = ["-cff", "+S", "+V", "+b", "-o", out_temp.name, in_temp.name]
+        kwargs = dict(check=True, stderr=subprocess.PIPE)
+
+        try:
+            cffsubr._run_embedded_tx(*args, **kwargs)
+        except subprocess.CalledProcessError as e:
+            raise RuntimeError(e.stderr.decode())
+        else:
+            with open(out_temp.name, "rb") as fp:
+                output_data = fp.read()
+        finally:
+            os.remove(in_temp.name)
+            os.remove(out_temp.name)
+
+        cff = newTable("CFF ")
+        cff.decompile(output_data, otf)
+
+        del otf["CFF "]
+        otf["CFF "] = cff
 
     def _instanciate(self, vf):
         if self.instances is None or not self.variable:
@@ -454,6 +611,10 @@ class Font:
             stream.seek(0)
             otf = TTFont(stream)
 
+            # Remove Variations PS Name Prefix, and do so before updating the
+            # name table so it does not leak into the instance PS name.
+            otf["name"].removeNames(25)
+
             try:
                 updateNameTable(otf, coordinates)
             except ValueError:
@@ -466,10 +627,11 @@ class Font:
                 self.STAT = None
                 with pruningUnusedNames(otf):
                     otf = instantiateVariableFont(otf, coordinates, inplace=True)
-                otf["name"].removeNames(25)
                 setRibbiBits(otf)
                 self.names = conf.get("names")
                 self._postprocess(otf)
+                self._optimize(otf)
+                self._removeoverlaps(otf)
                 self._save(otf)
                 self._buildwoff(otf)
 
@@ -514,20 +676,28 @@ class Font:
                 topDict.version = f"{font['head'].fontRevision}"
 
     def _optimize(self, otf):
+        if self.variable:
+            return
+
         if "CFF " in otf:
-            import cffsubr
-            from fontTools.cffLib.specializer import specializeProgram
+            tag = "CFF "
+        elif "CFF2" in otf:
+            tag = "CFF2"
+        else:
+            return
 
-            logger.info(f"Optimizing {self.filename}")
-            topDict = otf["CFF "].cff.topDictIndex[0]
-            charStrings = topDict.CharStrings
-            for charString in charStrings.values():
-                charString.decompile()
-                charString.program = specializeProgram(charString.program)
+        import cffsubr
+        from fontTools.cffLib.specializer import specializeProgram
 
-            logger.info(f"Subroutinizing {self.filename}")
-            cffsubr.subroutinize(otf, keep_glyph_names=False)
-        return otf
+        logger.info(f"Optimizing {self.filename}")
+        topDict = otf[tag].cff.topDictIndex[0]
+        charStrings = topDict.CharStrings
+        for charString in charStrings.values():
+            charString.decompile()
+            charString.program = specializeProgram(charString.program)
+
+        logger.info(f"Subroutinizing {self.filename}")
+        cffsubr.subroutinize(otf, keep_glyph_names=False, cff_version=1)
 
     def _addvfsuffix(self, otf):
         names = {}
@@ -560,6 +730,22 @@ class Font:
         with SaveState(self):
             self.names = names
             self._setnames(otf)
+
+    def _overridecmap(self, otf, cmapoverride):
+        if cmapoverride is None:
+            return
+
+        logger.info(f"Overriding “cmap” in {self.filename}")
+        ga = otf.getGlyphOrder()
+        cmap = otf["cmap"]
+        for subtable in cmap.tables:
+            if subtable.isUnicode():
+                for code, glyphname in cmapoverride.items():
+                    if glyphname not in ga:
+                        raise ValueError(
+                            f"Glyph “{glyphname}” used in “camp” override not in font"
+                        )
+                    subtable.cmap[code] = glyphname
 
     def _buildwoff(self, otf):
         for fmt in self.formats:
@@ -630,10 +816,11 @@ class Font:
 
             vf = self._postprocess(vf)
             vf = self._autohint(vf)
+            self._setfeatureparams(vf)
             self._subset(vf)
             self._instanciate(vf)
             self._addvfsuffix(vf)
-            vf = self._optimize(vf)
+            self._optimize(vf)
             self._buildwoff(vf)
             self._save(vf)
 
@@ -694,8 +881,9 @@ class Font:
 
             otf = self._postprocess(otf)
             otf = self._autohint(otf)
+            self._setfeatureparams(otf)
             self._subset(otf)
-            otf = self._optimize(otf)
+            self._optimize(otf)
             self._buildwoff(otf)
             self._save(otf)
 
