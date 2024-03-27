@@ -410,8 +410,6 @@ class Font:
             meta.data = {t: ",".join(v) for t, v in self.meta.items()}
 
     def _postprocess(self, otf):
-        self._setnames(otf)
-
         if self.DSIG:
             from fontTools.ttLib import newTable
 
@@ -428,10 +426,13 @@ class Font:
         return otf
 
     def _autohint(self, otf):
+        if self.variable:
+            return otf
+
         from fontTools.ttLib import TTFont
 
         logger.info(f"Autohinting {self.filename}")
-        if self.fmt == Format.TTF and not self.variable:
+        if self.fmt == Format.TTF:
             from io import BytesIO
 
             from ttfautohint import ttfautohint
@@ -515,10 +516,10 @@ class Font:
                         else:
                             new["OS/2"].ulCodePageRange2 &= ~(1 << (bit - 32))
 
-                self.names = subset.get("names")
+                self.names = subset.get("names", {})
                 self.meta = subset.get("meta")
                 self._overridecmap(new, subset.get("cmapoverride"))
-                self._optimize(new)
+                new = self._optimize(new)
                 self._setnames(new)
                 self._setmeta(new)
                 self._instanciate(new)
@@ -532,11 +533,9 @@ class Font:
         logger.info(f"Removing overlaps from {self.filename}")
         try:
             removeOverlaps(otf)
+            return otf
         except NotImplementedError:
-            if "CFF " not in otf:
-                raise RuntimeError(f"Can’t remove overlaps from {self.filename}")
-        else:
-            return
+            pass
 
         # removeOverlaps currently only works on glyf table, so we use tx to remove
         # CFF overlaps.
@@ -544,10 +543,19 @@ class Font:
         import subprocess
         import tempfile
         import os
+        from io import BytesIO
         from fontTools.ttLib import newTable
 
-        cff = otf["CFF "]
-        input_data = cff.compile(otf)
+        if "CFF " in otf:
+            tag = "CFF "
+        elif "CFF2" in otf:
+            tag = "CFF2"
+        else:
+            raise RuntimeError(f"Can’t remove overlaps from {self.filename}")
+
+        buf = BytesIO()
+        otf.save(buf)
+        input_data = buf.getvalue()
 
         with tempfile.NamedTemporaryFile(prefix="tx-", delete=False) as in_temp:
             in_temp.write(input_data)
@@ -555,7 +563,14 @@ class Font:
         with tempfile.NamedTemporaryFile(prefix="tx-", delete=False) as out_temp:
             out_temp.write(b"")
 
-        args = ["-cff", "+S", "+V", "+b", "-o", out_temp.name, in_temp.name]
+        args = [
+            f"-{tag.rstrip().lower()}",
+            "+V",
+            "+b",
+            "-o",
+            out_temp.name,
+            in_temp.name,
+        ]
         kwargs = dict(check=True, stderr=subprocess.PIPE)
 
         try:
@@ -569,11 +584,13 @@ class Font:
             os.remove(in_temp.name)
             os.remove(out_temp.name)
 
-        cff = newTable("CFF ")
+        cff = newTable(tag)
         cff.decompile(output_data, otf)
 
-        del otf["CFF "]
-        otf["CFF "] = cff
+        del otf[tag]
+        otf[tag] = cff
+
+        return otf
 
     def _instanciate(self, vf):
         if self.instances is None or not self.variable:
@@ -628,22 +645,31 @@ class Font:
                 with pruningUnusedNames(otf):
                     otf = instantiateVariableFont(otf, coordinates, inplace=True)
                 setRibbiBits(otf)
-                self.names = conf.get("names")
-                self._postprocess(otf)
-                self._optimize(otf)
-                self._removeoverlaps(otf)
+                self.names = conf.get("names", {})
+                otf = self._setnames(otf, fix_psname=True)
+                otf = self._postprocess(otf)
+                otf = self._removeoverlaps(otf)
+                otf = self._autohint(otf)
+                otf = self._optimize(otf)
                 self._save(otf)
                 self._buildwoff(otf)
 
-    def _setnames(self, font):
+    def _setnames(self, font, fix_psname=False):
         font["name"].names = [n for n in font["name"].names if n.platformID == 3]
-        if not self.names:
-            return
+        if not self.names and not fix_psname:
+            return font
 
         logger.info(f"Adding “name” entries to {self.filename}")
 
         # Make a copy as we might modify it.
-        names = self.names.copy()
+        names = {**self.names}
+
+        if 6 not in names and fix_psname:
+            import re
+
+            names[6] = re.sub(
+                r"[^A-Za-z0-9-]", r"", f"{getName(font, 1)}-{getName(font, 2)}"
+            )
 
         # If version or psname IDs are specified, but unique ID is not, update
         # the later.
@@ -675,16 +701,18 @@ class Font:
             if 5 in names:
                 topDict.version = f"{font['head'].fontRevision}"
 
+        return font
+
     def _optimize(self, otf):
         if self.variable:
-            return
+            return otf
 
         if "CFF " in otf:
             tag = "CFF "
         elif "CFF2" in otf:
             tag = "CFF2"
         else:
-            return
+            return otf
 
         import cffsubr
         from fontTools.cffLib.specializer import specializeProgram
@@ -698,6 +726,8 @@ class Font:
 
         logger.info(f"Subroutinizing {self.filename}")
         cffsubr.subroutinize(otf, keep_glyph_names=False, cff_version=1)
+
+        return otf
 
     def _addvfsuffix(self, otf):
         names = {}
@@ -789,6 +819,10 @@ class Font:
         ds = DesignSpaceDocument.fromfile(self.source)
         ds.loadSourceFonts(lambda p: self._openufo(Path(p), self.source))
 
+        options = {"inplace": False}
+        if {"GDEF", "GSUB", "GPOS"}.issubset(self.ttf.get("tables", {})):
+            options["featureWriters"] = []
+
         for fmt in self.formats:
             self.fmt = fmt
             if fmt == Format.TTF:
@@ -798,7 +832,7 @@ class Font:
             else:
                 continue
 
-            otfds = compileFont(ds, inplace=False)
+            otfds = compileFont(ds, **options)
 
             if "source" in self.ttf:
                 from fontTools.ttLib import TTFont
@@ -814,13 +848,13 @@ class Font:
 
             vf, _, _ = buildvf(otfds)
 
+            vf = self._setnames(vf)
             vf = self._postprocess(vf)
-            vf = self._autohint(vf)
             self._setfeatureparams(vf)
             self._subset(vf)
             self._instanciate(vf)
             self._addvfsuffix(vf)
-            self._optimize(vf)
+            vf = self._optimize(vf)
             self._buildwoff(vf)
             self._save(vf)
 
@@ -842,7 +876,7 @@ class Font:
 
             options["removeOverlaps"] = True
             options["overlapsBackend"] = "pathops"
-            if set(self.ttf.get("tables", {})) == {"GDEF", "GSUB", "GPOS"}:
+            if {"GDEF", "GSUB", "GPOS"}.issubset(self.ttf.get("tables", {})):
                 options["featureWriters"] = []
 
             otf = compileFont(
@@ -879,11 +913,12 @@ class Font:
                 otl = TTFont(self.ttf["source"])
                 otf = self._copytables(otf, otl)
 
+            otf = self._setnames(otf)
             otf = self._postprocess(otf)
             otf = self._autohint(otf)
             self._setfeatureparams(otf)
             self._subset(otf)
-            self._optimize(otf)
+            otf = self._optimize(otf)
             self._buildwoff(otf)
             self._save(otf)
 
