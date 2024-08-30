@@ -62,13 +62,13 @@
       <point x="335" y="480"/>
       <point x="261" y="433"/>
       <point x="207" y="345" type="curve"/>
-      <point x="178" y="345" type="line"/>
+      <point x="167" y="345" type="line"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.651,1,0.6,1</string>
+  <string>0.604,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

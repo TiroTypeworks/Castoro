@@ -6,15 +6,12 @@
     <component base="a"/>
     <component base="caroncomb" xOffset="525"/>
   </outline>
-  <guideline angle="89.0719" x="388" y="0"/>
-  <guideline angle="0" x="0" y="525"/>
-  <guideline angle="0" x="0" y="735"/>
   <lib>
   <dict>
   <key>com.fontlab.recipe</key>
   <string>a+uni030C</string>
   <key>public.markColor</key>
-  <string>0.6,0.997,1,1</string>
+  <string>0.604,0.6,1,1</string>
   </dict>
   </lib>
 </glyph>

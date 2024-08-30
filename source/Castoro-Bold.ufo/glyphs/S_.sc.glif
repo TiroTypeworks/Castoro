@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="S.sc" format="2">
+  <advance width="478"/>
+  <outline>
+    <contour>
+      <point x="231" y="-12" type="curve" smooth="yes"/>
+      <point x="333" y="-12"/>
+      <point x="441" y="45"/>
+      <point x="441" y="157" type="curve" smooth="yes"/>
+      <point x="441" y="281"/>
+      <point x="326" y="321"/>
+      <point x="258" y="348" type="curve" smooth="yes"/>
+      <point x="191" y="376"/>
+      <point x="151" y="394"/>
+      <point x="151" y="444" type="curve" smooth="yes"/>
+      <point x="151" y="483"/>
+      <point x="185" y="516"/>
+      <point x="245" y="516" type="curve" smooth="yes"/>
+      <point x="283" y="516"/>
+      <point x="308" y="505"/>
+      <point x="328" y="483" type="curve" smooth="yes"/>
+      <point x="347" y="463"/>
+      <point x="362" y="426"/>
+      <point x="375" y="377" type="curve"/>
+      <point x="389" y="375"/>
+      <point x="400" y="377"/>
+      <point x="412" y="379" type="curve"/>
+      <point x="408" y="444"/>
+      <point x="405" y="491"/>
+      <point x="403" y="549" type="curve"/>
+      <point x="398" y="548"/>
+      <point x="390" y="548"/>
+      <point x="384" y="548" type="curve" smooth="yes"/>
+      <point x="369" y="548"/>
+      <point x="366" y="548"/>
+      <point x="328" y="553" type="curve" smooth="yes"/>
+      <point x="301" y="557"/>
+      <point x="275" y="560"/>
+      <point x="252" y="560" type="curve" smooth="yes"/>
+      <point x="135" y="560"/>
+      <point x="44" y="496"/>
+      <point x="44" y="388" type="curve" smooth="yes"/>
+      <point x="44" y="271"/>
+      <point x="149" y="233"/>
+      <point x="207" y="210" type="curve" smooth="yes"/>
+      <point x="254" y="191"/>
+      <point x="316" y="172"/>
+      <point x="316" y="108" type="curve" smooth="yes"/>
+      <point x="316" y="62"/>
+      <point x="279" y="32"/>
+      <point x="226" y="32" type="curve" smooth="yes"/>
+      <point x="150" y="32"/>
+      <point x="103" y="82"/>
+      <point x="82" y="187" type="curve"/>
+      <point x="70" y="188"/>
+      <point x="58" y="188"/>
+      <point x="46" y="186" type="curve"/>
+      <point x="50" y="108"/>
+      <point x="52" y="49"/>
+      <point x="53" y="6" type="curve"/>
+      <point x="62" y="6"/>
+      <point x="97" y="3"/>
+      <point x="138" y="-4" type="curve" smooth="yes"/>
+      <point x="176" y="-11"/>
+      <point x="210" y="-12"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>RMXScaler</key>
+  <dict>
+    <key>source</key>
+    <string>S</string>
+  </dict>
+  <key>public.markColor</key>
+  <string>0.604,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

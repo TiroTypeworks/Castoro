@@ -6,11 +6,10 @@
     <component base="dotbelowcomb" xOffset="575"/>
     <component base="macroncomb.cap" xOffset="500" yOffset="-140"/>
   </outline>
-  <guideline angle="78.9989" x="333" y="0"/>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.604,0.6,1,1</string>
   </dict>
   </lib>
 </glyph>

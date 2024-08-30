@@ -105,8 +105,13 @@
   </outline>
   <lib>
   <dict>
+  <key>RMXScaler</key>
+  <dict>
+    <key>source</key>
+    <string>ampersand</string>
+  </dict>
   <key>public.markColor</key>
-  <string>0.651,1,0.6,1</string>
+  <string>0.604,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

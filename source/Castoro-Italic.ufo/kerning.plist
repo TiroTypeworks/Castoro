@@ -4,96 +4,96 @@
 <dict>
   <key>Dcroat.sc</key>
   <dict>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-15</integer>
   </dict>
   <key>Germandbls</key>
   <dict>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-30</integer>
   </dict>
   <key>Germandbls.sc</key>
   <dict>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-10</integer>
   </dict>
   <key>Ohungarumlaut.sc</key>
   <dict>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-15</integer>
   </dict>
   <key>Oslashacute.sc</key>
   <dict>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-15</integer>
   </dict>
   <key>Q</key>
   <dict>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>40</integer>
-    <key>public.kern2._L_uc_J_2ND</key>
+    <key>public.kern2.R__L_uc_J_2ND</key>
     <integer>30</integer>
   </dict>
   <key>ampersand.sc</key>
   <dict>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_J.sc_2ND</key>
+    <key>public.kern2.R__L_sc_J.sc_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>35</integer>
-    <key>public.kern2._L_sc_S.sc_2ND</key>
+    <key>public.kern2.R__L_sc_S.sc_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_sc_X.sc_2ND</key>
+    <key>public.kern2.R__L_sc_X.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-15</integer>
   </dict>
   <key>emdash.case</key>
   <dict>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_X_2ND</key>
+    <key>public.kern2.R__L_uc_X_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._L_uc_Z_2ND</key>
+    <key>public.kern2.R__L_uc_Z_2ND</key>
     <integer>-10</integer>
   </dict>
   <key>endash.case</key>
   <dict>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_X_2ND</key>
+    <key>public.kern2.R__L_uc_X_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._L_uc_Z_2ND</key>
+    <key>public.kern2.R__L_uc_Z_2ND</key>
     <integer>-10</integer>
   </dict>
   <key>exclamdown</key>
   <dict>
     <key>V</key>
     <integer>-60</integer>
-    <key>public.kern2._L_lc_f_2ND</key>
+    <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>45</integer>
-    <key>public.kern2._L_lc_j_2ND</key>
+    <key>public.kern2.R__L_lc_j_2ND</key>
     <integer>45</integer>
-    <key>public.kern2._L_sc_J.sc_2ND</key>
+    <key>public.kern2.R__L_sc_J.sc_2ND</key>
     <integer>45</integer>
-    <key>public.kern2._L_uc_J_2ND</key>
+    <key>public.kern2.R__L_uc_J_2ND</key>
     <integer>80</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-60</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-55</integer>
   </dict>
   <key>f</key>
@@ -124,33 +124,33 @@
     <integer>110</integer>
     <key>trademark</key>
     <integer>130</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_lc_i_2ND</key>
+    <key>public.kern2.R__L_lc_i_2ND</key>
     <integer>65</integer>
-    <key>public.kern2._L_lc_j_2ND</key>
+    <key>public.kern2.R__L_lc_j_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._L_lc_n_2ND</key>
+    <key>public.kern2.R__L_lc_n_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_lc_t_2ND</key>
+    <key>public.kern2.R__L_lc_t_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_u_2ND</key>
+    <key>public.kern2.R__L_lc_u_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._punc_exclam_2ND</key>
+    <key>public.kern2.R__punc_exclam_2ND</key>
     <integer>70</integer>
-    <key>public.kern2._punc_guillemotright_2ND</key>
+    <key>public.kern2.R__punc_guillemotright_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._punc_parenright_2ND</key>
+    <key>public.kern2.R__punc_parenright_2ND</key>
     <integer>130</integer>
-    <key>public.kern2._punc_question_2ND</key>
+    <key>public.kern2.R__punc_question_2ND</key>
     <integer>70</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>90</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>115</integer>
   </dict>
   <key>five.numr</key>
@@ -204,54 +204,54 @@
   </dict>
   <key>germandbls</key>
   <dict>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-15</integer>
   </dict>
   <key>halfringleft.sc</key>
   <dict>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._L_sc_X.sc_2ND</key>
+    <key>public.kern2.R__L_sc_X.sc_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>25</integer>
   </dict>
   <key>halfringright.sc</key>
   <dict>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>10</integer>
   </dict>
   <key>hyphen.case</key>
   <dict>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_X_2ND</key>
+    <key>public.kern2.R__L_uc_X_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._L_uc_Z_2ND</key>
+    <key>public.kern2.R__L_uc_Z_2ND</key>
     <integer>-10</integer>
   </dict>
   <key>i</key>
   <dict>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-10</integer>
   </dict>
   <key>j</key>
   <dict>
     <key>x</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-35</integer>
   </dict>
   <key>longs</key>
@@ -275,30 +275,30 @@
   </dict>
   <key>q</key>
   <dict>
-    <key>public.kern2._L_lc_f_2ND</key>
+    <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._L_lc_j_2ND</key>
+    <key>public.kern2.R__L_lc_j_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-30</integer>
   </dict>
   <key>questiondown</key>
   <dict>
     <key>V</key>
     <integer>-70</integer>
-    <key>public.kern2._L_lc_f_2ND</key>
+    <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>50</integer>
-    <key>public.kern2._L_lc_j_2ND</key>
+    <key>public.kern2.R__L_lc_j_2ND</key>
     <integer>50</integer>
-    <key>public.kern2._L_sc_J.sc_2ND</key>
+    <key>public.kern2.R__L_sc_J.sc_2ND</key>
     <integer>55</integer>
-    <key>public.kern2._L_uc_J_2ND</key>
+    <key>public.kern2.R__L_uc_J_2ND</key>
     <integer>90</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-60</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-70</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-70</integer>
   </dict>
   <key>seven</key>
@@ -324,7 +324,7 @@
     <integer>-50</integer>
     <key>zero.LP</key>
     <integer>-25</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-70</integer>
   </dict>
   <key>seven.dnom</key>
@@ -371,7 +371,7 @@
     <integer>-30</integer>
     <key>zero.sc</key>
     <integer>-20</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-55</integer>
   </dict>
   <key>seveninferior</key>
@@ -390,7 +390,7 @@
     <integer>-15</integer>
     <key>twoinferior</key>
     <integer>-10</integer>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>-20</integer>
   </dict>
   <key>sevensuperior</key>
@@ -411,7 +411,7 @@
     <integer>-15</integer>
     <key>twosuperior</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>-20</integer>
   </dict>
   <key>six.numr</key>
@@ -421,9 +421,9 @@
   </dict>
   <key>space</key>
   <dict>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-15</integer>
   </dict>
   <key>three.numr</key>
@@ -437,29 +437,29 @@
     <integer>-10</integer>
     <key>semicolon</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_lc_f_2ND</key>
+    <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_g_2ND</key>
+    <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_s_2ND</key>
+    <key>public.kern2.R__L_lc_s_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_lc_t_2ND</key>
+    <key>public.kern2.R__L_lc_t_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_lc_z_2ND</key>
+    <key>public.kern2.R__L_lc_z_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._punc_parenright_2ND</key>
+    <key>public.kern2.R__punc_parenright_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-70</integer>
   </dict>
   <key>w</key>
@@ -468,34 +468,34 @@
     <integer>-10</integer>
     <key>semicolon</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-11</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_f_2ND</key>
+    <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_lc_g_2ND</key>
+    <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_lc_s_2ND</key>
+    <key>public.kern2.R__L_lc_s_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_t_2ND</key>
+    <key>public.kern2.R__L_lc_t_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_lc_z_2ND</key>
+    <key>public.kern2.R__L_lc_z_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-60</integer>
   </dict>
   <key>x</key>
   <dict>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-10</integer>
   </dict>
   <key>zero.numr</key>
@@ -503,32 +503,32 @@
     <key>fraction</key>
     <integer>-25</integer>
   </dict>
-  <key>public.kern1._L_lc_a_1ST</key>
+  <key>public.kern1.L__L_lc_a_1ST</key>
   <dict>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-20</integer>
   </dict>
-  <key>public.kern1._L_lc_b_1ST</key>
+  <key>public.kern1.L__L_lc_b_1ST</key>
   <dict>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-15</integer>
   </dict>
-  <key>public.kern1._L_lc_c_1ST</key>
+  <key>public.kern1.L__L_lc_c_1ST</key>
   <dict>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-14</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>20</integer>
   </dict>
-  <key>public.kern1._L_lc_caronslovak_1ST</key>
+  <key>public.kern1.L__L_lc_caronslovak_1ST</key>
   <dict>
     <key>i.TRK</key>
     <integer>-10</integer>
@@ -558,519 +558,519 @@
     <integer>10</integer>
     <key>x</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-60</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-60</integer>
-    <key>public.kern2._L_lc_f_2ND</key>
+    <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_g_2ND</key>
+    <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-60</integer>
-    <key>public.kern2._L_lc_i_2ND</key>
+    <key>public.kern2.R__L_lc_i_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_j_2ND</key>
+    <key>public.kern2.R__L_lc_j_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_n_2ND</key>
+    <key>public.kern2.R__L_lc_n_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-60</integer>
-    <key>public.kern2._L_lc_s_2ND</key>
+    <key>public.kern2.R__L_lc_s_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_lc_t_2ND</key>
+    <key>public.kern2.R__L_lc_t_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_u_2ND</key>
+    <key>public.kern2.R__L_lc_u_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_z_2ND</key>
+    <key>public.kern2.R__L_lc_z_2ND</key>
     <integer>-30</integer>
   </dict>
-  <key>public.kern1._L_lc_e_1ST</key>
+  <key>public.kern1.L__L_lc_e_1ST</key>
   <dict>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-15</integer>
   </dict>
-  <key>public.kern1._L_lc_g_1ST</key>
+  <key>public.kern1.L__L_lc_g_1ST</key>
   <dict>
-    <key>public.kern2._L_lc_f_2ND</key>
+    <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._L_lc_j_2ND</key>
+    <key>public.kern2.R__L_lc_j_2ND</key>
     <integer>25</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>10</integer>
   </dict>
-  <key>public.kern1._L_lc_h_1ST</key>
+  <key>public.kern1.L__L_lc_h_1ST</key>
   <dict>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-30</integer>
   </dict>
-  <key>public.kern1._L_lc_o_1ST</key>
+  <key>public.kern1.L__L_lc_o_1ST</key>
   <dict>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-15</integer>
   </dict>
-  <key>public.kern1._L_lc_r_1ST</key>
+  <key>public.kern1.L__L_lc_r_1ST</key>
   <dict>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>40</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-75</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>20</integer>
   </dict>
-  <key>public.kern1._L_lc_s_1ST</key>
+  <key>public.kern1.L__L_lc_s_1ST</key>
   <dict>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-24</integer>
   </dict>
-  <key>public.kern1._L_lc_t_1ST</key>
+  <key>public.kern1.L__L_lc_t_1ST</key>
   <dict>
-    <key>public.kern2._L_lc_f_2ND</key>
+    <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_lc_t_2ND</key>
+    <key>public.kern2.R__L_lc_t_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>25</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>10</integer>
   </dict>
-  <key>public.kern1._L_lc_y_1ST</key>
+  <key>public.kern1.L__L_lc_y_1ST</key>
   <dict>
     <key>colon</key>
     <integer>-10</integer>
     <key>semicolon</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_f_2ND</key>
+    <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_lc_g_2ND</key>
+    <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_lc_s_2ND</key>
+    <key>public.kern2.R__L_lc_s_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_t_2ND</key>
+    <key>public.kern2.R__L_lc_t_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_lc_z_2ND</key>
+    <key>public.kern2.R__L_lc_z_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._punc_parenright_2ND</key>
+    <key>public.kern2.R__punc_parenright_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-60</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-10</integer>
   </dict>
-  <key>public.kern1._L_lc_z_1ST</key>
+  <key>public.kern1.L__L_lc_z_1ST</key>
   <dict>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-5</integer>
   </dict>
-  <key>public.kern1._L_sc_A.sc_1ST</key>
+  <key>public.kern1.L__L_sc_A.sc_1ST</key>
   <dict>
     <key>halfringleft.sc</key>
     <integer>-40</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._L_sc_U.sc_2ND</key>
+    <key>public.kern2.R__L_sc_U.sc_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-80</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-55</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-55</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-55</integer>
   </dict>
-  <key>public.kern1._L_sc_B.sc_1ST</key>
+  <key>public.kern1.L__L_sc_B.sc_1ST</key>
   <dict>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_X.sc_2ND</key>
+    <key>public.kern2.R__L_sc_X.sc_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>14</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-10</integer>
   </dict>
-  <key>public.kern1._L_sc_F.sc_1ST</key>
+  <key>public.kern1.L__L_sc_F.sc_1ST</key>
   <dict>
     <key>ampersand.sc</key>
     <integer>-20</integer>
     <key>halfringleft.sc</key>
     <integer>10</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-55</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-90</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>15</integer>
   </dict>
-  <key>public.kern1._L_sc_G.sc_1ST</key>
+  <key>public.kern1.L__L_sc_G.sc_1ST</key>
   <dict>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>5</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-10</integer>
   </dict>
-  <key>public.kern1._L_sc_J.sc_1ST</key>
+  <key>public.kern1.L__L_sc_J.sc_1ST</key>
   <dict>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>20</integer>
   </dict>
-  <key>public.kern1._L_sc_K.sc_1ST</key>
+  <key>public.kern1.L__L_sc_K.sc_1ST</key>
   <dict>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>10</integer>
   </dict>
-  <key>public.kern1._L_sc_L.sc_1ST</key>
+  <key>public.kern1.L__L_sc_L.sc_1ST</key>
   <dict>
     <key>halfringleft.sc</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._L_sc_U.sc_2ND</key>
+    <key>public.kern2.R__L_sc_U.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-55</integer>
-    <key>public.kern2._L_sc_X.sc_2ND</key>
+    <key>public.kern2.R__L_sc_X.sc_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-30</integer>
   </dict>
-  <key>public.kern1._L_sc_N.sc_1ST</key>
+  <key>public.kern1.L__L_sc_N.sc_1ST</key>
   <dict>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-40</integer>
   </dict>
-  <key>public.kern1._L_sc_O.sc_1ST</key>
+  <key>public.kern1.L__L_sc_O.sc_1ST</key>
   <dict>
     <key>comma</key>
     <integer>-15</integer>
     <key>ellipsis</key>
     <integer>-15</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_sc_X.sc_2ND</key>
+    <key>public.kern2.R__L_sc_X.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-29</integer>
-    <key>public.kern2._L_sc_Z.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Z.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-5</integer>
   </dict>
-  <key>public.kern1._L_sc_P.sc_1ST</key>
+  <key>public.kern1.L__L_sc_P.sc_1ST</key>
   <dict>
     <key>ampersand.sc</key>
     <integer>-15</integer>
     <key>halfringleft.sc</key>
     <integer>20</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._L_sc_X.sc_2ND</key>
+    <key>public.kern2.R__L_sc_X.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_Z.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Z.sc_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>5</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-100</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>10</integer>
   </dict>
-  <key>public.kern1._L_sc_R.sc_1ST</key>
+  <key>public.kern1.L__L_sc_R.sc_1ST</key>
   <dict>
     <key>halfringleft.sc</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._L_sc_U.sc_2ND</key>
+    <key>public.kern2.R__L_sc_U.sc_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-35</integer>
   </dict>
-  <key>public.kern1._L_sc_S.sc_1ST</key>
+  <key>public.kern1.L__L_sc_S.sc_1ST</key>
   <dict>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_Z.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Z.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-25</integer>
   </dict>
-  <key>public.kern1._L_sc_T.sc_1ST</key>
+  <key>public.kern1.L__L_sc_T.sc_1ST</key>
   <dict>
     <key>ampersand.sc</key>
     <integer>-15</integer>
     <key>halfringleft.sc</key>
     <integer>20</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._L_sc_S.sc_2ND</key>
+    <key>public.kern2.R__L_sc_S.sc_2ND</key>
     <integer>5</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-80</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>15</integer>
   </dict>
-  <key>public.kern1._L_sc_Thorn.sc_1ST</key>
+  <key>public.kern1.L__L_sc_Thorn.sc_1ST</key>
   <dict>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>25</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-60</integer>
   </dict>
-  <key>public.kern1._L_sc_U.sc_1ST</key>
+  <key>public.kern1.L__L_sc_U.sc_1ST</key>
   <dict>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-60</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>15</integer>
   </dict>
-  <key>public.kern1._L_sc_V.sc_1ST</key>
+  <key>public.kern1.L__L_sc_V.sc_1ST</key>
   <dict>
     <key>ampersand.sc</key>
     <integer>-15</integer>
     <key>halfringleft.sc</key>
     <integer>10</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-70</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>60</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-95</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>45</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>20</integer>
   </dict>
-  <key>public.kern1._L_sc_X.sc_1ST</key>
+  <key>public.kern1.L__L_sc_X.sc_1ST</key>
   <dict>
     <key>halfringleft.sc</key>
     <integer>-15</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-15</integer>
   </dict>
-  <key>public.kern1._L_sc_Y.sc_1ST</key>
+  <key>public.kern1.L__L_sc_Y.sc_1ST</key>
   <dict>
     <key>ampersand.sc</key>
     <integer>-20</integer>
     <key>halfringleft.sc</key>
     <integer>20</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-55</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>70</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-80</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>45</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>20</integer>
   </dict>
-  <key>public.kern1._L_sc_Z.sc_1ST</key>
+  <key>public.kern1.L__L_sc_Z.sc_1ST</key>
   <dict>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-5</integer>
   </dict>
-  <key>public.kern1._L_subs_BOTH</key>
+  <key>public.kern1.L__L_subs_BOTH</key>
   <dict>
     <key>V</key>
     <integer>-80</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>50</integer>
-    <key>public.kern2._L_uc_C_2ND</key>
+    <key>public.kern2.R__L_uc_C_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_uc_J_2ND</key>
+    <key>public.kern2.R__L_uc_J_2ND</key>
     <integer>100</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._L_uc_U_2ND</key>
+    <key>public.kern2.R__L_uc_U_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-80</integer>
-    <key>public.kern2._L_uc_X_2ND</key>
+    <key>public.kern2.R__L_uc_X_2ND</key>
     <integer>35</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-60</integer>
-    <key>public.kern2._L_uc_Z_2ND</key>
+    <key>public.kern2.R__L_uc_Z_2ND</key>
     <integer>10</integer>
   </dict>
-  <key>public.kern1._L_uc_A_1ST</key>
+  <key>public.kern1.L__L_uc_A_1ST</key>
   <dict>
     <key>V</key>
     <integer>-105</integer>
@@ -1088,78 +1088,78 @@
     <integer>-90</integer>
     <key>trademark</key>
     <integer>-90</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_lc_t_2ND</key>
+    <key>public.kern2.R__L_lc_t_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_lc_u_2ND</key>
+    <key>public.kern2.R__L_lc_u_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_sc_U.sc_2ND</key>
+    <key>public.kern2.R__L_sc_U.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-60</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>50</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._L_uc_C_2ND</key>
+    <key>public.kern2.R__L_uc_C_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-65</integer>
-    <key>public.kern2._L_uc_U_2ND</key>
+    <key>public.kern2.R__L_uc_U_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-105</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-80</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-80</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-70</integer>
   </dict>
-  <key>public.kern1._L_uc_B_1ST</key>
+  <key>public.kern1.L__L_uc_B_1ST</key>
   <dict>
     <key>V</key>
     <integer>-30</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_uc_X_2ND</key>
+    <key>public.kern2.R__L_uc_X_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-20</integer>
   </dict>
-  <key>public.kern1._L_uc_E_1ST</key>
+  <key>public.kern1.L__L_uc_E_1ST</key>
   <dict>
-    <key>public.kern2._L_sc_X.sc_2ND</key>
+    <key>public.kern2.R__L_sc_X.sc_2ND</key>
     <integer>10</integer>
   </dict>
-  <key>public.kern1._L_uc_F_1ST</key>
+  <key>public.kern1.L__L_uc_F_1ST</key>
   <dict>
     <key>asterisk</key>
     <integer>20</integer>
@@ -1193,38 +1193,38 @@
     <integer>20</integer>
     <key>trademark</key>
     <integer>20</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._L_lc_n_2ND</key>
+    <key>public.kern2.R__L_lc_n_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_lc_u_2ND</key>
+    <key>public.kern2.R__L_lc_u_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-75</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>35</integer>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>-50</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>40</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>-70</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-100</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>20</integer>
   </dict>
-  <key>public.kern1._L_uc_G_1ST</key>
+  <key>public.kern1.L__L_uc_G_1ST</key>
   <dict>
     <key>V</key>
     <integer>-10</integer>
@@ -1234,31 +1234,31 @@
     <integer>10</integer>
     <key>hyphen.case</key>
     <integer>10</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-10</integer>
   </dict>
-  <key>public.kern1._L_uc_J_1ST</key>
+  <key>public.kern1.L__L_uc_J_1ST</key>
   <dict>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-35</integer>
   </dict>
-  <key>public.kern1._L_uc_K_1ST</key>
+  <key>public.kern1.L__L_uc_K_1ST</key>
   <dict>
     <key>emdash.case</key>
     <integer>-50</integer>
@@ -1268,38 +1268,38 @@
     <integer>-30</integer>
     <key>hyphen.case</key>
     <integer>-50</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_lc_u_2ND</key>
+    <key>public.kern2.R__L_lc_u_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-55</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_sc_U.sc_2ND</key>
+    <key>public.kern2.R__L_sc_U.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>25</integer>
-    <key>public.kern2._L_uc_C_2ND</key>
+    <key>public.kern2.R__L_uc_C_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-41</integer>
   </dict>
-  <key>public.kern1._L_uc_L_1ST</key>
+  <key>public.kern1.L__L_uc_L_1ST</key>
   <dict>
     <key>V</key>
     <integer>-80</integer>
@@ -1309,55 +1309,55 @@
     <integer>-50</integer>
     <key>trademark</key>
     <integer>-50</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_U.sc_2ND</key>
+    <key>public.kern2.R__L_sc_U.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>25</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-70</integer>
-    <key>public.kern2._L_uc_U_2ND</key>
+    <key>public.kern2.R__L_uc_U_2ND</key>
     <integer>-24</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-80</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-70</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-50</integer>
   </dict>
-  <key>public.kern1._L_uc_N_1ST</key>
+  <key>public.kern1.L__L_uc_N_1ST</key>
   <dict>
     <key>colon</key>
     <integer>-20</integer>
     <key>semicolon</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-45</integer>
   </dict>
-  <key>public.kern1._L_uc_O_1ST</key>
+  <key>public.kern1.L__L_uc_O_1ST</key>
   <dict>
     <key>V</key>
     <integer>-35</integer>
@@ -1367,32 +1367,32 @@
     <integer>20</integer>
     <key>hyphen.case</key>
     <integer>20</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>-30</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-46</integer>
-    <key>public.kern2._L_uc_X_2ND</key>
+    <key>public.kern2.R__L_uc_X_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._L_uc_Z_2ND</key>
+    <key>public.kern2.R__L_uc_Z_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>25</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-50</integer>
   </dict>
-  <key>public.kern1._L_uc_P_1ST</key>
+  <key>public.kern1.L__L_uc_P_1ST</key>
   <dict>
     <key>asterisk</key>
     <integer>10</integer>
@@ -1408,50 +1408,50 @@
     <integer>10</integer>
     <key>trademark</key>
     <integer>10</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_lc_g_2ND</key>
+    <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_lc_s_2ND</key>
+    <key>public.kern2.R__L_lc_s_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-65</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>-40</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>-80</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_uc_X_2ND</key>
+    <key>public.kern2.R__L_uc_X_2ND</key>
     <integer>-32</integer>
-    <key>public.kern2._L_uc_Z_2ND</key>
+    <key>public.kern2.R__L_uc_Z_2ND</key>
     <integer>-11</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>-41</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-125</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>17</integer>
   </dict>
-  <key>public.kern1._L_uc_R_1ST</key>
+  <key>public.kern1.L__L_uc_R_1ST</key>
   <dict>
     <key>V</key>
     <integer>-70</integer>
@@ -1469,67 +1469,67 @@
     <integer>-40</integer>
     <key>trademark</key>
     <integer>-40</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_u_2ND</key>
+    <key>public.kern2.R__L_lc_u_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_sc_U.sc_2ND</key>
+    <key>public.kern2.R__L_sc_U.sc_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>45</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_uc_C_2ND</key>
+    <key>public.kern2.R__L_uc_C_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._L_uc_U_2ND</key>
+    <key>public.kern2.R__L_uc_U_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-80</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-65</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>-17</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-55</integer>
   </dict>
-  <key>public.kern1._L_uc_S_1ST</key>
+  <key>public.kern1.L__L_uc_S_1ST</key>
   <dict>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>5</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_uc_Z_2ND</key>
+    <key>public.kern2.R__L_uc_Z_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-10</integer>
   </dict>
-  <key>public.kern1._L_uc_T_1ST</key>
+  <key>public.kern1.L__L_uc_T_1ST</key>
   <dict>
     <key>J_dieresisbelowcomb.sc</key>
     <integer>15</integer>
@@ -1599,60 +1599,60 @@
     <integer>20</integer>
     <key>ydieresis</key>
     <integer>-30</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-75</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-75</integer>
-    <key>public.kern2._L_lc_n_2ND</key>
+    <key>public.kern2.R__L_lc_n_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-70</integer>
-    <key>public.kern2._L_lc_s_2ND</key>
+    <key>public.kern2.R__L_lc_s_2ND</key>
     <integer>-65</integer>
-    <key>public.kern2._L_lc_u_2ND</key>
+    <key>public.kern2.R__L_lc_u_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_lc_z_2ND</key>
+    <key>public.kern2.R__L_lc_z_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-65</integer>
-    <key>public.kern2._L_sc_B.sc_2ND</key>
+    <key>public.kern2.R__L_sc_B.sc_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._L_sc_S.sc_2ND</key>
+    <key>public.kern2.R__L_sc_S.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._L_sc_X.sc_2ND</key>
+    <key>public.kern2.R__L_sc_X.sc_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>40</integer>
-    <key>public.kern2._L_sc_Z.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Z.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>-40</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>40</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>-65</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>-61</integer>
-    <key>public.kern2._punc_guillemotright_2ND</key>
+    <key>public.kern2.R__punc_guillemotright_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-61</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-95</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>20</integer>
   </dict>
-  <key>public.kern1._L_uc_Thorn_1ST</key>
+  <key>public.kern1.L__L_uc_Thorn_1ST</key>
   <dict>
     <key>emdash.case</key>
     <integer>30</integer>
@@ -1660,39 +1660,39 @@
     <integer>30</integer>
     <key>hyphen.case</key>
     <integer>30</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>-15</integer>
   </dict>
-  <key>public.kern1._L_uc_U_1ST</key>
+  <key>public.kern1.L__L_uc_U_1ST</key>
   <dict>
     <key>registered</key>
     <integer>20</integer>
     <key>x</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_g_2ND</key>
+    <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_lc_s_2ND</key>
+    <key>public.kern2.R__L_lc_s_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_z_2ND</key>
+    <key>public.kern2.R__L_lc_z_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>-30</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-65</integer>
   </dict>
-  <key>public.kern1._L_uc_V_1ST</key>
+  <key>public.kern1.L__L_uc_V_1ST</key>
   <dict>
     <key>Abreve.sc</key>
     <integer>-65</integer>
@@ -1844,58 +1844,58 @@
     <integer>-11</integer>
     <key>trademark</key>
     <integer>60</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-70</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-70</integer>
-    <key>public.kern2._L_lc_n_2ND</key>
+    <key>public.kern2.R__L_lc_n_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-60</integer>
-    <key>public.kern2._L_lc_s_2ND</key>
+    <key>public.kern2.R__L_lc_s_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_lc_u_2ND</key>
+    <key>public.kern2.R__L_lc_u_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-105</integer>
-    <key>public.kern2._L_sc_B.sc_2ND</key>
+    <key>public.kern2.R__L_sc_B.sc_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-60</integer>
-    <key>public.kern2._L_sc_S.sc_2ND</key>
+    <key>public.kern2.R__L_sc_S.sc_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_sc_U.sc_2ND</key>
+    <key>public.kern2.R__L_sc_U.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_Z.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Z.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>-40</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>70</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>-95</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>-61</integer>
-    <key>public.kern2._punc_guillemotright_2ND</key>
+    <key>public.kern2.R__punc_guillemotright_2ND</key>
     <integer>-41</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._punc_parenright_2ND</key>
+    <key>public.kern2.R__punc_parenright_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-110</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>25</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>50</integer>
   </dict>
-  <key>public.kern1._L_uc_X_1ST</key>
+  <key>public.kern1.L__L_uc_X_1ST</key>
   <dict>
     <key>emdash.case</key>
     <integer>-20</integer>
@@ -1907,36 +1907,36 @@
     <integer>-20</integer>
     <key>trademark</key>
     <integer>20</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_u_2ND</key>
+    <key>public.kern2.R__L_lc_u_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_sc_U.sc_2ND</key>
+    <key>public.kern2.R__L_sc_U.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>20</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._L_uc_C_2ND</key>
+    <key>public.kern2.R__L_uc_C_2ND</key>
     <integer>-36</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-41</integer>
   </dict>
-  <key>public.kern1._L_uc_Y_1ST</key>
+  <key>public.kern1.L__L_uc_Y_1ST</key>
   <dict>
     <key>Aacute.sc</key>
     <integer>-75</integer>
@@ -2096,337 +2096,337 @@
     <integer>-15</integer>
     <key>trademark</key>
     <integer>60</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-90</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-90</integer>
-    <key>public.kern2._L_lc_f_2ND</key>
+    <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>-30</integer>
-    <key>public.kern2._L_lc_g_2ND</key>
+    <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-75</integer>
-    <key>public.kern2._L_lc_n_2ND</key>
+    <key>public.kern2.R__L_lc_n_2ND</key>
     <integer>-55</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-80</integer>
-    <key>public.kern2._L_lc_s_2ND</key>
+    <key>public.kern2.R__L_lc_s_2ND</key>
     <integer>-60</integer>
-    <key>public.kern2._L_lc_t_2ND</key>
+    <key>public.kern2.R__L_lc_t_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_lc_u_2ND</key>
+    <key>public.kern2.R__L_lc_u_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-80</integer>
-    <key>public.kern2._L_sc_B.sc_2ND</key>
+    <key>public.kern2.R__L_sc_B.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_sc_J.sc_2ND</key>
+    <key>public.kern2.R__L_sc_J.sc_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-75</integer>
-    <key>public.kern2._L_sc_S.sc_2ND</key>
+    <key>public.kern2.R__L_sc_S.sc_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_U.sc_2ND</key>
+    <key>public.kern2.R__L_sc_U.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_Z.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Z.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_subs_BOTH</key>
+    <key>public.kern2.R__L_subs_BOTH</key>
     <integer>-40</integer>
-    <key>public.kern2._L_sups_2ND</key>
+    <key>public.kern2.R__L_sups_2ND</key>
     <integer>70</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>-85</integer>
-    <key>public.kern2._L_uc_C_2ND</key>
+    <key>public.kern2.R__L_uc_C_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._punc_guillemotleft_2ND</key>
+    <key>public.kern2.R__punc_guillemotleft_2ND</key>
     <integer>-80</integer>
-    <key>public.kern2._punc_guillemotright.case_2ND</key>
+    <key>public.kern2.R__punc_guillemotright.case_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_guillemotright_2ND</key>
+    <key>public.kern2.R__punc_guillemotright_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._punc_hyphen_2ND</key>
+    <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-66</integer>
-    <key>public.kern2._punc_parenright_2ND</key>
+    <key>public.kern2.R__punc_parenright_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-95</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>45</integer>
   </dict>
-  <key>public.kern1._L_uc_Z_1ST</key>
+  <key>public.kern1.L__L_uc_Z_1ST</key>
   <dict>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_uc_C_2ND</key>
+    <key>public.kern2.R__L_uc_C_2ND</key>
     <integer>-10</integer>
   </dict>
-  <key>public.kern1._punc_guillemotleft.case_1ST</key>
+  <key>public.kern1.L__punc_guillemotleft.case_1ST</key>
   <dict>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-10</integer>
   </dict>
-  <key>public.kern1._punc_guillemotleft_1ST</key>
+  <key>public.kern1.L__punc_guillemotleft_1ST</key>
   <dict>
     <key>V</key>
     <integer>-41</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>40</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>40</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-41</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-50</integer>
   </dict>
-  <key>public.kern1._punc_guillemotright_1ST</key>
+  <key>public.kern1.L__punc_guillemotright_1ST</key>
   <dict>
     <key>V</key>
     <integer>-61</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_X.sc_2ND</key>
+    <key>public.kern2.R__L_sc_X.sc_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-61</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-61</integer>
-    <key>public.kern2._L_uc_X_2ND</key>
+    <key>public.kern2.R__L_uc_X_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-80</integer>
   </dict>
-  <key>public.kern1._punc_hyphen_1ST</key>
+  <key>public.kern1.L__punc_hyphen_1ST</key>
   <dict>
     <key>V</key>
     <integer>-50</integer>
     <key>x</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_sc_X.sc_2ND</key>
+    <key>public.kern2.R__L_sc_X.sc_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._L_sc_Z.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Z.sc_2ND</key>
     <integer>-5</integer>
-    <key>public.kern2._L_uc_C_2ND</key>
+    <key>public.kern2.R__L_uc_C_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._L_uc_S_2ND</key>
+    <key>public.kern2.R__L_uc_S_2ND</key>
     <integer>11</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-61</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._L_uc_X_2ND</key>
+    <key>public.kern2.R__L_uc_X_2ND</key>
     <integer>-41</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-66</integer>
-    <key>public.kern2._L_uc_Z_2ND</key>
+    <key>public.kern2.R__L_uc_Z_2ND</key>
     <integer>-20</integer>
   </dict>
-  <key>public.kern1._punc_parenleft_1ST</key>
+  <key>public.kern1.L__punc_parenleft_1ST</key>
   <dict>
     <key>V</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_f_2ND</key>
+    <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>130</integer>
-    <key>public.kern2._L_lc_j_2ND</key>
+    <key>public.kern2.R__L_lc_j_2ND</key>
     <integer>130</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>50</integer>
-    <key>public.kern2._L_uc_C_2ND</key>
+    <key>public.kern2.R__L_uc_C_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_uc_J_2ND</key>
+    <key>public.kern2.R__L_uc_J_2ND</key>
     <integer>160</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_uc_U_2ND</key>
+    <key>public.kern2.R__L_uc_U_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_uc_X_2ND</key>
+    <key>public.kern2.R__L_uc_X_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-10</integer>
   </dict>
-  <key>public.kern1._punc_period_1ST</key>
+  <key>public.kern1.L__punc_period_1ST</key>
   <dict>
     <key>seven.LP</key>
     <integer>-45</integer>
     <key>seven.sc</key>
     <integer>-35</integer>
-    <key>public.kern2._punc_quoteleft_2ND</key>
+    <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-80</integer>
-    <key>public.kern2._punc_quoteright_2ND</key>
+    <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>-70</integer>
   </dict>
-  <key>public.kern1._punc_quotebase_1ST</key>
+  <key>public.kern1.L__punc_quotebase_1ST</key>
   <dict>
     <key>V</key>
     <integer>-95</integer>
     <key>x</key>
     <integer>20</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_f_2ND</key>
+    <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._L_lc_j_2ND</key>
+    <key>public.kern2.R__L_lc_j_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_t_2ND</key>
+    <key>public.kern2.R__L_lc_t_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._L_uc_C_2ND</key>
+    <key>public.kern2.R__L_uc_C_2ND</key>
     <integer>-40</integer>
-    <key>public.kern2._L_uc_J_2ND</key>
+    <key>public.kern2.R__L_uc_J_2ND</key>
     <integer>50</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-80</integer>
-    <key>public.kern2._L_uc_U_2ND</key>
+    <key>public.kern2.R__L_uc_U_2ND</key>
     <integer>-50</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>-95</integer>
-    <key>public.kern2._L_uc_X_2ND</key>
+    <key>public.kern2.R__L_uc_X_2ND</key>
     <integer>25</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-70</integer>
   </dict>
-  <key>public.kern1._punc_quoteleft_1ST</key>
+  <key>public.kern1.L__punc_quoteleft_1ST</key>
   <dict>
     <key>V</key>
     <integer>40</integer>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2._L_lc_g_2ND</key>
+    <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_i_2ND</key>
+    <key>public.kern2.R__L_lc_i_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._L_lc_j_2ND</key>
+    <key>public.kern2.R__L_lc_j_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._L_lc_n_2ND</key>
+    <key>public.kern2.R__L_lc_n_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2._L_lc_s_2ND</key>
+    <key>public.kern2.R__L_lc_s_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>40</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>40</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-59</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._L_sc_V.sc_2ND</key>
+    <key>public.kern2.R__L_sc_V.sc_2ND</key>
     <integer>25</integer>
-    <key>public.kern2._L_sc_X.sc_2ND</key>
+    <key>public.kern2.R__L_sc_X.sc_2ND</key>
     <integer>25</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>25</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
+    <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>-75</integer>
-    <key>public.kern2._L_uc_T_2ND</key>
+    <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._L_uc_W_2ND</key>
+    <key>public.kern2.R__L_uc_W_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._L_uc_X_2ND</key>
+    <key>public.kern2.R__L_uc_X_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_uc_Y_2ND</key>
+    <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>40</integer>
   </dict>
-  <key>public.kern1._punc_quoteright_1ST</key>
+  <key>public.kern1.L__punc_quoteright_1ST</key>
   <dict>
-    <key>public.kern2._L_lc_a_2ND</key>
+    <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._L_lc_c_2ND</key>
+    <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>-34</integer>
-    <key>public.kern2._L_lc_g_2ND</key>
+    <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-45</integer>
-    <key>public.kern2._L_lc_i_2ND</key>
+    <key>public.kern2.R__L_lc_i_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_lc_j_2ND</key>
+    <key>public.kern2.R__L_lc_j_2ND</key>
     <integer>10</integer>
-    <key>public.kern2._L_lc_o_2ND</key>
+    <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-35</integer>
-    <key>public.kern2._L_lc_s_2ND</key>
+    <key>public.kern2.R__L_lc_s_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_lc_v_2ND</key>
+    <key>public.kern2.R__L_lc_v_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._L_lc_y_2ND</key>
+    <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._L_lc_z_2ND</key>
+    <key>public.kern2.R__L_lc_z_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._L_sc_A.sc_2ND</key>
+    <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-55</integer>
-    <key>public.kern2._L_sc_O.sc_2ND</key>
+    <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2._L_sc_T.sc_2ND</key>
+    <key>public.kern2.R__L_sc_T.sc_2ND</key>
     <integer>15</integer>
-    <key>public.kern2._L_sc_X.sc_2ND</key>
+    <key>public.kern2.R__L_sc_X.sc_2ND</key>
     <integer>20</integer>
-    <key>public.kern2._L_sc_Y.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>30</integer>
-    <key>public.kern2._L_sc_Z.sc_2ND</key>
+    <key>public.kern2.R__L_sc_Z.sc_2ND</key>
     <integer>-10</integer>
-    <key>public.kern2._punc_period_2ND</key>
+    <key>public.kern2.R__punc_period_2ND</key>
     <integer>-125</integer>
   </dict>
 </dict>

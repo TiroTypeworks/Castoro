@@ -32,6 +32,7 @@ class SaveState:
         self.fmt = self.font.fmt
         self.variable = self.font.variable
         self.names = self.font.names
+        self.instances = self.font.instances
         self.STAT = self.font.STAT
         self.meta = self.font.meta
 
@@ -40,6 +41,7 @@ class SaveState:
         self.font.fmt = self.fmt
         self.font.variable = self.variable
         self.font.names = self.names
+        self.font.instances = self.instances
         self.font.STAT = self.STAT
         self.font.meta = self.meta
 
@@ -87,10 +89,10 @@ def instanceName(name, instance, font):
     return name.split("-")[0] + "-" + subfamily
 
 
-def mergeConfigs(first, second):
+def mergeConfigs(first, second, skip=None):
     conf = {**first}
     for key in second:
-        if key == "fonts":
+        if skip and key in skip:
             continue
         if key not in conf:
             conf[key] = second[key]
@@ -161,13 +163,97 @@ def collectfeatures(table, tag):
     return [f.Feature for f in features if f.FeatureTag == tag]
 
 
+def run_tx(otf, options, outTag=None):
+    import cffsubr
+    import subprocess
+    import tempfile
+    import os
+    from io import BytesIO
+    from fontTools.ttLib import newTable
+
+    if "CFF " in otf:
+        tag = "CFF "
+    elif "CFF2" in otf:
+        tag = "CFF2"
+    else:
+        raise RuntimeError(f"Can’t run tx on {otf}")
+
+    if outTag is None:
+        outTag = tag
+
+    buf = BytesIO()
+    otf.save(buf)
+    input_data = buf.getvalue()
+
+    with tempfile.NamedTemporaryFile(prefix="tx-", delete=False) as in_temp:
+        in_temp.write(input_data)
+
+    with tempfile.NamedTemporaryFile(prefix="tx-", delete=False) as out_temp:
+        out_temp.write(b"")
+
+    args = [
+        f"-{outTag.rstrip().lower()}",
+        "+b",
+        *options,
+        "-o",
+        out_temp.name,
+        in_temp.name,
+    ]
+    kwargs = dict(check=True, stderr=subprocess.PIPE)
+
+    try:
+        cffsubr._run_embedded_tx(*args, **kwargs)
+    except subprocess.CalledProcessError as e:
+        raise RuntimeError(e.stderr.decode())
+    else:
+        with open(out_temp.name, "rb") as fp:
+            output_data = fp.read()
+    finally:
+        os.remove(in_temp.name)
+        os.remove(out_temp.name)
+
+    cff = newTable(outTag)
+    cff.decompile(output_data, otf)
+
+    del otf[tag]
+    otf[outTag] = cff
+
+    return otf
+
+
+def instantiateCFF2(otf, coordinates):
+    from fontTools.varLib.mutator import interpolate_cff2_metrics
+    from fontTools.misc.fixedTools import floatToFixedToFloat
+    from fontTools.varLib.models import normalizeLocation, piecewiseLinearMap
+
+    # instantiate the CFF2 table using tx, since FontTools.varLib mutator
+    # produces broken glyphs.
+    coords = ",".join(str(v) for v in coordinates.values())
+    otf = run_tx(otf, ["+V", "-U", coords], "CFF ")
+
+    # But tx doesn’t interpolate metrics, so we do it here.
+    topDict = otf["CFF "].cff.topDictIndex[0]
+    glyphOrder = otf.getGlyphOrder()
+    fvarAxes = otf["fvar"].axes
+    axes = {a.axisTag: (a.minValue, a.defaultValue, a.maxValue) for a in fvarAxes}
+    loc = normalizeLocation(coordinates, axes)
+    if "avar" in otf:
+        maps = otf["avar"].segments
+        loc = {k: piecewiseLinearMap(v, maps[k]) for k, v in loc.items()}
+    # Quantize to F2Dot14, to avoid surprise interpolations.
+    loc = {k: floatToFixedToFloat(v, 14) for k, v in loc.items()}
+    interpolate_cff2_metrics(otf, topDict, glyphOrder, loc)
+
+    return otf
+
+
 class Font:
     def __init__(self, name, conf, project):
         self.name = name
 
         # Merge keys from the top level (project) configuration into the
         # current font’s conf.
-        conf = mergeConfigs(conf, project)
+        conf = mergeConfigs(conf, project, skip=["fonts"])
 
         self.source = conf.get("source")
         self.ren = conf.get("glyphnames")
@@ -204,7 +290,7 @@ class Font:
                 subset["cmapoverride"] = self._parsecmapoverride(
                     path.parent / subset["cmapoverride"]
                 )
-            self.subsets[name] = mergeConfigs(subset, conf)
+            self.subsets[name] = mergeConfigs(subset, conf, skip=["instances"])
 
         self.names = conf.get("names", {})
         self.set = conf.get("set", {})
@@ -251,6 +337,9 @@ class Font:
                     raise RuntimeError(
                         "“featureparams” of character variant must be a dictionary"
                     )
+
+        self.autohinting = conf.get("autohinting", {})
+        self.gasp = conf.get("gasp", {})
 
     @property
     def ext(self):
@@ -310,6 +399,17 @@ class Font:
 
         if "fstype" in self.set:
             ufo.info.openTypeOS2Type = self.set["fstype"]
+
+        if self.gasp:
+            records = []
+            for range in self.gasp:
+                records.append(
+                    {
+                        "rangeMaxPPEM": range["maxPPEM"],
+                        "rangeGaspBehavior": range["behavior"],
+                    }
+                )
+            ufo.info.openTypeGaspRangeRecords = records
 
         return ufo
 
@@ -431,16 +531,28 @@ class Font:
 
         from fontTools.ttLib import TTFont
 
-        logger.info(f"Autohinting {self.filename}")
         if self.fmt == Format.TTF:
+            conf = self.autohinting.get("ttfautohint", {})
+            if conf.get("disable"):
+                return otf
+
+            logger.info(f"Autohinting {self.filename}")
+
             from io import BytesIO
 
             from ttfautohint import ttfautohint
 
+            opts = {"no-info": True, **conf}
+            opts = {k.replace("-", "_"): v for k, v in opts.items()}
+
+            # Pop our own options or options controlling input/output.
+            for key in {"disable", "in_buffer", "in_file", "out_file"}:
+                opts.pop(key, None)
+
             buf = BytesIO()
             otf.save(buf)
             otf.close()
-            data = ttfautohint(in_buffer=buf.getvalue(), no_info=True)
+            data = ttfautohint(in_buffer=buf.getvalue(), **opts)
             otf = TTFont(BytesIO(data))
 
             # Set bit 3 on head.flags
@@ -448,6 +560,12 @@ class Font:
             head = otf["head"]
             head.flags |= 1 << 3
         elif self.fmt == Format.OTF:
+            conf = self.autohinting.get("psautohint", {})
+            if conf.get("disable"):
+                return otf
+
+            logger.info(f"Autohinting {self.filename}")
+
             from tempfile import TemporaryDirectory
 
             from psautohint.__main__ import main as psautohint
@@ -471,7 +589,6 @@ class Font:
                 logger.info(f"Creating {self.filename} subset")
                 new = deepcopy(otf)
                 options = Options()
-                options.name_IDs = ["*"]
                 options.name_legacy = True
                 options.name_languages = ["*"]
                 options.recommended_glyphs = True
@@ -484,8 +601,7 @@ class Font:
                 options.symbol_cmap = True
                 options.layout_closure = False
                 options.prune_unicode_ranges = True
-                if hasattr(options, "prune_codepage_ranges"):
-                    options.prune_codepage_ranges = True
+                options.prune_codepage_ranges = True
                 options.passthrough_tables = False
                 options.recalc_average_width = True
                 options.ignore_missing_glyphs = True
@@ -494,29 +610,18 @@ class Font:
                 options.drop_tables.remove("DSIG")
                 options.no_subset_tables += ["DSIG", "meta"]
 
+                options.name_IDs = [
+                    n.nameID for n in otf["name"].names if n.nameID < 256
+                ]
+
                 subsetter = Subsetter(options=options)
                 subsetter.populate(subset["glyphlist"])
 
                 with TemporaryLogLevel(logging.WARNING):
                     subsetter.subset(new)
 
-                if not hasattr(options, "prune_codepage_ranges"):
-                    from ufo2ft.util import calcCodePageRanges
-
-                    unicodes = set()
-                    for table in new["cmap"].tables:
-                        if table.isUnicode():
-                            unicodes.update(table.cmap.keys())
-                    bits = set(range(64)) - calcCodePageRanges(unicodes)
-                    if len(bits) == 64:
-                        bits -= {0}
-                    for bit in bits:
-                        if 0 <= bit < 32:
-                            new["OS/2"].ulCodePageRange1 &= ~(1 << bit)
-                        else:
-                            new["OS/2"].ulCodePageRange2 &= ~(1 << (bit - 32))
-
                 self.names = subset.get("names", {})
+                self.instances = subset.get("instances")
                 self.meta = subset.get("meta")
                 self._overridecmap(new, subset.get("cmapoverride"))
                 new = self._optimize(new)
@@ -533,63 +638,8 @@ class Font:
         logger.info(f"Removing overlaps from {self.filename}")
         try:
             removeOverlaps(otf)
-            return otf
         except NotImplementedError:
             pass
-
-        # removeOverlaps currently only works on glyf table, so we use tx to remove
-        # CFF overlaps.
-        import cffsubr
-        import subprocess
-        import tempfile
-        import os
-        from io import BytesIO
-        from fontTools.ttLib import newTable
-
-        if "CFF " in otf:
-            tag = "CFF "
-        elif "CFF2" in otf:
-            tag = "CFF2"
-        else:
-            raise RuntimeError(f"Can’t remove overlaps from {self.filename}")
-
-        buf = BytesIO()
-        otf.save(buf)
-        input_data = buf.getvalue()
-
-        with tempfile.NamedTemporaryFile(prefix="tx-", delete=False) as in_temp:
-            in_temp.write(input_data)
-
-        with tempfile.NamedTemporaryFile(prefix="tx-", delete=False) as out_temp:
-            out_temp.write(b"")
-
-        args = [
-            f"-{tag.rstrip().lower()}",
-            "+V",
-            "+b",
-            "-o",
-            out_temp.name,
-            in_temp.name,
-        ]
-        kwargs = dict(check=True, stderr=subprocess.PIPE)
-
-        try:
-            cffsubr._run_embedded_tx(*args, **kwargs)
-        except subprocess.CalledProcessError as e:
-            raise RuntimeError(e.stderr.decode())
-        else:
-            with open(out_temp.name, "rb") as fp:
-                output_data = fp.read()
-        finally:
-            os.remove(in_temp.name)
-            os.remove(out_temp.name)
-
-        cff = newTable(tag)
-        cff.decompile(output_data, otf)
-
-        del otf[tag]
-        otf[tag] = cff
-
         return otf
 
     def _instanciate(self, vf):
@@ -643,10 +693,15 @@ class Font:
                 self.variable = False
                 self.STAT = None
                 with pruningUnusedNames(otf):
+                    if "CFF2" in otf:
+                        otf = instantiateCFF2(otf, coordinates)
                     otf = instantiateVariableFont(otf, coordinates, inplace=True)
                 setRibbiBits(otf)
                 self.names = conf.get("names", {})
-                otf = self._setnames(otf, fix_psname=True)
+                drop_typo_names = (1 in self.names and 2 in self.names) or False
+                otf = self._setnames(
+                    otf, fix_psname=True, drop_typo_names=drop_typo_names
+                )
                 otf = self._postprocess(otf)
                 otf = self._removeoverlaps(otf)
                 otf = self._autohint(otf)
@@ -654,7 +709,7 @@ class Font:
                 self._save(otf)
                 self._buildwoff(otf)
 
-    def _setnames(self, font, fix_psname=False):
+    def _setnames(self, font, fix_psname=False, drop_typo_names=False):
         font["name"].names = [n for n in font["name"].names if n.platformID == 3]
         if not self.names and not fix_psname:
             return font
@@ -667,9 +722,13 @@ class Font:
         if 6 not in names and fix_psname:
             import re
 
-            names[6] = re.sub(
-                r"[^A-Za-z0-9-]", r"", f"{getName(font, 1)}-{getName(font, 2)}"
-            )
+            family = names.get(1, getName(font, 1))
+            subfamily = names.get(2, getName(font, 2))
+            names[6] = re.sub(r"[^A-Za-z0-9-]", r"", f"{family}-{subfamily}")
+
+        if drop_typo_names:
+            font["name"].removeNames(16)
+            font["name"].removeNames(17)
 
         # If version or psname IDs are specified, but unique ID is not, update
         # the later.
@@ -685,9 +744,12 @@ class Font:
         if 5 in names:
             import re
 
-            m = re.match("Version (\d\.\d\d)", names[5])
+            m = re.match(r"Version (\d\.\d\d)", names[5])
             if m is None:
-                raise ValueError(f"Can’t parse version string: {names[5]}")
+                raise ValueError(
+                    "Can’t parse version string. "
+                    f"“{names[5]}” is not a valid version string."
+                )
             font["head"].fontRevision = float(m.group(1))
 
         if "CFF " in font and any(n in names for n in (0, 1, 4, 5, 6, 7)):

@@ -10,8 +10,7 @@
   <lib>
   <dict>
   <key>note</key>
-  <string>one.numr fraction 20&#xd;
-  fraction four.dnom -60</string>
+  <real>0</real>
   <key>public.markColor</key>
   <string>1,0.6,0.994,1</string>
   </dict>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gcircumflex" format="2">
-  <advance width="800"/>
+  <advance width="808"/>
   <unicode hex="011C"/>
   <unicode hex="011D"/>
   <outline>
     <component base="G"/>
-    <component base="circumflexcomb" xOffset="725"/>
+    <component base="circumflexcomb" xOffset="720"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

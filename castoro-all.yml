@@ -1,0 +1,141 @@
+names:
+  5: Version 3.00 
+
+meta:
+  slng: [Latn]
+  dlng: [Latn]
+
+fonts:
+  Castoro-Roman:
+    source: source/Castoro-Roman.designspace
+    names:
+      25: Castoro Roman
+    instances:
+      Castoro-Regular:
+        coordinates:
+          wght: 400
+        names:
+          1: Castoro
+          2: Regular
+          4: Castoro
+          6: Castoro-Regular
+          17: Roman
+      Castoro-Medium:
+        coordinates:
+          wght: 500
+        names:
+          1: Castoro Medium
+          2: Regular
+          4: Castoro Medium
+          6: CastoroMedium-Regular
+          16: Castoro
+          17: Medium
+      Castoro-Semibold:
+        coordinates:
+          wght: 600
+        names:
+          1: Castoro Semibold
+          2: Regular
+          4: Castoro Semibold
+          6: CastoroSemibold-Regular
+          16: Castoro
+          17: Semibold
+      Castoro-Bold:
+        coordinates:
+          wght: 700
+        names:
+          1: Castoro
+          2: Bold
+          4: Castoro Bold
+          6: Castoro-Bold
+    glyphnames: source/CastoroDev2Post.ren
+    STAT:
+      axes:
+      - name: Weight
+        tag: wght
+        values:
+        - name: Regular
+          value: 400
+          linkedValue: 700
+          flags: 0x2 # ElidableAxisValueName
+        - name: Medium
+          value: 500
+        - name: Semibold
+          value: 600
+        - name: Bold
+          value: 700
+      - name: Italic
+        tag: ital
+        values:
+        - name: Roman
+          value: 0
+          linkedValue: 1
+          flags: 0x2 # ElidableAxisValueName
+      elidedFallbackName: Regular
+
+  Castoro-Italic:
+    source: source/Castoro-Italic.designspace
+    names:
+      25: Castoro Italic
+    instances:
+      Castoro-Italic:
+        coordinates:
+          wght: 400
+        names:
+          1: Castoro
+          2: Italic
+          4: Castoro Italic
+          6: Castoro-Italic
+      Castoro-MediumItalic:
+        coordinates:
+          wght: 500
+        names:
+          1: Castoro Medium
+          2: Italic
+          4: Castoro Medium Italic
+          6: CastoroMedium-Italic
+          16: Castoro
+          17: Medium Italic
+      Castoro-SemiboldItalic:
+        coordinates:
+          wght: 600
+        names:
+          1: Castoro Semibold
+          2: Italic
+          4: Castoro Semibold Italic
+          6: CastoroSemibold-Italic
+          16: Castoro
+          17: Semibold Italic
+      Castoro-BoldItalic:
+        coordinates:
+          wght: 700
+        names:
+          1: Castoro
+          2: Bold Italic
+          4: Castoro Bold Italic
+          6: Castoro-BoldItalic
+    glyphnames: source/CastoroDev2Post.ren
+    STAT:
+      axes:
+      - name: Weight
+        tag: wght
+        values:
+        - name: Italic
+          value: 400
+          linkedValue: 700
+          flags: 0x2 # ElidableAxisValueName
+        - name: Medium
+          value: 500
+        - name: Semibold
+          value: 600
+        - name: Bold
+          value: 700
+      - name: Italic
+        tag: ital
+        values:
+        - name: Italic
+          value: 1
+      elidedFallbackName: Italic
+
+  CastoroTitling-Regular:
+    source: source/CastoroTitling-Regular.ufo

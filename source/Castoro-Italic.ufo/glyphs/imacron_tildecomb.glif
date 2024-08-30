@@ -2,14 +2,14 @@
 <glyph name="imacron_tildecomb" format="2">
   <advance width="304"/>
   <outline>
-    <component base="dotlessi" xOffset="-2"/>
-    <component base="macroncomb" xOffset="414" yOffset="-20"/>
-    <component base="tildecomb" xOffset="443" yOffset="125"/>
+    <component base="dotlessi"/>
+    <component base="macroncomb" xOffset="416" yOffset="-20"/>
+    <component base="tildecomb" xOffset="445" yOffset="125"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.604,0.6,1,1</string>
   </dict>
   </lib>
 </glyph>

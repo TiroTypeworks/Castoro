@@ -80,16 +80,15 @@
       <point x="318" y="435"/>
       <point x="350" y="418"/>
       <point x="378" y="392" type="curve"/>
-      <point x="358" y="309" type="line" smooth="yes"/>
+      <point x="358" y="309" type="line"/>
       <point x="311" y="115"/>
       <point x="234" y="52"/>
     </contour>
   </outline>
-  <guideline angle="78.9989" x="517" y="0"/>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,1,0.602,1</string>
+  <string>0.604,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

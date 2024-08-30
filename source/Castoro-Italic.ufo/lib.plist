@@ -12,21 +12,6 @@
         <integer>38</integer>
         <key>horizontal</key>
         <true/>
-        <key>round</key>
-        <dict>
-          <key>0</key>
-          <integer>1</integer>
-          <key>40</key>
-          <integer>2</integer>
-          <key>66</key>
-          <integer>3</integer>
-          <key>93</key>
-          <integer>4</integer>
-          <key>119</key>
-          <integer>5</integer>
-          <key>145</key>
-          <integer>6</integer>
-        </dict>
       </dict>
       <key>105</key>
       <dict>
@@ -34,21 +19,6 @@
         <integer>105</integer>
         <key>horizontal</key>
         <false/>
-        <key>round</key>
-        <dict>
-          <key>0</key>
-          <integer>1</integer>
-          <key>15</key>
-          <integer>2</integer>
-          <key>24</key>
-          <integer>3</integer>
-          <key>34</key>
-          <integer>4</integer>
-          <key>43</key>
-          <integer>5</integer>
-          <key>53</key>
-          <integer>6</integer>
-        </dict>
       </dict>
     </dict>
   </dict>

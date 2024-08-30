@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Sdotbelow" format="2">
-  <advance width="528"/>
+  <advance width="533"/>
   <unicode hex="1E62"/>
   <unicode hex="1E63"/>
   <outline>
@@ -10,7 +10,7 @@
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

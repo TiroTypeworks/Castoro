@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="M_brevecomb" format="2">
-  <advance width="1024"/>
+  <advance width="1005"/>
   <outline>
     <component base="M"/>
-    <component base="brevecomb" xOffset="793"/>
+    <component base="brevecomb" xOffset="784"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

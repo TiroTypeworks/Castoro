@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ugrave" format="2">
-  <advance width="803"/>
+  <advance width="778"/>
   <unicode hex="00D9"/>
   <unicode hex="00F9"/>
   <outline>
     <component base="U"/>
-    <component base="gravecomb" xOffset="705"/>
+    <component base="gravecomb" xOffset="695"/>
+    <component base="U" xOffset="-10"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

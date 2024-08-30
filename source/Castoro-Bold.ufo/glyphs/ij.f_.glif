@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ij.f_" format="2">
+  <advance width="647"/>
+  <outline>
+    <component base="i.f_"/>
+    <component base="j" xOffset="339"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.814,1</string>
+  </dict>
+  </lib>
+</glyph>

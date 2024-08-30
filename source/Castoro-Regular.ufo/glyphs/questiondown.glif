@@ -4,20 +4,6 @@
   <unicode hex="00BF"/>
   <outline>
     <contour>
-      <point x="264" y="267" type="line"/>
-      <point x="252" y="268"/>
-      <point x="238" y="268"/>
-      <point x="227" y="267" type="curve"/>
-      <point x="218" y="160" type="line"/>
-      <point x="237" y="172" type="line"/>
-      <point x="90" y="175"/>
-      <point x="35" y="141"/>
-      <point x="35" y="32" type="curve" smooth="yes"/>
-      <point x="35" y="-20"/>
-      <point x="47" y="-62"/>
-      <point x="70" y="-101" type="curve" smooth="yes"/>
-      <point x="116" y="-179"/>
-      <point x="205" y="-242"/>
       <point x="275" y="-242" type="curve" smooth="yes"/>
       <point x="317" y="-242"/>
       <point x="347" y="-220"/>
@@ -38,8 +24,25 @@
       <point x="256" y="75"/>
       <point x="263" y="75"/>
       <point x="284" y="74" type="curve"/>
+      <point x="264" y="267" type="line"/>
+      <point x="252" y="268"/>
+      <point x="238" y="268"/>
+      <point x="227" y="267" type="curve"/>
+      <point x="218" y="160" type="line"/>
+      <point x="237" y="172" type="line"/>
+      <point x="90" y="175"/>
+      <point x="35" y="141"/>
+      <point x="35" y="32" type="curve" smooth="yes"/>
+      <point x="35" y="-20"/>
+      <point x="47" y="-62"/>
+      <point x="70" y="-101" type="curve" smooth="yes"/>
+      <point x="116" y="-179"/>
+      <point x="205" y="-242"/>
     </contour>
     <contour>
+      <point x="245" y="336" type="curve" smooth="yes"/>
+      <point x="287" y="336"/>
+      <point x="317" y="368"/>
       <point x="317" y="409" type="curve" smooth="yes"/>
       <point x="317" y="450"/>
       <point x="287" y="481"/>
@@ -49,15 +52,12 @@
       <point x="173" y="409" type="curve" smooth="yes"/>
       <point x="173" y="370"/>
       <point x="203" y="336"/>
-      <point x="245" y="336" type="curve" smooth="yes"/>
-      <point x="287" y="336"/>
-      <point x="317" y="368"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.651,1,0.6,1</string>
+  <string>0.604,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

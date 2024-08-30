@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblleftreversed" format="2">
+  <advance width="426"/>
+  <unicode hex="201F"/>
+  <outline>
+    <component base="quotereversed"/>
+    <component base="quotereversed" xOffset="204"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.814,1</string>
+  </dict>
+  </lib>
+</glyph>

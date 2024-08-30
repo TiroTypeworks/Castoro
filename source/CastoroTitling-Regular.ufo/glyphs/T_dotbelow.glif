@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tdotbelow" format="2">
-  <advance width="640"/>
+  <advance width="650"/>
   <unicode hex="1E6C"/>
   <unicode hex="1E6D"/>
   <outline>
     <component base="T" xOffset="-2"/>
-    <component base="dotbelowcomb" xOffset="605"/>
+    <component base="dotbelowcomb" xOffset="610"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

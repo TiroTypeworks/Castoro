@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.LP" format="2">
+  <advance width="419"/>
+  <outline>
+    <contour>
+      <point x="49" y="-1" type="curve"/>
+      <point x="90" y="-1"/>
+      <point x="126" y="2"/>
+      <point x="224" y="2" type="curve" smooth="yes"/>
+      <point x="325" y="2"/>
+      <point x="358" y="-1"/>
+      <point x="393" y="-1" type="curve"/>
+      <point x="395" y="12"/>
+      <point x="395" y="24"/>
+      <point x="393" y="38" type="curve"/>
+      <point x="296" y="46"/>
+      <point x="292" y="47"/>
+      <point x="292" y="132" type="curve" smooth="yes"/>
+      <point x="292" y="564" type="line" smooth="yes"/>
+      <point x="292" y="620"/>
+      <point x="304" y="661"/>
+      <point x="322" y="682" type="curve"/>
+      <point x="319" y="693"/>
+      <point x="310" y="705"/>
+      <point x="303" y="711" type="curve"/>
+      <point x="213" y="673"/>
+      <point x="122" y="642"/>
+      <point x="17" y="615" type="curve"/>
+      <point x="17" y="602"/>
+      <point x="20" y="587"/>
+      <point x="24" y="576" type="curve"/>
+      <point x="68" y="585"/>
+      <point x="103" y="589"/>
+      <point x="118" y="589" type="curve" smooth="yes"/>
+      <point x="140" y="589"/>
+      <point x="147" y="576"/>
+      <point x="147" y="546" type="curve" smooth="yes"/>
+      <point x="147" y="122" type="line" smooth="yes"/>
+      <point x="147" y="50"/>
+      <point x="144" y="47"/>
+      <point x="49" y="38" type="curve"/>
+      <point x="47" y="25"/>
+      <point x="47" y="12"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

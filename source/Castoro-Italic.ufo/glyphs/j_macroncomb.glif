@@ -2,13 +2,13 @@
 <glyph name="j_macroncomb" format="2">
   <advance width="283"/>
   <outline>
-    <component base="dotlessj" xOffset="-2"/>
-    <component base="macroncomb" xOffset="416"/>
+    <component base="dotlessj"/>
+    <component base="macroncomb" xOffset="418"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.604,0.6,1,1</string>
   </dict>
   </lib>
 </glyph>

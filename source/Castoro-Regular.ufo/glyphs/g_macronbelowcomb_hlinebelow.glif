@@ -5,20 +5,20 @@
     <component base="g"/>
     <component base="h" xOffset="548"/>
     <contour>
-      <point x="113" y="-313" type="line"/>
-      <point x="111" y="-329"/>
-      <point x="111" y="-347"/>
-      <point x="113" y="-363" type="curve"/>
       <point x="1008" y="-363" type="line"/>
       <point x="1010" y="-347"/>
       <point x="1010" y="-329"/>
       <point x="1008" y="-313" type="curve"/>
+      <point x="113" y="-313" type="line"/>
+      <point x="111" y="-329"/>
+      <point x="111" y="-347"/>
+      <point x="113" y="-363" type="curve"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.879,0.6,1,1</string>
+  <string>1,0.6,0.814,1</string>
   </dict>
   </lib>
 </glyph>

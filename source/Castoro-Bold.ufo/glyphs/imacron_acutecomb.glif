@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="imacron_acutecomb" format="2">
+  <advance width="330"/>
+  <outline>
+    <component base="dotlessi"/>
+    <component base="macroncomb" xOffset="444" yOffset="-20"/>
+    <component base="acutecomb" xOffset="444" yOffset="150"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

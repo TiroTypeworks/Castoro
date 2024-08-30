@@ -2,21 +2,20 @@
 <glyph name="macroncomb.cap" format="2">
   <outline>
     <contour>
-      <point x="-430" y="823" type="line"/>
-      <point x="-432" y="807"/>
-      <point x="-432" y="791"/>
-      <point x="-430" y="775" type="curve"/>
-      <point x="-142" y="775" type="line"/>
-      <point x="-140" y="791"/>
-      <point x="-140" y="807"/>
-      <point x="-142" y="823" type="curve"/>
+      <point x="-143" y="775" type="line"/>
+      <point x="-141" y="791"/>
+      <point x="-141" y="807"/>
+      <point x="-143" y="823" type="curve"/>
+      <point x="-431" y="823" type="line"/>
+      <point x="-433" y="807"/>
+      <point x="-433" y="791"/>
+      <point x="-431" y="775" type="curve"/>
     </contour>
   </outline>
-  <guideline angle="90" x="-154" y="0"/>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.651,1,0.6,1</string>
+  <string>0.604,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

@@ -6,10 +6,11 @@
     <component base="L"/>
     <component base="dotaccentcomb" xOffset="970" yOffset="-295"/>
   </outline>
+  <guideline angle="0" x="0" y="372"/>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>1,0.6,0.994,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

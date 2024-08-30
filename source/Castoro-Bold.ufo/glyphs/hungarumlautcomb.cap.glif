@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hungarumlautcomb.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-221" y="726" type="curve"/>
+      <point x="-174" y="761"/>
+      <point x="-111" y="815"/>
+      <point x="-65" y="850" type="curve"/>
+      <point x="-65" y="853" type="line"/>
+      <point x="-89" y="883"/>
+      <point x="-133" y="908"/>
+      <point x="-174" y="913" type="curve"/>
+      <point x="-196" y="857"/>
+      <point x="-222" y="796"/>
+      <point x="-248" y="744" type="curve"/>
+      <point x="-240" y="735"/>
+      <point x="-232" y="728"/>
+    </contour>
+    <contour>
+      <point x="-381" y="726" type="curve"/>
+      <point x="-335" y="765"/>
+      <point x="-276" y="818"/>
+      <point x="-232" y="857" type="curve"/>
+      <point x="-233" y="860" type="line"/>
+      <point x="-263" y="891"/>
+      <point x="-311" y="912"/>
+      <point x="-346" y="914" type="curve"/>
+      <point x="-366" y="856"/>
+      <point x="-385" y="796"/>
+      <point x="-409" y="742" type="curve"/>
+      <point x="-400" y="734"/>
+      <point x="-391" y="727"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

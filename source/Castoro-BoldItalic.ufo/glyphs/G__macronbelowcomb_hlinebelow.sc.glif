@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="G_macronbelowcomb_hlinebelow.sc" format="2">
+  <advance width="1350"/>
+  <outline>
+    <component base="G.sc"/>
+    <component base="H.sc" xOffset="644"/>
+    <contour>
+      <point x="132" y="-99" type="line"/>
+      <point x="126" y="-117"/>
+      <point x="122" y="-139"/>
+      <point x="122" y="-157" type="curve"/>
+      <point x="1025" y="-157" type="line"/>
+      <point x="1031" y="-139"/>
+      <point x="1035" y="-117"/>
+      <point x="1035" y="-99" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.994,1</string>
+  </dict>
+  </lib>
+</glyph>

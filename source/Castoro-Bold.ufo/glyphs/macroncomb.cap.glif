@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macroncomb.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-143" y="769" type="line"/>
+      <point x="-141" y="785"/>
+      <point x="-141" y="813"/>
+      <point x="-143" y="829" type="curve"/>
+      <point x="-431" y="829" type="line"/>
+      <point x="-433" y="813"/>
+      <point x="-433" y="785"/>
+      <point x="-431" y="769" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

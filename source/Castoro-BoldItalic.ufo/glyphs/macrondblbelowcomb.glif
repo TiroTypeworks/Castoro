@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macrondblbelowcomb" format="2">
+  <unicode hex="035F"/>
+  <outline>
+    <contour>
+      <point x="-502" y="-99" type="line"/>
+      <point x="-508" y="-117"/>
+      <point x="-512" y="-139"/>
+      <point x="-512" y="-157" type="curve"/>
+      <point x="356" y="-157" type="line"/>
+      <point x="362" y="-139"/>
+      <point x="366" y="-117"/>
+      <point x="366" y="-99" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

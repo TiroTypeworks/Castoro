@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Umacron_brevecomb" format="2">
-  <advance width="803"/>
+  <advance width="778"/>
   <outline>
     <component base="U"/>
-    <component base="macroncomb" xOffset="705" yOffset="-20"/>
-    <component base="brevecomb" xOffset="705" yOffset="85"/>
+    <component base="macroncomb" xOffset="695" yOffset="-20"/>
+    <component base="brevecomb" xOffset="695" yOffset="85"/>
+    <component base="U" xOffset="-10"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

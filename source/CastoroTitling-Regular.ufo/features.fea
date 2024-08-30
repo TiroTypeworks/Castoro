@@ -289,36 +289,6 @@ lookup xxxx.frac_dnom {
 } xxxx.frac_dnom;
 
 # Features
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 feature frac {
     script latn;
     language dflt;
@@ -331,7 +301,6 @@ feature frac {
     language ROM;
     language TRK;
 } frac;
-
 feature ccmp {
     script latn;
     language dflt;
@@ -343,7 +312,6 @@ feature ccmp {
     language ROM;
     language TRK;
 } ccmp;
-
 feature locl {
     script latn;
     language CAT;
@@ -355,7 +323,6 @@ feature locl {
     language ROM;
     lookup latn.locl.ROM.MOL;
 } locl;
-
 feature subs {
     script latn;
     language dflt;
@@ -366,7 +333,6 @@ feature subs {
     language ROM;
     language TRK;
 } subs;
-
 feature sups {
     script latn;
     language dflt;

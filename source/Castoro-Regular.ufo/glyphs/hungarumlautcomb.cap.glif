@@ -2,21 +2,10 @@
 <glyph name="hungarumlautcomb.cap" format="2">
   <outline>
     <contour>
-      <point x="-243" y="871" type="line"/>
-      <point x="-269" y="894"/>
-      <point x="-308" y="912"/>
-      <point x="-330" y="912" type="curve"/>
-      <point x="-350" y="865"/>
-      <point x="-378" y="802"/>
-      <point x="-406" y="752" type="curve"/>
-      <point x="-397" y="743"/>
-      <point x="-389" y="738"/>
-      <point x="-379" y="735" type="curve"/>
-      <point x="-341" y="775"/>
-      <point x="-275" y="839"/>
-      <point x="-242" y="868" type="curve"/>
-    </contour>
-    <contour>
+      <point x="-221" y="735" type="curve"/>
+      <point x="-182" y="774"/>
+      <point x="-113" y="838"/>
+      <point x="-79" y="866" type="curve"/>
       <point x="-80" y="869" type="line"/>
       <point x="-106" y="893"/>
       <point x="-144" y="912"/>
@@ -26,19 +15,27 @@
       <point x="-247" y="753" type="curve"/>
       <point x="-239" y="744"/>
       <point x="-231" y="738"/>
-      <point x="-221" y="735" type="curve"/>
-      <point x="-182" y="774"/>
-      <point x="-113" y="838"/>
-      <point x="-79" y="866" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-379" y="735" type="curve"/>
+      <point x="-341" y="775"/>
+      <point x="-275" y="839"/>
+      <point x="-242" y="868" type="curve"/>
+      <point x="-243" y="871" type="line"/>
+      <point x="-269" y="894"/>
+      <point x="-308" y="912"/>
+      <point x="-330" y="912" type="curve"/>
+      <point x="-350" y="865"/>
+      <point x="-378" y="802"/>
+      <point x="-406" y="752" type="curve"/>
+      <point x="-397" y="743"/>
+      <point x="-389" y="738"/>
     </contour>
   </outline>
-  <guideline angle="0" x="0" y="525"/>
-  <guideline angle="0" x="0" y="735"/>
-  <guideline angle="0" x="0" y="911"/>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.651,1,0.6,1</string>
+  <string>0.812,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

@@ -3,15 +3,6 @@
   <advance width="554"/>
   <outline>
     <contour>
-      <point x="359" y="187" type="line"/>
-      <point x="345" y="228" type="line"/>
-      <point x="146" y="228" type="line"/>
-      <point x="132" y="187" type="line"/>
-    </contour>
-    <contour>
-      <point x="-24" y="30" type="curve"/>
-      <point x="-26" y="19"/>
-      <point x="-26" y="9"/>
       <point x="-24" y="-1" type="curve"/>
       <point x="13" y="-1"/>
       <point x="42" y="1"/>
@@ -59,13 +50,26 @@
       <point x="91" y="142" type="line" smooth="yes"/>
       <point x="53" y="43"/>
       <point x="45" y="38"/>
+      <point x="-24" y="30" type="curve"/>
+      <point x="-26" y="19"/>
+      <point x="-26" y="9"/>
+    </contour>
+    <contour>
+      <point x="359" y="187" type="line"/>
+      <point x="345" y="228" type="line"/>
+      <point x="146" y="228" type="line"/>
+      <point x="132" y="187" type="line"/>
     </contour>
   </outline>
-  <guideline angle="0" x="0" y="216"/>
   <lib>
   <dict>
+  <key>RMXScaler</key>
+  <dict>
+    <key>source</key>
+    <string>A</string>
+  </dict>
   <key>public.markColor</key>
-  <string>0.651,1,0.6,1</string>
+  <string>0.604,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

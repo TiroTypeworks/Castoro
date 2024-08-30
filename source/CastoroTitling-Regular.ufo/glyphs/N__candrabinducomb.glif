@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="N_candrabinducomb" format="2">
-  <advance width="848"/>
+  <advance width="838"/>
   <outline>
     <component base="N"/>
-    <component base="candrabinducomb" xOffset="725"/>
+    <component base="candrabinducomb" xOffset="720"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

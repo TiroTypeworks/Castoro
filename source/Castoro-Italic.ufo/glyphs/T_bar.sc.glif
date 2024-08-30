@@ -3,16 +3,6 @@
   <advance width="532"/>
   <outline>
     <contour>
-      <point x="416" y="246" type="line"/>
-      <point x="421" y="262"/>
-      <point x="423" y="275"/>
-      <point x="424" y="288" type="curve"/>
-      <point x="120" y="288" type="line"/>
-      <point x="116" y="275"/>
-      <point x="114" y="262"/>
-      <point x="112" y="246" type="curve"/>
-    </contour>
-    <contour>
       <point x="86" y="-1" type="curve"/>
       <point x="123" y="-1"/>
       <point x="183" y="1"/>
@@ -37,6 +27,16 @@
       <point x="92" y="30" type="curve"/>
       <point x="88" y="22"/>
       <point x="86" y="9"/>
+    </contour>
+    <contour>
+      <point x="416" y="246" type="line"/>
+      <point x="421" y="262"/>
+      <point x="423" y="275"/>
+      <point x="424" y="288" type="curve"/>
+      <point x="120" y="288" type="line"/>
+      <point x="116" y="275"/>
+      <point x="114" y="262"/>
+      <point x="112" y="246" type="curve"/>
     </contour>
     <contour>
       <point x="44" y="387" type="curve"/>
@@ -69,7 +69,7 @@
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,1,0.602,1</string>
+  <string>0.604,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

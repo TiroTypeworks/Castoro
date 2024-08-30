@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.LP" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="424" y="-2" type="curve"/>
+      <point x="544" y="612" type="line" smooth="yes"/>
+      <point x="548" y="631"/>
+      <point x="551" y="651"/>
+      <point x="563" y="702" type="curve"/>
+      <point x="540" y="706"/>
+      <point x="489" y="709"/>
+      <point x="459" y="709" type="curve"/>
+      <point x="304" y="560"/>
+      <point x="165" y="412"/>
+      <point x="18" y="247" type="curve"/>
+      <point x="18" y="228"/>
+      <point x="18" y="197"/>
+      <point x="20" y="178" type="curve"/>
+      <point x="560" y="178" type="line"/>
+      <point x="568" y="204"/>
+      <point x="575" y="237"/>
+      <point x="579" y="266" type="curve"/>
+      <point x="54" y="266" type="line"/>
+      <point x="76" y="238" type="line"/>
+      <point x="201" y="377"/>
+      <point x="313" y="501"/>
+      <point x="445" y="626" type="curve"/>
+      <point x="403" y="619" type="line"/>
+      <point x="285" y="-2" type="line"/>
+      <point x="331" y="-5"/>
+      <point x="378" y="-5"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

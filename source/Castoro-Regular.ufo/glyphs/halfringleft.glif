@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="halfringleft" format="2">
-  <advance width="241"/>
+  <advance width="221"/>
   <unicode hex="02BF"/>
   <outline>
     <contour>
@@ -23,7 +23,7 @@
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.651,1,0.6,1</string>
+  <string>0.604,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

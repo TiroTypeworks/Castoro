@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="H_macronbelowcomb" format="2">
-  <advance width="889"/>
+  <advance width="869"/>
   <outline>
     <component base="H"/>
-    <component base="macronbelowcomb" xOffset="731"/>
+    <component base="macronbelowcomb" xOffset="721"/>
   </outline>
-  <guideline angle="90" x="489" y="0"/>
+  <guideline angle="90" x="479" y="0"/>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

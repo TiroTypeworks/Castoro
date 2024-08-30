@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis minimum="400" maximum="700" name="weight" default="400" tag="wght">
+   <labelname xml:lang="en">Weight</labelname>
+   <map input="400" output="101"/>
+   <map input="500" output="113"/>
+   <map input="600" output="128"/>
+   <map input="700" output="144"/>
+  </axis>
+ </axes>
+ <sources>
+  <source stylename="Bold" name="Bold" familyname="Castoro" filename="Castoro-Bold.ufo">
+   <location>
+    <dimension xvalue="144" name="weight"/>
+   </location>
+  </source>
+  <source stylename="Regular" name="Regular" familyname="Castoro" filename="Castoro-Regular.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension xvalue="101" name="weight"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance stylename="Regular" name="Regular" familyname="Castoro" filename="instances/Castoro-Regular.ufo">
+   <location>
+    <dimension xvalue="101" name="weight"/>
+   </location>
+  </instance>
+  <instance stylename="Medium" name="Medium" familyname="Castoro" filename="instances/Castoro-Medium.ufo">
+   <location>
+    <dimension xvalue="113" name="weight"/>
+   </location>
+  </instance>
+  <instance stylename="Semibold" name="Semibold" familyname="Castoro" filename="instances/Castoro-Semibold.ufo">
+   <location>
+    <dimension xvalue="128" name="weight"/>
+   </location>
+  </instance>
+  <instance stylename="Bold" name="Bold" familyname="Castoro" filename="instances/Castoro-Bold.ufo">
+   <location>
+    <dimension xvalue="144" name="weight"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

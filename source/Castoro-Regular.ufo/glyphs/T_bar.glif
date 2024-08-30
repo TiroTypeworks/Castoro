@@ -27,6 +27,16 @@
       <point x="182" y="9"/>
     </contour>
     <contour>
+      <point x="538" y="322" type="line"/>
+      <point x="540" y="338"/>
+      <point x="540" y="353"/>
+      <point x="538" y="367" type="curve"/>
+      <point x="140" y="367" type="line"/>
+      <point x="139" y="353"/>
+      <point x="139" y="338"/>
+      <point x="140" y="322" type="curve"/>
+    </contour>
+    <contour>
       <point x="12" y="525" type="curve"/>
       <point x="22" y="524"/>
       <point x="34" y="524"/>
@@ -53,21 +63,11 @@
       <point x="27" y="647"/>
       <point x="20" y="589"/>
     </contour>
-    <contour>
-      <point x="538" y="322" type="line"/>
-      <point x="540" y="338"/>
-      <point x="540" y="353"/>
-      <point x="538" y="367" type="curve"/>
-      <point x="140" y="367" type="line"/>
-      <point x="139" y="353"/>
-      <point x="139" y="338"/>
-      <point x="140" y="322" type="curve"/>
-    </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.651,1,0.6,1</string>
+  <string>0.604,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

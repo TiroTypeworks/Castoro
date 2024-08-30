@@ -1,0 +1,10 @@
+names:
+  5: Version 3.00 
+
+meta:
+  slng: [Latn]
+  dlng: [Latn]
+
+fonts:
+  CastoroTitling-Regular:
+    source: source/CastoroTitling-Regular.ufo

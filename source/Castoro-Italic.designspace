@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis minimum="400" maximum="700" name="weight" default="400" tag="wght">
+   <labelname xml:lang="en">Weight</labelname>
+   <map input="400" output="101"/>
+   <map input="500" output="113"/>
+   <map input="600" output="128"/>
+   <map input="700" output="144"/>
+  </axis>
+ </axes>
+ <sources>
+  <source stylename="Bold Italic" name="Bold Italic" familyname="Castoro" filename="Castoro-BoldItalic.ufo">
+   <location>
+    <dimension xvalue="144" name="weight"/>
+   </location>
+  </source>
+  <source stylename="Italic" name="Italic" familyname="Castoro" filename="Castoro-Italic.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension xvalue="101" name="weight"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance stylename="Italic" name="Italic" familyname="Castoro" filename="instances/Castoro-Italic.ufo">
+   <location>
+    <dimension xvalue="101" name="weight"/>
+   </location>
+  </instance>
+  <instance stylename="Medium Italic" name="MediumItalic" familyname="Castoro" filename="instances/Castoro-MediumItalic.ufo">
+   <location>
+    <dimension xvalue="113" name="weight"/>
+   </location>
+  </instance>
+  <instance stylename="Semibold Italic" name="SemiboldItalic" familyname="Castoro" filename="instances/Castoro-SemiboldItalic.ufo">
+   <location>
+    <dimension xvalue="128" name="weight"/>
+   </location>
+  </instance>
+  <instance stylename="Bold Italic" name="BoldItalic" familyname="Castoro" filename="instances/Castoro-BoldItalic.ufo">
+   <location>
+    <dimension xvalue="144" name="weight"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

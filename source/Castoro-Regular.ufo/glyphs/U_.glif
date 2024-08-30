@@ -4,16 +4,6 @@
   <unicode hex="0055"/>
   <outline>
     <contour>
-      <point x="14" y="701" type="curve"/>
-      <point x="12" y="690"/>
-      <point x="12" y="680"/>
-      <point x="14" y="670" type="curve"/>
-      <point x="108" y="662"/>
-      <point x="113" y="660"/>
-      <point x="113" y="577" type="curve" smooth="yes"/>
-      <point x="113" y="233" type="line" smooth="yes"/>
-      <point x="113" y="66"/>
-      <point x="222" y="-11"/>
       <point x="382" y="-11" type="curve" smooth="yes"/>
       <point x="569" y="-11"/>
       <point x="660" y="93"/>
@@ -56,12 +46,22 @@
       <point x="167" y="699" type="curve" smooth="yes"/>
       <point x="128" y="699"/>
       <point x="54" y="701"/>
+      <point x="14" y="701" type="curve"/>
+      <point x="12" y="690"/>
+      <point x="12" y="680"/>
+      <point x="14" y="670" type="curve"/>
+      <point x="108" y="662"/>
+      <point x="113" y="660"/>
+      <point x="113" y="577" type="curve" smooth="yes"/>
+      <point x="113" y="233" type="line" smooth="yes"/>
+      <point x="113" y="66"/>
+      <point x="222" y="-11"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.651,1,0.6,1</string>
+  <string>0.604,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

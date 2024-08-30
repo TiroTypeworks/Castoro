@@ -5,11 +5,10 @@
   <outline>
     <component base="cedillacomb" xOffset="466"/>
   </outline>
-  <guideline angle="90" x="180" y="0"/>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>1,0.6,0.994,1</string>
+  <string>1,0.6,0.814,1</string>
   </dict>
   </lib>
 </glyph>

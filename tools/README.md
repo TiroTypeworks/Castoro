@@ -90,6 +90,29 @@ fonts:
     glyphnames: source/Foo.ren
     ...
 ```
+Here is an snippet of example configuration for explicit static instance generation from a variable build:
+
+```yaml
+instances:
+  Foo-Regular:
+    coordinates:
+      wght: 320
+    names:
+      1: Foo
+      2: Regular
+      4: Foo
+      6: Brill-Regular
+  Foo-Medium
+    coordinates:
+      wght: 360
+    names:
+      1: Foo Medium
+      2: Regular
+      4: Foo Medium
+      6: FooMedium-Regular
+      16: Foo
+      17: Medium
+```
 
 ## All supported keys follow:
 
@@ -329,4 +352,60 @@ either characters or character codes, e.g.:
 
 ```yaml
 characters: [l, 0x013A]
+```
+
+---
+
+`autohinting:` control the TTF and OTF autohinting options. It currently supports to subkeys, `ttfautohint` and `psautohint`, ech accepts a `disable` key to disable the respective autohinter, e.g.:
+
+```yaml
+autohinting:
+  ttfautohint:
+    disable: true
+  psautohint:
+    disable: true
+```
+
+This can be set at project level or at font level, with the font-level settings
+overriding the project-level ones.
+
+`ttfautohint` additionally accepts the following set of keys (check TTFAutohint [documentation](https://freetype.org/ttfautohint/doc/ttfautohint.html) for the exact meaning of these keys):
+
+* `control-file`: file path
+* `reference-file`: file path
+* `reference-index`: integer
+* `reference-name`: string
+* `hinting-range-min`: integer
+* `hinting-range-max`: integer
+* `hinting-limit`: integer
+* `hint-composites`: `true` or `false`
+* `adjust-subglyphs`: `true` or `false`
+* `increase-x-height`: integer
+* `x-height-snapping-exceptions`: string
+* `windows-compatibility`: `true` or `false`
+* `default-script`: string
+* `fallback-script`: string
+* `fallback-scaling`: `true` or `false`
+* `symbol`: `true` or `false`
+* `fallback-stem-width`: integer
+* `ignore-restrictions`: `true` or `false`
+* `family-suffix`: string
+* `detailed-info`: `true` or `false`
+* `no-info`: `true` or `false`
+* `TTFA-info`: `true` or `false`
+* `dehint`: `true` or `false`
+* `epoch`: integer
+* `debug`: `true` or `false`
+* `verbose`: `true` or `false`
+
+---
+
+`gasp:` Controls gasp table. The value is a list of gasp ranges, each range sets `maxPPEM` value and `behavior` bits.
+
+```yaml
+gasp:
+  - maxPPEM: 7
+    behavior: [1, 3] # sets bits 1 and 3, GASP_DOGRAY and GASP_SYMMETRIC_SMOOTHING
+  - maxPPEM: 65535
+    behavior: [0, 1, 2, 3] # Sets all the defined bits
 ```

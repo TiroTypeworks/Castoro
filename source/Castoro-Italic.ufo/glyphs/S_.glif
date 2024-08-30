@@ -63,12 +63,10 @@
       <point x="529" y="638"/>
     </contour>
   </outline>
-  <guideline angle="79.01" x="-2" y="0"/>
-  <guideline angle="79.0044" x="448" y="0"/>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.651,1,0.6,1</string>
+  <string>0.604,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

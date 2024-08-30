@@ -32,20 +32,20 @@
       <point x="234" y="104"/>
     </contour>
     <contour>
-      <point x="52" y="266" type="line"/>
-      <point x="50" y="250"/>
-      <point x="50" y="226"/>
-      <point x="52" y="211" type="curve"/>
       <point x="529" y="211" type="line"/>
       <point x="530" y="226"/>
       <point x="530" y="250"/>
       <point x="529" y="266" type="curve"/>
+      <point x="52" y="266" type="line"/>
+      <point x="50" y="250"/>
+      <point x="50" y="226"/>
+      <point x="52" y="211" type="curve"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.651,1,0.6,1</string>
+  <string>0.604,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

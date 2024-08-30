@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Etilde_acutecomb" format="2">
-  <advance width="608"/>
+  <advance width="598"/>
   <outline>
     <component base="E"/>
-    <component base="tildecomb" xOffset="608" yOffset="-10"/>
-    <component base="acutecomb" xOffset="608" yOffset="115"/>
+    <component base="tildecomb" xOffset="598" yOffset="-10"/>
+    <component base="acutecomb" xOffset="598" yOffset="115"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

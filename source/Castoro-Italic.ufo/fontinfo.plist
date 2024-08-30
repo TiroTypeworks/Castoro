@@ -32,57 +32,47 @@
     <key>x</key>
     <integer>0</integer>
     <key>y</key>
-    <integer>242</integer>
+    <integer>250</integer>
   </dict>
   <dict>
     <key>angle</key>
     <integer>0</integer>
     <key>name</key>
-    <string>f1</string>
+    <string>f10</string>
     <key>x</key>
     <integer>0</integer>
     <key>y</key>
-    <integer>548</integer>
+    <integer>-105</integer>
   </dict>
   <dict>
     <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>f2</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>560</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
+    <real>29.3252</real>
     <key>name</key>
     <string>f2</string>
     <key>x</key>
     <integer>0</integer>
     <key>y</key>
-    <integer>788</integer>
+    <integer>206</integer>
   </dict>
   <dict>
     <key>angle</key>
-    <integer>90</integer>
+    <real>37.7058</real>
     <key>name</key>
     <string>f3</string>
     <key>x</key>
-    <integer>-333</integer>
+    <integer>0</integer>
     <key>y</key>
     <integer>0</integer>
   </dict>
   <dict>
     <key>angle</key>
-    <integer>90</integer>
+    <integer>0</integer>
     <key>name</key>
     <string>f4</string>
     <key>x</key>
-    <integer>-285</integer>
-    <key>y</key>
     <integer>0</integer>
+    <key>y</key>
+    <integer>555</integer>
   </dict>
   <dict>
     <key>angle</key>
@@ -90,7 +80,7 @@
     <key>name</key>
     <string>f5</string>
     <key>x</key>
-    <integer>-71</integer>
+    <integer>-242</integer>
     <key>y</key>
     <integer>0</integer>
   </dict>
@@ -100,7 +90,37 @@
     <key>name</key>
     <string>f6</string>
     <key>x</key>
-    <integer>-10</integer>
+    <integer>-182</integer>
+    <key>y</key>
+    <integer>0</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <integer>90</integer>
+    <key>name</key>
+    <string>f7</string>
+    <key>x</key>
+    <integer>-253</integer>
+    <key>y</key>
+    <integer>0</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <real>75.1824</real>
+    <key>name</key>
+    <string>f8</string>
+    <key>x</key>
+    <integer>2</integer>
+    <key>y</key>
+    <integer>0</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <integer>90</integer>
+    <key>name</key>
+    <string>f9</string>
+    <key>x</key>
+    <integer>721</integer>
     <key>y</key>
     <integer>0</integer>
   </dict>
@@ -109,15 +129,6 @@
   <integer>-11</integer>
   <key>openTypeGaspRangeRecords</key>
   <array>
-  <dict>
-    <key>rangeGaspBehavior</key>
-      <array>
-        <integer>0</integer>
-        <integer>2</integer>
-      </array>
-    <key>rangeMaxPPEM</key>
-    <integer>16</integer>
-  </dict>
   <dict>
     <key>rangeGaspBehavior</key>
       <array>
@@ -131,7 +142,7 @@
   </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2020/08/28 20:33:42</string>
+  <string>2023/09/10 19:39:47</string>
   <key>openTypeHeadFlags</key>
   <array>
   </array>
@@ -144,7 +155,7 @@
   <key>openTypeHheaLineGap</key>
   <integer>330</integer>
   <key>openTypeNameDesigner</key>
-  <string>John Hudson with Paul Hanslow, assisted by Kaja Słojewska.</string>
+  <string>John Hudson with Paul Hanslow and Kaja Słojewska.</string>
   <key>openTypeNameDesignerURL</key>
   <string>https://www.tiro.com</string>
   <key>openTypeNameLicense</key>
@@ -160,7 +171,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Italic</string>
   <key>openTypeNameVersion</key>
-  <string>SPECIFY IN CONFIG YAML FILE</string>
+  <string>SET VERSION IN YAML CONFIGURATION FILE</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -170,7 +181,7 @@
   </array>
   <key>openTypeOS2Panose</key>
   <array>
-    <integer>2</integer>
+    <integer>0</integer>
     <integer>0</integer>
     <integer>0</integer>
     <integer>0</integer>
@@ -219,18 +230,12 @@
     <integer>0</integer>
     <integer>1</integer>
     <integer>2</integer>
-    <integer>3</integer>
     <integer>5</integer>
     <integer>6</integer>
     <integer>29</integer>
     <integer>31</integer>
     <integer>32</integer>
-    <integer>33</integer>
-    <integer>35</integer>
-    <integer>45</integer>
   </array>
-  <key>openTypeOS2VendorID</key>
-  <string>TIRO</string>
   <key>openTypeOS2WeightClass</key>
   <integer>400</integer>
   <key>openTypeOS2WidthClass</key>
@@ -247,38 +252,14 @@
   <integer>7</integer>
   <key>postscriptBlueValues</key>
   <array>
-    <integer>-20</integer>
+    <integer>-15</integer>
     <integer>0</integer>
-    <integer>473</integer>
-    <integer>492</integer>
-    <integer>547</integer>
-    <integer>560</integer>
-    <integer>620</integer>
-    <integer>630</integer>
-    <integer>697</integer>
-    <integer>711</integer>
     <integer>755</integer>
-    <integer>756</integer>
-  </array>
-  <key>postscriptFamilyBlues</key>
-  <array>
-    <integer>750</integer>
-    <integer>757</integer>
-    <integer>848</integer>
-    <integer>858</integer>
-  </array>
-  <key>postscriptFamilyOtherBlues</key>
-  <array>
-    <integer>-262</integer>
-    <integer>-248</integer>
-    <integer>-199</integer>
-    <integer>-195</integer>
-    <integer>-17</integer>
-    <integer>1</integer>
-    <integer>326</integer>
-    <integer>334</integer>
-    <integer>692</integer>
-    <integer>704</integer>
+    <integer>771</integer>
+    <integer>699</integer>
+    <integer>712</integer>
+    <integer>475</integer>
+    <integer>481</integer>
   </array>
   <key>postscriptFontName</key>
   <string>Castoro-Italic</string>
@@ -290,12 +271,8 @@
   <false/>
   <key>postscriptOtherBlues</key>
   <array>
-    <integer>-260</integer>
-    <integer>-242</integer>
-    <integer>-14</integer>
-    <integer>1</integer>
-    <integer>324</integer>
-    <integer>338</integer>
+    <integer>-256</integer>
+    <integer>-245</integer>
   </array>
   <key>postscriptStemSnapH</key>
   <array>
@@ -327,7 +304,5 @@
   <integer>200</integer>
   <key>xHeight</key>
   <integer>475</integer>
-  <key>year</key>
-  <integer>2020</integer>
 </dict>
 </plist>

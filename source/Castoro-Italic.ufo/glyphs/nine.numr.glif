@@ -3,9 +3,6 @@
   <advance width="363"/>
   <outline>
     <contour>
-      <point x="88" y="329" type="curve"/>
-      <point x="97" y="328"/>
-      <point x="100" y="328"/>
       <point x="102" y="328" type="curve"/>
       <point x="266" y="328"/>
       <point x="389" y="423"/>
@@ -40,13 +37,15 @@
       <point x="91" y="357" type="curve"/>
       <point x="88" y="349"/>
       <point x="88" y="337"/>
+      <point x="88" y="329" type="curve"/>
+      <point x="97" y="328"/>
+      <point x="100" y="328"/>
     </contour>
   </outline>
-  <guideline angle="0" x="0" y="90"/>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,1,0.602,1</string>
+  <string>0.604,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

@@ -4,14 +4,14 @@
 <dict>
   <key>Germandbls</key>
   <dict>
-    <key>public.kern2._L_uc_A_2ND</key>
-    <integer>-5</integer>
+    <key>public.kern2._L_uc_O_2ND</key>
+    <integer>10</integer>
     <key>public.kern2._L_uc_T_2ND</key>
     <integer>-10</integer>
     <key>public.kern2._L_uc_V_2ND</key>
-    <integer>-15</integer>
+    <integer>-10</integer>
     <key>public.kern2._L_uc_Z_2ND</key>
-    <integer>-5</integer>
+    <integer>-9</integer>
     <key>public.kern2._punc_period_2ND</key>
     <integer>-30</integer>
   </dict>
@@ -26,7 +26,7 @@
     <key>public.kern2._L_subs_BOTH</key>
     <integer>140</integer>
     <key>public.kern2._L_uc_J_2ND</key>
-    <integer>65</integer>
+    <integer>70</integer>
   </dict>
   <key>ampersand</key>
   <dict>
@@ -386,7 +386,7 @@
     <key>public.kern2._L_sups_2ND</key>
     <integer>-50</integer>
     <key>public.kern2._L_uc_O_2ND</key>
-    <integer>-15</integer>
+    <integer>-20</integer>
     <key>public.kern2._L_uc_T_2ND</key>
     <integer>-55</integer>
     <key>public.kern2._L_uc_U_2ND</key>
@@ -394,7 +394,7 @@
     <key>public.kern2._L_uc_V_2ND</key>
     <integer>-65</integer>
     <key>public.kern2._L_uc_Y_2ND</key>
-    <integer>-60</integer>
+    <integer>-45</integer>
     <key>public.kern2._punc_guillemotleft_2ND</key>
     <integer>-20</integer>
     <key>public.kern2._punc_hyphen_2ND</key>
@@ -479,7 +479,7 @@
     <key>colon</key>
     <integer>-20</integer>
     <key>semicolon</key>
-    <integer>-10</integer>
+    <integer>-20</integer>
     <key>public.kern2._L_sups_2ND</key>
     <integer>20</integer>
     <key>public.kern2._punc_period_2ND</key>
@@ -529,7 +529,7 @@
     <key>public.kern2._L_sups_2ND</key>
     <integer>-20</integer>
     <key>public.kern2._L_uc_A_2ND</key>
-    <integer>20</integer>
+    <integer>40</integer>
     <key>public.kern2._L_uc_T_2ND</key>
     <integer>-65</integer>
     <key>public.kern2._L_uc_U_2ND</key>
@@ -562,16 +562,22 @@
   </dict>
   <key>public.kern1._L_uc_O_1ST</key>
   <dict>
+    <key>M</key>
+    <integer>-10</integer>
     <key>public.kern2._L_subs_BOTH</key>
     <integer>-30</integer>
     <key>public.kern2._L_uc_A_2ND</key>
     <integer>-20</integer>
+    <key>public.kern2._L_uc_O_2ND</key>
+    <integer>15</integer>
+    <key>public.kern2._L_uc_T_2ND</key>
+    <integer>-10</integer>
     <key>public.kern2._L_uc_V_2ND</key>
-    <integer>-15</integer>
+    <integer>-25</integer>
     <key>public.kern2._L_uc_X_2ND</key>
     <integer>-25</integer>
     <key>public.kern2._L_uc_Y_2ND</key>
-    <integer>-20</integer>
+    <integer>-35</integer>
     <key>public.kern2._L_uc_Z_2ND</key>
     <integer>-10</integer>
     <key>public.kern2._punc_hyphen_2ND</key>
@@ -594,9 +600,13 @@
     <key>public.kern2._L_sups_2ND</key>
     <integer>30</integer>
     <key>public.kern2._L_uc_A_2ND</key>
-    <integer>-65</integer>
-    <key>public.kern2._L_uc_X_2ND</key>
+    <integer>-55</integer>
+    <key>public.kern2._L_uc_V_2ND</key>
     <integer>-10</integer>
+    <key>public.kern2._L_uc_X_2ND</key>
+    <integer>-26</integer>
+    <key>public.kern2._L_uc_Y_2ND</key>
+    <integer>-5</integer>
     <key>public.kern2._L_uc_Z_2ND</key>
     <integer>-15</integer>
     <key>public.kern2._punc_exclam_2ND</key>
@@ -629,7 +639,7 @@
     <key>public.kern2._L_uc_O_2ND</key>
     <integer>-15</integer>
     <key>public.kern2._L_uc_T_2ND</key>
-    <integer>-40</integer>
+    <integer>-30</integer>
     <key>public.kern2._L_uc_U_2ND</key>
     <integer>-45</integer>
     <key>public.kern2._L_uc_V_2ND</key>
@@ -652,8 +662,6 @@
   <key>public.kern1._L_uc_S_1ST</key>
   <dict>
     <key>public.kern2._L_subs_BOTH</key>
-    <integer>-10</integer>
-    <key>public.kern2._L_uc_A_2ND</key>
     <integer>-10</integer>
     <key>public.kern2._L_uc_S_2ND</key>
     <integer>-10</integer>
@@ -683,7 +691,13 @@
     <key>public.kern2._L_sups_2ND</key>
     <integer>40</integer>
     <key>public.kern2._L_uc_A_2ND</key>
-    <integer>-60</integer>
+    <integer>-55</integer>
+    <key>public.kern2._L_uc_O_2ND</key>
+    <integer>-10</integer>
+    <key>public.kern2._L_uc_V_2ND</key>
+    <integer>10</integer>
+    <key>public.kern2._L_uc_Y_2ND</key>
+    <integer>10</integer>
     <key>public.kern2._L_uc_Z_2ND</key>
     <integer>-15</integer>
     <key>public.kern2._punc_guillemotleft_2ND</key>
@@ -703,6 +717,16 @@
   <dict>
     <key>public.kern2._L_subs_BOTH</key>
     <integer>-15</integer>
+    <key>public.kern2._L_uc_A_2ND</key>
+    <integer>-15</integer>
+    <key>public.kern2._L_uc_O_2ND</key>
+    <integer>10</integer>
+    <key>public.kern2._L_uc_V_2ND</key>
+    <integer>-15</integer>
+    <key>public.kern2._L_uc_X_2ND</key>
+    <integer>-25</integer>
+    <key>public.kern2._L_uc_Y_2ND</key>
+    <integer>-25</integer>
     <key>public.kern2._punc_hyphen_2ND</key>
     <integer>40</integer>
     <key>public.kern2._punc_period_2ND</key>
@@ -712,6 +736,8 @@
   </dict>
   <key>public.kern1._L_uc_U_1ST</key>
   <dict>
+    <key>Germandbls</key>
+    <integer>-5</integer>
     <key>public.kern2._L_subs_BOTH</key>
     <integer>-30</integer>
     <key>public.kern2._L_sups_2ND</key>
@@ -740,9 +766,11 @@
     <key>public.kern2._L_sups_2ND</key>
     <integer>70</integer>
     <key>public.kern2._L_uc_A_2ND</key>
-    <integer>-70</integer>
+    <integer>-65</integer>
     <key>public.kern2._L_uc_O_2ND</key>
-    <integer>-20</integer>
+    <integer>-25</integer>
+    <key>public.kern2._L_uc_T_2ND</key>
+    <integer>10</integer>
     <key>public.kern2._punc_guillemotleft_2ND</key>
     <integer>-15</integer>
     <key>public.kern2._punc_guillemotright_2ND</key>
@@ -767,7 +795,7 @@
     <key>public.kern2._L_sups_2ND</key>
     <integer>30</integer>
     <key>public.kern2._L_uc_O_2ND</key>
-    <integer>-30</integer>
+    <integer>-25</integer>
     <key>public.kern2._punc_guillemotleft_2ND</key>
     <integer>-20</integer>
     <key>public.kern2._punc_hyphen_2ND</key>
@@ -794,11 +822,13 @@
     <key>public.kern2._L_sups_2ND</key>
     <integer>70</integer>
     <key>public.kern2._L_uc_A_2ND</key>
-    <integer>-65</integer>
+    <integer>-50</integer>
     <key>public.kern2._L_uc_O_2ND</key>
-    <integer>-30</integer>
+    <integer>-35</integer>
     <key>public.kern2._L_uc_S_2ND</key>
     <integer>-10</integer>
+    <key>public.kern2._L_uc_T_2ND</key>
+    <integer>10</integer>
     <key>public.kern2._punc_guillemotleft_2ND</key>
     <integer>-30</integer>
     <key>public.kern2._punc_guillemotright_2ND</key>

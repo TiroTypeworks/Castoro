@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oneinferior" format="2">
-  <advance width="299"/>
+  <advance width="296"/>
   <unicode hex="2081"/>
   <outline>
     <component base="onesuperior" yOffset="-500"/>
@@ -8,7 +8,7 @@
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>
