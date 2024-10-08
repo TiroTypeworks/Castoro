@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tcaron.sc" format="2">
-  <advance width="546"/>
+  <advance width="548"/>
   <outline>
     <component base="T.sc"/>
-    <component base="caroncomb.cap" xOffset="559" yOffset="-140"/>
+    <component base="caroncomb.cap" xOffset="560" yOffset="-140"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="IJ.sc" format="2">
-  <advance width="704"/>
+  <advance width="694"/>
   <outline>
     <component base="I.sc"/>
-    <component base="J.sc" xOffset="368"/>
+    <component base="J.sc" xOffset="364"/>
   </outline>
   <lib>
   <dict>
+  <key>com.fontlab.recipe</key>
+  <string>I.sc_J.sc</string>
   <key>public.markColor</key>
-  <string>1,0.6,0.814,1</string>
+  <string>1,0.6,0.994,1</string>
   </dict>
   </lib>
 </glyph>

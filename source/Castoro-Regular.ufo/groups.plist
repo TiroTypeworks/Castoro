@@ -580,6 +580,8 @@
   </array>
   <key>public.kern1.L__L_sc_J.sc_1ST</key>
   <array>
+    <string>IJ.sc</string>
+    <string>IJ_acutecomb.sc</string>
     <string>J.sc</string>
     <string>J_dieresisbelowcomb.sc</string>
     <string>J_macroncomb.sc</string>
@@ -1059,10 +1061,12 @@
   <key>public.kern1.L__punc_quoteleft_1ST</key>
   <array>
     <string>halfringleft</string>
+    <string>quotedbl</string>
     <string>quotedblleft</string>
     <string>quotedblleftreversed</string>
     <string>quoteleft</string>
     <string>quotereversed</string>
+    <string>quotesingle</string>
   </array>
   <key>public.kern1.L__punc_quoteright_1ST</key>
   <array>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="twoinferior" format="2">
-  <advance width="373"/>
+  <advance width="376"/>
   <unicode hex="2082"/>
   <outline>
-    <component base="twosuperior" xOffset="-100" yOffset="-520"/>
+    <component base="twosuperior" xOffset="-101" yOffset="-520"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

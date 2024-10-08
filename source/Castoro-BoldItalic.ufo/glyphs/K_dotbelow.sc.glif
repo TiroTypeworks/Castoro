@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Kdotbelow.sc" format="2">
-  <advance width="650"/>
+  <advance width="637"/>
   <outline>
     <component base="K.sc"/>
-    <component base="dotbelowcomb" xOffset="647"/>
+    <component base="dotbelowcomb" xOffset="634"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

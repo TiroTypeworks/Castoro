@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="R_ringbelowcomb_acutecomb" format="2">
-  <advance width="700"/>
+  <advance width="695"/>
   <outline>
     <component base="R"/>
-    <component base="ringbelowcomb" xOffset="651"/>
-    <component base="acutecomb.cap" xOffset="595"/>
+    <component base="ringbelowcomb" xOffset="644"/>
+    <component base="acutecomb.cap" xOffset="588"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

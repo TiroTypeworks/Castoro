@@ -4,40 +4,40 @@
   <unicode hex="00B1"/>
   <outline>
     <contour>
-      <point x="534" y="261" type="line"/>
-      <point x="535" y="276"/>
-      <point x="535" y="300"/>
-      <point x="534" y="316" type="curve"/>
-      <point x="57" y="316" type="line"/>
-      <point x="55" y="300"/>
-      <point x="55" y="276"/>
-      <point x="57" y="261" type="curve"/>
+      <point x="531" y="261" type="line"/>
+      <point x="532" y="276"/>
+      <point x="532" y="300"/>
+      <point x="531" y="316" type="curve"/>
+      <point x="54" y="316" type="line"/>
+      <point x="52" y="300"/>
+      <point x="52" y="276"/>
+      <point x="54" y="261" type="curve"/>
     </contour>
     <contour>
-      <point x="534" y="1" type="line"/>
-      <point x="535" y="16"/>
-      <point x="535" y="40"/>
-      <point x="534" y="56" type="curve"/>
-      <point x="57" y="56" type="line"/>
-      <point x="55" y="40"/>
-      <point x="55" y="16"/>
-      <point x="57" y="1" type="curve"/>
+      <point x="531" y="1" type="line"/>
+      <point x="532" y="16"/>
+      <point x="532" y="40"/>
+      <point x="531" y="56" type="curve"/>
+      <point x="54" y="56" type="line"/>
+      <point x="52" y="40"/>
+      <point x="52" y="16"/>
+      <point x="54" y="1" type="curve"/>
     </contour>
     <contour>
-      <point x="268" y="110" type="line"/>
-      <point x="282" y="109"/>
-      <point x="309" y="109"/>
-      <point x="323" y="110" type="curve"/>
-      <point x="323" y="477" type="line"/>
-      <point x="309" y="478"/>
-      <point x="282" y="478"/>
-      <point x="268" y="477" type="curve"/>
+      <point x="265" y="110" type="line"/>
+      <point x="279" y="109"/>
+      <point x="306" y="109"/>
+      <point x="320" y="110" type="curve"/>
+      <point x="320" y="477" type="line"/>
+      <point x="306" y="478"/>
+      <point x="279" y="478"/>
+      <point x="265" y="477" type="curve"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,1,0.6,1</string>
+  <string>1,0.801,0.6,1</string>
   </dict>
   </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eng.sc" format="2">
-  <advance width="639"/>
+  <advance width="636"/>
   <outline>
     <contour>
       <point x="362" y="-200" type="curve" smooth="yes"/>
@@ -94,7 +94,7 @@
     <string>Eng</string>
   </dict>
   <key>public.markColor</key>
-  <string>0.604,1,0.6,1</string>
+  <string>1,0.801,0.6,1</string>
   </dict>
   </lib>
 </glyph>

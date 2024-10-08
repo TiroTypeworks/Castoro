@@ -26,22 +26,22 @@
   </source>
  </sources>
  <instances>
-  <instance stylename="Regular" name="Regular" familyname="Castoro" filename="instances/Castoro-Regular.ufo">
+  <instance stylename="Regular" name="Regular" familyname="Castoro" postscriptfontname="Castoro-Regular" filename="instances/Castoro-Regular.ufo">
    <location>
     <dimension xvalue="101" name="weight"/>
    </location>
   </instance>
-  <instance stylename="Medium" name="Medium" familyname="Castoro" filename="instances/Castoro-Medium.ufo">
+  <instance stylename="Medium" name="Medium" familyname="Castoro" postscriptfontname="CastoroMedium-Regular" filename="instances/Castoro-Medium.ufo">
    <location>
     <dimension xvalue="113" name="weight"/>
    </location>
   </instance>
-  <instance stylename="Semibold" name="Semibold" familyname="Castoro" filename="instances/Castoro-Semibold.ufo">
+  <instance stylename="Semibold" name="Semibold" familyname="Castoro" postscriptfontname="CastoroSemibold-Regular" filename="instances/Castoro-Semibold.ufo">
    <location>
     <dimension xvalue="128" name="weight"/>
    </location>
   </instance>
-  <instance stylename="Bold" name="Bold" familyname="Castoro" filename="instances/Castoro-Bold.ufo">
+  <instance stylename="Bold" name="Bold" familyname="Castoro" postscriptfontname="Castoro-Bold" filename="instances/Castoro-Bold.ufo">
    <location>
     <dimension xvalue="144" name="weight"/>
    </location>

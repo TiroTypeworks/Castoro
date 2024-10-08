@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zlinebelow" format="2">
-  <advance width="660"/>
+  <advance width="658"/>
   <unicode hex="1E94"/>
   <outline>
     <component base="Z"/>
-    <component base="macronbelowcomb" xOffset="599"/>
+    <component base="macronbelowcomb" xOffset="596"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

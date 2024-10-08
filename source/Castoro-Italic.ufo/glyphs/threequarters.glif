@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="threequarters" format="2">
-  <advance width="748"/>
+  <advance width="723"/>
   <unicode hex="00BE"/>
+  <note>three.numr fraction -10
+  fraction four.dnom -60</note>
   <outline>
     <component base="three.numr"/>
-    <component base="fraction" xOffset="313"/>
-    <component base="four.numr" xOffset="318" yOffset="-338"/>
+    <component base="fraction" xOffset="309"/>
+    <component base="four.numr" xOffset="293" yOffset="-338"/>
   </outline>
   <lib>
   <dict>

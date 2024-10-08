@@ -23,7 +23,7 @@
     <key>public.kern2.R__L_subs_BOTH</key>
     <integer>60</integer>
     <key>public.kern2.R__L_uc_J_2ND</key>
-    <integer>30</integer>
+    <integer>35</integer>
     <key>public.kern2.R__punc_period_2ND</key>
     <integer>15</integer>
   </dict>
@@ -44,6 +44,16 @@
     <integer>-30</integer>
     <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-30</integer>
+  </dict>
+  <key>braceleft.case</key>
+  <dict>
+    <key>public.kern2.R__L_uc_J_2ND</key>
+    <integer>30</integer>
+  </dict>
+  <key>bracketleft.case</key>
+  <dict>
+    <key>public.kern2.R__L_uc_J_2ND</key>
+    <integer>30</integer>
   </dict>
   <key>exclamdown</key>
   <dict>
@@ -130,6 +140,11 @@
     <integer>10</integer>
     <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-20</integer>
+  </dict>
+  <key>halfringleft</key>
+  <dict>
+    <key>j_dieresisbelowcomb</key>
+    <integer>25</integer>
   </dict>
   <key>halfringleft.sc</key>
   <dict>
@@ -259,14 +274,38 @@
   </dict>
   <key>longs</key>
   <dict>
+    <key>a</key>
+    <integer>20</integer>
+    <key>aacute</key>
+    <integer>20</integer>
+    <key>abreve</key>
+    <integer>20</integer>
+    <key>acaron</key>
+    <integer>20</integer>
     <key>acircumflex</key>
     <integer>45</integer>
     <key>adieresis</key>
     <integer>30</integer>
+    <key>ae</key>
+    <integer>20</integer>
+    <key>aeacute</key>
+    <integer>20</integer>
+    <key>aemacron</key>
+    <integer>20</integer>
     <key>agrave</key>
     <integer>35</integer>
     <key>amacron</key>
     <integer>40</integer>
+    <key>amacron_acutecomb</key>
+    <integer>20</integer>
+    <key>amacron_brevecomb</key>
+    <integer>20</integer>
+    <key>amacron_gravecomb</key>
+    <integer>20</integer>
+    <key>amacron_tildecomb</key>
+    <integer>20</integer>
+    <key>aogonek</key>
+    <integer>20</integer>
     <key>aring</key>
     <integer>50</integer>
     <key>aringacute</key>
@@ -299,6 +338,8 @@
     <integer>20</integer>
     <key>gcircumflex</key>
     <integer>20</integer>
+    <key>halfringleft</key>
+    <integer>125</integer>
     <key>iacute</key>
     <integer>35</integer>
     <key>ibreve</key>
@@ -333,8 +374,12 @@
     <integer>20</integer>
     <key>otilde</key>
     <integer>20</integer>
+    <key>quotedblleft</key>
+    <integer>125</integer>
     <key>quotedblleftreversed</key>
     <integer>145</integer>
+    <key>quoteleft</key>
+    <integer>125</integer>
     <key>quotereversed</key>
     <integer>145</integer>
     <key>r_brevecomb</key>
@@ -373,8 +418,6 @@
     <integer>20</integer>
     <key>ydieresis</key>
     <integer>30</integer>
-    <key>public.kern2.R__L_lc_a_2ND</key>
-    <integer>20</integer>
     <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>10</integer>
     <key>public.kern2.R__L_lc_j_2ND</key>
@@ -397,8 +440,6 @@
     <integer>85</integer>
     <key>public.kern2.R__punc_question_2ND</key>
     <integer>105</integer>
-    <key>public.kern2.R__punc_quoteleft_2ND</key>
-    <integer>125</integer>
     <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>150</integer>
   </dict>
@@ -419,6 +460,11 @@
     <key>fraction</key>
     <integer>20</integer>
   </dict>
+  <key>parenleft.case</key>
+  <dict>
+    <key>public.kern2.R__L_uc_J_2ND</key>
+    <integer>30</integer>
+  </dict>
   <key>q</key>
   <dict>
     <key>public.kern2.R__punc_period_2ND</key>
@@ -438,6 +484,32 @@
     <integer>-75</integer>
     <key>public.kern2.R__L_uc_Y_2ND</key>
     <integer>-75</integer>
+  </dict>
+  <key>quotedblright</key>
+  <dict>
+    <key>dotlessj</key>
+    <integer>-10</integer>
+    <key>florin</key>
+    <integer>-10</integer>
+    <key>j_dieresisbelowcomb</key>
+    <integer>55</integer>
+    <key>j_macroncomb</key>
+    <integer>50</integer>
+    <key>jcircumflex</key>
+    <integer>50</integer>
+  </dict>
+  <key>quoteright</key>
+  <dict>
+    <key>dotlessj</key>
+    <integer>-10</integer>
+    <key>florin</key>
+    <integer>-10</integer>
+    <key>j_dieresisbelowcomb</key>
+    <integer>55</integer>
+    <key>j_macroncomb</key>
+    <integer>50</integer>
+    <key>jcircumflex</key>
+    <integer>50</integer>
   </dict>
   <key>seven</key>
   <dict>
@@ -524,13 +596,17 @@
     <integer>-40</integer>
     <key>nineinferior</key>
     <integer>-15</integer>
+    <key>oneinferior</key>
+    <integer>-20</integer>
+    <key>seveninferior</key>
+    <integer>-20</integer>
     <key>sixinferior</key>
     <integer>-30</integer>
     <key>threeinferior</key>
     <integer>-10</integer>
     <key>twoinferior</key>
     <integer>-10</integer>
-    <key>public.kern2.R__L_subs_BOTH</key>
+    <key>zeroinferior</key>
     <integer>-20</integer>
   </dict>
   <key>sevensuperior</key>
@@ -543,6 +619,8 @@
     <integer>-40</integer>
     <key>ninesuperior</key>
     <integer>-15</integer>
+    <key>onesuperior</key>
+    <integer>-20</integer>
     <key>sevensuperior</key>
     <integer>-15</integer>
     <key>sixsuperior</key>
@@ -551,7 +629,7 @@
     <integer>-15</integer>
     <key>twosuperior</key>
     <integer>-10</integer>
-    <key>public.kern2.R__L_sups_2ND</key>
+    <key>zerosuperior</key>
     <integer>-20</integer>
   </dict>
   <key>six.numr</key>
@@ -576,6 +654,11 @@
     <key>fraction</key>
     <integer>-25</integer>
   </dict>
+  <key>zero.sc</key>
+  <dict>
+    <key>two.sc</key>
+    <integer>-10</integer>
+  </dict>
   <key>public.kern1.L__L_lc_a_1ST</key>
   <dict>
     <key>public.kern2.R__L_lc_v_2ND</key>
@@ -596,6 +679,8 @@
   </dict>
   <key>public.kern1.L__L_lc_caronslovak_1ST</key>
   <dict>
+    <key>dotlessj</key>
+    <integer>-20</integer>
     <key>f</key>
     <integer>-20</integer>
     <key>f._asc</key>
@@ -603,6 +688,8 @@
     <key>f._f</key>
     <integer>-20</integer>
     <key>f._ij</key>
+    <integer>-20</integer>
+    <key>florin</key>
     <integer>-20</integer>
     <key>germandbls</key>
     <integer>-20</integer>
@@ -630,10 +717,14 @@
     <integer>20</integer>
     <key>itilde_acutecomb</key>
     <integer>10</integer>
+    <key>j</key>
+    <integer>-20</integer>
     <key>j_dieresisbelowcomb</key>
     <integer>30</integer>
     <key>j_macroncomb</key>
     <integer>10</integer>
+    <key>jcircumflex</key>
+    <integer>-20</integer>
     <key>longs</key>
     <integer>-20</integer>
     <key>longs._asc</key>
@@ -646,8 +737,6 @@
     <integer>-50</integer>
     <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-60</integer>
-    <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>-20</integer>
     <key>public.kern2.R__L_lc_n_2ND</key>
     <integer>-30</integer>
     <key>public.kern2.R__L_lc_o_2ND</key>
@@ -702,6 +791,8 @@
     <integer>10</integer>
     <key>florin</key>
     <integer>45</integer>
+    <key>halfringleft</key>
+    <integer>110</integer>
     <key>i</key>
     <integer>25</integer>
     <key>i.TRK</key>
@@ -736,14 +827,20 @@
     <integer>70</integer>
     <key>itilde_acutecomb</key>
     <integer>60</integer>
+    <key>j</key>
+    <integer>35</integer>
     <key>j_dieresisbelowcomb</key>
     <integer>45</integer>
     <key>j_macroncomb</key>
     <integer>45</integer>
     <key>jcircumflex</key>
     <integer>65</integer>
+    <key>quotedblleft</key>
+    <integer>110</integer>
     <key>quotedblleftreversed</key>
     <integer>120</integer>
+    <key>quoteleft</key>
+    <integer>110</integer>
     <key>quotereversed</key>
     <integer>120</integer>
     <key>r_brevecomb</key>
@@ -770,8 +867,6 @@
     <integer>20</integer>
     <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>20</integer>
-    <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>35</integer>
     <key>public.kern2.R__L_lc_n_2ND</key>
     <integer>30</integer>
     <key>public.kern2.R__L_lc_o_2ND</key>
@@ -794,8 +889,6 @@
     <integer>65</integer>
     <key>public.kern2.R__punc_question_2ND</key>
     <integer>80</integer>
-    <key>public.kern2.R__punc_quoteleft_2ND</key>
-    <integer>110</integer>
     <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>125</integer>
   </dict>
@@ -1096,6 +1189,8 @@
     <integer>-15</integer>
     <key>ellipsis</key>
     <integer>-15</integer>
+    <key>period</key>
+    <integer>-45</integer>
     <key>public.kern2.R__L_sc_A.sc_2ND</key>
     <integer>-25</integer>
     <key>public.kern2.R__L_sc_J.sc_2ND</key>
@@ -1110,8 +1205,6 @@
     <integer>-10</integer>
     <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>15</integer>
-    <key>public.kern2.R__punc_period_2ND</key>
-    <integer>-45</integer>
     <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-20</integer>
     <key>public.kern2.R__punc_quoteright_2ND</key>
@@ -2000,6 +2093,16 @@
   </dict>
   <key>public.kern1.L__L_uc_V_1ST</key>
   <dict>
+    <key>A.sc</key>
+    <integer>-105</integer>
+    <key>AE.sc</key>
+    <integer>-105</integer>
+    <key>AEacute.sc</key>
+    <integer>-105</integer>
+    <key>AEmacron.sc</key>
+    <integer>-105</integer>
+    <key>Aacute.sc</key>
+    <integer>-105</integer>
     <key>Abreve.sc</key>
     <integer>-65</integer>
     <key>Acaron.sc</key>
@@ -2020,6 +2123,8 @@
     <integer>-65</integer>
     <key>Amacron_tildecomb.sc</key>
     <integer>-65</integer>
+    <key>Aogonek.sc</key>
+    <integer>-105</integer>
     <key>Aring.sc</key>
     <integer>-85</integer>
     <key>Aringacute.sc</key>
@@ -2050,6 +2155,8 @@
     <integer>55</integer>
     <key>Itilde_acutecomb.sc</key>
     <integer>55</integer>
+    <key>J.sc</key>
+    <integer>-5</integer>
     <key>J_dieresisbelowcomb.sc</key>
     <integer>75</integer>
     <key>J_macroncomb.sc</key>
@@ -2066,6 +2173,10 @@
     <integer>40</integer>
     <key>Ldotbelowmacron_acutecomb.sc</key>
     <integer>40</integer>
+    <key>a</key>
+    <integer>-95</integer>
+    <key>aacute</key>
+    <integer>-95</integer>
     <key>abreve</key>
     <integer>-45</integer>
     <key>acaron</key>
@@ -2074,6 +2185,12 @@
     <integer>-65</integer>
     <key>adieresis</key>
     <integer>-25</integer>
+    <key>ae</key>
+    <integer>-95</integer>
+    <key>aeacute</key>
+    <integer>-95</integer>
+    <key>aemacron</key>
+    <integer>-95</integer>
     <key>agrave</key>
     <integer>-75</integer>
     <key>amacron</key>
@@ -2088,6 +2205,8 @@
     <integer>-40</integer>
     <key>ampersand</key>
     <integer>-20</integer>
+    <key>aogonek</key>
+    <integer>-95</integer>
     <key>aring</key>
     <integer>-55</integer>
     <key>aringacute</key>
@@ -2098,12 +2217,38 @@
     <integer>-45</integer>
     <key>atilde_acutecomb</key>
     <integer>-45</integer>
+    <key>c</key>
+    <integer>-95</integer>
+    <key>cacute</key>
+    <integer>-95</integer>
     <key>ccaron</key>
     <integer>-70</integer>
+    <key>ccedilla</key>
+    <integer>-95</integer>
+    <key>ccircumflex</key>
+    <integer>-95</integer>
+    <key>cdotaccent</key>
+    <integer>-95</integer>
     <key>colon</key>
     <integer>-50</integer>
+    <key>d</key>
+    <integer>-95</integer>
+    <key>d_dieresisbelowcomb</key>
+    <integer>-95</integer>
+    <key>dcaron</key>
+    <integer>-95</integer>
+    <key>dcroat</key>
+    <integer>-95</integer>
+    <key>ddotbelow</key>
+    <integer>-95</integer>
+    <key>dlinebelow</key>
+    <integer>-95</integer>
     <key>dotlessj</key>
     <integer>-30</integer>
+    <key>e</key>
+    <integer>-95</integer>
+    <key>eacute</key>
+    <integer>-95</integer>
     <key>ebreve</key>
     <integer>-55</integer>
     <key>ecaron</key>
@@ -2112,16 +2257,24 @@
     <integer>-85</integer>
     <key>edieresis</key>
     <integer>-35</integer>
+    <key>edotaccent</key>
+    <integer>-95</integer>
     <key>egrave</key>
     <integer>-85</integer>
     <key>emacron</key>
     <integer>-65</integer>
     <key>emacron_brevecomb</key>
     <integer>-65</integer>
+    <key>emacronacute</key>
+    <integer>-95</integer>
     <key>emdash.case</key>
     <integer>-30</integer>
     <key>endash.case</key>
     <integer>-30</integer>
+    <key>eogonek</key>
+    <integer>-95</integer>
+    <key>eth</key>
+    <integer>-95</integer>
     <key>etilde</key>
     <integer>-65</integer>
     <key>etilde_acutecomb</key>
@@ -2162,16 +2315,36 @@
     <integer>45</integer>
     <key>jcircumflex</key>
     <integer>15</integer>
+    <key>o</key>
+    <integer>-95</integer>
+    <key>oacute</key>
+    <integer>-95</integer>
     <key>obreve</key>
     <integer>-75</integer>
+    <key>ocircumflex</key>
+    <integer>-95</integer>
     <key>odieresis</key>
     <integer>-65</integer>
+    <key>oe</key>
+    <integer>-95</integer>
+    <key>ograve</key>
+    <integer>-95</integer>
+    <key>ohungarumlaut</key>
+    <integer>-95</integer>
     <key>omacron</key>
     <integer>-85</integer>
     <key>omacron_brevecomb</key>
     <integer>-85</integer>
+    <key>oslash</key>
+    <integer>-95</integer>
+    <key>oslashacute</key>
+    <integer>-95</integer>
     <key>otilde</key>
     <integer>-85</integer>
+    <key>otildeacute</key>
+    <integer>-95</integer>
+    <key>q</key>
+    <integer>-95</integer>
     <key>r_brevecomb</key>
     <integer>-25</integer>
     <key>r_ringbelowcomb_macroncomb</key>
@@ -2194,14 +2367,10 @@
     <integer>-10</integer>
     <key>trademark</key>
     <integer>40</integer>
-    <key>public.kern2.R__L_lc_a_2ND</key>
-    <integer>-95</integer>
     <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-80</integer>
     <key>public.kern2.R__L_lc_n_2ND</key>
     <integer>-55</integer>
-    <key>public.kern2.R__L_lc_o_2ND</key>
-    <integer>-95</integer>
     <key>public.kern2.R__L_lc_s_2ND</key>
     <integer>-70</integer>
     <key>public.kern2.R__L_lc_t_2ND</key>
@@ -2218,12 +2387,8 @@
     <integer>-45</integer>
     <key>public.kern2.R__L_lc_z_2ND</key>
     <integer>-65</integer>
-    <key>public.kern2.R__L_sc_A.sc_2ND</key>
-    <integer>-105</integer>
     <key>public.kern2.R__L_sc_B.sc_2ND</key>
     <integer>-15</integer>
-    <key>public.kern2.R__L_sc_J.sc_2ND</key>
-    <integer>-5</integer>
     <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-60</integer>
     <key>public.kern2.R__L_sc_S.sc_2ND</key>
@@ -2306,10 +2471,26 @@
   </dict>
   <key>public.kern1.L__L_uc_Y_1ST</key>
   <dict>
+    <key>A.sc</key>
+    <integer>-75</integer>
+    <key>AE.sc</key>
+    <integer>-75</integer>
+    <key>AEacute.sc</key>
+    <integer>-75</integer>
+    <key>AEmacron.sc</key>
+    <integer>-75</integer>
+    <key>Aacute.sc</key>
+    <integer>-75</integer>
     <key>Abreve.sc</key>
     <integer>-70</integer>
+    <key>Acaron.sc</key>
+    <integer>-75</integer>
+    <key>Acircumflex.sc</key>
+    <integer>-75</integer>
     <key>Adieresis.sc</key>
     <integer>-50</integer>
+    <key>Agrave.sc</key>
+    <integer>-75</integer>
     <key>Amacron.sc</key>
     <integer>-70</integer>
     <key>Amacron_acutecomb.sc</key>
@@ -2320,6 +2501,12 @@
     <integer>-70</integer>
     <key>Amacron_tildecomb.sc</key>
     <integer>-70</integer>
+    <key>Aogonek.sc</key>
+    <integer>-75</integer>
+    <key>Aring.sc</key>
+    <integer>-75</integer>
+    <key>Aringacute.sc</key>
+    <integer>-75</integer>
     <key>Atilde.sc</key>
     <integer>-60</integer>
     <key>Atilde_acutecomb.sc</key>
@@ -2346,10 +2533,14 @@
     <integer>50</integer>
     <key>Itilde_acutecomb.sc</key>
     <integer>50</integer>
+    <key>J.sc</key>
+    <integer>-15</integer>
     <key>J_dieresisbelowcomb.sc</key>
     <integer>70</integer>
     <key>J_macroncomb.sc</key>
     <integer>55</integer>
+    <key>Jcircumflex.sc</key>
+    <integer>-15</integer>
     <key>L_ringbelowcomb_macroncomb.sc</key>
     <integer>40</integer>
     <key>L_ringbelowcomb_macroncomb_acutecomb.sc</key>
@@ -2360,6 +2551,10 @@
     <integer>40</integer>
     <key>Ldotbelowmacron_acutecomb.sc</key>
     <integer>40</integer>
+    <key>a</key>
+    <integer>-90</integer>
+    <key>aacute</key>
+    <integer>-90</integer>
     <key>abreve</key>
     <integer>-40</integer>
     <key>acaron</key>
@@ -2368,6 +2563,12 @@
     <integer>-80</integer>
     <key>adieresis</key>
     <integer>-20</integer>
+    <key>ae</key>
+    <integer>-90</integer>
+    <key>aeacute</key>
+    <integer>-90</integer>
+    <key>aemacron</key>
+    <integer>-90</integer>
     <key>agrave</key>
     <integer>-80</integer>
     <key>amacron</key>
@@ -2382,6 +2583,8 @@
     <integer>-50</integer>
     <key>ampersand</key>
     <integer>-25</integer>
+    <key>aogonek</key>
+    <integer>-90</integer>
     <key>aring</key>
     <integer>-60</integer>
     <key>aringacute</key>
@@ -2392,12 +2595,38 @@
     <integer>-60</integer>
     <key>atilde_acutecomb</key>
     <integer>-60</integer>
+    <key>c</key>
+    <integer>-110</integer>
+    <key>cacute</key>
+    <integer>-110</integer>
     <key>ccaron</key>
     <integer>-80</integer>
+    <key>ccedilla</key>
+    <integer>-110</integer>
+    <key>ccircumflex</key>
+    <integer>-110</integer>
+    <key>cdotaccent</key>
+    <integer>-110</integer>
     <key>colon</key>
     <integer>-50</integer>
+    <key>d</key>
+    <integer>-110</integer>
+    <key>d_dieresisbelowcomb</key>
+    <integer>-110</integer>
+    <key>dcaron</key>
+    <integer>-110</integer>
+    <key>dcroat</key>
+    <integer>-110</integer>
+    <key>ddotbelow</key>
+    <integer>-110</integer>
+    <key>dlinebelow</key>
+    <integer>-110</integer>
     <key>dotlessj</key>
     <integer>-75</integer>
+    <key>e</key>
+    <integer>-110</integer>
+    <key>eacute</key>
+    <integer>-110</integer>
     <key>ebreve</key>
     <integer>-60</integer>
     <key>ecaron</key>
@@ -2406,16 +2635,24 @@
     <integer>-100</integer>
     <key>edieresis</key>
     <integer>-40</integer>
+    <key>edotaccent</key>
+    <integer>-110</integer>
     <key>egrave</key>
     <integer>-100</integer>
     <key>emacron</key>
     <integer>-75</integer>
     <key>emacron_brevecomb</key>
     <integer>-75</integer>
+    <key>emacronacute</key>
+    <integer>-110</integer>
     <key>emdash.case</key>
     <integer>-45</integer>
     <key>endash.case</key>
     <integer>-45</integer>
+    <key>eogonek</key>
+    <integer>-110</integer>
+    <key>eth</key>
+    <integer>-110</integer>
     <key>etilde</key>
     <integer>-70</integer>
     <key>etilde_acutecomb</key>
@@ -2474,10 +2711,18 @@
     <integer>-20</integer>
     <key>longs._ij</key>
     <integer>-20</integer>
+    <key>o</key>
+    <integer>-110</integer>
+    <key>oacute</key>
+    <integer>-110</integer>
     <key>obreve</key>
     <integer>-90</integer>
+    <key>ocircumflex</key>
+    <integer>-110</integer>
     <key>odieresis</key>
     <integer>-70</integer>
+    <key>oe</key>
+    <integer>-110</integer>
     <key>ograve</key>
     <integer>-100</integer>
     <key>ohungarumlaut</key>
@@ -2486,8 +2731,16 @@
     <integer>-90</integer>
     <key>omacron_brevecomb</key>
     <integer>-90</integer>
+    <key>oslash</key>
+    <integer>-110</integer>
+    <key>oslashacute</key>
+    <integer>-110</integer>
     <key>otilde</key>
     <integer>-90</integer>
+    <key>otildeacute</key>
+    <integer>-110</integer>
+    <key>q</key>
+    <integer>-110</integer>
     <key>r_brevecomb</key>
     <integer>-35</integer>
     <key>r_ringbelowcomb_gravecomb</key>
@@ -2522,14 +2775,10 @@
     <integer>-55</integer>
     <key>zcaron</key>
     <integer>-70</integer>
-    <key>public.kern2.R__L_lc_a_2ND</key>
-    <integer>-90</integer>
     <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-95</integer>
     <key>public.kern2.R__L_lc_n_2ND</key>
     <integer>-75</integer>
-    <key>public.kern2.R__L_lc_o_2ND</key>
-    <integer>-110</integer>
     <key>public.kern2.R__L_lc_s_2ND</key>
     <integer>-95</integer>
     <key>public.kern2.R__L_lc_t_2ND</key>
@@ -2544,12 +2793,8 @@
     <integer>-75</integer>
     <key>public.kern2.R__L_lc_z_2ND</key>
     <integer>-90</integer>
-    <key>public.kern2.R__L_sc_A.sc_2ND</key>
-    <integer>-75</integer>
     <key>public.kern2.R__L_sc_B.sc_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2.R__L_sc_J.sc_2ND</key>
-    <integer>-15</integer>
     <key>public.kern2.R__L_sc_O.sc_2ND</key>
     <integer>-75</integer>
     <key>public.kern2.R__L_sc_S.sc_2ND</key>
@@ -2781,6 +3026,10 @@
   </dict>
   <key>public.kern1.L__punc_quoteleft_1ST</key>
   <dict>
+    <key>dotlessj</key>
+    <integer>10</integer>
+    <key>florin</key>
+    <integer>-20</integer>
     <key>ibreve</key>
     <integer>10</integer>
     <key>icircumflex</key>
@@ -2801,14 +3050,18 @@
     <integer>20</integer>
     <key>itilde_acutecomb</key>
     <integer>20</integer>
+    <key>j</key>
+    <integer>10</integer>
     <key>j_dieresisbelowcomb</key>
     <integer>25</integer>
+    <key>j_macroncomb</key>
+    <integer>10</integer>
+    <key>jcircumflex</key>
+    <integer>10</integer>
     <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-25</integer>
     <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-20</integer>
-    <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>10</integer>
     <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-25</integer>
     <key>public.kern2.R__L_lc_s_2ND</key>
@@ -2844,10 +3097,6 @@
   </dict>
   <key>public.kern1.L__punc_quoteright_1ST</key>
   <dict>
-    <key>dotlessj</key>
-    <integer>-10</integer>
-    <key>florin</key>
-    <integer>-10</integer>
     <key>i</key>
     <integer>-10</integer>
     <key>ibreve</key>
@@ -2870,18 +3119,12 @@
     <integer>30</integer>
     <key>itilde_acutecomb</key>
     <integer>30</integer>
-    <key>j_dieresisbelowcomb</key>
-    <integer>55</integer>
-    <key>j_macroncomb</key>
-    <integer>50</integer>
-    <key>jcircumflex</key>
-    <integer>50</integer>
+    <key>j</key>
+    <integer>30</integer>
     <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-55</integer>
     <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-55</integer>
-    <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>30</integer>
     <key>public.kern2.R__L_lc_n_2ND</key>
     <integer>-20</integer>
     <key>public.kern2.R__L_lc_o_2ND</key>

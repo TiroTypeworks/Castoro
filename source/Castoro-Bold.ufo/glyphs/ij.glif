@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ij" format="2">
-  <advance width="639"/>
+  <advance width="634"/>
   <unicode hex="0133"/>
   <outline>
     <component base="i"/>
-    <component base="j" xOffset="330"/>
+    <component base="j" xOffset="325"/>
   </outline>
   <lib>
   <dict>
+  <key>com.fontlab.recipe</key>
+  <string>i_j</string>
   <key>public.markColor</key>
-  <string>1,0.6,0.814,1</string>
+  <string>1,0.6,0.994,1</string>
   </dict>
   </lib>
 </glyph>

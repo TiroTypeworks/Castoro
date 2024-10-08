@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uacute.sc" format="2">
-  <advance width="621"/>
+  <advance width="620"/>
   <outline>
     <component base="U.sc"/>
-    <component base="acutecomb.cap" xOffset="585" yOffset="-140"/>
+    <component base="acutecomb.cap" xOffset="582" yOffset="-140"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="J_dieresisbelowcomb" format="2">
-  <advance width="330"/>
+  <advance width="326"/>
   <outline>
-    <component base="J"/>
-    <component base="dieresiscomb.cap" xOffset="450"/>
+    <component base="J" xOffset="-2"/>
+    <component base="dieresiscomb.cap" xOffset="440"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

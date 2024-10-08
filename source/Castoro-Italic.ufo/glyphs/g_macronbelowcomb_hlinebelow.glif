@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="g_macronbelowcomb_hlinebelow" format="2">
-  <advance width="1084"/>
+  <advance width="1088"/>
   <outline>
     <component base="g"/>
-    <component base="h" xOffset="508"/>
+    <component base="h" xOffset="512"/>
     <contour>
-      <point x="20" y="-313" type="line"/>
-      <point x="15" y="-329"/>
-      <point x="12" y="-347"/>
-      <point x="11" y="-363" type="curve"/>
-      <point x="838" y="-363" type="line"/>
-      <point x="843" y="-347"/>
-      <point x="846" y="-329"/>
-      <point x="847" y="-313" type="curve"/>
+      <point x="26" y="-313" type="line"/>
+      <point x="21" y="-329"/>
+      <point x="18" y="-347"/>
+      <point x="17" y="-363" type="curve"/>
+      <point x="848" y="-363" type="line"/>
+      <point x="853" y="-347"/>
+      <point x="856" y="-329"/>
+      <point x="857" y="-313" type="curve"/>
     </contour>
   </outline>
   <lib>

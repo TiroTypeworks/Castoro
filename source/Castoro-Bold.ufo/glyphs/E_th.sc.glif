@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eth.sc" format="2">
-  <advance width="664"/>
+  <advance width="665"/>
   <outline>
     <component base="Dcroat.sc"/>
   </outline>
@@ -11,7 +11,7 @@
   <key>com.fontlab.recipe</key>
   <string>Dcroat.sc</string>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

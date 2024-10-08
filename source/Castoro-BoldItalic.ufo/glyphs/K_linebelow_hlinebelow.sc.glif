@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Klinebelow_hlinebelow.sc" format="2">
-  <advance width="1356"/>
+  <advance width="1345"/>
   <outline>
     <component base="K.sc"/>
-    <component base="H.sc" xOffset="650"/>
+    <component base="H.sc" xOffset="637"/>
     <contour>
-      <point x="154" y="-99" type="line"/>
-      <point x="148" y="-117"/>
-      <point x="144" y="-139"/>
-      <point x="144" y="-157" type="curve"/>
-      <point x="1031" y="-157" type="line"/>
-      <point x="1037" y="-139"/>
-      <point x="1041" y="-117"/>
-      <point x="1041" y="-99" type="curve"/>
+      <point x="141" y="-99" type="line"/>
+      <point x="135" y="-117"/>
+      <point x="131" y="-139"/>
+      <point x="131" y="-157" type="curve"/>
+      <point x="1013" y="-157" type="line"/>
+      <point x="1019" y="-139"/>
+      <point x="1023" y="-117"/>
+      <point x="1023" y="-99" type="curve"/>
     </contour>
   </outline>
   <lib>

@@ -3,19 +3,19 @@
   <outline>
     <contour>
       <point x="-321" y="825" type="line"/>
-      <point x="-327" y="808"/>
-      <point x="-332" y="783"/>
+      <point x="-328" y="806"/>
+      <point x="-332" y="786"/>
       <point x="-333" y="766" type="curve"/>
       <point x="-37" y="766" type="line"/>
-      <point x="-31" y="783"/>
-      <point x="-25" y="808"/>
+      <point x="-31" y="784"/>
+      <point x="-25" y="806"/>
       <point x="-25" y="825" type="curve"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,1,0.6,1</string>
+  <string>0.798,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

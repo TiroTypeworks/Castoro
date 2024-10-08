@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="perthousand" format="2">
-  <advance width="1191"/>
+  <advance width="1241"/>
   <unicode hex="2030"/>
   <note>zero.numr fraction -25
   fraction zero.dnom -25</note>
   <outline>
     <component base="zero.numr"/>
-    <component base="fraction" xOffset="352"/>
-    <component base="zero.numr" xOffset="437" yOffset="-338"/>
-    <component base="zero.numr" xOffset="814" yOffset="-338"/>
+    <component base="fraction" xOffset="370"/>
+    <component base="zero.numr" xOffset="451" yOffset="-338"/>
+    <component base="zero.numr" xOffset="846" yOffset="-338"/>
   </outline>
   <lib>
   <dict>
+  <key>note</key>
+  <real>0</real>
   <key>public.markColor</key>
-  <string>1,0.6,0.814,1</string>
+  <string>1,0.6,0.994,1</string>
   </dict>
   </lib>
 </glyph>

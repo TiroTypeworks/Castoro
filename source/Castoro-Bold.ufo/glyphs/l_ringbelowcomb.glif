@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="l_ringbelowcomb" format="2">
-  <advance width="329"/>
+  <advance width="319"/>
   <outline>
     <component base="l"/>
-    <component base="ringbelowcomb" xOffset="450"/>
+    <component base="ringbelowcomb" xOffset="446"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

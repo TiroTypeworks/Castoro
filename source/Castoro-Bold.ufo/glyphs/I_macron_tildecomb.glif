@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Imacron_tildecomb" format="2">
-  <advance width="396"/>
+  <advance width="390"/>
   <outline>
     <component base="I"/>
-    <component base="macroncomb.cap" xOffset="483" yOffset="-10"/>
-    <component base="tildecomb.cap" xOffset="483" yOffset="105"/>
+    <component base="macroncomb.cap" xOffset="481" yOffset="-10"/>
+    <component base="tildecomb.cap" xOffset="481" yOffset="105"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

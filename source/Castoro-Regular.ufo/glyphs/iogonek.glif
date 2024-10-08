@@ -6,10 +6,11 @@
     <component base="i"/>
     <component base="ogonekcomb" xOffset="441"/>
   </outline>
+  <guideline angle="90" x="277" y="0"/>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

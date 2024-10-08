@@ -3,24 +3,24 @@
   <outline>
     <contour>
       <point x="-241" y="735" type="curve"/>
-      <point x="-163" y="769"/>
-      <point x="-85" y="804"/>
+      <point x="-164" y="769"/>
+      <point x="-88" y="803"/>
       <point x="-10" y="835" type="curve"/>
       <point x="-10" y="838" type="line"/>
-      <point x="-29" y="877"/>
-      <point x="-69" y="928"/>
+      <point x="-22" y="863"/>
+      <point x="-63" y="927"/>
       <point x="-94" y="929" type="curve"/>
       <point x="-150" y="872"/>
       <point x="-207" y="817"/>
       <point x="-264" y="763" type="curve"/>
-      <point x="-258" y="751"/>
-      <point x="-250" y="740"/>
+      <point x="-259" y="752"/>
+      <point x="-251" y="741"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,1,0.6,1</string>
+  <string>0.798,1,0.6,1</string>
   </dict>
   </lib>
 </glyph>

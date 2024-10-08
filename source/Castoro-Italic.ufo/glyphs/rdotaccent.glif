@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rdotaccent" format="2">
-  <advance width="416"/>
+  <advance width="419"/>
   <unicode hex="1E59"/>
   <outline>
     <component base="r"/>
-    <component base="dotaccentcomb" xOffset="495"/>
+    <component base="dotaccentcomb" xOffset="501"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Klinebelow_H_macronbelowcomb" format="2">
-  <advance width="1506"/>
+  <advance width="1501"/>
   <outline>
     <component base="K"/>
-    <component base="H" xOffset="694"/>
+    <component base="H" xOffset="690"/>
     <contour>
-      <point x="165" y="-103" type="line"/>
-      <point x="160" y="-119"/>
-      <point x="156" y="-137"/>
-      <point x="155" y="-153" type="curve"/>
-      <point x="1194" y="-153" type="line"/>
-      <point x="1199" y="-137"/>
-      <point x="1203" y="-119"/>
-      <point x="1204" y="-103" type="curve"/>
+      <point x="160" y="-103" type="line"/>
+      <point x="155" y="-119"/>
+      <point x="151" y="-137"/>
+      <point x="150" y="-153" type="curve"/>
+      <point x="1189" y="-153" type="line"/>
+      <point x="1194" y="-137"/>
+      <point x="1198" y="-119"/>
+      <point x="1199" y="-103" type="curve"/>
     </contour>
   </outline>
   <lib>

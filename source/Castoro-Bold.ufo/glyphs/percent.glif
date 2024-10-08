@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="percent" format="2">
-  <advance width="814"/>
+  <advance width="846"/>
   <unicode hex="0025"/>
   <note>zero.numr fraction -25
   fraction zero.dnom -25</note>
   <outline>
     <component base="zero.numr"/>
-    <component base="fraction" xOffset="352"/>
-    <component base="zero.numr" xOffset="437" yOffset="-338"/>
+    <component base="fraction" xOffset="370"/>
+    <component base="zero.numr" xOffset="451" yOffset="-338"/>
   </outline>
   <lib>
   <dict>
+  <key>note</key>
+  <real>0</real>
   <key>public.markColor</key>
-  <string>1,0.6,0.814,1</string>
+  <string>1,0.6,0.994,1</string>
   </dict>
   </lib>
 </glyph>

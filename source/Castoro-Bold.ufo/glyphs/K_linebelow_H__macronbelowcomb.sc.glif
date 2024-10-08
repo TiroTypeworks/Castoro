@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Klinebelow_H_macronbelowcomb.sc" format="2">
-  <advance width="1453"/>
+  <advance width="1449"/>
   <outline>
     <component base="K"/>
-    <component base="H.sc" xOffset="735"/>
+    <component base="H.sc" xOffset="734"/>
     <contour>
-      <point x="1253" y="-157" type="line"/>
-      <point x="1255" y="-137"/>
-      <point x="1255" y="-119"/>
-      <point x="1253" y="-99" type="curve"/>
-      <point x="215" y="-99" type="line"/>
-      <point x="213" y="-119"/>
-      <point x="213" y="-137"/>
-      <point x="215" y="-157" type="curve"/>
+      <point x="1250" y="-157" type="line"/>
+      <point x="1252" y="-137"/>
+      <point x="1252" y="-119"/>
+      <point x="1250" y="-99" type="curve"/>
+      <point x="213" y="-99" type="line"/>
+      <point x="211" y="-119"/>
+      <point x="211" y="-137"/>
+      <point x="213" y="-157" type="curve"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>1,0.6,0.814,1</string>
+  <string>1,0.6,0.994,1</string>
   </dict>
   </lib>
 </glyph>

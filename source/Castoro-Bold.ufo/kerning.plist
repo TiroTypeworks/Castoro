@@ -19,11 +19,11 @@
   <key>Q</key>
   <dict>
     <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>140</integer>
+    <integer>170</integer>
     <key>public.kern2.R__L_subs_BOTH</key>
     <integer>60</integer>
     <key>public.kern2.R__L_uc_J_2ND</key>
-    <integer>30</integer>
+    <integer>80</integer>
     <key>public.kern2.R__punc_period_2ND</key>
     <integer>15</integer>
   </dict>
@@ -45,14 +45,24 @@
     <key>public.kern2.R__L_sc_Y.sc_2ND</key>
     <integer>-35</integer>
   </dict>
+  <key>braceleft.case</key>
+  <dict>
+    <key>public.kern2.R__L_uc_J_2ND</key>
+    <integer>80</integer>
+  </dict>
+  <key>bracketleft.case</key>
+  <dict>
+    <key>public.kern2.R__L_uc_J_2ND</key>
+    <integer>80</integer>
+  </dict>
   <key>exclamdown</key>
   <dict>
     <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>40</integer>
+    <integer>55</integer>
     <key>public.kern2.R__L_sc_J.sc_2ND</key>
     <integer>45</integer>
     <key>public.kern2.R__L_uc_J_2ND</key>
-    <integer>60</integer>
+    <integer>100</integer>
     <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-55</integer>
     <key>public.kern2.R__L_uc_V_2ND</key>
@@ -130,6 +140,11 @@
     <integer>10</integer>
     <key>public.kern2.R__punc_quoteleft_2ND</key>
     <integer>-25</integer>
+  </dict>
+  <key>halfringleft</key>
+  <dict>
+    <key>j_dieresisbelowcomb</key>
+    <integer>39</integer>
   </dict>
   <key>halfringleft.sc</key>
   <dict>
@@ -445,6 +460,11 @@
     <key>fraction</key>
     <integer>20</integer>
   </dict>
+  <key>parenleft.case</key>
+  <dict>
+    <key>public.kern2.R__L_uc_J_2ND</key>
+    <integer>80</integer>
+  </dict>
   <key>q</key>
   <dict>
     <key>public.kern2.R__punc_period_2ND</key>
@@ -453,11 +473,11 @@
   <key>questiondown</key>
   <dict>
     <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>50</integer>
+    <integer>80</integer>
     <key>public.kern2.R__L_sc_J.sc_2ND</key>
     <integer>55</integer>
     <key>public.kern2.R__L_uc_J_2ND</key>
-    <integer>70</integer>
+    <integer>110</integer>
     <key>public.kern2.R__L_uc_T_2ND</key>
     <integer>-70</integer>
     <key>public.kern2.R__L_uc_V_2ND</key>
@@ -633,6 +653,11 @@
   <dict>
     <key>fraction</key>
     <integer>-30</integer>
+  </dict>
+  <key>zero.sc</key>
+  <dict>
+    <key>two.sc</key>
+    <integer>-15</integer>
   </dict>
   <key>public.kern1.L__L_lc_a_1ST</key>
   <dict>
@@ -863,7 +888,7 @@
     <key>public.kern2.R__punc_parenright_2ND</key>
     <integer>65</integer>
     <key>public.kern2.R__punc_question_2ND</key>
-    <integer>80</integer>
+    <integer>85</integer>
     <key>public.kern2.R__punc_quoteright_2ND</key>
     <integer>125</integer>
   </dict>
@@ -872,7 +897,7 @@
     <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-15</integer>
     <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>10</integer>
+    <integer>30</integer>
     <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-15</integer>
     <key>public.kern2.R__L_sups_2ND</key>
@@ -1356,7 +1381,7 @@
     <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>50</integer>
     <key>public.kern2.R__L_uc_J_2ND</key>
-    <integer>100</integer>
+    <integer>110</integer>
     <key>public.kern2.R__L_uc_O_2ND</key>
     <integer>-35</integer>
     <key>public.kern2.R__L_uc_T_2ND</key>
@@ -2947,9 +2972,9 @@
   <key>public.kern1.L__punc_parenleft_1ST</key>
   <dict>
     <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>35</integer>
+    <integer>55</integer>
     <key>public.kern2.R__L_uc_J_2ND</key>
-    <integer>60</integer>
+    <integer>100</integer>
   </dict>
   <key>public.kern1.L__punc_period_1ST</key>
   <dict>
@@ -2969,7 +2994,7 @@
   <key>public.kern1.L__punc_quotebase_1ST</key>
   <dict>
     <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>20</integer>
+    <integer>35</integer>
     <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-15</integer>
     <key>public.kern2.R__L_lc_t_2ND</key>
@@ -2985,7 +3010,7 @@
     <key>public.kern2.R__L_uc_A_2ND</key>
     <integer>20</integer>
     <key>public.kern2.R__L_uc_J_2ND</key>
-    <integer>30</integer>
+    <integer>80</integer>
     <key>public.kern2.R__L_uc_O_2ND</key>
     <integer>-45</integer>
     <key>public.kern2.R__L_uc_T_2ND</key>
@@ -3001,6 +3026,10 @@
   </dict>
   <key>public.kern1.L__punc_quoteleft_1ST</key>
   <dict>
+    <key>dotlessj</key>
+    <integer>10</integer>
+    <key>florin</key>
+    <integer>-20</integer>
     <key>ibreve</key>
     <integer>10</integer>
     <key>icircumflex</key>
@@ -3021,14 +3050,18 @@
     <integer>20</integer>
     <key>itilde_acutecomb</key>
     <integer>20</integer>
+    <key>j</key>
+    <integer>10</integer>
     <key>j_dieresisbelowcomb</key>
     <integer>25</integer>
+    <key>j_macroncomb</key>
+    <integer>10</integer>
+    <key>jcircumflex</key>
+    <integer>10</integer>
     <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-30</integer>
     <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-25</integer>
-    <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>10</integer>
     <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-30</integer>
     <key>public.kern2.R__L_lc_s_2ND</key>

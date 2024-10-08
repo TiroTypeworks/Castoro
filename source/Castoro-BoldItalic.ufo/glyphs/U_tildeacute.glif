@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Utildeacute" format="2">
-  <advance width="734"/>
+  <advance width="736"/>
   <unicode hex="1E78"/>
   <outline>
     <component base="U"/>
-    <component base="tildecomb.cap" xOffset="673" yOffset="-10"/>
-    <component base="acutecomb.cap" xOffset="707" yOffset="180"/>
+    <component base="tildecomb.cap" xOffset="670" yOffset="-10"/>
+    <component base="acutecomb.cap" xOffset="704" yOffset="180"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

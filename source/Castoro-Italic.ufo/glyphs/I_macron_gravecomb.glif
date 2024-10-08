@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Imacron_gravecomb" format="2">
-  <advance width="360"/>
+  <advance width="361"/>
   <outline>
-    <component base="I"/>
-    <component base="macroncomb.cap" xOffset="458" yOffset="-10"/>
-    <component base="gravecomb.cap" xOffset="484" yOffset="120"/>
+    <component base="I" xOffset="2"/>
+    <component base="macroncomb.cap" xOffset="453" yOffset="-10"/>
+    <component base="gravecomb.cap" xOffset="479" yOffset="120"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

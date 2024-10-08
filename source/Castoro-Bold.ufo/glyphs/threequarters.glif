@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="threequarters" format="2">
-  <advance width="792"/>
+  <advance width="742"/>
   <unicode hex="00BE"/>
   <note>three.numr fraction -10
   fraction four.dnom -60</note>
   <outline>
     <component base="three.numr"/>
-    <component base="fraction" xOffset="308"/>
-    <component base="four.numr" xOffset="358" yOffset="-338"/>
+    <component base="fraction" xOffset="323"/>
+    <component base="four.numr" xOffset="369" yOffset="-338"/>
   </outline>
   <lib>
   <dict>
+  <key>note</key>
+  <real>0</real>
   <key>public.markColor</key>
-  <string>1,0.6,0.814,1</string>
+  <string>1,0.6,0.994,1</string>
   </dict>
   </lib>
 </glyph>

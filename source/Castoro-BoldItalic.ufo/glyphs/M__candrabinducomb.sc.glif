@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="M_candrabinducomb.sc" format="2">
-  <advance width="794"/>
+  <advance width="797"/>
   <outline>
     <component base="M.sc"/>
-    <component base="candrabinducomb.cap" xOffset="650" yOffset="-140"/>
+    <component base="candrabinducomb.cap" xOffset="647" yOffset="-140"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

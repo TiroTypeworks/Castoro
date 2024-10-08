@@ -2,12 +2,12 @@
 <glyph name="braceleft.case" format="2">
   <advance width="395"/>
   <outline>
-    <component base="braceleft" yOffset="64"/>
+    <component base="braceleft" xOffset="12" yOffset="64"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

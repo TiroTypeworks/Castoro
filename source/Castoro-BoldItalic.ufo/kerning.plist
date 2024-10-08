@@ -101,7 +101,7 @@
     <key>public.kern2.R__L_subs_BOTH</key>
     <integer>40</integer>
     <key>public.kern2.R__L_uc_J_2ND</key>
-    <integer>30</integer>
+    <integer>45</integer>
   </dict>
   <key>Q.sc</key>
   <dict>
@@ -154,9 +154,9 @@
     <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>45</integer>
     <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>45</integer>
+    <integer>50</integer>
     <key>public.kern2.R__L_sc_J.sc_2ND</key>
-    <integer>45</integer>
+    <integer>50</integer>
     <key>public.kern2.R__L_uc_J_2ND</key>
     <integer>80</integer>
     <key>public.kern2.R__L_uc_T_2ND</key>
@@ -213,7 +213,7 @@
     <key>public.kern2.R__L_lc_c_2ND</key>
     <integer>10</integer>
     <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>30</integer>
+    <integer>45</integer>
     <key>public.kern2.R__L_lc_n_2ND</key>
     <integer>10</integer>
     <key>public.kern2.R__L_lc_o_2ND</key>
@@ -345,10 +345,22 @@
     <key>trademark</key>
     <integer>155</integer>
   </dict>
+  <key>nine.dnom</key>
+  <dict>
+    <key>two.dnom</key>
+    <integer>-15</integer>
+  </dict>
   <key>nine.numr</key>
   <dict>
     <key>fraction</key>
     <integer>-40</integer>
+    <key>two.numr</key>
+    <integer>-15</integer>
+  </dict>
+  <key>nine.sc</key>
+  <dict>
+    <key>two.sc</key>
+    <integer>-20</integer>
   </dict>
   <key>one.numr</key>
   <dict>
@@ -360,7 +372,7 @@
     <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>15</integer>
     <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>20</integer>
+    <integer>35</integer>
     <key>public.kern2.R__punc_period_2ND</key>
     <integer>-35</integer>
   </dict>
@@ -371,7 +383,7 @@
     <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>50</integer>
     <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>50</integer>
+    <integer>70</integer>
     <key>public.kern2.R__L_sc_J.sc_2ND</key>
     <integer>55</integer>
     <key>public.kern2.R__L_uc_J_2ND</key>
@@ -586,10 +598,22 @@
     <key>public.kern2.R__punc_hyphen_2ND</key>
     <integer>-15</integer>
   </dict>
+  <key>zero.dnom</key>
+  <dict>
+    <key>two.dnom</key>
+    <integer>-10</integer>
+  </dict>
   <key>zero.numr</key>
   <dict>
     <key>fraction</key>
     <integer>-30</integer>
+    <key>two.numr</key>
+    <integer>-10</integer>
+  </dict>
+  <key>zero.sc</key>
+  <dict>
+    <key>two.sc</key>
+    <integer>-15</integer>
   </dict>
   <key>public.kern1.L__L_lc_a_1ST</key>
   <dict>
@@ -2125,11 +2149,11 @@
     <key>J.sc</key>
     <integer>-20</integer>
     <key>J_dieresisbelowcomb.sc</key>
-    <integer>70</integer>
+    <integer>90</integer>
     <key>J_macroncomb.sc</key>
-    <integer>55</integer>
+    <integer>60</integer>
     <key>Jcircumflex.sc</key>
-    <integer>-20</integer>
+    <integer>50</integer>
     <key>a</key>
     <integer>-95</integer>
     <key>aacute</key>
@@ -2479,7 +2503,7 @@
     <key>public.kern2.R__L_lc_f_2ND</key>
     <integer>130</integer>
     <key>public.kern2.R__L_lc_j_2ND</key>
-    <integer>130</integer>
+    <integer>140</integer>
     <key>public.kern2.R__L_lc_y_2ND</key>
     <integer>50</integer>
     <key>public.kern2.R__L_uc_C_2ND</key>
@@ -2547,6 +2571,18 @@
   <dict>
     <key>V</key>
     <integer>40</integer>
+    <key>dotlessj</key>
+    <integer>20</integer>
+    <key>florin</key>
+    <integer>-40</integer>
+    <key>j</key>
+    <integer>20</integer>
+    <key>j_dieresisbelowcomb</key>
+    <integer>35</integer>
+    <key>j_macroncomb</key>
+    <integer>20</integer>
+    <key>jcircumflex</key>
+    <integer>20</integer>
     <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-25</integer>
     <key>public.kern2.R__L_lc_c_2ND</key>
@@ -2554,8 +2590,6 @@
     <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-25</integer>
     <key>public.kern2.R__L_lc_i_2ND</key>
-    <integer>20</integer>
-    <key>public.kern2.R__L_lc_j_2ND</key>
     <integer>20</integer>
     <key>public.kern2.R__L_lc_n_2ND</key>
     <integer>15</integer>
@@ -2592,6 +2626,18 @@
   </dict>
   <key>public.kern1.L__punc_quoteright_1ST</key>
   <dict>
+    <key>dotlessj</key>
+    <integer>10</integer>
+    <key>florin</key>
+    <integer>-50</integer>
+    <key>j</key>
+    <integer>10</integer>
+    <key>j_dieresisbelowcomb</key>
+    <integer>30</integer>
+    <key>j_macroncomb</key>
+    <integer>10</integer>
+    <key>jcircumflex</key>
+    <integer>30</integer>
     <key>public.kern2.R__L_lc_a_2ND</key>
     <integer>-40</integer>
     <key>public.kern2.R__L_lc_c_2ND</key>
@@ -2599,8 +2645,6 @@
     <key>public.kern2.R__L_lc_g_2ND</key>
     <integer>-50</integer>
     <key>public.kern2.R__L_lc_i_2ND</key>
-    <integer>10</integer>
-    <key>public.kern2.R__L_lc_j_2ND</key>
     <integer>10</integer>
     <key>public.kern2.R__L_lc_o_2ND</key>
     <integer>-40</integer>

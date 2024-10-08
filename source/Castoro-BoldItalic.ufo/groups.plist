@@ -590,6 +590,8 @@
   </array>
   <key>public.kern1.L__L_sc_J.sc_1ST</key>
   <array>
+    <string>IJ.sc</string>
+    <string>IJ_acutecomb.sc</string>
     <string>J.sc</string>
     <string>J_dieresisbelowcomb.sc</string>
     <string>J_macroncomb.sc</string>

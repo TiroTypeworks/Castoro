@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="IJ_acutecomb.sc" format="2">
-  <advance width="632"/>
+  <advance width="638"/>
   <outline>
     <component base="I.sc"/>
-    <component base="J.sc" xOffset="334"/>
-    <component base="acutecomb.cap" xOffset="743" yOffset="-140"/>
-    <component base="acutecomb.cap" xOffset="422" yOffset="-140"/>
+    <component base="J.sc" xOffset="335"/>
+    <component base="acutecomb.cap" xOffset="740" yOffset="-140"/>
+    <component base="acutecomb.cap" xOffset="417" yOffset="-140"/>
   </outline>
   <lib>
   <dict>

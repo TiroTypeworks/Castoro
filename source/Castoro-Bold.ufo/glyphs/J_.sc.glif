@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="J.sc" format="2">
-  <advance width="336"/>
+  <advance width="330"/>
   <outline>
     <contour>
       <point x="18" y="-200" type="curve" smooth="yes"/>
@@ -13,19 +13,19 @@
       <point x="241" y="441" type="line" smooth="yes"/>
       <point x="241" y="500"/>
       <point x="242" y="504"/>
-      <point x="333" y="512" type="curve"/>
-      <point x="336" y="527"/>
-      <point x="336" y="535"/>
-      <point x="333" y="550" type="curve"/>
-      <point x="296" y="550"/>
-      <point x="231" y="548"/>
+      <point x="329" y="512" type="curve"/>
+      <point x="332" y="527"/>
+      <point x="332" y="535"/>
+      <point x="329" y="550" type="curve"/>
+      <point x="293" y="550"/>
+      <point x="230" y="548"/>
       <point x="170" y="548" type="curve" smooth="yes"/>
-      <point x="109" y="548"/>
-      <point x="43" y="550"/>
-      <point x="7" y="550" type="curve"/>
-      <point x="4" y="535"/>
-      <point x="4" y="527"/>
-      <point x="7" y="512" type="curve"/>
+      <point x="110" y="548"/>
+      <point x="46" y="550"/>
+      <point x="11" y="550" type="curve"/>
+      <point x="8" y="535"/>
+      <point x="8" y="527"/>
+      <point x="11" y="512" type="curve"/>
       <point x="97" y="505"/>
       <point x="98" y="500"/>
       <point x="98" y="437" type="curve" smooth="yes"/>
@@ -52,7 +52,7 @@
     <string>J</string>
   </dict>
   <key>public.markColor</key>
-  <string>0.604,1,0.6,1</string>
+  <string>1,0.801,0.6,1</string>
   </dict>
   </lib>
 </glyph>

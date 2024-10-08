@@ -26,22 +26,22 @@
   </source>
  </sources>
  <instances>
-  <instance stylename="Italic" name="Italic" familyname="Castoro" filename="instances/Castoro-Italic.ufo">
+  <instance stylename="Italic" name="Italic" familyname="Castoro" postscriptfontname="Castoro-Italic" filename="instances/Castoro-Italic.ufo">
    <location>
     <dimension xvalue="101" name="weight"/>
    </location>
   </instance>
-  <instance stylename="Medium Italic" name="MediumItalic" familyname="Castoro" filename="instances/Castoro-MediumItalic.ufo">
+  <instance stylename="Medium Italic" name="MediumItalic" familyname="Castoro" postscriptfontname="CastoroMedium-Italic" filename="instances/Castoro-MediumItalic.ufo">
    <location>
     <dimension xvalue="113" name="weight"/>
    </location>
   </instance>
-  <instance stylename="Semibold Italic" name="SemiboldItalic" familyname="Castoro" filename="instances/Castoro-SemiboldItalic.ufo">
+  <instance stylename="Semibold Italic" name="SemiboldItalic" familyname="Castoro" postscriptfontname="CastoroSemibold-Italic" filename="instances/Castoro-SemiboldItalic.ufo">
    <location>
     <dimension xvalue="128" name="weight"/>
    </location>
   </instance>
-  <instance stylename="Bold Italic" name="BoldItalic" familyname="Castoro" filename="instances/Castoro-BoldItalic.ufo">
+  <instance stylename="Bold Italic" name="BoldItalic" familyname="Castoro" postscriptfontname="Castoro-BoldItalic" filename="instances/Castoro-BoldItalic.ufo">
    <location>
     <dimension xvalue="144" name="weight"/>
    </location>

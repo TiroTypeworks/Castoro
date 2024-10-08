@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Aringacute.sc" format="2">
-  <advance width="575"/>
+  <advance width="573"/>
   <outline>
     <component base="A.sc"/>
-    <component base="ringcomb.cap" xOffset="527" yOffset="-150"/>
-    <component base="acutecomb.cap" xOffset="564" yOffset="48"/>
+    <component base="ringcomb.cap" xOffset="522" yOffset="-150"/>
+    <component base="acutecomb.cap" xOffset="559" yOffset="48"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

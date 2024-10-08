@@ -3,13 +3,13 @@
   <advance width="541"/>
   <outline>
     <component base="A.sc"/>
-    <component base="ringcomb.cap" xOffset="518" yOffset="-150"/>
-    <component base="acutecomb.cap" xOffset="555" yOffset="40"/>
+    <component base="ringcomb.cap" xOffset="513" yOffset="-150"/>
+    <component base="acutecomb.cap" xOffset="550" yOffset="40"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

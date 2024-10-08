@@ -26,16 +26,6 @@
   </dict>
   <dict>
     <key>angle</key>
-    <real>70.542</real>
-    <key>name</key>
-    <string>f1</string>
-    <key>x</key>
-    <integer>-202</integer>
-    <key>y</key>
-    <integer>0</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
     <real>73.0626</real>
     <key>name</key>
     <string>f21</string>
@@ -50,9 +40,19 @@
     <key>name</key>
     <string>f4</string>
     <key>x</key>
-    <integer>0</integer>
+    <integer>-60</integer>
     <key>y</key>
     <integer>0</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <real>70.542</real>
+    <key>name</key>
+    <string>f1</string>
+    <key>x</key>
+    <integer>-202</integer>
+    <key>y</key>
+    <integer>-100</integer>
   </dict>
   </array>
   <key>italicAngle</key>
@@ -95,7 +95,7 @@
   <key>openTypeNameManufacturer</key>
   <string>Tiro Typeworks Ltd.</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>https://www.tiro.com/</string>
+  <string>https://www.tiro.com</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Castoro</string>
   <key>openTypeNamePreferredSubfamilyName</key>

@@ -28,91 +28,31 @@
     <key>angle</key>
     <integer>0</integer>
     <key>name</key>
-    <string>f6</string>
+    <string>f1</string>
     <key>x</key>
     <integer>0</integer>
     <key>y</key>
-    <integer>1800</integer>
+    <integer>-255</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <real>70.542</real>
+    <key>name</key>
+    <string>f1</string>
+    <key>x</key>
+    <integer>-202</integer>
+    <key>y</key>
+    <integer>0</integer>
   </dict>
   <dict>
     <key>angle</key>
     <integer>0</integer>
     <key>name</key>
-    <string>f10</string>
+    <string>f1</string>
     <key>x</key>
     <integer>0</integer>
     <key>y</key>
-    <integer>1751</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>f12</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>1721</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>f14</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>1716</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>f5</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>1553</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>f3</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>1408</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>f9</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>1299</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>f13</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>1115</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>f8</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>1051</integer>
+    <integer>-15</integer>
   </dict>
   <dict>
     <key>angle</key>
@@ -128,41 +68,11 @@
     <key>angle</key>
     <integer>0</integer>
     <key>name</key>
-    <string>f4</string>
+    <string>f10</string>
     <key>x</key>
     <integer>0</integer>
     <key>y</key>
-    <integer>1029</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>f3</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>968</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>f16</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>672</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>f23</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>449</integer>
+    <integer>1751</integer>
   </dict>
   <dict>
     <key>angle</key>
@@ -178,11 +88,31 @@
     <key>angle</key>
     <integer>0</integer>
     <key>name</key>
-    <string>f2</string>
+    <string>f12</string>
     <key>x</key>
     <integer>0</integer>
     <key>y</key>
-    <integer>250</integer>
+    <integer>1721</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <integer>0</integer>
+    <key>name</key>
+    <string>f13</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>1115</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <integer>0</integer>
+    <key>name</key>
+    <string>f14</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>1716</integer>
   </dict>
   <dict>
     <key>angle</key>
@@ -193,6 +123,16 @@
     <integer>0</integer>
     <key>y</key>
     <integer>177</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <integer>0</integer>
+    <key>name</key>
+    <string>f16</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>672</integer>
   </dict>
   <dict>
     <key>angle</key>
@@ -218,11 +158,11 @@
     <key>angle</key>
     <integer>0</integer>
     <key>name</key>
-    <string>f1</string>
+    <string>f2</string>
     <key>x</key>
     <integer>0</integer>
     <key>y</key>
-    <integer>-15</integer>
+    <integer>250</integer>
   </dict>
   <dict>
     <key>angle</key>
@@ -236,41 +176,11 @@
   </dict>
   <dict>
     <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>f1</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>-255</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>f7</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>-700</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
     <real>73.0626</real>
     <key>name</key>
     <string>f21</string>
     <key>x</key>
     <integer>225</integer>
-    <key>y</key>
-    <integer>0</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <real>224.597</real>
-    <key>name</key>
-    <string>f2</string>
-    <key>x</key>
-    <integer>0</integer>
     <key>y</key>
     <integer>0</integer>
   </dict>
@@ -286,6 +196,36 @@
   </dict>
   <dict>
     <key>angle</key>
+    <integer>0</integer>
+    <key>name</key>
+    <string>f23</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>449</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <integer>0</integer>
+    <key>name</key>
+    <string>f3</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>968</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <integer>0</integer>
+    <key>name</key>
+    <string>f3</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>1408</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
     <real>49.4795</real>
     <key>name</key>
     <string>f4</string>
@@ -296,13 +236,63 @@
   </dict>
   <dict>
     <key>angle</key>
-    <real>70.542</real>
-    <key>name</key>
-    <string>f1</string>
-    <key>x</key>
-    <integer>-202</integer>
-    <key>y</key>
     <integer>0</integer>
+    <key>name</key>
+    <string>f4</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>1029</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <integer>0</integer>
+    <key>name</key>
+    <string>f5</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>1553</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <integer>0</integer>
+    <key>name</key>
+    <string>f6</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>1800</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <integer>0</integer>
+    <key>name</key>
+    <string>f7</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>-700</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <integer>0</integer>
+    <key>name</key>
+    <string>f8</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>1051</integer>
+  </dict>
+  <dict>
+    <key>angle</key>
+    <integer>0</integer>
+    <key>name</key>
+    <string>f9</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>1299</integer>
   </dict>
   </array>
   <key>italicAngle</key>
@@ -345,7 +335,7 @@
   <key>openTypeNameManufacturer</key>
   <string>Tiro Typeworks Ltd.</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>https://www.tiro.com/</string>
+  <string>https://www.tiro.com</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Castoro</string>
   <key>openTypeNamePreferredSubfamilyName</key>

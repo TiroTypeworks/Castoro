@@ -953,6 +953,7 @@ lookup latn.smcp {
     sub sdotbelow by Sdotbelow.sc;
     sub s_dieresisbelowcomb by S_dieresisbelowcomb.sc;
     sub s_macronbelowcomb by S_macronbelowcomb.sc;
+    sub longs by S.sc;
     sub tcaron by Tcaron.sc;
     sub tcedilla by Tcedilla.sc;
     sub tcommaaccent by Tcommaaccent.sc;

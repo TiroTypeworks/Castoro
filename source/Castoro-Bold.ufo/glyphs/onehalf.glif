@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onehalf" format="2">
-  <advance width="718"/>
+  <advance width="737"/>
   <unicode hex="00BD"/>
   <note>one.numr fraction 20
   fraction two.dnom -10</note>
   <outline>
     <component base="one.numr"/>
-    <component base="fraction" xOffset="293"/>
-    <component base="two.numr" xOffset="393" yOffset="-338"/>
+    <component base="fraction" xOffset="310"/>
+    <component base="two.numr" xOffset="406" yOffset="-338"/>
   </outline>
   <lib>
   <dict>
+  <key>note</key>
+  <real>0</real>
   <key>public.markColor</key>
-  <string>1,0.6,0.814,1</string>
+  <string>1,0.6,0.994,1</string>
   </dict>
   </lib>
 </glyph>

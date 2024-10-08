@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="halfringright" format="2">
-  <advance width="236"/>
+  <advance width="234"/>
   <unicode hex="02BE"/>
   <outline>
     <contour>
-      <point x="124" y="661" type="line"/>
-      <point x="162" y="658"/>
-      <point x="193" y="631"/>
-      <point x="193" y="577" type="curve" smooth="yes"/>
-      <point x="193" y="521"/>
-      <point x="160" y="474"/>
-      <point x="88" y="474" type="curve"/>
-      <point x="80" y="432" type="line"/>
-      <point x="195" y="432"/>
-      <point x="267" y="495"/>
-      <point x="267" y="578" type="curve" smooth="yes"/>
-      <point x="267" y="661"/>
-      <point x="195" y="696"/>
-      <point x="131" y="699" type="curve"/>
+      <point x="118" y="661" type="line"/>
+      <point x="156" y="658"/>
+      <point x="187" y="631"/>
+      <point x="187" y="577" type="curve" smooth="yes"/>
+      <point x="187" y="521"/>
+      <point x="154" y="474"/>
+      <point x="82" y="474" type="curve"/>
+      <point x="74" y="432" type="line"/>
+      <point x="189" y="432"/>
+      <point x="261" y="495"/>
+      <point x="261" y="578" type="curve" smooth="yes"/>
+      <point x="261" y="661"/>
+      <point x="189" y="696"/>
+      <point x="125" y="699" type="curve"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,1,0.6,1</string>
+  <string>1,0.801,0.6,1</string>
   </dict>
   </lib>
 </glyph>

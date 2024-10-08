@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="amacron_acutecomb" format="2">
-  <advance width="584"/>
+  <advance width="580"/>
   <outline>
     <component base="a"/>
-    <component base="macroncomb" xOffset="556" yOffset="-20"/>
-    <component base="acutecomb" xOffset="590" yOffset="150"/>
+    <component base="macroncomb" xOffset="552" yOffset="-20"/>
+    <component base="acutecomb" xOffset="586" yOffset="150"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

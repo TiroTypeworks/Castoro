@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ij_acutecomb" format="2">
-  <advance width="570"/>
+  <advance width="580"/>
   <outline>
     <component base="dotlessi"/>
     <component base="acutecomb" xOffset="430"/>
@@ -10,7 +10,7 @@
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>1,0.6,0.814,1</string>
+  <string>1,0.6,0.994,1</string>
   </dict>
   </lib>
 </glyph>

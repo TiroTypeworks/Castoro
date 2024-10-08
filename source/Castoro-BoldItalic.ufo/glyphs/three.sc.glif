@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="three.sc" format="2">
-  <advance width="425"/>
+  <advance width="437"/>
   <outline>
     <contour>
       <point x="136" y="-12" type="curve" smooth="yes"/>
@@ -67,7 +67,7 @@
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,1,0.6,1</string>
+  <string>1,0.801,0.6,1</string>
   </dict>
   </lib>
 </glyph>

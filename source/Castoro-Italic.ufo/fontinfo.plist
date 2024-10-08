@@ -22,7 +22,7 @@
     <key>x</key>
     <integer>0</integer>
     <key>y</key>
-    <integer>250</integer>
+    <integer>260</integer>
   </dict>
   <dict>
     <key>angle</key>
@@ -106,11 +106,11 @@
   </dict>
   <dict>
     <key>angle</key>
-    <real>75.1824</real>
+    <real>79</real>
     <key>name</key>
     <string>f8</string>
     <key>x</key>
-    <integer>2</integer>
+    <integer>-333</integer>
     <key>y</key>
     <integer>0</integer>
   </dict>
@@ -165,7 +165,7 @@
   <key>openTypeNameManufacturer</key>
   <string>Tiro Typeworks Ltd.</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>https://www.tiro.com/</string>
+  <string>https://www.tiro.com</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Castoro</string>
   <key>openTypeNamePreferredSubfamilyName</key>
@@ -236,6 +236,8 @@
     <integer>31</integer>
     <integer>32</integer>
   </array>
+  <key>openTypeOS2VendorID</key>
+  <string>TIRO</string>
   <key>openTypeOS2WeightClass</key>
   <integer>400</integer>
   <key>openTypeOS2WidthClass</key>

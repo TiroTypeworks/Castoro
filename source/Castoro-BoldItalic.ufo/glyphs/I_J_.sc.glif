@@ -3,10 +3,14 @@
   <advance width="689"/>
   <outline>
     <component base="I.sc"/>
-    <component base="J.sc" xOffset="358"/>
+    <component base="J.sc" xOffset="359"/>
   </outline>
   <lib>
   <dict>
+  <key>com.fontlab.autolayer</key>
+  <true/>
+  <key>com.fontlab.recipe</key>
+  <string>I.sc_J.sc</string>
   <key>public.markColor</key>
   <string>1,0.6,0.994,1</string>
   </dict>

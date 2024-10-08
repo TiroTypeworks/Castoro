@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rdotbelowmacron_acutecomb" format="2">
-  <advance width="416"/>
+  <advance width="419"/>
   <outline>
     <component base="r"/>
-    <component base="dotbelowcomb" xOffset="430"/>
-    <component base="macroncomb" xOffset="491" yOffset="-20"/>
-    <component base="acutecomb" xOffset="525" yOffset="150"/>
+    <component base="dotbelowcomb" xOffset="435"/>
+    <component base="macroncomb" xOffset="497" yOffset="-20"/>
+    <component base="acutecomb" xOffset="531" yOffset="150"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

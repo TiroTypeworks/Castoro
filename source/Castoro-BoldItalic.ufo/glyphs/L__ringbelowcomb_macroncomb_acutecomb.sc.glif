@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="L_ringbelowcomb_macroncomb_acutecomb.sc" format="2">
-  <advance width="511"/>
+  <advance width="512"/>
   <outline>
     <component base="L.sc"/>
-    <component base="ringbelowcomb" xOffset="559"/>
-    <component base="macroncomb.cap" xOffset="428" yOffset="-150"/>
-    <component base="acutecomb.cap" xOffset="450" yOffset="-20"/>
+    <component base="ringbelowcomb" xOffset="554"/>
+    <component base="macroncomb.cap" xOffset="423" yOffset="-150"/>
+    <component base="acutecomb.cap" xOffset="445" yOffset="-20"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

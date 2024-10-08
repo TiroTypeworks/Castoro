@@ -3,14 +3,14 @@
   <advance width="292"/>
   <outline>
     <component base="l"/>
-    <component base="dotbelowcomb" xOffset="450"/>
-    <component base="macroncomb.cap" xOffset="422" yOffset="15"/>
-    <component base="acutecomb.cap" xOffset="450" yOffset="125"/>
+    <component base="dotbelowcomb" xOffset="456"/>
+    <component base="macroncomb.cap" xOffset="428" yOffset="15"/>
+    <component base="acutecomb.cap" xOffset="456" yOffset="125"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

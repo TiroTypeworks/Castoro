@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minute" format="2">
-  <advance width="236"/>
+  <advance width="252"/>
   <unicode hex="2032"/>
   <outline>
     <contour>
-      <point x="199" y="627" type="line" smooth="yes"/>
-      <point x="208" y="646"/>
-      <point x="213" y="658"/>
-      <point x="213" y="666" type="curve" smooth="yes"/>
-      <point x="213" y="689"/>
-      <point x="187" y="711"/>
-      <point x="144" y="711" type="curve" smooth="yes"/>
-      <point x="102" y="711"/>
-      <point x="68" y="691"/>
-      <point x="66" y="663" type="curve" smooth="yes"/>
-      <point x="53" y="402" type="line"/>
-      <point x="97" y="402" type="line"/>
+      <point x="210" y="627" type="line" smooth="yes"/>
+      <point x="219" y="646"/>
+      <point x="224" y="658"/>
+      <point x="224" y="666" type="curve" smooth="yes"/>
+      <point x="224" y="689"/>
+      <point x="198" y="711"/>
+      <point x="155" y="711" type="curve" smooth="yes"/>
+      <point x="113" y="711"/>
+      <point x="79" y="691"/>
+      <point x="77" y="663" type="curve" smooth="yes"/>
+      <point x="64" y="402" type="line"/>
+      <point x="108" y="402" type="line"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,1,0.6,1</string>
+  <string>1,0.801,0.6,1</string>
   </dict>
   </lib>
 </glyph>

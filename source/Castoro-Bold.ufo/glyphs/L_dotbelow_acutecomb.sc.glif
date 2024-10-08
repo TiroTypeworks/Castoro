@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ldotbelow_acutecomb.sc" format="2">
-  <advance width="543"/>
+  <advance width="541"/>
   <outline>
     <component base="L.sc"/>
-    <component base="acutecomb.cap" xOffset="469" yOffset="-140"/>
-    <component base="dotbelowcomb" xOffset="563"/>
+    <component base="acutecomb.cap" xOffset="467" yOffset="-140"/>
+    <component base="dotbelowcomb" xOffset="561"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

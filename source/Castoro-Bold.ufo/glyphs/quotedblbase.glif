@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblbase" format="2">
-  <advance width="422"/>
+  <advance width="455"/>
   <unicode hex="201E"/>
   <outline>
     <component base="quotesinglbase"/>
-    <component base="quotesinglbase" xOffset="199"/>
+    <component base="quotesinglbase" xOffset="212"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>1,0.6,0.814,1</string>
+  <string>1,0.6,0.994,1</string>
   </dict>
   </lib>
 </glyph>

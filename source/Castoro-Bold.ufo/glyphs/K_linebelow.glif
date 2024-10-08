@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Klinebelow" format="2">
-  <advance width="735"/>
+  <advance width="734"/>
   <unicode hex="1E34"/>
   <outline>
     <component base="K"/>
-    <component base="macronbelowcomb" xOffset="666"/>
+    <component base="macronbelowcomb" xOffset="664"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

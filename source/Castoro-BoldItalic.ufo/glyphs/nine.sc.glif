@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nine.sc" format="2">
-  <advance width="506"/>
+  <advance width="520"/>
   <outline>
     <contour>
       <point x="65" y="-12" type="curve"/>
@@ -45,7 +45,7 @@
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,1,0.6,1</string>
+  <string>1,0.801,0.6,1</string>
   </dict>
   </lib>
 </glyph>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lmacronbelow.sc" format="2">
-  <advance width="511"/>
+  <advance width="512"/>
   <outline>
     <component base="L.sc"/>
-    <component base="macronbelowcomb" xOffset="559"/>
+    <component base="macronbelowcomb" xOffset="554"/>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

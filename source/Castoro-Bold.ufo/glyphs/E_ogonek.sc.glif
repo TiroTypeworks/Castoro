@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eogonek.sc" format="2">
-  <advance width="557"/>
+  <advance width="555"/>
   <outline>
     <component base="E.sc"/>
-    <component base="ogonekcomb" xOffset="659"/>
+    <component base="ogonekcomb" xOffset="660"/>
   </outline>
+  <guideline angle="90" x="502" y="0"/>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,0.6,1,1</string>
+  <string>0.6,0.997,1,1</string>
   </dict>
   </lib>
 </glyph>

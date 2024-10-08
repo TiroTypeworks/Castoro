@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclamdown" format="2">
-  <advance width="316"/>
+  <advance width="348"/>
   <unicode hex="00A1"/>
   <outline>
     <contour>
-      <point x="147" y="-244" type="curve" smooth="yes"/>
-      <point x="203" y="-244"/>
-      <point x="239" y="-215"/>
-      <point x="239" y="-169" type="curve"/>
-      <point x="171" y="255" type="line"/>
-      <point x="160" y="256"/>
-      <point x="135" y="256"/>
-      <point x="124" y="255" type="curve"/>
-      <point x="55" y="-168" type="line"/>
-      <point x="55" y="-214"/>
-      <point x="91" y="-244"/>
+      <point x="162" y="-244" type="curve" smooth="yes"/>
+      <point x="218" y="-244"/>
+      <point x="254" y="-215"/>
+      <point x="254" y="-169" type="curve"/>
+      <point x="186" y="255" type="line"/>
+      <point x="175" y="256"/>
+      <point x="150" y="256"/>
+      <point x="139" y="255" type="curve"/>
+      <point x="70" y="-168" type="line"/>
+      <point x="70" y="-214"/>
+      <point x="106" y="-244"/>
     </contour>
     <contour>
-      <point x="146" y="316" type="curve" smooth="yes"/>
-      <point x="199" y="316"/>
-      <point x="234" y="356"/>
-      <point x="234" y="402" type="curve" smooth="yes"/>
-      <point x="234" y="451"/>
-      <point x="196" y="488"/>
-      <point x="147" y="488" type="curve" smooth="yes"/>
-      <point x="97" y="488"/>
-      <point x="60" y="451"/>
-      <point x="60" y="401" type="curve" smooth="yes"/>
-      <point x="60" y="354"/>
-      <point x="96" y="316"/>
+      <point x="161" y="316" type="curve" smooth="yes"/>
+      <point x="214" y="316"/>
+      <point x="249" y="356"/>
+      <point x="249" y="402" type="curve" smooth="yes"/>
+      <point x="249" y="451"/>
+      <point x="211" y="488"/>
+      <point x="162" y="488" type="curve" smooth="yes"/>
+      <point x="112" y="488"/>
+      <point x="75" y="451"/>
+      <point x="75" y="401" type="curve" smooth="yes"/>
+      <point x="75" y="354"/>
+      <point x="111" y="316"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.604,1,0.6,1</string>
+  <string>1,0.801,0.6,1</string>
   </dict>
   </lib>
 </glyph>
