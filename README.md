@@ -7,7 +7,7 @@
 
 ### Version 3.01, October 2024
 
-Version 3.01 of the Castoro text fonts includes new medium, semibold, and bold weights, totalling eight fonts in roman and italic styles. These new weights are instantiated from a variable font design space defined by regular and bold weight mastrers. The build process will first build the variable font and then output the static instances. Various small changes have been made to prior outlines and some revisions to spacing and kerning for consistency across the weight range.
+Version 3.01 of the Castoro text fonts includes new medium, semibold, and bold weights, totalling eight fonts in roman and italic styles. These new weights are instantiated from a variable font design space defined by regular and bold weight masters. The build process will first build the variable font and then output the static instances. Various small changes have been made to prior outlines and some revisions to spacing and kerning for consistency across the weight range.
 
 *Note that the variable and static fonts have compatible naming, and the locations of the static fonts in the variable design space are named instances. You should install either the variable or static fonts, not both.*
 
