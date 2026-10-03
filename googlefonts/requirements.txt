@@ -140,7 +140,7 @@ ufostroker==0.3.0
 uharfbuzz==0.54.1
 unicodedata2==15.1.0
 Unidecode==1.4.0
-urllib3==2.7.0
+urllib3==2.8.0
 vharfbuzz==0.3.1
 vttLib==0.12.0
 websocket-client==1.9.0
