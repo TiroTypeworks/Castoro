@@ -28,7 +28,7 @@ diffenator2==0.5.0
 diffenator3==1.1.4
 et_xmlfile==2.0.0
 ffmpeg-python==0.2.0
-filelock==3.29.0
+filelock==4.2.1
 font-v==2.1.0
 fontbakery==1.1.0
 fontFeatures==1.9.0
